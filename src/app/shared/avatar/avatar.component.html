@@ -1,0 +1,9 @@
+<div class="ion-text-center">
+  <ion-icon *ngIf="canUpload" name="camera-outline" class="text-dark" (click)="takePhoto()"></ion-icon>
+  <ion-avatar *ngIf="currentUser" style="height: 100px; width: 100px;">
+    <ion-spinner color="light" name="circular" *ngIf="spinner"  class="btn-spinner"></ion-spinner>
+    <!-- <img [src]="getAvatarUrl(currentUser.photoURL)" alt="PlayerProfile" referrerpolicy="no-referrer" /> -->
+    <ion-img [src]="getAvatarUrl(currentUser.photoURL)" (ionError)="handleImageError()" (ionImgDidLoad)="imageLoaded()"></ion-img>
+    <img class="flag" [src]="getFlagUrl(currentUser.country_code)" alt="country" referrerpolicy="no-referrer">
+  </ion-avatar>
+</div>

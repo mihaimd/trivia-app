@@ -1,0 +1,19 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+  --font-size-small: 12px;
+  --font-size-normal: 16px;
+  --font-size-large: 20px;  
+  --app-font-size: var(--font-size-normal); /* default font size variable */
+}
+
+/* apply it globally */
+body, 
+ion-content, 
+ion-button, 
+ion-title, 
+ion-text, 
+ion-menu-toggle ion-list ion-item ion-label, li, p, button, .button-text, .bullet-text {
+  font-size: var(--app-font-size) !important;
+  transition: font-size 0.3s ease;
+}

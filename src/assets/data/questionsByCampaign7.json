@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "question": "What was the ancient library of Alexandria famous for?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Its scrolls and manuscripts",
+                    "correct": true
+                },
+                {
+                    "label": "Its statues",
+                    "correct": false
+                },
+                {
+                    "label": "Its gardens",
+                    "correct": false
+                },
+                {
+                    "label": "Its trade routes",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "330px",
+        "left": "390px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 2,
+        "question": "Which material was primarily used for scrolls in the ancient world?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Papyrus",
+                    "correct": true
+                },
+                {
+                    "label": "Parchment",
+                    "correct": false
+                },
+                {
+                    "label": "Clay",
+                    "correct": false
+                },
+                {
+                    "label": "Silk",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "187px",
+        "left": "161px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "question": "Which civilization is credited with the invention of cuneiform writing?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                },
+                {
+                    "label": "Sumerians",
+                    "correct": true
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                },
+                {
+                    "label": "Romans",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "494px",
+        "left": "162px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 4,
+        "question": "The Rosetta Stone was key to deciphering which ancient language?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Coptic",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptian hieroglyphs",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "172px",
+        "left": "392px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 5,
+        "question": "What type of structure was the ziggurat?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Temple tower",
+                    "correct": true
+                },
+                {
+                    "label": "Grain store",
+                    "correct": false
+                },
+                {
+                    "label": "Tomb",
+                    "correct": false
+                },
+                {
+                    "label": "Marketplace",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "476px",
+        "left": "118px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "question": "Which philosopher taught Alexander the Great?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Socrates",
+                    "correct": false
+                },
+                {
+                    "label": "Plato",
+                    "correct": false
+                },
+                {
+                    "label": "Aristotle",
+                    "correct": true
+                },
+                {
+                    "label": "Pythagoras",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "116px",
+        "left": "285px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 7,
+        "question": "What does the term \"classical antiquity\" refer to?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Middle Ages",
+                    "correct": false
+                },
+                {
+                    "label": "Ancient Greece and Rome",
+                    "correct": true
+                },
+                {
+                    "label": "Prehistoric times",
+                    "correct": false
+                },
+                {
+                    "label": "Renaissance period",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "184px",
+        "left": "209px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 8,
+        "question": "Which lost city was rediscovered in the Andes in 1911?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tikal",
+                    "correct": false
+                },
+                {
+                    "label": "Machu Picchu",
+                    "correct": true
+                },
+                {
+                    "label": "Petra",
+                    "correct": false
+                },
+                {
+                    "label": "Babylon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "377px",
+        "left": "236px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "question": "What was a common use for obelisks in ancient cultures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sun dials",
+                    "correct": false
+                },
+                {
+                    "label": "Religious monuments",
+                    "correct": true
+                },
+                {
+                    "label": "Weapons",
+                    "correct": false
+                },
+                {
+                    "label": "Market stalls",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "390px",
+        "left": "363px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 10,
+        "question": "Which document is considered one of the oldest legal codes?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Torah",
+                    "correct": false
+                },
+                {
+                    "label": "The Constitution",
+                    "correct": false
+                },
+                {
+                    "label": "The Code of Hammurabi",
+                    "correct": true
+                },
+                {
+                    "label": "The Republic",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "106px",
+        "left": "365px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 11,
+        "question": "Which structure was considered a center of learning in ancient Mesopotamia?",
+        "answers": {
+            "options": [
+                {
+                    "label": "House of Knowledge",
+                    "correct": true
+                },
+                {
+                    "label": "Tower of Babel",
+                    "correct": false
+                },
+                {
+                    "label": "Etemenanki",
+                    "correct": false
+                },
+                {
+                    "label": "School of Athens",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "490px",
+        "left": "395px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 12,
+        "question": "Who wrote \"Histories\", one of the first major works of history?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Thucydides",
+                    "correct": false
+                },
+                {
+                    "label": "Herodotus",
+                    "correct": true
+                },
+                {
+                    "label": "Homer",
+                    "correct": false
+                },
+                {
+                    "label": "Aristophanes",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "437px",
+        "left": "287px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "question": "Which artifact was key in the development of early astronomy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Stonehenge",
+                    "correct": false
+                },
+                {
+                    "label": "The Astrolabe",
+                    "correct": false
+                },
+                {
+                    "label": "The Antikythera Mechanism",
+                    "correct": true
+                },
+                {
+                    "label": "The Oracle Bones",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "473px",
+        "left": "284px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 14,
+        "question": "What ancient civilization built step pyramids before the Egyptians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Olmecs",
+                    "correct": false
+                },
+                {
+                    "label": "Sumerians",
+                    "correct": false
+                },
+                {
+                    "label": "Mayans",
+                    "correct": true
+                },
+                {
+                    "label": "Chinese",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "494px",
+        "left": "390px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "question": "What is a \"codex\" in the context of ancient texts?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A map",
+                    "correct": false
+                },
+                {
+                    "label": "A type of scroll",
+                    "correct": false
+                },
+                {
+                    "label": "An early book format",
+                    "correct": true
+                },
+                {
+                    "label": "A scroll carrier",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "349px",
+        "left": "294px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 16,
+        "question": "What famous philosopher founded the Academy in Athens?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Plato",
+                    "correct": true
+                },
+                {
+                    "label": "Socrates",
+                    "correct": false
+                },
+                {
+                    "label": "Zeno",
+                    "correct": false
+                },
+                {
+                    "label": "Epicurus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "251px",
+        "left": "269px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "question": "What was the primary language of scholarly texts in medieval Islamic libraries?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Arabic",
+                    "correct": true
+                },
+                {
+                    "label": "Hebrew",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "411px",
+        "left": "353px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 18,
+        "question": "What was discovered in Qumran in 1947?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Oracle bones",
+                    "correct": false
+                },
+                {
+                    "label": "Mayan codices",
+                    "correct": false
+                },
+                {
+                    "label": "Dead Sea Scrolls",
+                    "correct": true
+                },
+                {
+                    "label": "Rosetta Stone",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "272px",
+        "left": "246px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 19,
+        "question": "Who preserved many Greek texts through translation during the Islamic Golden Age?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Persians",
+                    "correct": false
+                },
+                {
+                    "label": "Moors",
+                    "correct": false
+                },
+                {
+                    "label": "Byzantines",
+                    "correct": false
+                },
+                {
+                    "label": "Arab scholars",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "175px",
+        "left": "216px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 20,
+        "question": "What is the term for a sacred or magical book of ancient knowledge?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Scriptorium",
+                    "correct": false
+                },
+                {
+                    "label": "Grimoire",
+                    "correct": true
+                },
+                {
+                    "label": "Codex",
+                    "correct": false
+                },
+                {
+                    "label": "Talisman",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "354px",
+        "left": "378px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

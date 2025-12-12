@@ -1,0 +1,642 @@
+[
+    {
+        "question": "What emotion is most often associated with the color blue in Western cultures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Joy",
+                    "correct": false
+                },
+                {
+                    "label": "Anger",
+                    "correct": false
+                },
+                {
+                    "label": "Sadness",
+                    "correct": true
+                },
+                {
+                    "label": "Curiosity",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 0,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which artist painted “The Scream,” expressing existential anxiety?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pablo Picasso",
+                    "correct": false
+                },
+                {
+                    "label": "Edvard Munch",
+                    "correct": true
+                },
+                {
+                    "label": "Claude Monet",
+                    "correct": false
+                },
+                {
+                    "label": "Vincent van Gogh",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 1,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "In psychology, which term refers to the ability to understand and manage your own emotions?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Empathy",
+                    "correct": false
+                },
+                {
+                    "label": "Emotional intelligence",
+                    "correct": true
+                },
+                {
+                    "label": "Awareness",
+                    "correct": false
+                },
+                {
+                    "label": "Sympathy",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 2,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which composer is known for creating deeply emotional music while deaf?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chopin",
+                    "correct": false
+                },
+                {
+                    "label": "Beethoven",
+                    "correct": true
+                },
+                {
+                    "label": "Mozart",
+                    "correct": false
+                },
+                {
+                    "label": "Bach",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 3,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which modern art movement focused heavily on emotion and abstract expression?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cubism",
+                    "correct": false
+                },
+                {
+                    "label": "Realism ",
+                    "correct": false
+                },
+                {
+                    "label": "Surrealism",
+                    "correct": false
+                },
+                {
+                    "label": "Expressionism",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 4,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Crying in response to a powerful song is most closely tied to which psychological process?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Repression",
+                    "correct": false
+                },
+                {
+                    "label": "Numbness",
+                    "correct": false
+                },
+                {
+                    "label": "Catharsis",
+                    "correct": true
+                },
+                {
+                    "label": "Regression",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 5,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which literary genre is often used to explore identity and emotional growth?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Coming-of-age",
+                    "correct": true
+                },
+                {
+                    "label": "Horror",
+                    "correct": false
+                },
+                {
+                    "label": "Thriller",
+                    "correct": false
+                },
+                {
+                    "label": "Mystery",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 6,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which film genre is most associated with emotional transformation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sci-fi",
+                    "correct": false
+                },
+                {
+                    "label": "Action",
+                    "correct": false
+                },
+                {
+                    "label": "Western",
+                    "correct": false
+                },
+                {
+                    "label": "Drama",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 7,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What is the Japanese term for appreciating the fleeting beauty of things?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ikigai",
+                    "correct": false
+                },
+                {
+                    "label": "Mono no aware",
+                    "correct": true
+                },
+                {
+                    "label": "Wabi-sabi",
+                    "correct": false
+                },
+                {
+                    "label": "Zen",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 8,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which psychological theory emphasizes childhood in emotional development?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Freudian theory",
+                    "correct": true
+                },
+                {
+                    "label": "Behaviorism",
+                    "correct": false
+                },
+                {
+                    "label": "Humanism",
+                    "correct": false
+                },
+                {
+                    "label": "Existentialism",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 9,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What is the primary goal of art therapy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Teach painting",
+                    "correct": false
+                },
+                {
+                    "label": "Display artwork",
+                    "correct": false
+                },
+                {
+                    "label": "Heal emotional trauma",
+                    "correct": true
+                },
+                {
+                    "label": "Improve logic",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 10,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which emotion is considered “primary” in psychological models?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Embarrassment",
+                    "correct": false
+                },
+                {
+                    "label": "Fear",
+                    "correct": true
+                },
+                {
+                    "label": "Jealousy",
+                    "correct": false
+                },
+                {
+                    "label": "Guilt",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 11,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The term “aesthetic experience” refers to:",
+        "answers": {
+            "options": [
+                {
+                    "label": "A logic puzzle",
+                    "correct": false
+                },
+                {
+                    "label": "A sports moment",
+                    "correct": false
+                },
+                {
+                    "label": "Emotional response to beauty",
+                    "correct": true
+                },
+                {
+                    "label": "A religious ritual",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 12,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which famous quote describes the role of art in expressing pain?",
+        "answers": {
+            "options": [
+                {
+                    "label": "“Art is a lie that tells the truth.”",
+                    "correct": false
+                },
+                {
+                    "label": "“Beauty is in the eye of the beholder.”",
+                    "correct": false
+                },
+                {
+                    "label": "“Art is the wound turned into light.” ",
+                    "correct": true
+                },
+                {
+                    "label": "“Art imitates life.”",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 13,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What emotion is often associated with the violin?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Confidence",
+                    "correct": false
+                },
+                {
+                    "label": "Melancholy",
+                    "correct": true
+                },
+                {
+                    "label": "Surprise",
+                    "correct": false
+                },
+                {
+                    "label": "Rage",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 14,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which author wrote emotionally rich poetry in “Leaves of Grass”?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Walt Whitman",
+                    "correct": true
+                },
+                {
+                    "label": "Emily Dickinson",
+                    "correct": false
+                },
+                {
+                    "label": "Sylvia Plath",
+                    "correct": false
+                },
+                {
+                    "label": "Robert Frost",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 15,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which psychological disorder is linked to extreme emotional instability?",
+        "answers": {
+            "options": [
+                {
+                    "label": "OCD",
+                    "correct": false
+                },
+                {
+                    "label": "Borderline Personality",
+                    "correct": true
+                },
+                {
+                    "label": "Autism",
+                    "correct": false
+                },
+                {
+                    "label": "Schizoid",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 16,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which medium is NOT commonly used in expressive therapy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Geometry",
+                    "correct": true
+                },
+                {
+                    "label": "Dance",
+                    "correct": false
+                },
+                {
+                    "label": "Painting",
+                    "correct": false
+                },
+                {
+                    "label": "Music",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 17,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which painting technique emphasizes spontaneous brushstrokes and emotion?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pointillism",
+                    "correct": false
+                },
+                {
+                    "label": "Renaissance layering",
+                    "correct": false
+                },
+                {
+                    "label": "Abstract expressionism",
+                    "correct": true
+                },
+                {
+                    "label": "Crosshatching",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 18,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient Greek philosopher believed music could influence mood and morality?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Socrates",
+                    "correct": false
+                },
+                {
+                    "label": "Epicurus",
+                    "correct": false
+                },
+                {
+                    "label": "Plato",
+                    "correct": true
+                },
+                {
+                    "label": "Diogenes",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 19,
+        "category": "Emotional Intelligence & Expression Through Art",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

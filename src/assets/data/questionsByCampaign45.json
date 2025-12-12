@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "In which year did the Battle of Hastings take place?",
+        "answers": {
+            "options": [
+                {
+                    "label": "1066",
+                    "correct": true
+                },
+                {
+                    "label": "1215",
+                    "correct": false
+                },
+                {
+                    "label": "1415",
+                    "correct": false
+                },
+                {
+                    "label": "1001",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "100px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which battle marked the end of Napoleon’s rule?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Waterloo",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Austerlitz",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Leipzig",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Trafalgar",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "130px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which famous battle took place during the American Civil War in 1863?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Gettysburg",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Antietam",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Bull Run",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Fredericksburg",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "The Battle of Thermopylae was fought between the Persians and which Greek city-state?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sparta",
+                    "correct": true
+                },
+                {
+                    "label": "Athens",
+                    "correct": false
+                },
+                {
+                    "label": "Corinth",
+                    "correct": false
+                },
+                {
+                    "label": "Delphi",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which battle was a turning point in World War II on the Eastern Front?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Stalingrad",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Kursk",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Leningrad",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Berlin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Where did the D-Day landings occur during WWII?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Normandy",
+                    "correct": true
+                },
+                {
+                    "label": "Calais",
+                    "correct": false
+                },
+                {
+                    "label": "Dunkirk",
+                    "correct": false
+                },
+                {
+                    "label": "Brittany",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "250px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which naval battle established British dominance in 1805?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Trafalgar",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Jutland",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Midway",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of the Nile",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "280px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "The Battle of Agincourt was fought during which war?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hundred Years' War",
+                    "correct": true
+                },
+                {
+                    "label": "Thirty Years' War",
+                    "correct": false
+                },
+                {
+                    "label": "Napoleonic Wars",
+                    "correct": false
+                },
+                {
+                    "label": "War of the Roses",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "310px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "What famous battle did Alexander the Great win against Darius III of Persia?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Gaugamela",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Marathon",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Issus",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Chaeronea",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "340px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which battle in 1815 saw the final defeat of Napoleon Bonaparte?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Waterloo",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of the Nile",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Leipzig",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Austerlitz",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "370px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "At which battle did Julius Caesar defeat Pompey in 48 BCE?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Pharsalus",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Actium",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Carrhae",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Zela",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "400px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which battle is considered the turning point in the Pacific during WWII?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Midway",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Iwo Jima",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Okinawa",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of the Coral Sea",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "430px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Hard \"question\": Which battle was fought in 451 CE between Roman and Hunnic forces?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of the Catalaunian Plains",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Adrianople",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Chalons",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Tours",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "460px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Who won the Battle of Zama, ending the Second Punic War?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Rome",
+                    "correct": true
+                },
+                {
+                    "label": "Carthage",
+                    "correct": false
+                },
+                {
+                    "label": "Gaul",
+                    "correct": false
+                },
+                {
+                    "label": "Macedon",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "490px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "The Battle of Marathon was fought between Greece and which empire?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Persian Empire",
+                    "correct": true
+                },
+                {
+                    "label": "Roman Empire",
+                    "correct": false
+                },
+                {
+                    "label": "Ottoman Empire",
+                    "correct": false
+                },
+                {
+                    "label": "Macedonian Empire",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "520px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "What was the decisive battle of the English Civil War?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Naseby",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Edgehill",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Marston Moor",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Bosworth",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "550px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which battle marked the defeat of the Spanish Armada?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Gravelines",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Lepanto",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of the Channel",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Trafalgar",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "580px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which World War I battle is known for its extreme casualties and stalemate?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of the Somme",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Verdun",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Tannenberg",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Gallipoli",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "610px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "Which battle is known as the bloodiest single-day battle in American history?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Antietam",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Gettysburg",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Shiloh",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Chancellorsville",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "640px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "famous battles",
+        "question": "What battle marked the beginning of the end for Nazi Germany in WWII?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of the Bulge",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Berlin",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of El Alamein",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Kursk",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "670px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    }
+]

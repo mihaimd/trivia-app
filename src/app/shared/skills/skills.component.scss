@@ -1,0 +1,37 @@
+.card {
+    height: 100%;
+    // background: linear-gradient(0deg, rgb(34 193 195 / 83%) 0%, rgb(3 107 109 / 93%) 100%);
+    background: #28bb50;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card-title,.card-sub-title { text-shadow: 2px 2px 8px black; }
+    
+    .btn-pick {
+        border-radius: 50%;            
+        background-color: #a909ff;
+        height: 120px;
+        width: 120px;            
+        img {
+            height: 50px;
+        }
+        .skill-name {
+            p {
+                margin: 0px;                    
+            }
+        }
+        &.active{
+            border: 4px solid #fff;
+            box-shadow: 0px 0px 20px 0px #7569fa;
+            img {
+                filter: invert(1);
+            }
+            .skill-name {
+                p {
+                    color: #fff;                    
+                }
+            }
+        }
+    }    
+}

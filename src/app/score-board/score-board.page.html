@@ -1,0 +1,130 @@
+<ion-header>
+  <ion-toolbar class="bg-dark">
+    <ion-buttons slot="start">
+      <ion-menu-button class="text-light d-block" autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Score</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-header class="bg-dark">
+  <ion-segment slot="start" value="all" (ionChange)="onSelectSegment($event)">
+    <ion-segment-button  value="all">
+      <ion-label>All Time</ion-label>
+    </ion-segment-button>
+    <ion-segment-button  value="weekly">
+      <ion-label>Weekly</ion-label>
+    </ion-segment-button>
+    <ion-segment-button  value="today">
+      <ion-label>Today</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+</ion-header>
+<ion-header>
+  <ion-toolbar class="bg-dark">
+    <ion-buttons slot="end">
+      <ion-button size="small" color="light" fill="{{ boardType=='global' ? 'solid' : ''}}" (click)="onSelectBoardType('global')">
+        <ion-icon slot="icon-only" name="globe-outline"></ion-icon>
+      </ion-button>
+      <ion-button size="small" color="light" fill="{{ boardType=='local' ? 'solid' : ''}}" (click)="onSelectBoardType('local')">
+        <ion-icon slot="icon-only" name="location-outline"></ion-icon>        
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="score-board-bg" [fullscreen]="true">
+  <ion-grid class="podium bg-dark" *ngIf="top3players.length">
+    <ion-row>
+      <ion-col size="4" class="ion-no-padding">
+        <div class="podium-card" style="padding-top: 10px;" *ngIf="topPlayer2">
+          <div class="ion-text-center"><ion-text class="text-light">{{ topPlayer2.displayName }}</ion-text></div>
+          <div class="podium-avatar">
+            <img class="flag" [src]="topPlayer2.flagURL" style="top: 20%;"/>
+            <img [src]="topPlayer2.photoURL" alt="avatar" referrerpolicy="no-referrer"/>
+          </div>
+          <div class="podium-description">
+            <span class="level-position">2</span>            
+            <ion-text style="color: yellow">{{ topPlayer2.exp }}</ion-text>
+            <ion-text>Level {{ topPlayer2.level }}</ion-text>
+          </div>
+        </div>
+      </ion-col>
+      <ion-col size="4" class="ion-no-padding">
+        <div class="podium-card" *ngIf="topPlayer1">
+          <div class="ion-text-center"><ion-text class="text-light">{{ topPlayer1.displayName }}</ion-text></div>
+          <div class="podium-avatar">
+            <img class="flag" [src]="topPlayer1.flagURL" style="top: 13%;"/>
+            <img [src]="topPlayer1.photoURL" alt="avatar" referrerpolicy="no-referrer"/>
+          </div>
+          <div class="podium-description">
+            <span class="level-position">1</span>
+            <ion-text style="color: yellow">{{ topPlayer1.exp }}</ion-text>
+            <ion-text>Level {{ topPlayer1.level }}</ion-text>
+          </div>
+        </div>
+      </ion-col>
+      <ion-col size="4" class="ion-no-padding">
+        <div class="podium-card" style="padding-top: 10px;" *ngIf="topPlayer3">
+          <div class="ion-text-center"><ion-text class="text-light">{{ topPlayer3.displayName }}</ion-text></div>
+          <div class="podium-avatar">
+            <img class="flag" [src]="topPlayer3.flagURL" style="top: 20%;"/>
+            <img [src]="topPlayer3.photoURL" alt="avatar" referrerpolicy="no-referrer"/>
+          </div>
+          <div class="podium-description">
+            <span class="level-position">3</span>            
+            <ion-text style="color: yellow">{{ topPlayer3.exp }}</ion-text>
+            <ion-text>Level {{ topPlayer3.level }}</ion-text>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-list class="score-table" *ngIf="players.length">
+    <ion-item lines="full" *ngFor="let player of players.slice(3); let i = index;" [attr.id]="'player-' + (i + 4)">
+      <ion-badge slot="start" class="count">{{ i+4 }}</ion-badge>
+      <ion-avatar>
+        <img [src]="player.photoURL" alt="avatar" referrerpolicy="no-referrer"/>
+        <img class="flag" [src]="player.flagURL" />
+      </ion-avatar>
+      <ion-label>
+        <div class="d-flex ion-justify-content-between">
+          <div>
+            <h2 class="ion-no-margin f700 text-light">{{ player.displayName }}</h2>
+            <p class="ion-no-margin f700" style="color: yellow;">{{ player.exp }}</p>
+          </div>
+          <div>
+            <h2 class="ion-no-margin f700 text-light ion-text-center">Level</h2>
+            <ion-badge class="level ion-padding-horizontal text-light">{{ player.level }}</ion-badge>
+          </div>
+        </div>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <h1 *ngIf="showSpinner" class="empty-list text-clip1"><ion-spinner color="danger"></ion-spinner></h1>
+  <h1 *ngIf="!showSpinner && top3players.length==0 && players.length==0" class="empty-list text-clip1">No More Players</h1>
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>
+<ion-footer *ngIf="currentUser && currentPlayerPosition>10">
+  <ion-list class="score-table">
+    <ion-item lines="full" (click)="onTapMyScore()">
+      <ion-badge slot="start" class="count">{{ currentPlayerPosition }}</ion-badge>
+      <ion-avatar>
+        <img [src]="currentUser.photoURL" alt="avatar" referrerpolicy="no-referrer"/>
+        <img class="flag" [src]="currentUser.flagURL" />
+      </ion-avatar>
+      <ion-label>
+        <div class="d-flex ion-justify-content-between">
+          <div>
+            <h2 class="ion-no-margin f700 text-light">{{ currentUser.displayName }}</h2>
+            <p class="ion-no-margin f700" style="color: yellow;">{{ currentUser.exp }}</p>
+          </div>
+          <div class="ion-text-center">
+            <h2 class="ion-no-margin f700 text-light ion-text-center">Level</h2>            
+            <ion-badge class="ion-padding-horizontal">{{ currentUser.exp }}</ion-badge>
+          </div>
+        </div>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-footer>

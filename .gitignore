@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+.angular/
+.angular/cache/
+.nx/
+android/
+# Ionic/Angular build directories
+www/
+build/
+
+# Capacitor and Android directories
+# android/
+.capacitor/
+.android/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE configuration files (VSCode, WebStorm, etc.)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other specific files you don't want to commit
+*.env
+*.bak
+.nx

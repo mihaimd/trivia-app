@@ -1,0 +1,322 @@
+[
+    {
+        "id": 6111,
+        "question": "Which beef cut is best for a slow-cooked stew?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ribeye",
+                    "correct": false
+                },
+                {
+                    "label": "Chuck",
+                    "correct": true
+                },
+                {
+                    "label": "Tenderloin",
+                    "correct": false
+                },
+                {
+                    "label": "Sirloin",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "140px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6112,
+        "question": "Which pork cut is ideal for stew due to its fat and collagen content?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pork loin",
+                    "correct": false
+                },
+                {
+                    "label": "Pork belly",
+                    "correct": false
+                },
+                {
+                    "label": "Pork shoulder (Boston butt)",
+                    "correct": true
+                },
+                {
+                    "label": "Pork chops",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "200px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6113,
+        "question": "Lamb shank is a great cut for which type of cooking?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Grilling",
+                    "correct": false
+                },
+                {
+                    "label": "Boiling",
+                    "correct": false
+                },
+                {
+                    "label": "Braising",
+                    "correct": true
+                },
+                {
+                    "label": "Frying",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "260px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6114,
+        "question": "What is a common feature of stew-friendly cuts?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Low fat content",
+                    "correct": false
+                },
+                {
+                    "label": "High muscle activity",
+                    "correct": true
+                },
+                {
+                    "label": "Thin slices",
+                    "correct": false
+                },
+                {
+                    "label": "Boneless texture",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "180px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6115,
+        "question": "Which meat cut should be avoided for stews due to quick cooking?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chuck steak",
+                    "correct": false
+                },
+                {
+                    "label": "Beef brisket",
+                    "correct": false
+                },
+                {
+                    "label": "Tenderloin",
+                    "correct": true
+                },
+                {
+                    "label": "Short ribs",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "300px",
+        "left": "190px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6116,
+        "question": "Which cooking method best suits meat cuts with lots of connective tissue?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Broiling",
+                    "correct": false
+                },
+                {
+                    "label": "Deep frying",
+                    "correct": false
+                },
+                {
+                    "label": "Slow braising",
+                    "correct": true
+                },
+                {
+                    "label": "Steaming",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "350px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6117,
+        "question": "Which beef cut is commonly used in French beef bourguignon?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Flank steak",
+                    "correct": false
+                },
+                {
+                    "label": "Chuck",
+                    "correct": true
+                },
+                {
+                    "label": "T-bone",
+                    "correct": false
+                },
+                {
+                    "label": "Rib roast",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "260px",
+        "left": "220px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6118,
+        "question": "Which part of the chicken is most commonly used in stews?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Breast",
+                    "correct": false
+                },
+                {
+                    "label": "Wings",
+                    "correct": false
+                },
+                {
+                    "label": "Thighs",
+                    "correct": true
+                },
+                {
+                    "label": "Neck",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "220px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6119,
+        "question": "What is the advantage of using bone-in cuts in stews?",
+        "answers": {
+            "options": [
+                {
+                    "label": "They cook faster",
+                    "correct": false
+                },
+                {
+                    "label": "They give more flavor",
+                    "correct": true
+                },
+                {
+                    "label": "They are easier to cut",
+                    "correct": false
+                },
+                {
+                    "label": "They have less fat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "240px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6120,
+        "question": "Which cut would most likely dry out in a long stew?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Short ribs",
+                    "correct": false
+                },
+                {
+                    "label": "Chuck roast",
+                    "correct": false
+                },
+                {
+                    "label": "Tenderloin",
+                    "correct": true
+                },
+                {
+                    "label": "Shank",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "280px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

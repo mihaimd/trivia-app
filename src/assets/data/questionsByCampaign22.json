@@ -1,0 +1,578 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What is often symbolized by a mirror in mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Truth",
+                    "correct": true
+                },
+                {
+                    "label": "Wealth",
+                    "correct": false
+                },
+                {
+                    "label": "Power",
+                    "correct": false
+                },
+                {
+                    "label": "War",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "183px",
+        "left": "287px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 2,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Greek myth, who was turned to stone by seeing their own reflection?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Narcissus",
+                    "correct": false
+                },
+                {
+                    "label": "Perseus",
+                    "correct": false
+                },
+                {
+                    "label": "Medusa",
+                    "correct": true
+                },
+                {
+                    "label": "Orpheus",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "287px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which culture believed mirrors could trap souls?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aztec",
+                    "correct": false
+                },
+                {
+                    "label": "Norse",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptian",
+                    "correct": false
+                },
+                {
+                    "label": "Chinese",
+                    "correct": true
+                }
+            ]
+        },
+        "top": "391px",
+        "left": "39px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 4,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What is the symbolic meaning of broken mirrors?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Seven years of bad luck",
+                    "correct": true
+                },
+                {
+                    "label": "Eternal love",
+                    "correct": false
+                },
+                {
+                    "label": "Good fortune",
+                    "correct": false
+                },
+                {
+                    "label": "Silence",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "335px",
+        "left": "204px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 5,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In folklore, what is a \u2018scrying mirror\u2019 used for?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cooking",
+                    "correct": false
+                },
+                {
+                    "label": "Seeing the future",
+                    "correct": true
+                },
+                {
+                    "label": "Measuring time",
+                    "correct": false
+                },
+                {
+                    "label": "Starting fire",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "562px",
+        "left": "132px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 6,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which magical object shows \the deepest desires of your heart\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Seeing stone",
+                    "correct": false
+                },
+                {
+                    "label": "Mirror of Erised",
+                    "correct": true
+                },
+                {
+                    "label": "Truth glass",
+                    "correct": false
+                },
+                {
+                    "label": "Oracle orb",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "391px",
+        "left": "226px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 7,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What animal is often associated with self-awareness through mirrors?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Crow",
+                    "correct": false
+                },
+                {
+                    "label": "Elephant",
+                    "correct": true
+                },
+                {
+                    "label": "Dog",
+                    "correct": false
+                },
+                {
+                    "label": "Rabbit",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "322px",
+        "left": "31px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 8,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which planet is symbolically tied to mirrors and reflection?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mars",
+                    "correct": false
+                },
+                {
+                    "label": "Venus",
+                    "correct": true
+                },
+                {
+                    "label": "Jupiter",
+                    "correct": false
+                },
+                {
+                    "label": "Saturn",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "542px",
+        "left": "39px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 9,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What term describes illusion or mirage in the desert?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Oasis",
+                    "correct": false
+                },
+                {
+                    "label": "Sandwake",
+                    "correct": false
+                },
+                {
+                    "label": "Fata Morgana",
+                    "correct": true
+                },
+                {
+                    "label": "Horizon Glimmer",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "523px",
+        "left": "330px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 10,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Who was the Roman goddess of magic and crossroads, often seen in triple reflection?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Minerva",
+                    "correct": false
+                },
+                {
+                    "label": "Luna",
+                    "correct": false
+                },
+                {
+                    "label": "Hecate",
+                    "correct": true
+                },
+                {
+                    "label": "Vesta",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "301px",
+        "left": "331px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 11,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In dreams, seeing your reflection might symbolize what?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Loss",
+                    "correct": false
+                },
+                {
+                    "label": "Discovery",
+                    "correct": true
+                },
+                {
+                    "label": "Fear",
+                    "correct": false
+                },
+                {
+                    "label": "Greed",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "263px",
+        "left": "133px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 12,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What is the name of the Norse well of wisdom beneath the world tree?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mimir\u2019s Well",
+                    "correct": true
+                },
+                {
+                    "label": "Odin\u2019s Pool",
+                    "correct": false
+                },
+                {
+                    "label": "Freyja\u2019s Fountain",
+                    "correct": false
+                },
+                {
+                    "label": "Yggdrasil Basin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "280px",
+        "left": "31px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which literary work features mirrors as a passage to another world?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Hobbit",
+                    "correct": false
+                },
+                {
+                    "label": "Through the Looking-Glass",
+                    "correct": true
+                },
+                {
+                    "label": "Beowulf",
+                    "correct": false
+                },
+                {
+                    "label": "The Odyssey",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "94px",
+        "left": "34px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 14,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Eastern traditions, what do round mirrors represent?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Unity and harmony",
+                    "correct": true
+                },
+                {
+                    "label": "Chaos",
+                    "correct": false
+                },
+                {
+                    "label": "Trickery",
+                    "correct": false
+                },
+                {
+                    "label": "Judgment",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "316px",
+        "left": "240px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What mirror-based superstition is common before a funeral?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cover all mirrors",
+                    "correct": true
+                },
+                {
+                    "label": "Polish the biggest mirror",
+                    "correct": false
+                },
+                {
+                    "label": "Place a mirror in the coffin",
+                    "correct": false
+                },
+                {
+                    "label": "Break a mirror for luck",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "319px",
+        "left": "333px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 16,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What was the purpose of obsidian mirrors to Mesoamerican priests?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Timekeeping",
+                    "correct": false
+                },
+                {
+                    "label": "Reflection",
+                    "correct": false
+                },
+                {
+                    "label": "Divination",
+                    "correct": true
+                },
+                {
+                    "label": "Fire starting",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "363px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which of these is NOT a property often given to enchanted mirrors?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Reveal truth",
+                    "correct": false
+                },
+                {
+                    "label": "Talk",
+                    "correct": false
+                },
+                {
+                    "label": "Cause blindness",
+                    "correct": true
+                },
+                {
+                    "label": "Trap souls",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "213px",
+        "left": "101px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 20,
+        "date": "2025-07-20",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which ancient god is associated with perception and trickery?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hermes",
+                    "correct": true
+                },
+                {
+                    "label": "Apollo",
+                    "correct": false
+                },
+                {
+                    "label": "Zeus",
+                    "correct": false
+                },
+                {
+                    "label": "Hephaestus",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "545px",
+        "left": "207px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

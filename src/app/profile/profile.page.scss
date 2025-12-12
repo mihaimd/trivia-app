@@ -1,0 +1,35 @@
+/* ion-avatar {
+    &.profile {
+        height: 100px;
+        width: 100px;
+    }
+} */
+ ion-icon[name='camera-outline'] {
+    position: relative;
+    font-size: x-large;
+    top: 20%;
+    left: -10%;
+ }
+.profile-name {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 44px;
+}
+
+.avatars-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 450px;
+    overflow: scroll;
+}
+
+.avatar-image {
+    width: 30%;
+    height: 30%;
+}
+.btn-spinner {
+    position: absolute;
+    left: -5px;
+}

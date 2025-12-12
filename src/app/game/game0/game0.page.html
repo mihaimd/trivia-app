@@ -1,0 +1,68 @@
+<ion-content [fullscreen]="true" class="center">
+  <div class="row wrapper" *ngIf="chapterInfo!=undefined">
+    <ion-grid>
+      <ion-row text-align="center">
+        <ion-col text-align="center">
+          <div style="display: flex; justify-content: center;">
+            <div class="dialogContents">
+              <div class="content-title">
+                <div class="back-button"></div>
+              </div>
+              <div class="content-image">
+                <img [src]="chapterInfo.image">
+              </div>
+              <div class="content-content">
+                <h1 class="ion-text-center">{{ chapterInfo.name }}</h1>
+                <h2 class="ion-text-center">{{ chapterInfo.title }}</h2>
+                <div *ngIf="gameInfo != undefined" [innerHTML]="gameInfo.gameContent"></div>
+                <app-choice [campaigns]="campaigns" (onSelectOption)="selectOption($event)"></app-choice>
+              </div>
+              <div class="content-button" (click)="goToNextStep()">
+                <button [class.blue]="true" [class.gold]="isGameCompleted" type="button" [class.grey]="isDisabled" [disabled]="isDisabled">
+                  <div class="button-text fs1-3rem">{{buttonText}}</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <!-- <ion-fab slot="fixed" vertical="bottom" horizontal="center" [edge]="true">
+    <ion-fab-button>
+      <ion-icon name="home" (click)="goHome()">ff</ion-icon>
+    </ion-fab-button>
+  </ion-fab> -->
+</ion-content>
+<!-- <ion-footer style="background-color: white">
+  <ion-toolbar>
+    <ion-buttons slot="start" class="buttons-spacing">
+      <ion-button>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <ion-icon class="bottom-menu" name="person-circle"></ion-icon>
+          <div>Profile</div>
+        </div>
+      </ion-button>
+      <ion-button>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <ion-icon class="bottom-menu" name="person-circle"></ion-icon>
+          <div>Profile</div>
+        </div>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end" class="buttons-spacing">
+      <ion-button>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <ion-icon class="bottom-menu" name="person-circle"></ion-icon>
+          <div>Profile</div>
+        </div>
+      </ion-button>
+      <ion-button>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <ion-icon class="bottom-menu" name="person-circle"></ion-icon>
+          <div>Profile</div>
+        </div>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer> -->

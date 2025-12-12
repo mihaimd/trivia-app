@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "healing",
+        "question": "What vitamin is essential for wound healing and immune function?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vitamin C",
+                    "correct": true
+                },
+                {
+                    "label": "Vitamin D",
+                    "correct": false
+                },
+                {
+                    "label": "Vitamin A",
+                    "correct": false
+                },
+                {
+                    "label": "Vitamin B12",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "herbalism",
+        "question": "Which herb is traditionally used to soothe digestive issues?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Peppermint",
+                    "correct": true
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                },
+                {
+                    "label": "Rosemary",
+                    "correct": false
+                },
+                {
+                    "label": "Sage",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "ancient remedies",
+        "question": "In ancient Egypt, what was commonly used to treat wounds and infections?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Honey",
+                    "correct": true
+                },
+                {
+                    "label": "Milk",
+                    "correct": false
+                },
+                {
+                    "label": "Olive oil",
+                    "correct": false
+                },
+                {
+                    "label": "Salt water",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "healing",
+        "question": "Which natural substance is known for its antiseptic properties and is used in healing wounds?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aloe vera",
+                    "correct": true
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                },
+                {
+                    "label": "Eucalyptus",
+                    "correct": false
+                },
+                {
+                    "label": "Basil",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "140px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "herbalism",
+        "question": "Which herb is famous for its calming effects and is often used to reduce anxiety?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lavender",
+                    "correct": true
+                },
+                {
+                    "label": "Thyme",
+                    "correct": false
+                },
+                {
+                    "label": "Rosemary",
+                    "correct": false
+                },
+                {
+                    "label": "Mint",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "ancient remedies",
+        "question": "Which ancient civilization is credited with developing acupuncture?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chinese",
+                    "correct": true
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptian",
+                    "correct": false
+                },
+                {
+                    "label": "Roman",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "65px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "healing",
+        "question": "Which mineral is crucial for bone healing and repair?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Calcium",
+                    "correct": true
+                },
+                {
+                    "label": "Iron",
+                    "correct": false
+                },
+                {
+                    "label": "Zinc",
+                    "correct": false
+                },
+                {
+                    "label": "Magnesium",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "260px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "herbalism",
+        "question": "Which plant’s leaves are used to make a tea that boosts the immune system and reduces inflammation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Echinacea",
+                    "correct": true
+                },
+                {
+                    "label": "Dandelion",
+                    "correct": false
+                },
+                {
+                    "label": "Nettle",
+                    "correct": false
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "150px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "ancient remedies",
+        "question": "In ancient Greece, which plant was used as a pain reliever and is the precursor to modern aspirin?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Willow bark",
+                    "correct": true
+                },
+                {
+                    "label": "Aloe vera",
+                    "correct": false
+                },
+                {
+                    "label": "Ginseng",
+                    "correct": false
+                },
+                {
+                    "label": "Mandrake",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "healing",
+        "question": "Which natural remedy is often used to relieve symptoms of a cold, thanks to its anti-inflammatory properties?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ginger",
+                    "correct": true
+                },
+                {
+                    "label": "Peppermint",
+                    "correct": false
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "230px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "herbalism",
+        "question": "Which herb is known as a natural antiseptic and is used to treat minor cuts and infections?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tea tree",
+                    "correct": true
+                },
+                {
+                    "label": "Basil",
+                    "correct": false
+                },
+                {
+                    "label": "Mint",
+                    "correct": false
+                },
+                {
+                    "label": "Parsley",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "ancient remedies",
+        "question": "Which ancient civilization is famous for using leeches as a medical treatment?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": true
+                },
+                {
+                    "label": "Chinese",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                },
+                {
+                    "label": "Mesopotamians",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "170px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "healing",
+        "question": "Which vitamin deficiency causes scurvy, a disease known for bleeding gums and weakness?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vitamin C",
+                    "correct": true
+                },
+                {
+                    "label": "Vitamin B12",
+                    "correct": false
+                },
+                {
+                    "label": "Vitamin D",
+                    "correct": false
+                },
+                {
+                    "label": "Vitamin A",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "herbalism",
+        "question": "Which herb is commonly used to support liver health and detoxification?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Milk thistle",
+                    "correct": true
+                },
+                {
+                    "label": "Thyme",
+                    "correct": false
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                },
+                {
+                    "label": "Sage",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "ancient remedies",
+        "question": "What substance did ancient Romans use in baths for its supposed healing properties?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sulfur",
+                    "correct": true
+                },
+                {
+                    "label": "Salt",
+                    "correct": false
+                },
+                {
+                    "label": "Clay",
+                    "correct": false
+                },
+                {
+                    "label": "Honey",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "healing",
+        "question": "Hard \"question\": Which ancient medical text is considered one of the earliest works on healing and herbal remedies?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Ebers Papyrus",
+                    "correct": true
+                },
+                {
+                    "label": "The Hippocratic Corpus",
+                    "correct": false
+                },
+                {
+                    "label": "The Ayurvedic Sutras",
+                    "correct": false
+                },
+                {
+                    "label": "The Dead Sea Scrolls",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "herbalism",
+        "question": "Which herb is often used to relieve cold symptoms and has expectorant properties?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Eucalyptus",
+                    "correct": true
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                },
+                {
+                    "label": "Basil",
+                    "correct": false
+                },
+                {
+                    "label": "Thyme",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "ancient remedies",
+        "question": "Which natural remedy did ancient Chinese medicine use to improve circulation and treat pain?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ginseng",
+                    "correct": true
+                },
+                {
+                    "label": "Mint",
+                    "correct": false
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                },
+                {
+                    "label": "Peppermint",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "healing",
+        "question": "Which mineral is often used topically to reduce inflammation and promote skin healing?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Zinc",
+                    "correct": true
+                },
+                {
+                    "label": "Iron",
+                    "correct": false
+                },
+                {
+                    "label": "Calcium",
+                    "correct": false
+                },
+                {
+                    "label": "Magnesium",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "herbalism",
+        "question": "Which flower is commonly used in herbal teas for its calming and sleep-inducing effects?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chamomile",
+                    "correct": true
+                },
+                {
+                    "label": "Dandelion",
+                    "correct": false
+                },
+                {
+                    "label": "Jasmine",
+                    "correct": false
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

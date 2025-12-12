@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "trade",
+        "question": "Which ancient trade route connected China to the Mediterranean?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Silk Road",
+                    "correct": true
+                },
+                {
+                    "label": "The Amber Road",
+                    "correct": false
+                },
+                {
+                    "label": "The Incense Route",
+                    "correct": false
+                },
+                {
+                    "label": "The Spice Route",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "exotic ingredients",
+        "question": "Which spice, derived from the Crocus flower, was historically worth more than gold?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Saffron",
+                    "correct": true
+                },
+                {
+                    "label": "Cinnamon",
+                    "correct": false
+                },
+                {
+                    "label": "Nutmeg",
+                    "correct": false
+                },
+                {
+                    "label": "Clove",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "historical cuisine",
+        "question": "What grain was the staple food in ancient Mesopotamia?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Barley",
+                    "correct": true
+                },
+                {
+                    "label": "Wheat",
+                    "correct": false
+                },
+                {
+                    "label": "Rice",
+                    "correct": false
+                },
+                {
+                    "label": "Millet",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "trade",
+        "question": "Which ancient civilization was famous for trading purple dye made from sea snails?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Phoenicians",
+                    "correct": true
+                },
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "140px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "exotic ingredients",
+        "question": "Which fruit, known as the “King of Fruits,” is famous for its strong odor and is popular in Southeast Asia?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Durian",
+                    "correct": true
+                },
+                {
+                    "label": "Mangosteen",
+                    "correct": false
+                },
+                {
+                    "label": "Rambutan",
+                    "correct": false
+                },
+                {
+                    "label": "Lychee",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "historical cuisine",
+        "question": "Which ancient civilization popularized olive oil as a cooking ingredient?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Greeks",
+                    "correct": true
+                },
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                },
+                {
+                    "label": "Babylonians",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "65px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "trade",
+        "question": "What precious metal was a key commodity traded across the Trans-Saharan trade routes?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Gold",
+                    "correct": true
+                },
+                {
+                    "label": "Silver",
+                    "correct": false
+                },
+                {
+                    "label": "Copper",
+                    "correct": false
+                },
+                {
+                    "label": "Platinum",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "260px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "exotic ingredients",
+        "question": "Which spice is made from the inner bark of trees and is used widely in sweet and savory dishes?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cinnamon",
+                    "correct": true
+                },
+                {
+                    "label": "Cardamom",
+                    "correct": false
+                },
+                {
+                    "label": "Clove",
+                    "correct": false
+                },
+                {
+                    "label": "Star Anise",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "150px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "historical cuisine",
+        "question": "Which ancient civilization is credited with inventing beer through fermentation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sumerians",
+                    "correct": true
+                },
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "trade",
+        "question": "Which maritime empire controlled key spice trade routes in the 15th century?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Portuguese Empire",
+                    "correct": true
+                },
+                {
+                    "label": "Ottoman Empire",
+                    "correct": false
+                },
+                {
+                    "label": "British Empire",
+                    "correct": false
+                },
+                {
+                    "label": "Venetian Republic",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "230px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "exotic ingredients",
+        "question": "Which nut, native to the Americas, was introduced to Europe after the Columbian exchange?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Peanut",
+                    "correct": true
+                },
+                {
+                    "label": "Almond",
+                    "correct": false
+                },
+                {
+                    "label": "Walnut",
+                    "correct": false
+                },
+                {
+                    "label": "Pistachio",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "historical cuisine",
+        "question": "Which Roman condiment, made from fermented fish, was commonly used to flavor dishes?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Garum",
+                    "correct": true
+                },
+                {
+                    "label": "Miso",
+                    "correct": false
+                },
+                {
+                    "label": "Soy sauce",
+                    "correct": false
+                },
+                {
+                    "label": "Vinegar",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "170px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "trade",
+        "question": "Which city was a major hub for the Indian spice trade historically?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Calicut",
+                    "correct": true
+                },
+                {
+                    "label": "Mumbai",
+                    "correct": false
+                },
+                {
+                    "label": "Delhi",
+                    "correct": false
+                },
+                {
+                    "label": "Chennai",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "exotic ingredients",
+        "question": "Which fruit is known as the \"forbidden fruit\" in medieval Europe due to its exotic origins?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pomegranate",
+                    "correct": true
+                },
+                {
+                    "label": "Fig",
+                    "correct": false
+                },
+                {
+                    "label": "Apple",
+                    "correct": false
+                },
+                {
+                    "label": "Date",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "historical cuisine",
+        "question": "Which staple food was most commonly eaten by the Aztecs?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Maize (corn)",
+                    "correct": true
+                },
+                {
+                    "label": "Wheat",
+                    "correct": false
+                },
+                {
+                    "label": "Rice",
+                    "correct": false
+                },
+                {
+                    "label": "Barley",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "trade",
+        "question": "Hard \"question\": Which 16th-century explorer's voyages helped establish direct sea trade routes from Europe to India?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vasco da Gama",
+                    "correct": true
+                },
+                {
+                    "label": "Christopher Columbus",
+                    "correct": false
+                },
+                {
+                    "label": "Ferdinand Magellan",
+                    "correct": false
+                },
+                {
+                    "label": "James Cook",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "exotic ingredients",
+        "question": "Which spice is known as the \"queen of spices\" and is native to India and Sri Lanka?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cardamom",
+                    "correct": true
+                },
+                {
+                    "label": "Cinnamon",
+                    "correct": false
+                },
+                {
+                    "label": "Clove",
+                    "correct": false
+                },
+                {
+                    "label": "Nutmeg",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "historical cuisine",
+        "question": "Which medieval European dish was made by layering meat, fish, and fruit in pies?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pottage",
+                    "correct": false
+                },
+                {
+                    "label": "Tourte",
+                    "correct": true
+                },
+                {
+                    "label": "Ratatouille",
+                    "correct": false
+                },
+                {
+                    "label": "Stew",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "trade",
+        "question": "Which medieval European city was famous for its trade fairs that attracted merchants from all over the continent?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Champagne",
+                    "correct": true
+                },
+                {
+                    "label": "Venice",
+                    "correct": false
+                },
+                {
+                    "label": "London",
+                    "correct": false
+                },
+                {
+                    "label": "Paris",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "exotic ingredients",
+        "question": "Which flower’s stigma is harvested to produce the highly prized spice saffron?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Crocus sativus",
+                    "correct": true
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                },
+                {
+                    "label": "Rose",
+                    "correct": false
+                },
+                {
+                    "label": "Jasmine",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    }
+]

@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Norse mythology, what is the name of the serpent that coils around the world tree Yggdrasil?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Jörmungandr",
+                    "correct": true
+                },
+                {
+                    "label": "Fafnir",
+                    "correct": false
+                },
+                {
+                    "label": "Níðhöggr",
+                    "correct": false
+                },
+                {
+                    "label": "Sleipnir",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "60px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 2,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which mythical creature guards the golden apples in the Garden of the Hesperides?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ladon",
+                    "correct": true
+                },
+                {
+                    "label": "Hydra",
+                    "correct": false
+                },
+                {
+                    "label": "Cerberus",
+                    "correct": false
+                },
+                {
+                    "label": "Chimera",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 3,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Chinese mythology, what do dragons often symbolize?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Power and good fortune",
+                    "correct": true
+                },
+                {
+                    "label": "Destruction and chaos",
+                    "correct": false
+                },
+                {
+                    "label": "Rebellion and trickery",
+                    "correct": false
+                },
+                {
+                    "label": "Night and darkness",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "The ouroboros is a symbol of what concept?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Eternal cycle of life and death",
+                    "correct": true
+                },
+                {
+                    "label": "Protection from evil spirits",
+                    "correct": false
+                },
+                {
+                    "label": "Divine right to rule",
+                    "correct": false
+                },
+                {
+                    "label": "Rage and vengeance",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 5,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What tree is Yggdrasil in Norse mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The world tree",
+                    "correct": true
+                },
+                {
+                    "label": "The tree of knowledge",
+                    "correct": false
+                },
+                {
+                    "label": "The tree of healing",
+                    "correct": false
+                },
+                {
+                    "label": "The tree of light",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "300px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What color is traditionally associated with Chinese imperial dragons?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Gold",
+                    "correct": true
+                },
+                {
+                    "label": "Green",
+                    "correct": false
+                },
+                {
+                    "label": "Red",
+                    "correct": false
+                },
+                {
+                    "label": "Black",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "360px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 7,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What is the significance of dragons coiling around trees in many ancient myths?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Guardians of knowledge or life",
+                    "correct": true
+                },
+                {
+                    "label": "Symbols of famine",
+                    "correct": false
+                },
+                {
+                    "label": "Messengers of death",
+                    "correct": false
+                },
+                {
+                    "label": "Worshiped as sun gods",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "420px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 8,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What did Fafnir, the dragon in Norse mythology, guard?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A hoard of gold",
+                    "correct": true
+                },
+                {
+                    "label": "A magic sword",
+                    "correct": false
+                },
+                {
+                    "label": "An ancient tree",
+                    "correct": false
+                },
+                {
+                    "label": "The gates of Valhalla",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "480px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 9,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which creature is said to gnaw at Yggdrasil’s roots?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Níðhöggr",
+                    "correct": true
+                },
+                {
+                    "label": "Sleipnir",
+                    "correct": false
+                },
+                {
+                    "label": "Fenrir",
+                    "correct": false
+                },
+                {
+                    "label": "Jörmungandr",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "540px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 10,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "The ouroboros is often depicted as:",
+        "answers": {
+            "options": [
+                {
+                    "label": "A serpent eating its own tail",
+                    "correct": true
+                },
+                {
+                    "label": "A dragon with multiple heads",
+                    "correct": false
+                },
+                {
+                    "label": "A coiled snake around a staff",
+                    "correct": false
+                },
+                {
+                    "label": "A serpent with wings",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "600px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 11,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Hindu mythology, what is Shesha?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A serpent who holds the world",
+                    "correct": true
+                },
+                {
+                    "label": "A demon king",
+                    "correct": false
+                },
+                {
+                    "label": "A divine flower",
+                    "correct": false
+                },
+                {
+                    "label": "A sea of milk",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "660px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 12,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What kind of tree is often linked to dragons in Eastern mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mulberry",
+                    "correct": true
+                },
+                {
+                    "label": "Oak",
+                    "correct": false
+                },
+                {
+                    "label": "Ash",
+                    "correct": false
+                },
+                {
+                    "label": "Baobab",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "720px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 13,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which dragon was defeated by Saint George?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Libyan Dragon",
+                    "correct": true
+                },
+                {
+                    "label": "Fafnir",
+                    "correct": false
+                },
+                {
+                    "label": "Smaug",
+                    "correct": false
+                },
+                {
+                    "label": "Hydra",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "780px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 14,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Dragons guarding trees often protect what?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sacred fruit or knowledge",
+                    "correct": true
+                },
+                {
+                    "label": "Hidden weapons",
+                    "correct": false
+                },
+                {
+                    "label": "Powerful beasts",
+                    "correct": false
+                },
+                {
+                    "label": "Ancient scrolls",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "840px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In mythology, coiling dragons can represent:",
+        "answers": {
+            "options": [
+                {
+                    "label": "The eternal cycle of nature",
+                    "correct": true
+                },
+                {
+                    "label": "Fear of the sea",
+                    "correct": false
+                },
+                {
+                    "label": "Nightmares",
+                    "correct": false
+                },
+                {
+                    "label": "Punishment from gods",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "900px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 16,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Slavic mythology, the Zmey Gorynych is a dragon with how many heads?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Three",
+                    "correct": true
+                },
+                {
+                    "label": "One",
+                    "correct": false
+                },
+                {
+                    "label": "Nine",
+                    "correct": false
+                },
+                {
+                    "label": "Seven",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "960px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 17,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which Greek hero killed the dragon Python?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Apollo",
+                    "correct": true
+                },
+                {
+                    "label": "Heracles",
+                    "correct": false
+                },
+                {
+                    "label": "Perseus",
+                    "correct": false
+                },
+                {
+                    "label": "Theseus",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1020px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 18,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In some Aztec myths, the feathered serpent Quetzalcoatl is associated with:",
+        "answers": {
+            "options": [
+                {
+                    "label": "Wind and wisdom",
+                    "correct": true
+                },
+                {
+                    "label": "Fire and war",
+                    "correct": false
+                },
+                {
+                    "label": "Rain and harvest",
+                    "correct": false
+                },
+                {
+                    "label": "Darkness and death",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1080px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 19,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In which culture are dragons considered wise, benevolent spirits of water and sky?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chinese",
+                    "correct": true
+                },
+                {
+                    "label": "Norse",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Celtic",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1140px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 20,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which symbol is closely associated with the balance of forces in nature and resembles two dragons?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Yin and Yang",
+                    "correct": true
+                },
+                {
+                    "label": "Triskelion",
+                    "correct": false
+                },
+                {
+                    "label": "Ankh",
+                    "correct": false
+                },
+                {
+                    "label": "Phoenix Rising",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1200px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    }
+]

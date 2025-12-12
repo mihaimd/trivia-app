@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What grain was sacred to the ancient Egyptians and used in religious offerings?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Barley",
+                    "correct": true
+                },
+                {
+                    "label": "Corn",
+                    "correct": false
+                },
+                {
+                    "label": "Millet",
+                    "correct": false
+                },
+                {
+                    "label": "Rye",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "60px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Aztec ritual, which food was associated with human sacrifice and gods?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Amaranth",
+                    "correct": true
+                },
+                {
+                    "label": "Chili",
+                    "correct": false
+                },
+                {
+                    "label": "Beans",
+                    "correct": false
+                },
+                {
+                    "label": "Pumpkin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "110px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What mythical drink grants immortality in many cultures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ambrosia",
+                    "correct": true
+                },
+                {
+                    "label": "Kumis",
+                    "correct": false
+                },
+                {
+                    "label": "Soma",
+                    "correct": false
+                },
+                {
+                    "label": "Mead",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 4,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which fruit is associated with the Greek myth of Persephone and the underworld?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pomegranate",
+                    "correct": true
+                },
+                {
+                    "label": "Fig",
+                    "correct": false
+                },
+                {
+                    "label": "Grapes",
+                    "correct": false
+                },
+                {
+                    "label": "Olive",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 5,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What bread was eaten during the Jewish festival of Passover?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Matzah",
+                    "correct": true
+                },
+                {
+                    "label": "Challah",
+                    "correct": false
+                },
+                {
+                    "label": "Brioche",
+                    "correct": false
+                },
+                {
+                    "label": "Pita",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "260px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which Norse god is associated with feasting and mead?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Odin",
+                    "correct": true
+                },
+                {
+                    "label": "Thor",
+                    "correct": false
+                },
+                {
+                    "label": "Freyr",
+                    "correct": false
+                },
+                {
+                    "label": "Baldur",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "310px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 7,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What food did the Greek gods eat on Mount Olympus?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ambrosia",
+                    "correct": true
+                },
+                {
+                    "label": "Olives",
+                    "correct": false
+                },
+                {
+                    "label": "Figs",
+                    "correct": false
+                },
+                {
+                    "label": "Honeycakes",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "360px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 8,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What is the ritual drink called in Vedic tradition?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Soma",
+                    "correct": true
+                },
+                {
+                    "label": "Mead",
+                    "correct": false
+                },
+                {
+                    "label": "Ghee",
+                    "correct": false
+                },
+                {
+                    "label": "Tisane",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "410px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 9,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Roman tradition, what food was offered to household gods?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bread",
+                    "correct": true
+                },
+                {
+                    "label": "Wine",
+                    "correct": false
+                },
+                {
+                    "label": "Fish",
+                    "correct": false
+                },
+                {
+                    "label": "Cheese",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "460px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 10,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which vegetable was considered sacred by the ancient Egyptians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Onion",
+                    "correct": true
+                },
+                {
+                    "label": "Garlic",
+                    "correct": false
+                },
+                {
+                    "label": "Turnip",
+                    "correct": false
+                },
+                {
+                    "label": "Leek",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "510px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 11,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What magical food sustained the Elves in Tolkien’s Middle-earth?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lembas",
+                    "correct": true
+                },
+                {
+                    "label": "Miruvor",
+                    "correct": false
+                },
+                {
+                    "label": "Waybread",
+                    "correct": false
+                },
+                {
+                    "label": "Ent-Draught",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "560px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 12,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which culture made mooncakes during festivals as a spiritual offering?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chinese",
+                    "correct": true
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Persian",
+                    "correct": false
+                },
+                {
+                    "label": "Hittite",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "610px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 13,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What ritual involved eating the flesh of a sacred bull in ancient rites?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Taurobolium",
+                    "correct": true
+                },
+                {
+                    "label": "Saturnalia",
+                    "correct": false
+                },
+                {
+                    "label": "Bacchanalia",
+                    "correct": false
+                },
+                {
+                    "label": "Elusinian Feast",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "660px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 14,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What ancient fruit symbolized fertility and abundance across many cultures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Fig",
+                    "correct": true
+                },
+                {
+                    "label": "Apple",
+                    "correct": false
+                },
+                {
+                    "label": "Pear",
+                    "correct": false
+                },
+                {
+                    "label": "Plum",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "710px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Japanese folklore, which food is believed to house ancestral spirits?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Rice",
+                    "correct": true
+                },
+                {
+                    "label": "Miso",
+                    "correct": false
+                },
+                {
+                    "label": "Seaweed",
+                    "correct": false
+                },
+                {
+                    "label": "Umeboshi",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "760px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 16,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which ancient culture used honey as both food and offering in funeral rites?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Greek",
+                    "correct": true
+                },
+                {
+                    "label": "Celtic",
+                    "correct": false
+                },
+                {
+                    "label": "Viking",
+                    "correct": false
+                },
+                {
+                    "label": "Babylonian",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "810px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 17,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What feast honored the dead in Mesoamerican cultures with special foods?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Día de los Muertos",
+                    "correct": true
+                },
+                {
+                    "label": "Feast of Souls",
+                    "correct": false
+                },
+                {
+                    "label": "Festival of Ancients",
+                    "correct": false
+                },
+                {
+                    "label": "Night of Flowers",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "860px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 18,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which sacred tree bore fruit that was said to grant divine knowledge?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tree of Knowledge",
+                    "correct": true
+                },
+                {
+                    "label": "Tree of Wisdom",
+                    "correct": false
+                },
+                {
+                    "label": "Tree of Prophecy",
+                    "correct": false
+                },
+                {
+                    "label": "Tree of Time",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "910px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 19,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What fermented beverage was often brewed for ancient sacred festivals?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mead",
+                    "correct": true
+                },
+                {
+                    "label": "Cider",
+                    "correct": false
+                },
+                {
+                    "label": "Ale",
+                    "correct": false
+                },
+                {
+                    "label": "Wine",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "960px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 20,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which spice was considered so valuable it was offered to the gods?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Saffron",
+                    "correct": true
+                },
+                {
+                    "label": "Cinnamon",
+                    "correct": false
+                },
+                {
+                    "label": "Clove",
+                    "correct": false
+                },
+                {
+                    "label": "Nutmeg",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1010px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    }
+]

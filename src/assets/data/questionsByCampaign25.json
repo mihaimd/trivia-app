@@ -1,0 +1,546 @@
+[
+    {
+        "id": 1,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "Who is known as the \"father of modern cartography\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Gerardus Mercator",
+                    "correct": true
+                },
+                {
+                    "label": "Ptolemy",
+                    "correct": false
+                },
+                {
+                    "label": "Vespucci",
+                    "correct": false
+                },
+                {
+                    "label": "Da Vinci",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "12px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "date": "2025-06-30",
+        "category": "Explorers & Lost Expeditions",
+        "question": "Which explorer is credited with circumnavigating the globe?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ferdinand Magellan",
+                    "correct": true
+                },
+                {
+                    "label": "James Cook",
+                    "correct": false
+                },
+                {
+                    "label": "Marco Polo",
+                    "correct": false
+                },
+                {
+                    "label": "Henry Hudson",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "82px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 3,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "What ancient map famously shows parts of Antarctica ice-free?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Piri Reis Map",
+                    "correct": true
+                },
+                {
+                    "label": "Vinland Map",
+                    "correct": false
+                },
+                {
+                    "label": "Tabula Rogeriana",
+                    "correct": false
+                },
+                {
+                    "label": "Hereford Mappa Mundi",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 4,
+        "date": "2025-06-30",
+        "category": "Explorers & Lost Expeditions",
+        "question": "Which expedition vanished while searching for the Northwest Passage?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Franklin Expedition",
+                    "correct": true
+                },
+                {
+                    "label": "Shackleton's Endurance",
+                    "correct": false
+                },
+                {
+                    "label": "Magellan’s Armada",
+                    "correct": false
+                },
+                {
+                    "label": "Beagle Voyage",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "215px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 5,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "What does a compass rose represent on a map?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cardinal directions",
+                    "correct": true
+                },
+                {
+                    "label": "Map scale",
+                    "correct": false
+                },
+                {
+                    "label": "Altitude",
+                    "correct": false
+                },
+                {
+                    "label": "Legend symbols",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "260px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 6,
+        "date": "2025-06-30",
+        "category": "Explorers & Lost Expeditions",
+        "question": "Where did Marco Polo famously travel?",
+        "answers": {
+            "options": [
+                {
+                    "label": "China",
+                    "correct": true
+                },
+                {
+                    "label": "Brazil",
+                    "correct": false
+                },
+                {
+                    "label": "South Africa",
+                    "correct": false
+                },
+                {
+                    "label": "Greenland",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "315px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 7,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "Which civilization created the first known maps?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Babylonians",
+                    "correct": true
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                },
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Vikings",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "370px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 8,
+        "date": "2025-06-30",
+        "category": "Explorers & Lost Expeditions",
+        "question": "Who led the first successful expedition to the South Pole?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Roald Amundsen",
+                    "correct": true
+                },
+                {
+                    "label": "Robert Falcon Scott",
+                    "correct": false
+                },
+                {
+                    "label": "Ernest Shackleton",
+                    "correct": false
+                },
+                {
+                    "label": "Richard Byrd",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "430px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "What tool was essential for early navigators to determine latitude?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Astrolabe",
+                    "correct": true
+                },
+                {
+                    "label": "Compass",
+                    "correct": false
+                },
+                {
+                    "label": "Sundial",
+                    "correct": false
+                },
+                {
+                    "label": "Sextant",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "490px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 10,
+        "date": "2025-06-30",
+        "category": "Explorers & Lost Expeditions",
+        "question": "What explorer searched for El Dorado?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sir Walter Raleigh",
+                    "correct": true
+                },
+                {
+                    "label": "Francisco Pizarro",
+                    "correct": false
+                },
+                {
+                    "label": "Vasco da Gama",
+                    "correct": false
+                },
+                {
+                    "label": "Marco Polo",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "550px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 11,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "Which Greek scholar wrote \"Geographia\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ptolemy",
+                    "correct": true
+                },
+                {
+                    "label": "Socrates",
+                    "correct": false
+                },
+                {
+                    "label": "Pliny the Elder",
+                    "correct": false
+                },
+                {
+                    "label": "Aristotle",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "600px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 12,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "What is a \"portolan chart\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A medieval nautical map",
+                    "correct": true
+                },
+                {
+                    "label": "A guide to ancient cities",
+                    "correct": false
+                },
+                {
+                    "label": "A religious pilgrimage route",
+                    "correct": false
+                },
+                {
+                    "label": "A trader’s ledger",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "660px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 13,
+        "date": "2025-06-30",
+        "category": "Explorers & Lost Expeditions",
+        "question": "Who was the first European to reach India by sea?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vasco da Gama",
+                    "correct": true
+                },
+                {
+                    "label": "Christopher Columbus",
+                    "correct": false
+                },
+                {
+                    "label": "Amerigo Vespucci",
+                    "correct": false
+                },
+                {
+                    "label": "Bartholomeu Dias",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "720px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 14,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "What does the term \"terra incognita\" mean on a map?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Unknown land",
+                    "correct": true
+                },
+                {
+                    "label": "Dangerous territory",
+                    "correct": false
+                },
+                {
+                    "label": "Sacred ground",
+                    "correct": false
+                },
+                {
+                    "label": "Foreign kingdom",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "770px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "date": "2025-06-30",
+        "category": "Explorers & Lost Expeditions",
+        "question": "Which explorer’s crew completed the circumnavigation after his death?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ferdinand Magellan",
+                    "correct": true
+                },
+                {
+                    "label": "James Cook",
+                    "correct": false
+                },
+                {
+                    "label": "Francis Drake",
+                    "correct": false
+                },
+                {
+                    "label": "Leif Erikson",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "830px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 16,
+        "date": "2025-06-30",
+        "category": "Cartography & Ancient Maps",
+        "question": "Which continent is not shown on early world maps?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Australia",
+                    "correct": true
+                },
+                {
+                    "label": "Europe",
+                    "correct": false
+                },
+                {
+                    "label": "Africa",
+                    "correct": false
+                },
+                {
+                    "label": "Asia",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "880px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 17,
+        "date": "2025-06-30",
+        "category": "Explorers & Lost Expeditions",
+        "question": "Who charted the Great Barrier Reef?",
+        "answers": {
+            "options": [
+                {
+                    "label": "James Cook",
+                    "correct": true
+                },
+                {
+                    "label": "Francis Drake",
+                    "correct": false
+                },
+                {
+                    "label": "Roald Amundsen",
+                    "correct": false
+                },
+                {
+                    "label": "Marco Polo",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "940px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

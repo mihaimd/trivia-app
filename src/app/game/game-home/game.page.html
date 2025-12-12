@@ -1,0 +1,43 @@
+<ion-content [fullscreen]="true" class="center" class="fixed-bg">
+  <div class="row wrapper" *ngIf="chapterInfo!=undefined">
+    <ion-grid>
+      <ion-row text-align="center">
+        <ion-col text-align="center">
+          <div style="display: flex; justify-content: center;">
+            <div class="dialogContents">
+              <div class="content-title">
+                <div class="back-button" (click)="goToBack()"></div>
+              </div>
+              <div class="content-image">
+                <img [src]="chapterInfo.image">
+              </div>
+              <div class="content-content">
+                <h1 class="ion-text-center text-dark" *ngIf="gameInfo && gameInfo.chapterName">{{ gameInfo.chapterName }}</h1>
+                <h2 class="ion-text-center text-dark" *ngIf="gameInfo && gameInfo.gameTitle">{{ gameInfo.gameTitle }}</h2>
+                <div class="text-dark" *ngIf="gameInfo != undefined" [innerHTML]="gameInfo.gameContent"></div>
+                <!-- <app-choice [campaigns]="campaigns" [gameInfo]="gameInfo" (onSelectOption)="selectOption($event)"></app-choice> -->
+
+                <!--  -->
+                <div class="content-choice" *ngIf="campaigns!=undefined && gameInfo!=undefined">
+                  <div *ngFor="let campaign of campaigns; let i = index;" class="choice" id="{{gameInfo.gameId}}{{ campaign.id }}" [class.completed]="campaign.completed" (click)="selectOption(gameInfo.gameId, campaign.id)">
+                    <div class="bullet" [ngClass]="selectedCampaignId == campaign.id ? 'selected' : ''"></div>
+                    <div class="bullet-text {{campaign.completed==false ? 'text-dark' : ''}}" id="bullet-text{{gameInfo.gameId}}{{ campaign.id }}">{{ campaign.title }}</div>
+                  </div>
+                  <span class="back-button" [ngStyle]="arrowStyle"></span>
+                </div>
+                <!--  -->
+                <!--  -->
+
+              </div>
+              <div class="content-button" (click)="goToNextStep()">
+                <button [class.blue]="true" [class.gold]="isGameCompleted" type="button" [class.grey]="isDisabled" [disabled]="isDisabled">
+                  <div class="button-text fs1-3rem">{{ buttonText }}</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

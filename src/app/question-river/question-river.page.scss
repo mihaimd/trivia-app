@@ -1,0 +1,55 @@
+.river-wrapper {
+    height: auto;
+    width: 100%;
+}
+.dateAndTimeEtc{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    ion-icon{
+        font-size: x-large;
+        position: relative;
+        top: -20px;
+        left: 15px;
+    }    
+}
+.user-was-answerd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    ion-icon{
+        font-size: 1.5rem;
+    }
+}
+.fdrRevers {
+    flex-direction: row-reverse;
+}
+
+.time-bonus-badge {  
+  background: rgba(0, 200, 0, 0.15);
+  color: #22c55e; /* bright green */
+  font-weight: 600;
+  font-size: 14px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  border: 1px solid #22c55e;
+  box-shadow: 0 0 6px rgba(34, 197, 94, 0.4);
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  animation: popIn 0.4s ease;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

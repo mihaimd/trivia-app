@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which herb is known for its hallucinogenic properties and is traditionally used by Mazatec shamans?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Salvia divinorum",
+                    "correct": true
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                },
+                {
+                    "label": "Basil",
+                    "correct": false
+                },
+                {
+                    "label": "Ginseng",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "20px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which plant contains the alkaloid mescaline?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Peyote cactus",
+                    "correct": true
+                },
+                {
+                    "label": "Valerian root",
+                    "correct": false
+                },
+                {
+                    "label": "Mint",
+                    "correct": false
+                },
+                {
+                    "label": "Lemongrass",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "60px",
+        "left": "25px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "What psychoactive compound is found in cannabis?",
+        "answers": {
+            "options": [
+                {
+                    "label": "THC",
+                    "correct": true
+                },
+                {
+                    "label": "CBD",
+                    "correct": false
+                },
+                {
+                    "label": "LSD",
+                    "correct": false
+                },
+                {
+                    "label": "Psilocybin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "100px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Ayahuasca is a traditional brew made from Banisteriopsis caapi and another plant containing what active substance?",
+        "answers": {
+            "options": [
+                {
+                    "label": "DMT",
+                    "correct": true
+                },
+                {
+                    "label": "THC",
+                    "correct": false
+                },
+                {
+                    "label": "Atropine",
+                    "correct": false
+                },
+                {
+                    "label": "Morphine",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "140px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which psychoactive herb is known for inducing lucid dreams?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Calea zacatechichi",
+                    "correct": true
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                },
+                {
+                    "label": "Sage",
+                    "correct": false
+                },
+                {
+                    "label": "Echinacea",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which herb, used in African rituals, contains ibogaine?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tabernanthe iboga",
+                    "correct": true
+                },
+                {
+                    "label": "Ginkgo biloba",
+                    "correct": false
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                },
+                {
+                    "label": "Wormwood",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which psychoactive herb was widely used in Ancient Greece in the Eleusinian Mysteries?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ergot (Claviceps purpurea)",
+                    "correct": true
+                },
+                {
+                    "label": "Rosemary",
+                    "correct": false
+                },
+                {
+                    "label": "Mandrake",
+                    "correct": false
+                },
+                {
+                    "label": "Mint",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "260px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "What herb contains scopolamine and has been used as a sedative and hallucinogen?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Datura",
+                    "correct": true
+                },
+                {
+                    "label": "Basil",
+                    "correct": false
+                },
+                {
+                    "label": "Yarrow",
+                    "correct": false
+                },
+                {
+                    "label": "Oregano",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "300px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which alkaloid is found in tobacco and acts as a stimulant?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Nicotine",
+                    "correct": true
+                },
+                {
+                    "label": "Caffeine",
+                    "correct": false
+                },
+                {
+                    "label": "Atropine",
+                    "correct": false
+                },
+                {
+                    "label": "Ephedrine",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "340px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which compound is primarily responsible for the psychoactive effects of nutmeg in high doses?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Myristicin",
+                    "correct": true
+                },
+                {
+                    "label": "Thujone",
+                    "correct": false
+                },
+                {
+                    "label": "Menthol",
+                    "correct": false
+                },
+                {
+                    "label": "Linalool",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "380px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which compound in Wormwood contributes to its psychoactive potential?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Thujone",
+                    "correct": true
+                },
+                {
+                    "label": "Quinine",
+                    "correct": false
+                },
+                {
+                    "label": "Curcumin",
+                    "correct": false
+                },
+                {
+                    "label": "Anethole",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "420px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which sacred herb is often smoked in Native American rituals?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tobacco",
+                    "correct": true
+                },
+                {
+                    "label": "Rue",
+                    "correct": false
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "460px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which psychoactive compound is found in khat?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cathinone",
+                    "correct": true
+                },
+                {
+                    "label": "Morphine",
+                    "correct": false
+                },
+                {
+                    "label": "Psilocin",
+                    "correct": false
+                },
+                {
+                    "label": "Harmaline",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "500px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which herb is sometimes called \"witch’s herb\" for its use in medieval potions?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Belladonna",
+                    "correct": true
+                },
+                {
+                    "label": "Thyme",
+                    "correct": false
+                },
+                {
+                    "label": "Peppermint",
+                    "correct": false
+                },
+                {
+                    "label": "Fennel",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "540px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which natural substance found in blue lotus may have mild psychoactive effects?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Apomorphine",
+                    "correct": true
+                },
+                {
+                    "label": "Strychnine",
+                    "correct": false
+                },
+                {
+                    "label": "Capsaicin",
+                    "correct": false
+                },
+                {
+                    "label": "Vanillin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "580px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which psychoactive herb is traditionally used in Siberian shamanic rituals and is known to contain muscimol?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Amanita muscaria",
+                    "correct": true
+                },
+                {
+                    "label": "Henbane",
+                    "correct": false
+                },
+                {
+                    "label": "Wormwood",
+                    "correct": false
+                },
+                {
+                    "label": "Valerian",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "620px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which herb contains betel alkaloids and is chewed in many parts of Asia for stimulant effects?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Betel leaf",
+                    "correct": true
+                },
+                {
+                    "label": "Sage",
+                    "correct": false
+                },
+                {
+                    "label": "Rue",
+                    "correct": false
+                },
+                {
+                    "label": "Linden",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "660px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which psychoactive plant is known as \"Devil’s Trumpet\" and contains toxic tropane alkaloids?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Datura stramonium",
+                    "correct": true
+                },
+                {
+                    "label": "Mint",
+                    "correct": false
+                },
+                {
+                    "label": "Yarrow",
+                    "correct": false
+                },
+                {
+                    "label": "Lemon balm",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "700px",
+        "left": "25px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "What compound in kratom interacts with opioid receptors in the brain?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mitragynine",
+                    "correct": true
+                },
+                {
+                    "label": "Scopolamine",
+                    "correct": false
+                },
+                {
+                    "label": "Reserpine",
+                    "correct": false
+                },
+                {
+                    "label": "Coumarin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "740px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "psychoactive herbs",
+        "question": "Which herb is used in traditional Chinese medicine and contains the compound ephedrine?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ephedra sinica (Ma Huang)",
+                    "correct": true
+                },
+                {
+                    "label": "Ashwagandha",
+                    "correct": false
+                },
+                {
+                    "label": "Hops",
+                    "correct": false
+                },
+                {
+                    "label": "Angelica",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "780px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    }
+]

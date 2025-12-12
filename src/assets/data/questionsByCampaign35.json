@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "wolves",
+        "question": "What is the average pack size of a gray wolf in the wild?",
+        "answers": {
+            "options": [
+                {
+                    "label": "2 to 4",
+                    "correct": false
+                },
+                {
+                    "label": "6 to 10",
+                    "correct": true
+                },
+                {
+                    "label": "15 to 20",
+                    "correct": false
+                },
+                {
+                    "label": "25 to 30",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "wolves",
+        "question": "Which sense is most important for wolves when hunting?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sight",
+                    "correct": false
+                },
+                {
+                    "label": "Hearing",
+                    "correct": false
+                },
+                {
+                    "label": "Smell",
+                    "correct": true
+                },
+                {
+                    "label": "Taste",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "wolves",
+        "question": "Wolves primarily communicate through:",
+        "answers": {
+            "options": [
+                {
+                    "label": "Growling only",
+                    "correct": false
+                },
+                {
+                    "label": "Howling and body language",
+                    "correct": true
+                },
+                {
+                    "label": "Barking only",
+                    "correct": false
+                },
+                {
+                    "label": "Ultrasound signals",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "predators",
+        "question": "Which of the following is considered an apex predator?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lion",
+                    "correct": true
+                },
+                {
+                    "label": "Zebra",
+                    "correct": false
+                },
+                {
+                    "label": "Deer",
+                    "correct": false
+                },
+                {
+                    "label": "Rabbit",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "140px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "predators",
+        "question": "What adaptation helps cheetahs achieve high speeds when chasing prey?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Retractable claws",
+                    "correct": true
+                },
+                {
+                    "label": "Thick fur",
+                    "correct": false
+                },
+                {
+                    "label": "Large teeth",
+                    "correct": false
+                },
+                {
+                    "label": "Strong swimming skills",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "predators",
+        "question": "Which predator is known for hunting in coordinated groups?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Great white shark",
+                    "correct": false
+                },
+                {
+                    "label": "Orca (killer whale)",
+                    "correct": true
+                },
+                {
+                    "label": "Tiger",
+                    "correct": false
+                },
+                {
+                    "label": "Eagle",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "65px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "predators",
+        "question": "The main hunting technique of a praying mantis is:",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ambush predation",
+                    "correct": true
+                },
+                {
+                    "label": "Chasing prey",
+                    "correct": false
+                },
+                {
+                    "label": "Trap building",
+                    "correct": false
+                },
+                {
+                    "label": "Scavenging",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "260px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "survival in nature",
+        "question": "What is the first priority in a wilderness survival situation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Finding food",
+                    "correct": false
+                },
+                {
+                    "label": "Building shelter",
+                    "correct": false
+                },
+                {
+                    "label": "Securing water",
+                    "correct": true
+                },
+                {
+                    "label": "Signaling for help",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "150px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "survival in nature",
+        "question": "Which natural material is best for starting a fire quickly?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Wet leaves",
+                    "correct": false
+                },
+                {
+                    "label": "Dry grass and bark",
+                    "correct": true
+                },
+                {
+                    "label": "Green twigs",
+                    "correct": false
+                },
+                {
+                    "label": "Moss",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "survival in nature",
+        "question": "Which of the following is the safest way to drink water from a natural stream?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Directly from the stream",
+                    "correct": false
+                },
+                {
+                    "label": "After boiling it",
+                    "correct": true
+                },
+                {
+                    "label": "Only in the morning",
+                    "correct": false
+                },
+                {
+                    "label": "Filtering through a cloth",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "230px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "wolves",
+        "question": "Which region is home to the largest population of gray wolves?",
+        "answers": {
+            "options": [
+                {
+                    "label": "South America",
+                    "correct": false
+                },
+                {
+                    "label": "Eurasia and North America",
+                    "correct": true
+                },
+                {
+                    "label": "Australia",
+                    "correct": false
+                },
+                {
+                    "label": "Africa",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "wolves",
+        "question": "How long is the typical lifespan of a wolf in the wild?",
+        "answers": {
+            "options": [
+                {
+                    "label": "2-4 years",
+                    "correct": false
+                },
+                {
+                    "label": "6-8 years",
+                    "correct": true
+                },
+                {
+                    "label": "12-15 years",
+                    "correct": false
+                },
+                {
+                    "label": "20 years",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "170px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "predators",
+        "question": "Which animal is a nocturnal predator known for silent flight?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Owl",
+                    "correct": true
+                },
+                {
+                    "label": "Wolf",
+                    "correct": false
+                },
+                {
+                    "label": "Crocodile",
+                    "correct": false
+                },
+                {
+                    "label": "Lion",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "survival in nature",
+        "question": "Which of these plants is safe to eat in a survival situation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Poison ivy",
+                    "correct": false
+                },
+                {
+                    "label": "Dandelion",
+                    "correct": true
+                },
+                {
+                    "label": "Deadly nightshade",
+                    "correct": false
+                },
+                {
+                    "label": "Hemlock",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "survival in nature",
+        "question": "What is the primary cause of hypothermia in the wild?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Excessive heat",
+                    "correct": false
+                },
+                {
+                    "label": "Loss of body heat",
+                    "correct": true
+                },
+                {
+                    "label": "Insect bites",
+                    "correct": false
+                },
+                {
+                    "label": "Lack of food",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "predators",
+        "question": "Which predator uses venom to subdue its prey?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Komodo dragon",
+                    "correct": true
+                },
+                {
+                    "label": "Elephant",
+                    "correct": false
+                },
+                {
+                    "label": "Grizzly bear",
+                    "correct": false
+                },
+                {
+                    "label": "Bald eagle",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "wolves",
+        "question": "What is a wolf's primary prey in North America?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Elk and deer",
+                    "correct": true
+                },
+                {
+                    "label": "Rabbits only",
+                    "correct": false
+                },
+                {
+                    "label": "Fish",
+                    "correct": false
+                },
+                {
+                    "label": "Insects",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "survival in nature",
+        "question": "In a survival scenario, how can you signal for help?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Using smoke, mirrors, or loud noises",
+                    "correct": true
+                },
+                {
+                    "label": "Walking away silently",
+                    "correct": false
+                },
+                {
+                    "label": "Hiding and waiting",
+                    "correct": false
+                },
+                {
+                    "label": "Ignoring surroundings",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "predators",
+        "question": "Which large cat is known for its ability to roar?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lion",
+                    "correct": true
+                },
+                {
+                    "label": "Cheetah",
+                    "correct": false
+                },
+                {
+                    "label": "Leopard",
+                    "correct": false
+                },
+                {
+                    "label": "Jaguar",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "survival in nature",
+        "question": "Hard \"question\": What is the Edibility Index used for in survival?",
+        "answers": {
+            "options": [
+                {
+                    "label": "To test if plants or animals are safe to eat",
+                    "correct": true
+                },
+                {
+                    "label": "To measure water purity",
+                    "correct": false
+                },
+                {
+                    "label": "To calculate body temperature",
+                    "correct": false
+                },
+                {
+                    "label": "To determine distance traveled",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

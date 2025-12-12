@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "question": "What shape is the traditional Roman scutum shield?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Rectangular",
+                    "correct": true
+                },
+                {
+                    "label": "Round",
+                    "correct": false
+                },
+                {
+                    "label": "Oval",
+                    "correct": false
+                },
+                {
+                    "label": "Triangular",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Shields",
+        "top": "80px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 2,
+        "question": "Which formation did Greek hoplites famously use in battle?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Phalanx",
+                    "correct": true
+                },
+                {
+                    "label": "Testudo",
+                    "correct": false
+                },
+                {
+                    "label": "Wedge",
+                    "correct": false
+                },
+                {
+                    "label": "Column",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Battle Strategies",
+        "top": "130px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 3,
+        "question": "Which battle marked the defeat of Napoleon?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Waterloo",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Austerlitz",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Leipzig",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Borodino",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Famous Battles",
+        "top": "180px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4,
+        "question": "What was the purpose of a kite shield in medieval warfare?",
+        "answers": {
+            "options": [
+                {
+                    "label": "To protect the legs and body while mounted",
+                    "correct": true
+                },
+                {
+                    "label": "To serve as a ranged weapon",
+                    "correct": false
+                },
+                {
+                    "label": "To deflect cannonballs",
+                    "correct": false
+                },
+                {
+                    "label": "For ceremonial use only",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Shields",
+        "top": "230px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 5,
+        "question": "Which battle tactic involves surrounding the enemy on all sides?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Encirclement",
+                    "correct": true
+                },
+                {
+                    "label": "Pincer move",
+                    "correct": false
+                },
+                {
+                    "label": "Siege",
+                    "correct": false
+                },
+                {
+                    "label": "Feigned retreat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Battle Strategies",
+        "top": "270px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "question": "Which shield type was used by Viking warriors?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Round wooden shield",
+                    "correct": true
+                },
+                {
+                    "label": "Kite shield",
+                    "correct": false
+                },
+                {
+                    "label": "Tower shield",
+                    "correct": false
+                },
+                {
+                    "label": "Pavise",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Shields",
+        "top": "310px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 7,
+        "question": "The Battle of Hastings in 1066 was fought in which country?",
+        "answers": {
+            "options": [
+                {
+                    "label": "England",
+                    "correct": true
+                },
+                {
+                    "label": "France",
+                    "correct": false
+                },
+                {
+                    "label": "Scotland",
+                    "correct": false
+                },
+                {
+                    "label": "Ireland",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Famous Battles",
+        "top": "340px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 8,
+        "question": "What is the purpose of a pavise shield?",
+        "answers": {
+            "options": [
+                {
+                    "label": "To protect archers while reloading",
+                    "correct": true
+                },
+                {
+                    "label": "To block cavalry charges",
+                    "correct": false
+                },
+                {
+                    "label": "To carry provisions",
+                    "correct": false
+                },
+                {
+                    "label": "For jousting",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Shields",
+        "top": "370px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 9,
+        "question": "Which ancient general is famous for using the feigned retreat strategy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Genghis Khan",
+                    "correct": true
+                },
+                {
+                    "label": "Julius Caesar",
+                    "correct": false
+                },
+                {
+                    "label": "Alexander the Great",
+                    "correct": false
+                },
+                {
+                    "label": "Sun Tzu",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Battle Strategies",
+        "top": "400px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 10,
+        "question": "What battle is considered the turning point of the American Civil War?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Gettysburg",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Antietam",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Bull Run",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Fort Sumter",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Famous Battles",
+        "top": "420px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 11,
+        "question": "What material was commonly used to reinforce medieval shields?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Iron",
+                    "correct": true
+                },
+                {
+                    "label": "Wood",
+                    "correct": false
+                },
+                {
+                    "label": "Bronze",
+                    "correct": false
+                },
+                {
+                    "label": "Lead",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Shields",
+        "top": "100px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 12,
+        "question": "Which general used elephants in battle across the Alps?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hannibal",
+                    "correct": true
+                },
+                {
+                    "label": "Julius Caesar",
+                    "correct": false
+                },
+                {
+                    "label": "Xerxes",
+                    "correct": false
+                },
+                {
+                    "label": "Napoleon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Famous Battles",
+        "top": "130px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "question": "The \"testudo\" formation was primarily used by which army?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": true
+                },
+                {
+                    "label": "Macedonians",
+                    "correct": false
+                },
+                {
+                    "label": "Persians",
+                    "correct": false
+                },
+                {
+                    "label": "Mongols",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Battle Strategies",
+        "top": "160px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 14,
+        "question": "Which shield was favored by Greek hoplites?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aspis",
+                    "correct": true
+                },
+                {
+                    "label": "Scutum",
+                    "correct": false
+                },
+                {
+                    "label": "Pavise",
+                    "correct": false
+                },
+                {
+                    "label": "Kite Shield",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Shields",
+        "top": "190px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 15,
+        "question": "The tactic of drawing the enemy into a trap is called?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ambush",
+                    "correct": true
+                },
+                {
+                    "label": "Encirclement",
+                    "correct": false
+                },
+                {
+                    "label": "Flanking",
+                    "correct": false
+                },
+                {
+                    "label": "Breakthrough",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Battle Strategies",
+        "top": "220px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 16,
+        "question": "Which battle was fought between Spartans and Persians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Battle of Thermopylae",
+                    "correct": true
+                },
+                {
+                    "label": "Battle of Gaugamela",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Salamis",
+                    "correct": false
+                },
+                {
+                    "label": "Battle of Chaeronea",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Famous Battles",
+        "top": "250px",
+        "left": "210px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "question": "Which shield was used by Roman legionaries?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Scutum",
+                    "correct": true
+                },
+                {
+                    "label": "Pavise",
+                    "correct": false
+                },
+                {
+                    "label": "Aspis",
+                    "correct": false
+                },
+                {
+                    "label": "Targe",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Shields",
+        "top": "280px",
+        "left": "240px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 18,
+        "question": "Which battle strategy involves dividing forces and attacking from sides?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Double envelopment",
+                    "correct": true
+                },
+                {
+                    "label": "Siege",
+                    "correct": false
+                },
+                {
+                    "label": "Testudo",
+                    "correct": false
+                },
+                {
+                    "label": "Guerrilla",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Battle Strategies",
+        "top": "310px",
+        "left": "270px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 19,
+        "question": "Which general led the Allied forces on D-Day?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Dwight D. Eisenhower",
+                    "correct": true
+                },
+                {
+                    "label": "Patton",
+                    "correct": false
+                },
+                {
+                    "label": "Rommel",
+                    "correct": false
+                },
+                {
+                    "label": "Montgomery",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Famous Battles",
+        "top": "340px",
+        "left": "300px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 20,
+        "question": "Which type of shield was often used by archers?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pavise",
+                    "correct": true
+                },
+                {
+                    "label": "Targe",
+                    "correct": false
+                },
+                {
+                    "label": "Scutum",
+                    "correct": false
+                },
+                {
+                    "label": "Aspis",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-20",
+        "category": "Shields",
+        "top": "370px",
+        "left": "330px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    }
+]

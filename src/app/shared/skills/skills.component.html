@@ -1,0 +1,63 @@
+<ion-content>
+  <!-- <ion-header>
+    <ion-toolbar>
+      <ion-title class="ion-text-center">You gained skill</ion-title>
+      <ion-button slot="end" color="danger" (click)="closeModal(null)">
+        <ion-icon slot="icon-only" name="close-circle"></ion-icon>
+      </ion-button>
+    </ion-toolbar>
+  </ion-header> -->
+  <!-- <ion-card>
+    <ion-card-header>
+      <ion-card-title class="ion-text-center">You gained skill</ion-card-title>
+    </ion-card-header>
+    <ion-card-content mode="md">
+      <div class="ion-text-center">
+        <img src="assets/img/quick-thinking-badge.png" alt="Quick Thinking Badge" class="badge">
+        <h1 class="ion-text-center text-clip1">Quick Thinking</h1>
+        <p>Gives a 5% chance to get a bigger countdown.</p>
+        <button class="blue" (click)="selectSkill(skill1)">
+          <div class="button-text fs1-3rem">Select Quick Thinking</div>
+        </button>
+      </div>
+      <br>
+      <div class="ion-text-center">
+        <img src="assets/img/intuition-badge.png" alt="Intuition Badge" class="badge">
+        <h1 class="ion-text-center text-clip1">Intuition</h1>
+        <p>Ability to see a hint for 5 seconds before the countdown starts.</p>
+        <button class="blue" (click)="selectSkill(skill2)">
+          <div class="button-text fs1-3rem">Select Intuition</div>
+        </button>
+      </div>
+    </ion-card-content>
+  </ion-card> -->
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title ion-text-center ion-padding fs1-3rem text-light f900">YOU UNLOCKED A SKILL</div>
+      <h4 class="card-sub-title ion-text-center ion-no-margin ion-padding f700 text-light">CHOOSE ANY ONE</h4>
+    </div>
+    <div class="ion-text-center">
+      <button class="btn-pick" [class.active]="selectedSkill==skill1" (click)="selectSkill(skill1)">
+        <img src="assets/img/quick-thinking-badge.png" alt="Quick Thinking Badge" class="badge">
+        <div class="skill-name">
+          <p>QUICK</p>
+          <p>THINKING</p>
+        </div>
+      </button>
+      <h4 class="text-light">Gives a 5% chance to get a bigger countdown.</h4>
+    </div>
+    <br>
+    <div class="ion-text-center">
+      <button class="btn-pick" [class.active]="selectedSkill==skill2" (click)="selectSkill(skill2)">
+        <img src="assets/img/intuition-badge.png" alt="Intuition Badge" class="badge">
+        <div class="skill-name">
+          <p>INTUITION</p>
+        </div>
+      </button>
+      <h4 class="text-light">Ability to see a hint for 5 seconds before the countdown starts.</h4>
+    </div>
+    <br>
+    <ion-button mode="md" color="light" expand="block" size="large" [disabled]="selectedSkill==''" (click)="closeModal()">DONE</ion-button>    
+  </div>
+</ion-content>

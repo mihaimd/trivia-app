@@ -1,0 +1,642 @@
+[
+    {
+        "question": "Which metal was once called \"quicksilver\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Zinc",
+                    "correct": false
+                },
+                {
+                    "label": "Mercury",
+                    "correct": true
+                },
+                {
+                    "label": "Tin",
+                    "correct": false
+                },
+                {
+                    "label": "Lead",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 0,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which philosopher was forced to drink hemlock?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Plato",
+                    "correct": false
+                },
+                {
+                    "label": "Socrates",
+                    "correct": true
+                },
+                {
+                    "label": "Aristotle",
+                    "correct": false
+                },
+                {
+                    "label": "Pythagoras",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 1,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient device was used to measure star positions?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sextant",
+                    "correct": false
+                },
+                {
+                    "label": "Telescope",
+                    "correct": false
+                },
+                {
+                    "label": "Astrolabe",
+                    "correct": true
+                },
+                {
+                    "label": "Compass",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 2,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What lost library was considered the greatest of the ancient world?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Library of Rome",
+                    "correct": false
+                },
+                {
+                    "label": "Library of Alexandria",
+                    "correct": true
+                },
+                {
+                    "label": "Tower of Babel",
+                    "correct": false
+                },
+                {
+                    "label": "Temple of Solomon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 3,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which civilization invented the concept of zero?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Indians ",
+                    "correct": true
+                },
+                {
+                    "label": "Chinese",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 4,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What ancient structure used no mortar, yet still stands today in Peru?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Colosseum",
+                    "correct": false
+                },
+                {
+                    "label": "Machu Picchu",
+                    "correct": true
+                },
+                {
+                    "label": "Petra",
+                    "correct": false
+                },
+                {
+                    "label": "Parthenon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 5,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which invention is attributed to Archimedes?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Water clock",
+                    "correct": false
+                },
+                {
+                    "label": "Compass",
+                    "correct": false
+                },
+                {
+                    "label": "Screw pump",
+                    "correct": true
+                },
+                {
+                    "label": "Pendulum",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 6,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What ancient manuscript contains unknown language and undeciphered illustrations?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Dead Sea Scrolls",
+                    "correct": false
+                },
+                {
+                    "label": "Voynich Manuscript",
+                    "correct": true
+                },
+                {
+                    "label": "Codex Gigas",
+                    "correct": false
+                },
+                {
+                    "label": "Rosetta Stone",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 7,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Alchemy was the early form of which modern science?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chemistry",
+                    "correct": true
+                },
+                {
+                    "label": "Biology",
+                    "correct": false
+                },
+                {
+                    "label": "Astronomy",
+                    "correct": false
+                },
+                {
+                    "label": "Physics",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 8,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which bird was sacred and often mummified in Ancient Egypt?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Owl",
+                    "correct": false
+                },
+                {
+                    "label": "Falcon",
+                    "correct": false
+                },
+                {
+                    "label": "Ibis",
+                    "correct": true
+                },
+                {
+                    "label": "Vulture",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 9,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What ancient tool was used to predict eclipses and planetary movements?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hourglass",
+                    "correct": false
+                },
+                {
+                    "label": "Antikythera mechanism",
+                    "correct": true
+                },
+                {
+                    "label": "Gnomon",
+                    "correct": false
+                },
+                {
+                    "label": "Abacus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 10,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which Greek hero solved the riddle of the Sphinx?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hercules",
+                    "correct": false
+                },
+                {
+                    "label": "Achilles",
+                    "correct": false
+                },
+                {
+                    "label": "Oedipus",
+                    "correct": true
+                },
+                {
+                    "label": "Odysseus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 11,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which medieval practice involved diagnosing illness by studying urine?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Uroscopy",
+                    "correct": true
+                },
+                {
+                    "label": "Scrying",
+                    "correct": false
+                },
+                {
+                    "label": "Humoring",
+                    "correct": false
+                },
+                {
+                    "label": "Phlebotomy",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 12,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Who wrote the mysterious cryptic book “Codex Seraphinianus”?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Luigi Serafini",
+                    "correct": true
+                },
+                {
+                    "label": "Leonardo da Vinci",
+                    "correct": false
+                },
+                {
+                    "label": "Jorge Luis Borges",
+                    "correct": false
+                },
+                {
+                    "label": "H.P. Lovecraft",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 13,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "In Norse mythology, what is the name of the world tree?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Niflheim",
+                    "correct": false
+                },
+                {
+                    "label": "Yggdrasil",
+                    "correct": true
+                },
+                {
+                    "label": "Midgard",
+                    "correct": false
+                },
+                {
+                    "label": "Bifrost",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 14,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient empire used quipu—knotted strings—to record data?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Inca",
+                    "correct": true
+                },
+                {
+                    "label": "Maya",
+                    "correct": false
+                },
+                {
+                    "label": "Aztec",
+                    "correct": false
+                },
+                {
+                    "label": "Olmec",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 15,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The Emerald Tablet is a mystical text from which tradition?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Buddhism",
+                    "correct": false
+                },
+                {
+                    "label": "Hermeticism",
+                    "correct": true
+                },
+                {
+                    "label": "Taoism",
+                    "correct": false
+                },
+                {
+                    "label": "Gnosticism",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 16,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient creature was thought to regenerate if cut in half?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chimera",
+                    "correct": false
+                },
+                {
+                    "label": "Phoenix",
+                    "correct": false
+                },
+                {
+                    "label": "Hydra",
+                    "correct": true
+                },
+                {
+                    "label": "Basilisk",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 17,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What ancient writing system is still not fully understood?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Linear A",
+                    "correct": true
+                },
+                {
+                    "label": "Cuneiform",
+                    "correct": false
+                },
+                {
+                    "label": "Phoenician",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 18,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which forgotten medieval theory stated the body had four vital fluids?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vitalism",
+                    "correct": false
+                },
+                {
+                    "label": "Humorism",
+                    "correct": true
+                },
+                {
+                    "label": "Animism",
+                    "correct": false
+                },
+                {
+                    "label": "Mechanism",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-18",
+        "id": 19,
+        "category": "forgotten knoledge",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

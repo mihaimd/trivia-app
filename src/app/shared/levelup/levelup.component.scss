@@ -1,0 +1,14 @@
+ion-content::part(scroll) {
+    background-image: unset !important;
+}
+img.badge {
+    height: 8vh;
+}
+ion-content div.mcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 98%;
+    text-align: center;
+}

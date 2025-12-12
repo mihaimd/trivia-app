@@ -1,0 +1,40 @@
+.back-button {
+    background: url('/assets/img/scrollFrom.png') -4px -46px;
+    position: relative;
+    z-index: 2;
+    width: 26px;
+    height: 33px;
+    top: 26px;
+    left: 18px;
+}
+
+/* .choice {
+    span.bullet {
+        width: 29px;
+        height: 29px;
+        display: inline-block;
+        position: relative;
+        bottom: -8px;
+        background-image: url('/assets/img/select.png');
+        &.selected {
+            background-image: url('/assets/img/select-selected.png');
+        }
+    }
+    span.bullet-text {
+        position: relative;
+        top: -5px;
+        left: 10px;
+        line-height: 5px;
+    }
+} */
+
+.content-choice {
+  position: relative;
+  .back-button {
+    position: absolute;
+    right: 16px;
+    transition: top 0.5s ease;
+    font-size: 1.2rem;
+    pointer-events: none;
+  }
+}

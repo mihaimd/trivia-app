@@ -1,0 +1,1222 @@
+[
+    {
+        "code": "AF",
+        "url": "assets/flags/af.webp",
+        "name": "Afghanistan"
+    },
+    {
+        "code": "AX",
+        "url": "assets/flags/ax.webp",
+        "name": "land Islands"
+    },
+    {
+        "code": "AL",
+        "url": "assets/flags/al.webp",
+        "name": "Albania"
+    },
+    {
+        "code": "DZ",
+        "url": "assets/flags/dz.webp",
+        "name": "Algeria"
+    },
+    {
+        "code": "AS",
+        "url": "assets/flags/as.webp",
+        "name": "American Samoa"
+    },
+    {
+        "code": "AD",
+        "url": "assets/flags/ad.webp",
+        "name": "AndorrA"
+    },
+    {
+        "code": "AO",
+        "url": "assets/flags/ao.webp",
+        "name": "Angola"
+    },
+    {
+        "code": "AI",
+        "url": "assets/flags/ai.webp",
+        "name": "Anguilla"
+    },
+    {
+        "code": "AQ",
+        "url": "assets/flags/aq.webp",
+        "name": "Antarctica"
+    },
+    {
+        "code": "AG",
+        "url": "assets/flags/ag.webp",
+        "name": "Antigua and Barbuda"
+    },
+    {
+        "code": "AR",
+        "url": "assets/flags/ar.webp",
+        "name": "Argentina"
+    },
+    {
+        "code": "AM",
+        "url": "assets/flags/am.webp",
+        "name": "Armenia"
+    },
+    {
+        "code": "AW",
+        "url": "assets/flags/aw.webp",
+        "name": "Aruba"
+    },
+    {
+        "code": "AU",
+        "url": "assets/flags/au.webp",
+        "name": "Australia"
+    },
+    {
+        "code": "AT",
+        "url": "assets/flags/at.webp",
+        "name": "Austria"
+    },
+    {
+        "code": "AZ",
+        "url": "assets/flags/az.webp",
+        "name": "Azerbaijan"
+    },
+    {
+        "code": "BS",
+        "url": "assets/flags/bs.webp",
+        "name": "Bahamas"
+    },
+    {
+        "code": "BH",
+        "url": "assets/flags/bh.webp",
+        "name": "Bahrain"
+    },
+    {
+        "code": "BD",
+        "url": "assets/flags/bd.webp",
+        "name": "Bangladesh"
+    },
+    {
+        "code": "BB",
+        "url": "assets/flags/bb.webp",
+        "name": "Barbados"
+    },
+    {
+        "code": "BY",
+        "url": "assets/flags/by.webp",
+        "name": "Belarus"
+    },
+    {
+        "code": "BE",
+        "url": "assets/flags/be.webp",
+        "name": "Belgium"
+    },
+    {
+        "code": "BZ",
+        "url": "assets/flags/bz.webp",
+        "name": "Belize"
+    },
+    {
+        "code": "BJ",
+        "url": "assets/flags/bj.webp",
+        "name": "Benin"
+    },
+    {
+        "code": "BM",
+        "url": "assets/flags/bm.webp",
+        "name": "Bermuda"
+    },
+    {
+        "code": "BT",
+        "url": "assets/flags/bt.webp",
+        "name": "Bhutan"
+    },
+    {
+        "code": "BO",
+        "url": "assets/flags/bo.webp",
+        "name": "Bolivia"
+    },
+    {
+        "code": "BA",
+        "url": "assets/flags/ba.webp",
+        "name": "Bosnia and Herzegovina"
+    },
+    {
+        "code": "BW",
+        "url": "assets/flags/bw.webp",
+        "name": "Botswana"
+    },
+    {
+        "code": "BV",
+        "url": "assets/flags/bv.webp",
+        "name": "Bouvet Island"
+    },
+    {
+        "code": "BR",
+        "url": "assets/flags/br.webp",
+        "name": "Brazil"
+    },
+    {
+        "code": "IO",
+        "url": "assets/flags/io.webp",
+        "name": "British Indian Ocean Territory"
+    },
+    {
+        "code": "BN",
+        "url": "assets/flags/bn.webp",
+        "name": "Brunei Darussalam"
+    },
+    {
+        "code": "BG",
+        "url": "assets/flags/bg.webp",
+        "name": "Bulgaria"
+    },
+    {
+        "code": "BF",
+        "url": "assets/flags/bf.webp",
+        "name": "Burkina Faso"
+    },
+    {
+        "code": "BI",
+        "url": "assets/flags/bi.webp",
+        "name": "Burundi"
+    },
+    {
+        "code": "KH",
+        "url": "assets/flags/kh.webp",
+        "name": "Cambodia"
+    },
+    {
+        "code": "CM",
+        "url": "assets/flags/cm.webp",
+        "name": "Cameroon"
+    },
+    {
+        "code": "CA",
+        "url": "assets/flags/ca.webp",
+        "name": "Canada"
+    },
+    {
+        "code": "CV",
+        "url": "assets/flags/cv.webp",
+        "name": "Cape Verde"
+    },
+    {
+        "code": "KY",
+        "url": "assets/flags/ky.webp",
+        "name": "Cayman Islands"
+    },
+    {
+        "code": "CF",
+        "url": "assets/flags/cf.webp",
+        "name": "Central African Republic"
+    },
+    {
+        "code": "TD",
+        "url": "assets/flags/td.webp",
+        "name": "Chad"
+    },
+    {
+        "code": "CL",
+        "url": "assets/flags/cl.webp",
+        "name": "Chile"
+    },
+    {
+        "code": "CN",
+        "url": "assets/flags/cn.webp",
+        "name": "China"
+    },
+    {
+        "code": "CX",
+        "url": "assets/flags/cx.webp",
+        "name": "Christmas Island"
+    },
+    {
+        "code": "CC",
+        "url": "assets/flags/cc.webp",
+        "name": "Cocos (Keeling) Islands"
+    },
+    {
+        "code": "CO",
+        "url": "assets/flags/co.webp",
+        "name": "Colombia"
+    },
+    {
+        "code": "KM",
+        "url": "assets/flags/km.webp",
+        "name": "Comoros"
+    },
+    {
+        "code": "CG",
+        "url": "assets/flags/cg.webp",
+        "name": "Congo"
+    },
+    {
+        "code": "CD",
+        "url": "assets/flags/cd.webp",
+        "name": "Congo, The Democratic Republic of the"
+    },
+    {
+        "code": "CK",
+        "url": "assets/flags/ck.webp",
+        "name": "Cook Islands"
+    },
+    {
+        "code": "CR",
+        "url": "assets/flags/cr.webp",
+        "name": "Costa Rica"
+    },
+    {
+        "code": "CI",
+        "url": "assets/flags/ci.webp",
+        "name": "Cote D\"Ivoire"
+    },
+    {
+        "code": "HR",
+        "url": "assets/flags/hr.webp",
+        "name": "Croatia"
+    },
+    {
+        "code": "CU",
+        "url": "assets/flags/cu.webp",
+        "name": "Cuba"
+    },
+    {
+        "code": "CY",
+        "url": "assets/flags/cy.webp",
+        "name": "Cyprus"
+    },
+    {
+        "code": "CZ",
+        "url": "assets/flags/cz.webp",
+        "name": "Czech Republic"
+    },
+    {
+        "code": "DK",
+        "url": "assets/flags/dk.webp",
+        "name": "Denmark"
+    },
+    {
+        "code": "DJ",
+        "url": "assets/flags/dj.webp",
+        "name": "Djibouti"
+    },
+    {
+        "code": "DM",
+        "url": "assets/flags/dm.webp",
+        "name": "Dominica"
+    },
+    {
+        "code": "DO",
+        "url": "assets/flags/do.webp",
+        "name": "Dominican Republic"
+    },
+    {
+        "code": "EC",
+        "url": "assets/flags/ec.webp",
+        "name": "Ecuador"
+    },
+    {
+        "code": "EG",
+        "url": "assets/flags/eg.webp",
+        "name": "Egypt"
+    },
+    {
+        "code": "SV",
+        "url": "assets/flags/sv.webp",
+        "name": "El Salvador"
+    },
+    {
+        "code": "GQ",
+        "url": "assets/flags/gq.webp",
+        "name": "Equatorial Guinea"
+    },
+    {
+        "code": "ER",
+        "url": "assets/flags/er.webp",
+        "name": "Eritrea"
+    },
+    {
+        "code": "EE",
+        "url": "assets/flags/ee.webp",
+        "name": "Estonia"
+    },
+    {
+        "code": "ET",
+        "url": "assets/flags/et.webp",
+        "name": "Ethiopia"
+    },
+    {
+        "code": "FK",
+        "url": "assets/flags/fk.webp",
+        "name": "Falkland Islands (Malvinas)"
+    },
+    {
+        "code": "FO",
+        "url": "assets/flags/fo.webp",
+        "name": "Faroe Islands"
+    },
+    {
+        "code": "FJ",
+        "url": "assets/flags/fj.webp",
+        "name": "Fiji"
+    },
+    {
+        "code": "FI",
+        "url": "assets/flags/fi.webp",
+        "name": "Finland"
+    },
+    {
+        "code": "FR",
+        "url": "assets/flags/fr.webp",
+        "name": "France"
+    },
+    {
+        "code": "GF",
+        "url": "assets/flags/gf.webp",
+        "name": "French Guiana"
+    },
+    {
+        "code": "PF",
+        "url": "assets/flags/pf.webp",
+        "name": "French Polynesia"
+    },
+    {
+        "code": "TF",
+        "url": "assets/flags/tf.webp",
+        "name": "French Southern Territories"
+    },
+    {
+        "code": "GA",
+        "url": "assets/flags/ga.webp",
+        "name": "Gabon"
+    },
+    {
+        "code": "GM",
+        "url": "assets/flags/gm.webp",
+        "name": "Gambia"
+    },
+    {
+        "code": "GE",
+        "url": "assets/flags/ge.webp",
+        "name": "Georgia"
+    },
+    {
+        "code": "DE",
+        "url": "assets/flags/de.webp",
+        "name": "Germany"
+    },
+    {
+        "code": "GH",
+        "url": "assets/flags/gh.webp",
+        "name": "Ghana"
+    },
+    {
+        "code": "GI",
+        "url": "assets/flags/gi.webp",
+        "name": "Gibraltar"
+    },
+    {
+        "code": "GR",
+        "url": "assets/flags/gr.webp",
+        "name": "Greece"
+    },
+    {
+        "code": "GL",
+        "url": "assets/flags/gl.webp",
+        "name": "Greenland"
+    },
+    {
+        "code": "GD",
+        "url": "assets/flags/gd.webp",
+        "name": "Grenada"
+    },
+    {
+        "code": "GP",
+        "url": "assets/flags/gp.webp",
+        "name": "Guadeloupe"
+    },
+    {
+        "code": "GU",
+        "url": "assets/flags/gu.webp",
+        "name": "Guam"
+    },
+    {
+        "code": "GT",
+        "url": "assets/flags/gt.webp",
+        "name": "Guatemala"
+    },
+    {
+        "code": "GG",
+        "url": "assets/flags/gg.webp",
+        "name": "Guernsey"
+    },
+    {
+        "code": "GN",
+        "url": "assets/flags/gn.webp",
+        "name": "Guinea"
+    },
+    {
+        "code": "GW",
+        "url": "assets/flags/gw.webp",
+        "name": "Guinea-Bissau"
+    },
+    {
+        "code": "GY",
+        "url": "assets/flags/gy.webp",
+        "name": "Guyana"
+    },
+    {
+        "code": "HT",
+        "url": "assets/flags/ht.webp",
+        "name": "Haiti"
+    },
+    {
+        "code": "HM",
+        "url": "assets/flags/hm.webp",
+        "name": "Heard Island and Mcdonald Islands"
+    },
+    {
+        "code": "VA",
+        "url": "assets/flags/va.webp",
+        "name": "Holy See (Vatican City State)"
+    },
+    {
+        "code": "HN",
+        "url": "assets/flags/hn.webp",
+        "name": "Honduras"
+    },
+    {
+        "code": "HK",
+        "url": "assets/flags/hk.webp",
+        "name": "Hong Kong"
+    },
+    {
+        "code": "HU",
+        "url": "assets/flags/hu.webp",
+        "name": "Hungary"
+    },
+    {
+        "code": "IS",
+        "url": "assets/flags/is.webp",
+        "name": "Iceland"
+    },
+    {
+        "code": "IN",
+        "url": "assets/flags/in.webp",
+        "name": "India"
+    },
+    {
+        "code": "ID",
+        "url": "assets/flags/id.webp",
+        "name": "Indonesia"
+    },
+    {
+        "code": "IR",
+        "url": "assets/flags/ir.webp",
+        "name": "Iran, Islamic Republic Of"
+    },
+    {
+        "code": "IQ",
+        "url": "assets/flags/iq.webp",
+        "name": "Iraq"
+    },
+    {
+        "code": "IE",
+        "url": "assets/flags/ie.webp",
+        "name": "Ireland"
+    },
+    {
+        "code": "IM",
+        "url": "assets/flags/im.webp",
+        "name": "Isle of Man"
+    },
+    {
+        "code": "IL",
+        "url": "assets/flags/il.webp",
+        "name": "Israel"
+    },
+    {
+        "code": "IT",
+        "url": "assets/flags/it.webp",
+        "name": "Italy"
+    },
+    {
+        "code": "JM",
+        "url": "assets/flags/jm.webp",
+        "name": "Jamaica"
+    },
+    {
+        "code": "JP",
+        "url": "assets/flags/jp.webp",
+        "name": "Japan"
+    },
+    {
+        "code": "JE",
+        "url": "assets/flags/je.webp",
+        "name": "Jersey"
+    },
+    {
+        "code": "JO",
+        "url": "assets/flags/jo.webp",
+        "name": "Jordan"
+    },
+    {
+        "code": "KZ",
+        "url": "assets/flags/kz.webp",
+        "name": "Kazakhstan"
+    },
+    {
+        "code": "KE",
+        "url": "assets/flags/ke.webp",
+        "name": "Kenya"
+    },
+    {
+        "code": "KI",
+        "url": "assets/flags/ki.webp",
+        "name": "Kiribati"
+    },
+    {
+        "code": "KP",
+        "url": "assets/flags/kp.webp",
+        "name": "Korea, Democratic People\"S Republic of"
+    },
+    {
+        "code": "KR",
+        "url": "assets/flags/kr.webp",
+        "name": "Korea, Republic of"
+    },
+    {
+        "code": "KW",
+        "url": "assets/flags/kw.webp",
+        "name": "Kuwait"
+    },
+    {
+        "code": "KG",
+        "url": "assets/flags/kg.webp",
+        "name": "Kyrgyzstan"
+    },
+    {
+        "code": "LA",
+        "url": "assets/flags/la.webp",
+        "name": "Lao People\"S Democratic Republic"
+    },
+    {
+        "code": "LV",
+        "url": "assets/flags/lv.webp",
+        "name": "Latvia"
+    },
+    {
+        "code": "LB",
+        "url": "assets/flags/lb.webp",
+        "name": "Lebanon"
+    },
+    {
+        "code": "LS",
+        "url": "assets/flags/ls.webp",
+        "name": "Lesotho"
+    },
+    {
+        "code": "LR",
+        "url": "assets/flags/lr.webp",
+        "name": "Liberia"
+    },
+    {
+        "code": "LY",
+        "url": "assets/flags/ly.webp",
+        "name": "Libyan Arab Jamahiriya"
+    },
+    {
+        "code": "LI",
+        "url": "assets/flags/li.webp",
+        "name": "Liechtenstein"
+    },
+    {
+        "code": "LT",
+        "url": "assets/flags/lt.webp",
+        "name": "Lithuania"
+    },
+    {
+        "code": "LU",
+        "url": "assets/flags/lu.webp",
+        "name": "Luxembourg"
+    },
+    {
+        "code": "MO",
+        "url": "assets/flags/mo.webp",
+        "name": "Macao"
+    },
+    {
+        "code": "MK",
+        "url": "assets/flags/mk.webp",
+        "name": "Macedonia, The Former Yugoslav Republic of"
+    },
+    {
+        "code": "MG",
+        "url": "assets/flags/mg.webp",
+        "name": "Madagascar"
+    },
+    {
+        "code": "MW",
+        "url": "assets/flags/mw.webp",
+        "name": "Malawi"
+    },
+    {
+        "code": "MY",
+        "url": "assets/flags/my.webp",
+        "name": "Malaysia"
+    },
+    {
+        "code": "MV",
+        "url": "assets/flags/mv.webp",
+        "name": "Maldives"
+    },
+    {
+        "code": "ML",
+        "url": "assets/flags/ml.webp",
+        "name": "Mali"
+    },
+    {
+        "code": "MT",
+        "url": "assets/flags/mt.webp",
+        "name": "Malta"
+    },
+    {
+        "code": "MH",
+        "url": "assets/flags/mh.webp",
+        "name": "Marshall Islands"
+    },
+    {
+        "code": "MQ",
+        "url": "assets/flags/mq.webp",
+        "name": "Martinique"
+    },
+    {
+        "code": "MR",
+        "url": "assets/flags/mr.webp",
+        "name": "Mauritania"
+    },
+    {
+        "code": "MU",
+        "url": "assets/flags/mu.webp",
+        "name": "Mauritius"
+    },
+    {
+        "code": "YT",
+        "url": "assets/flags/yt.webp",
+        "name": "Mayotte"
+    },
+    {
+        "code": "MX",
+        "url": "assets/flags/mx.webp",
+        "name": "Mexico"
+    },
+    {
+        "code": "FM",
+        "url": "assets/flags/fm.webp",
+        "name": "Micronesia, Federated States of"
+    },
+    {
+        "code": "MD",
+        "url": "assets/flags/md.webp",
+        "name": "Moldova, Republic of"
+    },
+    {
+        "code": "MC",
+        "url": "assets/flags/mc.webp",
+        "name": "Monaco"
+    },
+    {
+        "code": "MN",
+        "url": "assets/flags/mn.webp",
+        "name": "Mongolia"
+    },
+    {
+        "code": "ME",
+        "url": "assets/flags/me.webp",
+        "name": "Montenegro"
+    },
+    {
+        "code": "MS",
+        "url": "assets/flags/ms.webp",
+        "name": "Montserrat"
+    },
+    {
+        "code": "MA",
+        "url": "assets/flags/ma.webp",
+        "name": "Morocco"
+    },
+    {
+        "code": "MZ",
+        "url": "assets/flags/mz.webp",
+        "name": "Mozambique"
+    },
+    {
+        "code": "MM",
+        "url": "assets/flags/mm.webp",
+        "name": "Myanmar"
+    },
+    {
+        "code": "NA",
+        "url": "assets/flags/na.webp",
+        "name": "Namibia"
+    },
+    {
+        "code": "NR",
+        "url": "assets/flags/nr.webp",
+        "name": "Nauru"
+    },
+    {
+        "code": "NP",
+        "url": "assets/flags/np.webp",
+        "name": "Nepal"
+    },
+    {
+        "code": "NL",
+        "url": "assets/flags/nl.webp",
+        "name": "Netherlands"
+    },
+    {
+        "code": "AN",
+        "url": "assets/flags/an.webp",
+        "name": "Netherlands Antilles"
+    },
+    {
+        "code": "NC",
+        "url": "assets/flags/nc.webp",
+        "name": "New Caledonia"
+    },
+    {
+        "code": "NZ",
+        "url": "assets/flags/nz.webp",
+        "name": "New Zealand"
+    },
+    {
+        "code": "NI",
+        "url": "assets/flags/ni.webp",
+        "name": "Nicaragua"
+    },
+    {
+        "code": "NE",
+        "url": "assets/flags/ne.webp",
+        "name": "Niger"
+    },
+    {
+        "code": "NG",
+        "url": "assets/flags/ng.webp",
+        "name": "Nigeria"
+    },
+    {
+        "code": "NU",
+        "url": "assets/flags/nu.webp",
+        "name": "Niue"
+    },
+    {
+        "code": "NF",
+        "url": "assets/flags/nf.webp",
+        "name": "Norfolk Island"
+    },
+    {
+        "code": "MP",
+        "url": "assets/flags/mp.webp",
+        "name": "Northern Mariana Islands"
+    },
+    {
+        "code": "NO",
+        "url": "assets/flags/no.webp",
+        "name": "Norway"
+    },
+    {
+        "code": "OM",
+        "url": "assets/flags/om.webp",
+        "name": "Oman"
+    },
+    {
+        "code": "PK",
+        "url": "assets/flags/pk.webp",
+        "name": "Pakistan"
+    },
+    {
+        "code": "PW",
+        "url": "assets/flags/pw.webp",
+        "name": "Palau"
+    },
+    {
+        "code": "PS",
+        "url": "assets/flags/ps.webp",
+        "name": "Palestinian Territory, Occupied"
+    },
+    {
+        "code": "PA",
+        "url": "assets/flags/pa.webp",
+        "name": "Panama"
+    },
+    {
+        "code": "PG",
+        "url": "assets/flags/pg.webp",
+        "name": "Papua New Guinea"
+    },
+    {
+        "code": "PY",
+        "url": "assets/flags/py.webp",
+        "name": "Paraguay"
+    },
+    {
+        "code": "PE",
+        "url": "assets/flags/pe.webp",
+        "name": "Peru"
+    },
+    {
+        "code": "PH",
+        "url": "assets/flags/ph.webp",
+        "name": "Philippines"
+    },
+    {
+        "code": "PN",
+        "url": "assets/flags/pn.webp",
+        "name": "Pitcairn"
+    },
+    {
+        "code": "PL",
+        "url": "assets/flags/pl.webp",
+        "name": "Poland"
+    },
+    {
+        "code": "PT",
+        "url": "assets/flags/pt.webp",
+        "name": "Portugal"
+    },
+    {
+        "code": "PR",
+        "url": "assets/flags/pr.webp",
+        "name": "Puerto Rico"
+    },
+    {
+        "code": "QA",
+        "url": "assets/flags/qa.webp",
+        "name": "Qatar"
+    },
+    {
+        "code": "RE",
+        "url": "assets/flags/re.webp",
+        "name": "Reunion"
+    },
+    {
+        "code": "RO",
+        "url": "assets/flags/ro.webp",
+        "name": "Romania"
+    },
+    {
+        "code": "RU",
+        "url": "assets/flags/ru.webp",
+        "name": "Russian Federation"
+    },
+    {
+        "code": "RW",
+        "url": "assets/flags/rw.webp",
+        "name": "RWANDA"
+    },
+    {
+        "code": "SH",
+        "url": "assets/flags/sh.webp",
+        "name": "Saint Helena"
+    },
+    {
+        "code": "KN",
+        "url": "assets/flags/kn.webp",
+        "name": "Saint Kitts and Nevis"
+    },
+    {
+        "code": "LC",
+        "url": "assets/flags/lc.webp",
+        "name": "Saint Lucia"
+    },
+    {
+        "code": "PM",
+        "url": "assets/flags/pm.webp",
+        "name": "Saint Pierre and Miquelon"
+    },
+    {
+        "code": "VC",
+        "url": "assets/flags/vc.webp",
+        "name": "Saint Vincent and the Grenadines"
+    },
+    {
+        "code": "WS",
+        "url": "assets/flags/ws.webp",
+        "name": "Samoa"
+    },
+    {
+        "code": "SM",
+        "url": "assets/flags/sm.webp",
+        "name": "San Marino"
+    },
+    {
+        "code": "ST",
+        "url": "assets/flags/st.webp",
+        "name": "Sao Tome and Principe"
+    },
+    {
+        "code": "SA",
+        "url": "assets/flags/sa.webp",
+        "name": "Saudi Arabia"
+    },
+    {
+        "code": "SN",
+        "url": "assets/flags/sn.webp",
+        "name": "Senegal"
+    },
+    {
+        "code": "RS",
+        "url": "assets/flags/rs.webp",
+        "name": "Serbia"
+    },
+    {
+        "code": "SC",
+        "url": "assets/flags/sc.webp",
+        "name": "Seychelles"
+    },
+    {
+        "code": "SL",
+        "url": "assets/flags/sl.webp",
+        "name": "Sierra Leone"
+    },
+    {
+        "code": "SG",
+        "url": "assets/flags/sg.webp",
+        "name": "Singapore"
+    },
+    {
+        "code": "SK",
+        "url": "assets/flags/sk.webp",
+        "name": "Slovakia"
+    },
+    {
+        "code": "SI",
+        "url": "assets/flags/si.webp",
+        "name": "Slovenia"
+    },
+    {
+        "code": "SB",
+        "url": "assets/flags/sb.webp",
+        "name": "Solomon Islands"
+    },
+    {
+        "code": "SO",
+        "url": "assets/flags/so.webp",
+        "name": "Somalia"
+    },
+    {
+        "code": "ZA",
+        "url": "assets/flags/za.webp",
+        "name": "South Africa"
+    },
+    {
+        "code": "GS",
+        "url": "assets/flags/gs.webp",
+        "name": "South Georgia and the South Sandwich Islands"
+    },
+    {
+        "code": "ES",
+        "url": "assets/flags/es.webp",
+        "name": "Spain"
+    },
+    {
+        "code": "LK",
+        "url": "assets/flags/lk.webp",
+        "name": "Sri Lanka"
+    },
+    {
+        "code": "SD",
+        "url": "assets/flags/sd.webp",
+        "name": "Sudan"
+    },
+    {
+        "code": "SR",
+        "url": "assets/flags/sr.webp",
+        "name": "Suriname"
+    },
+    {
+        "code": "SJ",
+        "url": "assets/flags/sj.webp",
+        "name": "Svalbard and Jan Mayen"
+    },
+    {
+        "code": "SZ",
+        "url": "assets/flags/sz.webp",
+        "name": "Swaziland"
+    },
+    {
+        "code": "SE",
+        "url": "assets/flags/se.webp",
+        "name": "Sweden"
+    },
+    {
+        "code": "CH",
+        "url": "assets/flags/ch.webp",
+        "name": "Switzerland"
+    },
+    {
+        "code": "SY",
+        "url": "assets/flags/sy.webp",
+        "name": "Syrian Arab Republic"
+    },
+    {
+        "code": "TW",
+        "url": "assets/flags/tw.webp",
+        "name": "Taiwan, Province of China"
+    },
+    {
+        "code": "TJ",
+        "url": "assets/flags/tj.webp",
+        "name": "Tajikistan"
+    },
+    {
+        "code": "TZ",
+        "url": "assets/flags/tz.webp",
+        "name": "Tanzania, United Republic of"
+    },
+    {
+        "code": "TH",
+        "url": "assets/flags/th.webp",
+        "name": "Thailand"
+    },
+    {
+        "code": "TL",
+        "url": "assets/flags/tl.webp",
+        "name": "Timor-Leste"
+    },
+    {
+        "code": "TG",
+        "url": "assets/flags/tg.png",
+        "name": "Togo"
+    },
+    {
+        "code": "TK",
+        "url": "assets/flags/tk.webp",
+        "name": "Tokelau"
+    },
+    {
+        "code": "TO",
+        "url": "assets/flags/to.webp",
+        "name": "Tonga"
+    },
+    {
+        "code": "TT",
+        "url": "assets/flags/tt.webp",
+        "name": "Trinidad and Tobago"
+    },
+    {
+        "code": "TN",
+        "url": "assets/flags/tn.webp",
+        "name": "Tunisia"
+    },
+    {
+        "code": "TR",
+        "url": "assets/flags/tr.webp",
+        "name": "Turkey"
+    },
+    {
+        "code": "TM",
+        "url": "assets/flags/tm.webp",
+        "name": "Turkmenistan"
+    },
+    {
+        "code": "TC",
+        "url": "assets/flags/tc.webp",
+        "name": "Turks and Caicos Islands"
+    },
+    {
+        "code": "TV",
+        "url": "assets/flags/tv.webp",
+        "name": "Tuvalu"
+    },
+    {
+        "code": "UG",
+        "url": "assets/flags/ug.webp",
+        "name": "Uganda"
+    },
+    {
+        "code": "UA",
+        "url": "assets/flags/ua.webp",
+        "name": "Ukraine"
+    },
+    {
+        "code": "AE",
+        "url": "assets/flags/ae.webp",
+        "name": "United Arab Emirates"
+    },
+    {
+        "code": "GB",
+        "url": "assets/flags/gb.webp",
+        "name": "United Kingdom"
+    },
+    {
+        "code": "US",
+        "url": "assets/flags/us.webp",
+        "name": "United States"
+    },
+    {
+        "code": "UM",
+        "url": "assets/flags/um.webp",
+        "name": "United States Minor Outlying Islands"
+    },
+    {
+        "code": "UY",
+        "url": "assets/flags/uy.webp",
+        "name": "Uruguay"
+    },
+    {
+        "code": "UZ",
+        "url": "assets/flags/uz.webp",
+        "name": "Uzbekistan"
+    },
+    {
+        "code": "VU",
+        "url": "assets/flags/vu.webp",
+        "name": "Vanuatu"
+    },
+    {
+        "code": "VE",
+        "url": "assets/flags/ve.webp",
+        "name": "Venezuela"
+    },
+    {
+        "code": "VN",
+        "url": "assets/flags/vn.webp",
+        "name": "Viet Nam"
+    },
+    {
+        "code": "VG",
+        "url": "assets/flags/vg.webp",
+        "name": "Virgin Islands, British"
+    },
+    {
+        "code": "VI",
+        "url": "assets/flags/vi.webp",
+        "name": "Virgin Islands, U.S."
+    },
+    {
+        "code": "WF",
+        "url": "assets/flags/wf.webp",
+        "name": "Wallis and Futuna"
+    },
+    {
+        "code": "EH",
+        "url": "assets/flags/eh.webp",
+        "name": "Western Sahara"
+    },
+    {
+        "code": "YE",
+        "url": "assets/flags/ye.webp",
+        "name": "Yemen"
+    },
+    {
+        "code": "ZM",
+        "url": "assets/flags/zm.webp",
+        "name": "Zambia"
+    },
+    {
+        "code": "ZW",
+        "url": "assets/flags/zw.webp",
+        "name": "Zimbabwe"
+    }
+]

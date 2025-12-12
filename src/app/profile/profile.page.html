@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar class="bg-dark">
+    <ion-buttons slot="start">      
+      <ion-menu-button class="text-light d-block" autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="center">
+  <div class="row wrapper">
+    <ion-card>
+      <ion-grid>
+        <ion-row text-align="center">
+          <ion-col text-align="center">
+            <div class="d-flex ion-justify-content-center">
+              <div>
+                <!-- <ion-icon name="camera-outline" class="text-dark" (click)="takePhoto()"></ion-icon> -->
+                <app-avatar [currentUser]="currentUser" [canUpload]="true"></app-avatar>
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col class="ion-text-center">
+            <div class="d-flex ion-align-items-center" *ngIf="currentUser">
+              <ion-input [(ngModel)]="currentUser.displayName" #userName class="profile-name {{ editMode ? 'ion-text-left' : 'ion-text-center' }}" placeholder="Mihai Micsa" [readonly]="editMode==false"></ion-input>
+              <ion-button size="small" fill="clear" (click)="editUserName(); editMode ? userName.setFocus() : ''">
+                <ion-icon slot="icon-only" [name]="editMode ? 'send-outline' : 'create-outline'"></ion-icon>
+              </ion-button>
+            </div>
+
+            <div class="level">Level {{ currentUser?.level }} <!-- Geologist --></div>
+            <div class="center">
+              <app-country-dropdown></app-country-dropdown>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row *ngIf="currentUser && authService.isGuest(currentUser)">
+          <ion-col>
+            <h4 class="ion-no-margin ion-text-center text-dark"><b>Login With</b></h4>
+            <button class="red ion-margin-vertical" type="button" (click)="signInWithGoogle()">
+              <div class="button-text d-flex ion-align-items-center fs-21px">
+                <ion-icon slot="start" name="logo-google"></ion-icon>&nbsp;
+                <span *ngIf="spinner!='Google'">Google</span>
+                <ion-spinner color="light" name="circular" *ngIf="spinner=='Google'"  class="btn-spinner"></ion-spinner>
+              </div>
+            </button>
+            <button class="blue ion-margin-vertical" type="button" (click)="signInWithFacebook()">
+              <div class="button-text d-flex ion-align-items-center fs-21px">
+                <ion-icon slot="start" name="logo-facebook"></ion-icon>&nbsp;
+                <span *ngIf="spinner!='Facebook'">Facebook</span>
+                <ion-spinner color="light" name="circular" *ngIf="spinner=='Facebook'"  class="btn-spinner"></ion-spinner>
+              </div>
+            </button>            
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+    <ion-card>
+      <ion-row>
+        <ion-col>
+          <div>
+            <div style="text-align: center; margin-bottom: 10px;">
+              <h1 class="ion-no-margin">Pick avatar</h1>
+            </div>
+            <div class="avatars-wrapper">
+              <img *ngFor="let avatar of avatarsList;" (click)="onSelectAvatar(avatar)" [src]="dataService.getAvatarUrl(avatar)" class="avatar-image">
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,83 @@
+<!-- 
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum animi iste nam beatae repellendus dolore labore fugit doloremque inventore. Velit quibusdam odio vitae doloremque voluptatum nesciunt porro totam consequuntur debitis.</p>
+      <button class="blue" (click)="goToQuestions()">
+        <div class="button-text fs1-3rem">Start Season</div>
+      </button>
+    </ion-card-content>
+  </ion-card>
+</ion-content> -->
+
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button
+        [text]="getBackButtonText()"
+        defaultHref="/"
+      ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> -->
+<ion-header>
+  <ion-toolbar class="bg-dark">
+    <ion-buttons slot="start">
+      <ion-menu-button class="text-light d-block" autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>How To Play</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" class="fixed-bg ion-padding">
+  <div class="river-wrapper">
+    <div class="sidebarBox">
+      <div class="content">        
+        <strong>How to Play the Trivia 480 Questions Challenge</strong>
+        <p>Welcome to the <b>Trivia 480 Questions Challenge</b>, a game where your knowledge and quick thinking will be tested over the course of <b>4 months!</b> Here's how it works:</p>
+        
+        <h5>1. <b>Game Duration:</b></h5>
+        <p>&nbsp;&nbsp; * The challenge lasts for <b>4 months</b> (approximately 120 days). Each day, you will receive <b>4 new questions</b> to answer.</p>
+        <p>&nbsp;&nbsp; * A round is made up of these 4 questions per day, for a total of <b>480 questions</b> over 4 months.</p>
+        
+        <h5>2. <b>Answering Questions:</b></h5>
+        <p>&nbsp;&nbsp; * Each day, you’ll be presented with 4 new questions to answer. You’ll have <b>24 hours</b> to answer them.</p>
+        
+        <h5>3. <b>How the Questions Appear:</b></h5>
+        <p>&nbsp;&nbsp; * The questions will be displayed in a <b>list format</b>, with the <b>newest question at the top</b>. As the days progress, the older questions will shift down, creating a flowing “river” of questions.</p>
+        
+        <h5>4. <b>Scoring and Feedback:</b></h5>
+        <p>&nbsp;&nbsp; * For each correct answer, a <b>green check</b> will appear in the upper right corner of the question.</p>
+        <p>&nbsp;&nbsp; * If you answer incorrectly, a <b>red X</b> will appear, indicating the mistake.</p>
+        <p>&nbsp;&nbsp; * After you answer correctly, you'll also earn a <b>Time Bonus</b>. This bonus will show the <b>seconds remaining</b> in the upper left corner of the question.</p>
+        <p>&nbsp;&nbsp; * If you have the <b>Quick Thinking</b> skill, you’ll get an extra <b>10 seconds</b> added to your Time Bonus.</p>
+        
+        <h5>5. <b>Starting Late:</b></h5>
+        <p>&nbsp;&nbsp; * If you start the challenge after it has already begun, don’t worry! You’ll receive all the questions from the past days, and they will stay active for as many days as have passed since the start of the round.</p>
+        <p>&nbsp;&nbsp; * For example, if you join <b>3 days later</b>, you’ll get all the past questions up to that point, and the questions you receive will stay active for <b>3 days</b>.</p>
+        
+        <!-- <h5>6. <b>Inactive Button:</b></h5>
+        <p>&nbsp;&nbsp; * Once the 24-hour window expires for a set of questions, you won’t be able to answer them. The “Answer” button will be <b>inactive</b> (grey), so make sure to complete your questions daily!</p> -->
+
+        <!-- <h3>Ready to play? Click the button to start your <b>Trivia 480 Questions Challenge</b> and put your knowledge to the test!</h3> -->
+        
+        <button class="blue" (click)="goToQuestions()">
+          <div class="button-text fs1-3rem">Start Season</div>
+        </button>
+      </div>
+
+    </div>    
+  </div>
+
+
+  <ion-modal [isOpen]="isModalOpen" class="seasonModal">
+    <ng-template *ngIf="currentSeason">
+      <ion-content scroll-y="false">
+        <div class="seasonModalInfo">
+          <h4>The season has not started yet!</h4>
+          <h4>The season starts on {{ currentSeason.startDate.toDate() | date }}</h4>
+          <ion-button mode="md" color="light" size="small" (click)="setOpen(false)">Close</ion-button>
+        </div>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+</ion-content>

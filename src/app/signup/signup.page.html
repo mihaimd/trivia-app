@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true" class="center" scroll-y="false">
+  <div class="signup-page-wrapper">
+    <div class="d-flex ion-justify-content-center ion-margin">
+      <ion-avatar class="app-icon">
+        <img src="../../assets/img/icon.png" alt="app icon"/>
+      </ion-avatar>
+    </div>
+    <div class="ion-margin">
+      <h4 class="ion-text-center text-dark"><b>Login With</b></h4>
+      <button class="red ion-margin-vertical" type="button" (click)="signInWithGoogle()">
+        <div class="button-text d-flex ion-align-items-center fs-21px">
+          <ion-icon slot="start" name="logo-google"></ion-icon>&nbsp;
+          <span *ngIf="spinner!='Google'">Google</span>
+          <ion-spinner color="light" name="circular" *ngIf="spinner=='Google'"  class="btn-spinner"></ion-spinner>
+        </div>
+      </button>
+      <button class="blue ion-margin-vertical" type="button" (click)="signInWithFacebook()">
+        <div class="button-text d-flex ion-align-items-center fs-21px">
+          <ion-icon slot="start" name="logo-facebook"></ion-icon>&nbsp;
+          <span *ngIf="spinner!='Facebook'">Facebook</span>
+          <ion-spinner color="light" name="circular" *ngIf="spinner=='Facebook'"  class="btn-spinner"></ion-spinner>
+        </div>
+      </button>
+      <h4 class="ion-text-center text-dark"><b>Or</b></h4>
+      <button class="green ion-margin-vertical" type="button" (click)="playAsGuest()">
+        <div class="button-text d-flex ion-align-items-center fs-21px">
+          <span *ngIf="spinner!='Guest'">Play As Guest</span>&nbsp;
+          <ion-spinner color="light" name="circular" *ngIf="spinner=='Guest'"  class="btn-spinner"></ion-spinner>
+        </div>
+      </button><br><br>
+    </div>
+  </div>
+</ion-content>

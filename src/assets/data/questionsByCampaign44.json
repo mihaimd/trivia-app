@@ -1,0 +1,642 @@
+[
+        {
+            "id": 1,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "In mythology, what creature is known for breathing fire and flying?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Dragon",
+                        "correct": true
+                    },
+                    {
+                        "label": "Phoenix",
+                        "correct": false
+                    },
+                    {
+                        "label": "Griffin",
+                        "correct": false
+                    },
+                    {
+                        "label": "Unicorn",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "100px",
+            "left": "40px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 25
+        },
+        {
+            "id": 2,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "What is the term for the study and interpretation of dreams?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Oneirology",
+                        "correct": true
+                    },
+                    {
+                        "label": "Cryptozoology",
+                        "correct": false
+                    },
+                    {
+                        "label": "Parapsychology",
+                        "correct": false
+                    },
+                    {
+                        "label": "Mythology",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "130px",
+            "left": "50px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 30
+        },
+        {
+            "id": 3,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which mythical creature has the body of a lion and the head and wings of an eagle?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Griffin",
+                        "correct": true
+                    },
+                    {
+                        "label": "Chimera",
+                        "correct": false
+                    },
+                    {
+                        "label": "Minotaur",
+                        "correct": false
+                    },
+                    {
+                        "label": "Sphinx",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "160px",
+            "left": "45px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 30
+        },
+        {
+            "id": 4,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "In dreams, what does flying often symbolize?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Freedom",
+                        "correct": true
+                    },
+                    {
+                        "label": "Fear",
+                        "correct": false
+                    },
+                    {
+                        "label": "Failure",
+                        "correct": false
+                    },
+                    {
+                        "label": "Confusion",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "190px",
+            "left": "60px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 20
+        },
+        {
+            "id": 5,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which creature from Greek mythology has snakes for hair and turns people to stone with her gaze?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Medusa",
+                        "correct": true
+                    },
+                    {
+                        "label": "Hydra",
+                        "correct": false
+                    },
+                    {
+                        "label": "Cerberus",
+                        "correct": false
+                    },
+                    {
+                        "label": "Minotaur",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "220px",
+            "left": "55px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 35
+        },
+        {
+            "id": 6,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which mythical bird is reborn from its ashes?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Phoenix",
+                        "correct": true
+                    },
+                    {
+                        "label": "Harpy",
+                        "correct": false
+                    },
+                    {
+                        "label": "Griffin",
+                        "correct": false
+                    },
+                    {
+                        "label": "Pegasus",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "250px",
+            "left": "40px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 30
+        },
+        {
+            "id": 7,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "What does the term \"lucid dreaming\" mean?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Being aware you are dreaming while dreaming",
+                        "correct": true
+                    },
+                    {
+                        "label": "Dreaming vividly about colors",
+                        "correct": false
+                    },
+                    {
+                        "label": "Dreaming about past memories",
+                        "correct": false
+                    },
+                    {
+                        "label": "Dreaming without control",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "280px",
+            "left": "50px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 35
+        },
+        {
+            "id": 8,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which creature is a half-man, half-bull from Greek mythology?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Minotaur",
+                        "correct": true
+                    },
+                    {
+                        "label": "Centaur",
+                        "correct": false
+                    },
+                    {
+                        "label": "Satyr",
+                        "correct": false
+                    },
+                    {
+                        "label": "Hydra",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "310px",
+            "left": "45px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 30
+        },
+        {
+            "id": 9,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "What creature is said to lure sailors to their doom with its enchanting song?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Siren",
+                        "correct": true
+                    },
+                    {
+                        "label": "Mermaid",
+                        "correct": false
+                    },
+                    {
+                        "label": "Nymph",
+                        "correct": false
+                    },
+                    {
+                        "label": "Banshee",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "340px",
+            "left": "55px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 30
+        },
+        {
+            "id": 10,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which mythical creature is a horse with a single horn on its forehead?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Unicorn",
+                        "correct": true
+                    },
+                    {
+                        "label": "Pegasus",
+                        "correct": false
+                    },
+                    {
+                        "label": "Centaur",
+                        "correct": false
+                    },
+                    {
+                        "label": "Kelpie",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "370px",
+            "left": "50px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 25
+        },
+        {
+            "id": 11,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which mythical creature is a giant serpent that circles the world in Norse mythology?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Jörmungandr",
+                        "correct": true
+                    },
+                    {
+                        "label": "Fenrir",
+                        "correct": false
+                    },
+                    {
+                        "label": "Sleipnir",
+                        "correct": false
+                    },
+                    {
+                        "label": "Níðhöggr",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "400px",
+            "left": "60px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 40
+        },
+        {
+            "id": 12,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "What type of dream involves the sensation of falling?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Hypnic jerk dream",
+                        "correct": true
+                    },
+                    {
+                        "label": "Nightmare",
+                        "correct": false
+                    },
+                    {
+                        "label": "Prophetic dream",
+                        "correct": false
+                    },
+                    {
+                        "label": "Recurring dream",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "430px",
+            "left": "45px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 25
+        },
+        {
+            "id": 13,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which mythical creature is a horse with wings?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Pegasus",
+                        "correct": true
+                    },
+                    {
+                        "label": "Unicorn",
+                        "correct": false
+                    },
+                    {
+                        "label": "Centaur",
+                        "correct": false
+                    },
+                    {
+                        "label": "Kelpie",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "460px",
+            "left": "50px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 25
+        },
+        {
+            "id": 14,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "In mythology, what creature is known as a half-lion, half-goat, and half-snake hybrid?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Chimera",
+                        "correct": true
+                    },
+                    {
+                        "label": "Griffin",
+                        "correct": false
+                    },
+                    {
+                        "label": "Minotaur",
+                        "correct": false
+                    },
+                    {
+                        "label": "Sphinx",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "490px",
+            "left": "40px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 40
+        },
+        {
+            "id": 15,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Hard \"question\": In dream interpretation, what does recurring water imagery often symbolize?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Emotions and the subconscious",
+                        "correct": true
+                    },
+                    {
+                        "label": "Wealth and prosperity",
+                        "correct": false
+                    },
+                    {
+                        "label": "Danger and warning",
+                        "correct": false
+                    },
+                    {
+                        "label": "Travel and adventure",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "520px",
+            "left": "50px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 100
+        },
+        {
+            "id": 16,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which mythical creature is known for luring people into the forest to their doom in Celtic folklore?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Banshee",
+                        "correct": false
+                    },
+                    {
+                        "label": "Púca",
+                        "correct": true
+                    },
+                    {
+                        "label": "Kelpie",
+                        "correct": false
+                    },
+                    {
+                        "label": "Leprechaun",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "550px",
+            "left": "60px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 40
+        },
+        {
+            "id": 17,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "What creature from mythology is said to guard treasure and often depicted as a giant snake or lizard?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Dragon",
+                        "correct": true
+                    },
+                    {
+                        "label": "Basilisk",
+                        "correct": false
+                    },
+                    {
+                        "label": "Hydra",
+                        "correct": false
+                    },
+                    {
+                        "label": "Wyvern",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "580px",
+            "left": "55px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 30
+        },
+        {
+            "id": 18,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which dream phenomenon involves sleep paralysis and hallucinations?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Hypnagogic state",
+                        "correct": true
+                    },
+                    {
+                        "label": "REM sleep",
+                        "correct": false
+                    },
+                    {
+                        "label": "Night terror",
+                        "correct": false
+                    },
+                    {
+                        "label": "Somniloquy",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "610px",
+            "left": "50px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 35
+        },
+        {
+            "id": 19,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "Which creature is half-human and half-horse, often seen in Greek mythology?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Centaur",
+                        "correct": true
+                    },
+                    {
+                        "label": "Minotaur",
+                        "correct": false
+                    },
+                    {
+                        "label": "Satyr",
+                        "correct": false
+                    },
+                    {
+                        "label": "Faun",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "640px",
+            "left": "45px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 30
+        },
+        {
+            "id": 20,
+            "date": "2025-07-21",
+            "category": "dreams & mythical creatures",
+            "question": "What mythical creature is a large bird that is said to cry a mournful wail before death?",
+            "answers": {
+                "options": [
+                    {
+                        "label": "Banshee",
+                        "correct": true
+                    },
+                    {
+                        "label": "Harpy",
+                        "correct": false
+                    },
+                    {
+                        "label": "Siren",
+                        "correct": false
+                    },
+                    {
+                        "label": "Phoenix",
+                        "correct": false
+                    }
+                ]
+            },
+            "top": "670px",
+            "left": "55px",
+            "level": 0,
+            "answtype": "single",
+            "format": "text",
+            "pts": 30
+        }
+    ]

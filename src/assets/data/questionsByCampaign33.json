@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "question": "Which of the following is a characteristic of amphibians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Moist skin for gas exchange",
+                    "correct": true
+                },
+                {
+                    "label": "Feathers",
+                    "correct": false
+                },
+                {
+                    "label": "Scales",
+                    "correct": false
+                },
+                {
+                    "label": "Hair",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "12px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 2,
+        "question": "Which stage do most amphibians go through during development?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tadpole",
+                    "correct": true
+                },
+                {
+                    "label": "Nymph",
+                    "correct": false
+                },
+                {
+                    "label": "Pupa",
+                    "correct": false
+                },
+                {
+                    "label": "Larva with wings",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "48px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 3,
+        "question": "Which amphibian is known for its regenerative abilities?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Axolotl",
+                    "correct": true
+                },
+                {
+                    "label": "Toad",
+                    "correct": false
+                },
+                {
+                    "label": "Salamander",
+                    "correct": false
+                },
+                {
+                    "label": "Newt",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "85px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 4,
+        "question": "What adaptation helps frogs hear both in water and on land?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tympanic membrane",
+                    "correct": true
+                },
+                {
+                    "label": "Gills",
+                    "correct": false
+                },
+                {
+                    "label": "Echolocation",
+                    "correct": false
+                },
+                {
+                    "label": "Lateral line",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "122px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 5,
+        "question": "Which early vertebrates are considered precursors to amphibians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lobe-finned fish",
+                    "correct": true
+                },
+                {
+                    "label": "Cartilaginous fish",
+                    "correct": false
+                },
+                {
+                    "label": "Eels",
+                    "correct": false
+                },
+                {
+                    "label": "Sea snakes",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "155px",
+        "left": "15px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 6,
+        "question": "Which organ do most amphibians use for breathing in their adult form?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lungs",
+                    "correct": true
+                },
+                {
+                    "label": "Gills",
+                    "correct": false
+                },
+                {
+                    "label": "Swim bladder",
+                    "correct": false
+                },
+                {
+                    "label": "Book lungs",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "188px",
+        "left": "32px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 7,
+        "question": "What is metamorphosis in amphibians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Transformation from larva to adult",
+                    "correct": true
+                },
+                {
+                    "label": "Mating ritual",
+                    "correct": false
+                },
+                {
+                    "label": "Shedding of skin",
+                    "correct": false
+                },
+                {
+                    "label": "Hibernation period",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "222px",
+        "left": "42px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 8,
+        "question": "Which group includes both frogs and salamanders?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Amphibians",
+                    "correct": true
+                },
+                {
+                    "label": "Reptiles",
+                    "correct": false
+                },
+                {
+                    "label": "Fish",
+                    "correct": false
+                },
+                {
+                    "label": "Mollusks",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "258px",
+        "left": "52px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 9,
+        "question": "What helps amphibians stay moist and absorb oxygen through their skin?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mucous glands",
+                    "correct": true
+                },
+                {
+                    "label": "Sweat glands",
+                    "correct": false
+                },
+                {
+                    "label": "Scales",
+                    "correct": false
+                },
+                {
+                    "label": "Feathers",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "295px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 10,
+        "question": "Which amphibian can freeze solid and thaw back to life?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Wood frog",
+                    "correct": true
+                },
+                {
+                    "label": "Bullfrog",
+                    "correct": false
+                },
+                {
+                    "label": "Tree frog",
+                    "correct": false
+                },
+                {
+                    "label": "Glass frog",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "330px",
+        "left": "48px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 11,
+        "question": "What is the name of the period when amphibians first appeared?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Devonian",
+                    "correct": true
+                },
+                {
+                    "label": "Jurassic",
+                    "correct": false
+                },
+                {
+                    "label": "Triassic",
+                    "correct": false
+                },
+                {
+                    "label": "Cretaceous",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "370px",
+        "left": "44px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 12,
+        "question": "Which organ allows fish to control buoyancy, while amphibians lack it?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Swim bladder",
+                    "correct": true
+                },
+                {
+                    "label": "Liver",
+                    "correct": false
+                },
+                {
+                    "label": "Kidney",
+                    "correct": false
+                },
+                {
+                    "label": "Heart",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "400px",
+        "left": "28px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 13,
+        "question": "Which group evolved directly from lobe-finned fish?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tetrapods",
+                    "correct": true
+                },
+                {
+                    "label": "Cartilaginous fish",
+                    "correct": false
+                },
+                {
+                    "label": "Jawless fish",
+                    "correct": false
+                },
+                {
+                    "label": "Ray-finned fish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "430px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 14,
+        "question": "Which of these is NOT an amphibian?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lizard",
+                    "correct": true
+                },
+                {
+                    "label": "Frog",
+                    "correct": false
+                },
+                {
+                    "label": "Newt",
+                    "correct": false
+                },
+                {
+                    "label": "Caecilian",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "460px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 15,
+        "question": "Which part of the frog helps it jump long distances?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hind legs",
+                    "correct": true
+                },
+                {
+                    "label": "Forearms",
+                    "correct": false
+                },
+                {
+                    "label": "Tail",
+                    "correct": false
+                },
+                {
+                    "label": "Neck",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "490px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 16,
+        "question": "How do caecilians differ from other amphibians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "They have no legs",
+                    "correct": true
+                },
+                {
+                    "label": "They breathe through gills as adults",
+                    "correct": false
+                },
+                {
+                    "label": "They live only in saltwater",
+                    "correct": false
+                },
+                {
+                    "label": "They fly short distances",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "520px",
+        "left": "25px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "question": "Which feature evolved to allow amphibians to move efficiently on land?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Limbs with digits",
+                    "correct": true
+                },
+                {
+                    "label": "Lateral line system",
+                    "correct": false
+                },
+                {
+                    "label": "Swim fins",
+                    "correct": false
+                },
+                {
+                    "label": "Gill covers",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "550px",
+        "left": "32px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 18,
+        "question": "Which of these is true about amphibian eggs?",
+        "answers": {
+            "options": [
+                {
+                    "label": "They must be laid in water",
+                    "correct": true
+                },
+                {
+                    "label": "They have hard shells",
+                    "correct": false
+                },
+                {
+                    "label": "They hatch as miniature adults",
+                    "correct": false
+                },
+                {
+                    "label": "They are fertilized internally",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "580px",
+        "left": "38px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 19,
+        "question": "Why are amphibians considered environmental indicators?",
+        "answers": {
+            "options": [
+                {
+                    "label": "They are sensitive to pollution",
+                    "correct": true
+                },
+                {
+                    "label": "They produce light",
+                    "correct": false
+                },
+                {
+                    "label": "They build dams",
+                    "correct": false
+                },
+                {
+                    "label": "They eat metal",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "610px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 20,
+        "question": "Which extinct genus marks a key evolutionary link between fish and amphibians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tiktaalik",
+                    "correct": true
+                },
+                {
+                    "label": "Ichthyosaurus",
+                    "correct": false
+                },
+                {
+                    "label": "Archaeopteryx",
+                    "correct": false
+                },
+                {
+                    "label": "Megalodon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Amphibians and Aquatic Evolution",
+        "top": "640px",
+        "left": "18px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

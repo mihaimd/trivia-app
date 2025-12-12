@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Greek mythology, what plant did Persephone eat that bound her to the underworld?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pomegranate",
+                    "correct": true
+                },
+                {
+                    "label": "Fig",
+                    "correct": false
+                },
+                {
+                    "label": "Olive",
+                    "correct": false
+                },
+                {
+                    "label": "Lotus",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 2,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which legendary tree connects the nine worlds in Norse mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Yggdrasil",
+                    "correct": true
+                },
+                {
+                    "label": "Eldertree",
+                    "correct": false
+                },
+                {
+                    "label": "Dryadroot",
+                    "correct": false
+                },
+                {
+                    "label": "Nidavellir Oak",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "260px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 3,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which flower is associated with resurrection in Egyptian mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lotus",
+                    "correct": true
+                },
+                {
+                    "label": "Rose",
+                    "correct": false
+                },
+                {
+                    "label": "Lily",
+                    "correct": false
+                },
+                {
+                    "label": "Daisy",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "The Mandrake root is said to scream when what happens?",
+        "answers": {
+            "options": [
+                {
+                    "label": "It is pulled from the ground",
+                    "correct": true
+                },
+                {
+                    "label": "It is fed milk",
+                    "correct": false
+                },
+                {
+                    "label": "It is burned",
+                    "correct": false
+                },
+                {
+                    "label": "It blooms at night",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "300px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 5,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which plant was believed to give eternal youth in Chinese folklore?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Peach of Immortality",
+                    "correct": true
+                },
+                {
+                    "label": "Bamboo",
+                    "correct": false
+                },
+                {
+                    "label": "Tea Flower",
+                    "correct": false
+                },
+                {
+                    "label": "Ginseng",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which tree's wood was said to ward off evil in European folklore?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Rowan",
+                    "correct": true
+                },
+                {
+                    "label": "Maple",
+                    "correct": false
+                },
+                {
+                    "label": "Pine",
+                    "correct": false
+                },
+                {
+                    "label": "Elm",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 7,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What fruit in Celtic myth was said to grant wisdom?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hazelnut",
+                    "correct": true
+                },
+                {
+                    "label": "Apple",
+                    "correct": false
+                },
+                {
+                    "label": "Pear",
+                    "correct": false
+                },
+                {
+                    "label": "Blackberry",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "170px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 8,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Ambrosia, the food of the gods, was often described as what?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A sweet nectar or fruit",
+                    "correct": true
+                },
+                {
+                    "label": "A bitter herb",
+                    "correct": false
+                },
+                {
+                    "label": "A steaming broth",
+                    "correct": false
+                },
+                {
+                    "label": "Golden bread",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "340px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Harry Potter, what magical plant helps restore those who’ve been petrified?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mandrake",
+                    "correct": true
+                },
+                {
+                    "label": "Devil's Snare",
+                    "correct": false
+                },
+                {
+                    "label": "Gillyweed",
+                    "correct": false
+                },
+                {
+                    "label": "Whomping Willow",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "300px",
+        "left": "240px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 10,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which plant was used by Odysseus to resist Circe’s magic?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Moly",
+                    "correct": true
+                },
+                {
+                    "label": "Wolfsbane",
+                    "correct": false
+                },
+                {
+                    "label": "Belladonna",
+                    "correct": false
+                },
+                {
+                    "label": "Aconite",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "140px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 11,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which mythical flower only blooms under moonlight and grants visions?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Moonflower",
+                    "correct": true
+                },
+                {
+                    "label": "Sunblossom",
+                    "correct": false
+                },
+                {
+                    "label": "Starpetal",
+                    "correct": false
+                },
+                {
+                    "label": "Lunaria",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "390px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 12,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "The \"Tree of Life\" is a motif found in which ancient civilization?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Babylonian",
+                    "correct": true
+                },
+                {
+                    "label": "Roman",
+                    "correct": false
+                },
+                {
+                    "label": "Celtic",
+                    "correct": false
+                },
+                {
+                    "label": "Viking",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "260px",
+        "left": "300px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 13,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which herb was used in love potions in medieval Europe?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Rosemary",
+                    "correct": true
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                },
+                {
+                    "label": "Mint",
+                    "correct": false
+                },
+                {
+                    "label": "Basil",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "320px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 14,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which magical fruit was said to grant wishes in Arabian tales?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Golden Apple",
+                    "correct": true
+                },
+                {
+                    "label": "Ruby Grape",
+                    "correct": false
+                },
+                {
+                    "label": "Silver Pomegranate",
+                    "correct": false
+                },
+                {
+                    "label": "Emerald Date",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "330px",
+        "left": "360px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 15,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which magical herb gives humans the ability to breathe underwater?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Gillyweed",
+                    "correct": true
+                },
+                {
+                    "label": "Waterfern",
+                    "correct": false
+                },
+                {
+                    "label": "Kelproot",
+                    "correct": false
+                },
+                {
+                    "label": "Seabloom",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "400px",
+        "left": "310px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 16,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Slavic folklore, what plant protects against evil spirits?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Garlic",
+                    "correct": true
+                },
+                {
+                    "label": "Nettle",
+                    "correct": false
+                },
+                {
+                    "label": "Heather",
+                    "correct": false
+                },
+                {
+                    "label": "Yarrow",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "420px",
+        "left": "250px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What tree was sacred to the Druids?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Oak",
+                    "correct": true
+                },
+                {
+                    "label": "Willow",
+                    "correct": false
+                },
+                {
+                    "label": "Holly",
+                    "correct": false
+                },
+                {
+                    "label": "Yew",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "130px",
+        "left": "360px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 18,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which plant is used in many myths as a truth serum?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Veritaserum",
+                    "correct": true
+                },
+                {
+                    "label": "Dreamleaf",
+                    "correct": false
+                },
+                {
+                    "label": "Feverfew",
+                    "correct": false
+                },
+                {
+                    "label": "Moonwort",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "370px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 19,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Aztec belief, what sacred plant was used in rituals and sacrifices?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cacao",
+                    "correct": true
+                },
+                {
+                    "label": "Corn",
+                    "correct": false
+                },
+                {
+                    "label": "Tomato",
+                    "correct": false
+                },
+                {
+                    "label": "Yucca",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 20,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which magical plant was used in flying ointments according to folklore?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Belladonna",
+                    "correct": true
+                },
+                {
+                    "label": "Chamomile",
+                    "correct": false
+                },
+                {
+                    "label": "Rosehip",
+                    "correct": false
+                },
+                {
+                    "label": "Elderberry",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "270px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    }
+]

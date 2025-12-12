@@ -1,0 +1,642 @@
+[
+    {
+        "question": "Which ancient language was spoken in ancient Rome?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Latin",
+                    "correct": true
+                },
+                {
+                    "label": "Aramaic",
+                    "correct": false
+                },
+                {
+                    "label": "Sanskrit",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 0,
+        "category": "ancient & constructed languages",
+        "top": "219px",
+        "left": "106px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which of the following is a constructed language created by J.R.R. Tolkien?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Quenya",
+                    "correct": true
+                },
+                {
+                    "label": "Elvish",
+                    "correct": false
+                },
+                {
+                    "label": "Narnian",
+                    "correct": false
+                },
+                {
+                    "label": "Old Speech",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 1,
+        "category": "ancient & constructed languages",
+        "top": "199px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What is the name of the ancient Egyptian writing system?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cuneiform",
+                    "correct": false
+                },
+                {
+                    "label": "Hieroglyphics",
+                    "correct": true
+                },
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Linear B",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 2,
+        "category": "ancient & constructed languages",
+        "top": "219px",
+        "left": "261px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which constructed language was designed to be an international auxiliary language in the late 19th century?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Idish",
+                    "correct": false
+                },
+                {
+                    "label": "Volapük",
+                    "correct": false
+                },
+                {
+                    "label": "Esperanto",
+                    "correct": true
+                },
+                {
+                    "label": "Interlingua",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 3,
+        "category": "ancient & constructed languages",
+        "top": "255px",
+        "left": "44px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient language was primarily used in Mesopotamia?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sumerian",
+                    "correct": true
+                },
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Sanskrit",
+                    "correct": false
+                },
+                {
+                    "label": "Hebrew",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 4,
+        "category": "ancient & constructed languages",
+        "top": "255px",
+        "left": "311px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which of these is a writing system rather than a spoken language?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Cuneiform",
+                    "correct": true
+                },
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Aramaic",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 5,
+        "category": "ancient & constructed languages",
+        "top": "318px",
+        "left": "15px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Who created the Star Trek language Klingon?",
+        "answers": {
+            "options": [
+                {
+                    "label": "J.R.R. Tolkien",
+                    "correct": false
+                },
+                {
+                    "label": "Isaac Asimov",
+                    "correct": false
+                },
+                {
+                    "label": "Marc Okrand",
+                    "correct": true
+                },
+                {
+                    "label": "George Lucas",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 6,
+        "category": "ancient & constructed languages",
+        "top": "318px",
+        "left": "350px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which constructed language has a grammar book titled \"La Fundamento\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Esperanto",
+                    "correct": true
+                },
+                {
+                    "label": "Quenya",
+                    "correct": false
+                },
+                {
+                    "label": "Volapük",
+                    "correct": false
+                },
+                {
+                    "label": "Sindarin",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 7,
+        "category": "ancient & constructed languages",
+        "top": "290px",
+        "left": "105px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What ancient language is the root of many Indian languages today?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tamil",
+                    "correct": false
+                },
+                {
+                    "label": "Hindi",
+                    "correct": false
+                },
+                {
+                    "label": "Sanskrit",
+                    "correct": true
+                },
+                {
+                    "label": "Bengali",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 8,
+        "category": "ancient & constructed languages",
+        "top": "290px",
+        "left": "248px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient language was spoken by the Babylonians?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aramaic",
+                    "correct": false
+                },
+                {
+                    "label": "Akkadian",
+                    "correct": true
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Phoenician",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 9,
+        "category": "ancient & constructed languages",
+        "top": "265px",
+        "left": "179px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which constructed language was featured prominently in \"The Lord of the Rings\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Dovahzul",
+                    "correct": false
+                },
+                {
+                    "label": "Sindarin",
+                    "correct": true
+                },
+                {
+                    "label": "Esperanto",
+                    "correct": false
+                },
+                {
+                    "label": "Na’vi",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 10,
+        "category": "ancient & constructed languages",
+        "top": "342px",
+        "left": "292px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which of these languages used a pictographic writing system?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Sanskrit",
+                    "correct": false
+                },
+                {
+                    "label": "Chinese",
+                    "correct": true
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 11,
+        "category": "ancient & constructed languages",
+        "top": "342px",
+        "left": "66px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient language was used in the Rosetta Stone alongside Greek and Egyptian?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Demotic",
+                    "correct": true
+                },
+                {
+                    "label": "Phoenician",
+                    "correct": false
+                },
+                {
+                    "label": "Aramaic",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 12,
+        "category": "ancient & constructed languages",
+        "top": "14px",
+        "left": "169px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The term “Lingua Franca” originally referred to:",
+        "answers": {
+            "options": [
+                {
+                    "label": "A dialect of ancient Italy",
+                    "correct": false
+                },
+                {
+                    "label": "A lost Mediterranean tongue",
+                    "correct": false
+                },
+                {
+                    "label": "A trade language used across Europe",
+                    "correct": true
+                },
+                {
+                    "label": "An early form of French",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 13,
+        "category": "ancient & constructed languages",
+        "top": "185px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which constructed language is used in the movie Avatar?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Klingon",
+                    "correct": false
+                },
+                {
+                    "label": "Quenya",
+                    "correct": false
+                },
+                {
+                    "label": "Esperanto",
+                    "correct": false
+                },
+                {
+                    "label": "Na'vi",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 14,
+        "category": "ancient & constructed languages",
+        "top": "185px",
+        "left": "321px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient language is considered sacred in Hinduism?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pali",
+                    "correct": false
+                },
+                {
+                    "label": "Sanskrit",
+                    "correct": true
+                },
+                {
+                    "label": "Tamil",
+                    "correct": false
+                },
+                {
+                    "label": "Urdu",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 15,
+        "category": "ancient & constructed languages",
+        "top": "132px",
+        "left": "177px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which constructed language has its own day, celebrated on July 26th?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Esperanto",
+                    "correct": true
+                },
+                {
+                    "label": "Na’vi",
+                    "correct": false
+                },
+                {
+                    "label": "Dothraki",
+                    "correct": false
+                },
+                {
+                    "label": "Elvish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 16,
+        "category": "ancient & constructed languages",
+        "top": "92px",
+        "left": "77px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which of the following is an extinct language?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hebrew",
+                    "correct": false
+                },
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Hittite",
+                    "correct": true
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 17,
+        "category": "ancient & constructed languages",
+        "top": "92px",
+        "left": "268px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What is the primary feature of agglutinative languages like Turkish and Finnish?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lack of grammar rules",
+                    "correct": false
+                },
+                {
+                    "label": "No definite articles",
+                    "correct": false
+                },
+                {
+                    "label": "Words formed by joining many morphemes",
+                    "correct": true
+                },
+                {
+                    "label": "Completely tonal pronunciation",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 18,
+        "category": "ancient & constructed languages",
+        "top": "18px",
+        "left": "77px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What is the full name of this question series?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ancient languages",
+                    "correct": false
+                },
+                {
+                    "label": "Ancient writing systems",
+                    "correct": false
+                },
+                {
+                    "label": "Ancient and constructed languages",
+                    "correct": true
+                },
+                {
+                    "label": "Languages of the ancient world",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 19,
+        "category": "ancient & constructed languages",
+        "top": "18px",
+        "left": "266px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

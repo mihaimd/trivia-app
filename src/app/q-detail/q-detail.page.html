@@ -1,0 +1,53 @@
+<!-- <ion-content>
+  <div class="sidebarBox">
+    <div class="content" *ngIf="answer$ | async as data">
+      <div class="question">{{data.question}}</div>
+      <div class="divider"></div>
+      <button *ngFor="let option of data.answers.options; let i = index;" class="blue" type="button"
+        (click)="onAnswerChosen($event, option.correct, data.pts, data.answers.options)" id="optionx{{i}}">
+        <div class="button-text fs1-3rem">{{option.label}}</div>
+      </button>
+      <div class="divider"></div> -->
+      <!-- <button class="arrow-right"></button>
+      <button class="arrow-left"></button>
+      <div class="divider"></div> -->
+      <!-- <app-timer (timeLeft)="timeLeft($event)" (timeUp)="timeUp($event)" [answerChosen]="answerChosen"></app-timer>
+    </div> -->
+    <!-- <div class="toggle"></div> -->
+  <!-- </div> -->
+  <!-- <ion-fab slot="fixed" vertical="bottom" horizontal="center" [edge]="true">
+    <ion-fab-button>
+      <ion-icon name="home" (click)="goHome()">ff</ion-icon>
+    </ion-fab-button>
+  </ion-fab> -->
+<!-- </ion-content> -->
+<ion-content>
+  <div class="sidebarBox" *ngIf="currentUser">
+    <div class="content" *ngIf="questionInfo!=undefined">
+      <!-- <div class="ion-text-right" *ngIf="isRiverQuestion && currentUser.skill">
+        <span style="color: black;font-weight: bold;font-size: 1.2rem;" >⏱ +{{ totalTimeBonus }}s</span>
+      </div> -->
+      <div class="question">{{questionInfo.question}}</div>
+      <div class="divider"></div>
+      <button *ngFor="let option of questionInfo.answers.options; let i = index;" class="blue" type="button"
+        (click)="onAnswerChosen($event, option, questionInfo.pts, questionInfo.answers.options)" id="optionx{{i}}">
+        <div class="button-text fs1-3rem">{{option.label}}</div>
+      </button>
+      <div class="divider"></div>
+      <div class="counter">
+        <div class="nums">
+          <span class="in">{{initTime}}</span>
+        </div>
+      </div>
+
+      <!-- <app-timer
+      (timeLeft)="timeLeft($event)" 
+      (timeUp)="timeUp($event)"
+      (timeBonusLeft)="timeBonusLeft($event)"
+      [isRiverQuestion]="isRiverQuestion"
+      [answerChosen]="answerChosen"
+      [totalTimeBonus]="totalTimeBonus"
+      ></app-timer> -->
+    </div>    
+  </div>
+</ion-content>

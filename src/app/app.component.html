@@ -1,0 +1,52 @@
+<ion-app>
+  <!-- <app-side-menu></app-side-menu> -->
+  <!-- <ion-split-pane when="xs" contentId="main"> -->
+  <ion-menu contentId="main-content" side="start" menuId="mainMenuHere">
+    <ion-content class="bg-dark">
+      <ion-card class="ion-no-margin bg-dark h-fill" style="border-radius: 0px;">
+        <ion-card-content class="ion-no-padding">
+          <div class="d-flex ion-flex-column ion-align-items-center ion-padding bg-dark-medium">
+            <app-avatar *ngIf="player" [currentUser]="player"></app-avatar>
+            <!-- <ion-avatar class="profile-image">
+              <img *ngIf="player" [src]="player.photoURL" alt="Player Profile">              
+              <img *ngIf="player" class="flag" [src]="player.flagURL">
+            </ion-avatar> -->
+            <h2 *ngIf="player" class="text-light f700 m-1">{{ player.displayName }}</h2>            
+            <ion-text *ngIf="player" style="color: yellow;">{{ player.exp }}</ion-text>
+            <ion-text *ngIf="player" class="text-light">Level {{ player.level }}</ion-text>
+          </div>
+          <ion-menu-toggle>
+            <ion-list lines="none">
+              <ion-item class="{{ activeMenu(1) }}" (click)="goToMenu(1, 'home')">
+                <h1 class="ion-no-margin">🏡</h1>
+                <ion-label>&nbsp; Home</ion-label>
+              </ion-item>
+              <ion-item class="{{ activeMenu(2) }}" (click)="goToMenu(2, 'profile')">
+                <h1 class="ion-no-margin">🧙🏻‍♂️</h1>
+                <ion-label>&nbsp; Profile</ion-label>
+              </ion-item>
+              <ion-item class="{{ activeMenu(3) }}" (click)="goToMenu(3, 'score-board')">
+                <h1 class="ion-no-margin">🏆</h1>
+                <ion-label>&nbsp; Score</ion-label>
+              </ion-item>
+              <ion-item class="{{ activeMenu(4) }}" (click)="goToMenu(4, 'campaigns')">
+                <h1 class="ion-no-margin">🚸</h1>
+                <ion-label>&nbsp; Campaigns</ion-label>
+              </ion-item>
+              <ion-item class="{{ activeMenu(5) }}" (click)="goToMenu(5, 'settings')">
+                <h1 class="ion-no-margin">⚙️</h1>
+                <ion-label>&nbsp; Setting</ion-label>
+              </ion-item>
+              <!-- <ion-item class="filter-gray" (click)="logout()">
+                <ion-icon name="power-outline"></ion-icon>
+                <ion-label>&nbsp;&nbsp;Logout</ion-label>
+              </ion-item> -->
+            </ion-list>
+          </ion-menu-toggle>
+        </ion-card-content>
+      </ion-card>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+  <!-- </ion-split-pane> -->
+</ion-app>

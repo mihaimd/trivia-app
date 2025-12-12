@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "In Greek mythology, who is credited with creating humans from clay?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Prometheus",
+                    "correct": true
+                },
+                {
+                    "label": "Hephaestus",
+                    "correct": false
+                },
+                {
+                    "label": "Hermes",
+                    "correct": false
+                },
+                {
+                    "label": "Apollo",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "100px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which civilization believed the world was created from the body of the slain giant Ymir?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Norse",
+                    "correct": true
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptian",
+                    "correct": false
+                },
+                {
+                    "label": "Mayan",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "130px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which god was the blacksmith and craftsman of the Greek pantheon?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hephaestus",
+                    "correct": true
+                },
+                {
+                    "label": "Ares",
+                    "correct": false
+                },
+                {
+                    "label": "Zeus",
+                    "correct": false
+                },
+                {
+                    "label": "Poseidon",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "In Hindu mythology, who is the creator god among the Trimurti?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Brahma",
+                    "correct": true
+                },
+                {
+                    "label": "Vishnu",
+                    "correct": false
+                },
+                {
+                    "label": "Shiva",
+                    "correct": false
+                },
+                {
+                    "label": "Indra",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "According to the Bible, on which day did God create man?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sixth day",
+                    "correct": true
+                },
+                {
+                    "label": "First day",
+                    "correct": false
+                },
+                {
+                    "label": "Fourth day",
+                    "correct": false
+                },
+                {
+                    "label": "Seventh day",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "What material did the Mayan gods use to finally create humans, according to the Popol Vuh?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Corn",
+                    "correct": true
+                },
+                {
+                    "label": "Mud",
+                    "correct": false
+                },
+                {
+                    "label": "Wood",
+                    "correct": false
+                },
+                {
+                    "label": "Clay",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "250px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which legendary figure is known for crafting wings of wax and feathers to escape Crete?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Daedalus",
+                    "correct": true
+                },
+                {
+                    "label": "Perseus",
+                    "correct": false
+                },
+                {
+                    "label": "Theseus",
+                    "correct": false
+                },
+                {
+                    "label": "Orpheus",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "280px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which culture's creation myth features the god Ptah speaking the world into existence?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Egyptian",
+                    "correct": true
+                },
+                {
+                    "label": "Babylonian",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Incan",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "310px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "What is the name of the Babylonian creation epic?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Enuma Elish",
+                    "correct": true
+                },
+                {
+                    "label": "Epic of Gilgamesh",
+                    "correct": false
+                },
+                {
+                    "label": "Theogony",
+                    "correct": false
+                },
+                {
+                    "label": "Avesta",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "340px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "In Japanese mythology, who are the deities that created the islands of Japan?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Izanagi and Izanami",
+                    "correct": true
+                },
+                {
+                    "label": "Amaterasu and Tsukuyomi",
+                    "correct": false
+                },
+                {
+                    "label": "Susanoo and Orochi",
+                    "correct": false
+                },
+                {
+                    "label": "Raijin and Fujin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "370px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Who forged the hammer Mjölnir in Norse mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The dwarves Brokkr and Sindri",
+                    "correct": true
+                },
+                {
+                    "label": "Odin",
+                    "correct": false
+                },
+                {
+                    "label": "Loki",
+                    "correct": false
+                },
+                {
+                    "label": "Thor",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "400px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "In Maori mythology, what god separates earth and sky to bring light into the world?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tāne",
+                    "correct": true
+                },
+                {
+                    "label": "Rangi",
+                    "correct": false
+                },
+                {
+                    "label": "Papa",
+                    "correct": false
+                },
+                {
+                    "label": "Maui",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "430px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which ancient people believed the god Viracocha created the world?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Inca",
+                    "correct": true
+                },
+                {
+                    "label": "Aztec",
+                    "correct": false
+                },
+                {
+                    "label": "Maya",
+                    "correct": false
+                },
+                {
+                    "label": "Olmec",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "460px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Who is considered the Roman god of craftsmanship and fire?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vulcan",
+                    "correct": true
+                },
+                {
+                    "label": "Mars",
+                    "correct": false
+                },
+                {
+                    "label": "Jupiter",
+                    "correct": false
+                },
+                {
+                    "label": "Apollo",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "490px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Hard \"question\": In Zoroastrianism, who is the creator god that brings order to the cosmos?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ahura Mazda",
+                    "correct": true
+                },
+                {
+                    "label": "Angra Mainyu",
+                    "correct": false
+                },
+                {
+                    "label": "Anu",
+                    "correct": false
+                },
+                {
+                    "label": "Marduk",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "520px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which goddess in Greek mythology was born from the sea foam?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aphrodite",
+                    "correct": true
+                },
+                {
+                    "label": "Artemis",
+                    "correct": false
+                },
+                {
+                    "label": "Hera",
+                    "correct": false
+                },
+                {
+                    "label": "Demeter",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "550px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which ancient text tells of the god Vishvakarma, the divine architect?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Rigveda",
+                    "correct": true
+                },
+                {
+                    "label": "Bhagavad Gita",
+                    "correct": false
+                },
+                {
+                    "label": "Ramayana",
+                    "correct": false
+                },
+                {
+                    "label": "Mahabharata",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "580px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "What do the Yoruba people believe the god Obatala shaped humans from?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Clay",
+                    "correct": true
+                },
+                {
+                    "label": "Stone",
+                    "correct": false
+                },
+                {
+                    "label": "Sand",
+                    "correct": false
+                },
+                {
+                    "label": "Water",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "610px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which craftsman in Greek myth was punished with a rolling boulder for eternity?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sisyphus",
+                    "correct": true
+                },
+                {
+                    "label": "Icarus",
+                    "correct": false
+                },
+                {
+                    "label": "Orpheus",
+                    "correct": false
+                },
+                {
+                    "label": "Perseus",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "640px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "creation myths & craftsmanship",
+        "question": "Which Celtic god is known for his craftsmanship and invention?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lugh",
+                    "correct": true
+                },
+                {
+                    "label": "Dagda",
+                    "correct": false
+                },
+                {
+                    "label": "Bran",
+                    "correct": false
+                },
+                {
+                    "label": "Cernunnos",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "670px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    }
+]

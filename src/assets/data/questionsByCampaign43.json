@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the first person to walk on the Moon?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Neil Armstrong",
+                    "correct": true
+                },
+                {
+                    "label": "Buzz Aldrin",
+                    "correct": false
+                },
+                {
+                    "label": "Yuri Gagarin",
+                    "correct": false
+                },
+                {
+                    "label": "Michael Collins",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "100px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Which scientist developed the theory of general relativity?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Albert Einstein",
+                    "correct": true
+                },
+                {
+                    "label": "Isaac Newton",
+                    "correct": false
+                },
+                {
+                    "label": "Galileo Galilei",
+                    "correct": false
+                },
+                {
+                    "label": "Nikola Tesla",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "130px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Margaret Thatcher",
+                    "correct": true
+                },
+                {
+                    "label": "Theresa May",
+                    "correct": false
+                },
+                {
+                    "label": "Indira Gandhi",
+                    "correct": false
+                },
+                {
+                    "label": "Angela Merkel",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "160px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who is known as the \"Father of the Computer\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Charles Babbage",
+                    "correct": true
+                },
+                {
+                    "label": "Alan Turing",
+                    "correct": false
+                },
+                {
+                    "label": "John von Neumann",
+                    "correct": false
+                },
+                {
+                    "label": "Nikola Tesla",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "190px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who led the Indian independence movement through nonviolent resistance?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mahatma Gandhi",
+                    "correct": true
+                },
+                {
+                    "label": "Jawaharlal Nehru",
+                    "correct": false
+                },
+                {
+                    "label": "Subhas Chandra Bose",
+                    "correct": false
+                },
+                {
+                    "label": "Bhagat Singh",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "220px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Which famous artist painted the \"Mona Lisa\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Leonardo da Vinci",
+                    "correct": true
+                },
+                {
+                    "label": "Michelangelo",
+                    "correct": false
+                },
+                {
+                    "label": "Raphael",
+                    "correct": false
+                },
+                {
+                    "label": "Vincent van Gogh",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "250px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the first woman to win a Nobel Prize?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Marie Curie",
+                    "correct": true
+                },
+                {
+                    "label": "Rosalind Franklin",
+                    "correct": false
+                },
+                {
+                    "label": "Dorothy Hodgkin",
+                    "correct": false
+                },
+                {
+                    "label": "Ada Lovelace",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "280px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the American civil rights leader famous for his \"I Have a Dream\" speech?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Martin Luther King Jr.",
+                    "correct": true
+                },
+                {
+                    "label": "Malcolm X",
+                    "correct": false
+                },
+                {
+                    "label": "Rosa Parks",
+                    "correct": false
+                },
+                {
+                    "label": "Frederick Douglass",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "310px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Which British naturalist is famous for his theory of evolution by natural selection?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Charles Darwin",
+                    "correct": true
+                },
+                {
+                    "label": "Alfred Russel Wallace",
+                    "correct": false
+                },
+                {
+                    "label": "Gregor Mendel",
+                    "correct": false
+                },
+                {
+                    "label": "Louis Pasteur",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "340px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Amelia Earhart",
+                    "correct": true
+                },
+                {
+                    "label": "Harriet Quimby",
+                    "correct": false
+                },
+                {
+                    "label": "Bessie Coleman",
+                    "correct": false
+                },
+                {
+                    "label": "Sally Ride",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "370px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Which inventor is credited with inventing the light bulb?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Thomas Edison",
+                    "correct": true
+                },
+                {
+                    "label": "Nikola Tesla",
+                    "correct": false
+                },
+                {
+                    "label": "Alexander Graham Bell",
+                    "correct": false
+                },
+                {
+                    "label": "Benjamin Franklin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "400px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the first African American president of the United States?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Barack Obama",
+                    "correct": true
+                },
+                {
+                    "label": "Colin Powell",
+                    "correct": false
+                },
+                {
+                    "label": "Jesse Jackson",
+                    "correct": false
+                },
+                {
+                    "label": "Frederick Douglass",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "430px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the first person to propose the heliocentric model of the solar system?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Nicolaus Copernicus",
+                    "correct": true
+                },
+                {
+                    "label": "Galileo Galilei",
+                    "correct": false
+                },
+                {
+                    "label": "Johannes Kepler",
+                    "correct": false
+                },
+                {
+                    "label": "Ptolemy",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "460px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Which famous leader was known as the \"Iron Lady\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Margaret Thatcher",
+                    "correct": true
+                },
+                {
+                    "label": "Angela Merkel",
+                    "correct": false
+                },
+                {
+                    "label": "Indira Gandhi",
+                    "correct": false
+                },
+                {
+                    "label": "Golda Meir",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "490px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Hard \"question\": Who was the Renaissance polymath known for his works in art, science, and engineering, including the Vitruvian Man?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Leonardo da Vinci",
+                    "correct": true
+                },
+                {
+                    "label": "Michelangelo",
+                    "correct": false
+                },
+                {
+                    "label": "Raphael",
+                    "correct": false
+                },
+                {
+                    "label": "Galileo Galilei",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "520px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the youngest person to win a Nobel Prize?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Malala Yousafzai",
+                    "correct": true
+                },
+                {
+                    "label": "Marie Curie",
+                    "correct": false
+                },
+                {
+                    "label": "Alexandra Elbakyan",
+                    "correct": false
+                },
+                {
+                    "label": "Greta Thunberg",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "550px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the famous civil rights activist known for refusing to give up her bus seat in Montgomery, Alabama?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Rosa Parks",
+                    "correct": true
+                },
+                {
+                    "label": "Harriet Tubman",
+                    "correct": false
+                },
+                {
+                    "label": "Sojourner Truth",
+                    "correct": false
+                },
+                {
+                    "label": "Angela Davis",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "580px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Which entrepreneur co-founded Microsoft?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bill Gates",
+                    "correct": true
+                },
+                {
+                    "label": "Steve Jobs",
+                    "correct": false
+                },
+                {
+                    "label": "Mark Zuckerberg",
+                    "correct": false
+                },
+                {
+                    "label": "Elon Musk",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "610px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Who was the ancient Egyptian queen known for her intelligence and political savvy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cleopatra",
+                    "correct": true
+                },
+                {
+                    "label": "Nefertiti",
+                    "correct": false
+                },
+                {
+                    "label": "Hatshepsut",
+                    "correct": false
+                },
+                {
+                    "label": "Sobekneferu",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "640px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "biographies of famous people",
+        "question": "Which physicist is known for the uncertainty principle in quantum mechanics?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Werner Heisenberg",
+                    "correct": true
+                },
+                {
+                    "label": "Niels Bohr",
+                    "correct": false
+                },
+                {
+                    "label": "Erwin Schrödinger",
+                    "correct": false
+                },
+                {
+                    "label": "Max Planck",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "670px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    }
+]

@@ -1,0 +1,514 @@
+[
+    {
+        "id": 1,
+        "question": "Which metal is primarily used in blacksmithing due to its durability and workability?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Iron",
+                    "correct": true
+                },
+                {
+                    "label": "Copper",
+                    "correct": false
+                },
+                {
+                    "label": "Aluminum",
+                    "correct": false
+                },
+                {
+                    "label": "Lead",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metals",
+        "top": "80px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "question": "What material is used in forges to reach the high temperatures needed to shape metal?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Coal",
+                    "correct": true
+                },
+                {
+                    "label": "Wood",
+                    "correct": false
+                },
+                {
+                    "label": "Charcoal",
+                    "correct": false
+                },
+                {
+                    "label": "Peat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Coal",
+        "top": "120px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 3,
+        "question": "Which tool is essential for shaping metal on an anvil?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hammer",
+                    "correct": true
+                },
+                {
+                    "label": "Tongs",
+                    "correct": false
+                },
+                {
+                    "label": "Bellows",
+                    "correct": false
+                },
+                {
+                    "label": "Chisel",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Blacksmith",
+        "top": "100px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 4,
+        "question": "What color indicates that metal is at the ideal forging temperature?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bright orange-yellow",
+                    "correct": true
+                },
+                {
+                    "label": "Blue",
+                    "correct": false
+                },
+                {
+                    "label": "White",
+                    "correct": false
+                },
+                {
+                    "label": "Dull red",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metalwork",
+        "top": "140px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 5,
+        "question": "Which metal is known for its resistance to rust?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Stainless steel",
+                    "correct": true
+                },
+                {
+                    "label": "Copper",
+                    "correct": false
+                },
+                {
+                    "label": "Iron",
+                    "correct": false
+                },
+                {
+                    "label": "Bronze",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metals",
+        "top": "160px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6,
+        "question": "Which substance is traditionally used to fuel a blacksmith’s forge?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bituminous coal",
+                    "correct": true
+                },
+                {
+                    "label": "Anthracite coal",
+                    "correct": false
+                },
+                {
+                    "label": "Wood",
+                    "correct": false
+                },
+                {
+                    "label": "Peat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Coal",
+        "top": "200px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 7,
+        "question": "What is the name of the cooling process that increases metal hardness?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Quenching",
+                    "correct": true
+                },
+                {
+                    "label": "Tempering",
+                    "correct": false
+                },
+                {
+                    "label": "Forging",
+                    "correct": false
+                },
+                {
+                    "label": "Smelting",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Blacksmith",
+        "top": "180px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 8,
+        "question": "Which ancient civilization is credited with the earliest known iron smelting?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hittites",
+                    "correct": true
+                },
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                },
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metalwork",
+        "top": "220px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 9,
+        "question": "What term describes the carbon-rich fuel derived from coal used in metallurgy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Coke",
+                    "correct": true
+                },
+                {
+                    "label": "Slag",
+                    "correct": false
+                },
+                {
+                    "label": "Ore",
+                    "correct": false
+                },
+                {
+                    "label": "Char",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Coal",
+        "top": "240px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 10,
+        "question": "Which metal alloy is made primarily of copper and tin?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bronze",
+                    "correct": true
+                },
+                {
+                    "label": "Brass",
+                    "correct": false
+                },
+                {
+                    "label": "Steel",
+                    "correct": false
+                },
+                {
+                    "label": "Nickel silver",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metals",
+        "top": "260px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 11,
+        "question": "What tool controls airflow into a forge to increase heat?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bellows",
+                    "correct": true
+                },
+                {
+                    "label": "Tongs",
+                    "correct": false
+                },
+                {
+                    "label": "Crucible",
+                    "correct": false
+                },
+                {
+                    "label": "Clamp",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Blacksmith",
+        "top": "280px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 12,
+        "question": "Which black metal is known for its ability to absorb and radiate heat efficiently?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cast iron",
+                    "correct": true
+                },
+                {
+                    "label": "Aluminum",
+                    "correct": false
+                },
+                {
+                    "label": "Silver",
+                    "correct": false
+                },
+                {
+                    "label": "Tin",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metals",
+        "top": "300px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 13,
+        "question": "What is the blacksmith’s term for unwanted residue formed during forging?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Slag",
+                    "correct": true
+                },
+                {
+                    "label": "Grain",
+                    "correct": false
+                },
+                {
+                    "label": "Dross",
+                    "correct": false
+                },
+                {
+                    "label": "Oxide",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Blacksmith",
+        "top": "320px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 14,
+        "question": "Which precious metal is known for being the most conductive?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Silver",
+                    "correct": true
+                },
+                {
+                    "label": "Gold",
+                    "correct": false
+                },
+                {
+                    "label": "Copper",
+                    "correct": false
+                },
+                {
+                    "label": "Platinum",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metals",
+        "top": "340px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 15,
+        "question": "Which metal is added to steel to make it stainless?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chromium",
+                    "correct": true
+                },
+                {
+                    "label": "Nickel",
+                    "correct": false
+                },
+                {
+                    "label": "Zinc",
+                    "correct": false
+                },
+                {
+                    "label": "Cobalt",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metals",
+        "top": "360px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 16,
+        "question": "What is the name of the furnace used for smelting iron ore?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Blast furnace",
+                    "correct": true
+                },
+                {
+                    "label": "Kiln",
+                    "correct": false
+                },
+                {
+                    "label": "Forge",
+                    "correct": false
+                },
+                {
+                    "label": "Crucible",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Metalwork",
+        "top": "380px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

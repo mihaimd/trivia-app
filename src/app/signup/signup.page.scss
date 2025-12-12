@@ -1,0 +1,25 @@
+.signup-page-wrapper {    
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    .app-icon{
+        height: 100px;
+        width: 100px;
+        background: #fff;
+        box-shadow: 1px 1px 1px;
+        overflow: hidden;
+        margin-top: 1rem;
+        img {
+            transform: scale(1.3);
+        }
+    }
+    .btn-spinner {
+        position: absolute;
+        left: -5px;
+    }
+}
+.fs-21px {
+    font-size: 21px;
+}

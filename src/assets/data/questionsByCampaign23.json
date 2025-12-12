@@ -1,0 +1,482 @@
+[
+    {
+        "id": 1,
+        "question": "Which insect is most associated with transformation in folklore?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Butterfly",
+                    "correct": true
+                },
+                {
+                    "label": "Ant",
+                    "correct": false
+                },
+                {
+                    "label": "Moth",
+                    "correct": false
+                },
+                {
+                    "label": "Beetle",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Insects",
+        "top": "120px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "question": "Which crystal is believed to enhance memory?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Amethyst",
+                    "correct": true
+                },
+                {
+                    "label": "Onyx",
+                    "correct": false
+                },
+                {
+                    "label": "Citrine",
+                    "correct": false
+                },
+                {
+                    "label": "Garnet",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Crystals",
+        "top": "190px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3,
+        "question": "What family of instruments does the violin belong to?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Percussion",
+                    "correct": false
+                },
+                {
+                    "label": "Brass",
+                    "correct": false
+                },
+                {
+                    "label": "Woodwinds",
+                    "correct": false
+                },
+                {
+                    "label": "Strings",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Musical Instruments",
+        "top": "150px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 4,
+        "question": "Which insect is sacred in ancient Egyptian mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Firefly",
+                    "correct": false
+                },
+                {
+                    "label": "Wasp",
+                    "correct": false
+                },
+                {
+                    "label": "Scarab beetle",
+                    "correct": true
+                },
+                {
+                    "label": "Dragonfly",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Insects",
+        "top": "210px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 5,
+        "question": "What is the hardest known crystal on Earth?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Diamond",
+                    "correct": true
+                },
+                {
+                    "label": "Topaz",
+                    "correct": false
+                },
+                {
+                    "label": "Quartz",
+                    "correct": false
+                },
+                {
+                    "label": "Sapphire",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Crystals",
+        "top": "80px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 6,
+        "question": "Which instrument uses a double reed to create sound?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Flute",
+                    "correct": false
+                },
+                {
+                    "label": "Oboe",
+                    "correct": true
+                },
+                {
+                    "label": "Clarinet",
+                    "correct": false
+                },
+                {
+                    "label": "Trumpet",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Musical Instruments",
+        "top": "260px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 7,
+        "question": "Which gemstone is traditionally linked to intuition and prophecy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lapis Lazuli",
+                    "correct": true
+                },
+                {
+                    "label": "Ruby",
+                    "correct": false
+                },
+                {
+                    "label": "Amber",
+                    "correct": false
+                },
+                {
+                    "label": "Emerald",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Crystals",
+        "top": "120px",
+        "left": "240px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 8,
+        "question": "Which small insect can lift up to 50 times its body weight?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bee",
+                    "correct": false
+                },
+                {
+                    "label": "Ant",
+                    "correct": true
+                },
+                {
+                    "label": "Cricket",
+                    "correct": false
+                },
+                {
+                    "label": "Weevil",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Insects",
+        "top": "190px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 9,
+        "question": "Which ancient instrument is shaped like a bowl and produces resonant tones?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Singing bowl",
+                    "correct": true
+                },
+                {
+                    "label": "Steel drum",
+                    "correct": false
+                },
+                {
+                    "label": "Hang",
+                    "correct": false
+                },
+                {
+                    "label": "Timpani",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Musical Instruments",
+        "top": "260px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 10,
+        "question": "Which crystal is believed to calm anxiety and bring emotional stability?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Obsidian",
+                    "correct": false
+                },
+                {
+                    "label": "Citrine",
+                    "correct": false
+                },
+                {
+                    "label": "Rose Quartz",
+                    "correct": true
+                },
+                {
+                    "label": "Fluorite",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Crystals",
+        "top": "300px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 11,
+        "question": "What sound do cicadas use to attract mates?",
+        "answers": {
+            "options": [
+                {
+                    "label": "High-pitched clicking",
+                    "correct": true
+                },
+                {
+                    "label": "Wing fluttering",
+                    "correct": false
+                },
+                {
+                    "label": "Buzzing hum",
+                    "correct": false
+                },
+                {
+                    "label": "Tapping",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Insects",
+        "top": "140px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 12,
+        "question": "Which insect is known for its iridescent wings?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Wasp",
+                    "correct": false
+                },
+                {
+                    "label": "Flea",
+                    "correct": false
+                },
+                {
+                    "label": "Termite",
+                    "correct": false
+                },
+                {
+                    "label": "Dragonfly",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Insects",
+        "top": "150px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 13,
+        "question": "Which crystal is known as the \"Stone of the Moon\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Moonstone",
+                    "correct": true
+                },
+                {
+                    "label": "Selenite",
+                    "correct": false
+                },
+                {
+                    "label": "Quartz",
+                    "correct": false
+                },
+                {
+                    "label": "Labradorite",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Crystals",
+        "top": "170px",
+        "left": "240px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 14,
+        "question": "Which instrument is traditionally used in Celtic folk music?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tin whistle",
+                    "correct": true
+                },
+                {
+                    "label": "Pan flute",
+                    "correct": false
+                },
+                {
+                    "label": "Didgeridoo",
+                    "correct": false
+                },
+                {
+                    "label": "Baglama",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Musical Instruments",
+        "top": "190px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 15,
+        "question": "Which gem is said to banish nightmares and promote lucid dreaming?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Amethyst",
+                    "correct": true
+                },
+                {
+                    "label": "Ruby",
+                    "correct": false
+                },
+                {
+                    "label": "Onyx",
+                    "correct": false
+                },
+                {
+                    "label": "Opal",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Crystals",
+        "top": "280px",
+        "left": "210px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

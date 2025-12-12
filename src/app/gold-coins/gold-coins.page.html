@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="bg-dark">
+    <ion-title>Shop Gold Coins</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let product of productBundles">
+        <div class="sidebarBox">
+          <div class="content">
+            <div class="ion-text-center">
+              <h4 class="ion-no-margin f900">{{ product.name }}</h4>
+              <ion-chip color="danger">{{ product.price }}</ion-chip>
+              <ion-chip color="tertiary">
+                <ion-avatar>
+                  <img alt="Silhouette of a person's head" src="../../assets/img/goldCoin.png" class="goldCoinImg" />
+                </ion-avatar>
+                <ion-label class="f900">{{ product.coins }}</ion-label>
+              </ion-chip>
+              <button class="blue" type="button" (click)="buy(product)" [disabled]="selectedProductId==product.id">
+                <div class="button-text" *ngIf="selectedProductId!=product.id">Buy</div>
+                <div class="button-text"><ion-spinner color="light" name="circular" *ngIf="selectedProductId==product.id" class="btn-spinner"></ion-spinner></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

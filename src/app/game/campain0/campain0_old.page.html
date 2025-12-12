@@ -1,0 +1,52 @@
+<ion-content [fullscreen]="true" class="center" scroll-y="false">
+
+  <div class="choose-question-wrapper">    
+    <div class="section1">
+      <div class="score" *ngIf="!starScreen">
+        <div class="text">Experince: {{currentExperience}}</div>
+        <div class="text">TimeBonus: {{ currentTimeBonus}}</div>
+        <div class="text">Total Score: {{currentTotal}}</div>
+      </div>
+      <!-- <div class="ethereal-bubble-wrapper"  *ngIf="!starScreen">
+        <div *ngFor="let question of questions" [id]="question.id" class="ethereal-bubble" (cdkDragMoved)="onDragMoved($event, question.pts)" (cdkDragEnded)="onDragEnded($event, question)" #draggable cdkDrag>
+          <span class="icon">💡</span>
+          <span class="points text-dark"><strong>{{question.pts}}</strong></span>
+        </div>
+      </div> -->
+    </div>
+    <div class="section2">
+      <div class="pendant-wrapper">
+        <div class="stars-wrapper">
+          <div class="star star__1" #star1></div>
+          <div class="star star__2" #star2></div>
+          <div class="star star__3" #star3></div>
+        </div>
+        <!-- <div class="vine" #stars></div> -->
+      </div>      
+      <div class="pendant-wrapper" [class.dragging]="dragOver" id="target">
+        <img src="../../../assets/img/vine2.png" class="arch" alt="arch">
+        <div class="pendant" #target></div>
+        <div class="progress-container">
+          <div class="progress" #progress></div>
+        </div>
+        <button [class.blue]="true" [class.hidden]="starScreen" class="campaign-btn" type="button" (click)="backToStory()">
+          <div class="button-text fs1-3rem">Continue</div>
+        </button>
+        <!-- <button *ngIf="!starScreen" class="campaign-btn red" type="button" (click)="exitCampaign()">
+          <div class="button-text fs1-3rem">Exit</div>
+        </button> -->
+        <br>
+      </div>
+    </div>
+    <!-- <div class="section3">
+      <button [class.blue]="true" [class.hidden]="!starScreen" class="campaign-btn" type="button" (click)="backToStory()">
+        <div class="button-text fs1-3rem">Continue</div>
+      </button>
+      <button *ngIf="!starScreen" class="campaign-btn red" type="button" (click)="exitCampaign()">
+        <div class="button-text fs1-3rem">Exit</div>
+      </button>
+      <br>
+    </div> -->
+  </div>
+  
+</ion-content>

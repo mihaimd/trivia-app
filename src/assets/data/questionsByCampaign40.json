@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "motion",
+        "question": "What is the term for the rate of change of velocity of an object?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Acceleration",
+                    "correct": true
+                },
+                {
+                    "label": "Speed",
+                    "correct": false
+                },
+                {
+                    "label": "Displacement",
+                    "correct": false
+                },
+                {
+                    "label": "Force",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "110px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "physics",
+        "question": "Which physicist formulated the laws of motion?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Isaac Newton",
+                    "correct": true
+                },
+                {
+                    "label": "Albert Einstein",
+                    "correct": false
+                },
+                {
+                    "label": "Galileo Galilei",
+                    "correct": false
+                },
+                {
+                    "label": "Nikola Tesla",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "140px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "coordination",
+        "question": "What type of coordination involves the brain, muscles, and sensory organs working together for movement?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Motor coordination",
+                    "correct": true
+                },
+                {
+                    "label": "Visual coordination",
+                    "correct": false
+                },
+                {
+                    "label": "Auditory coordination",
+                    "correct": false
+                },
+                {
+                    "label": "Reflex coordination",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "170px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "motion",
+        "question": "What is the distance traveled by an object divided by the time taken called?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Speed",
+                    "correct": true
+                },
+                {
+                    "label": "Velocity",
+                    "correct": false
+                },
+                {
+                    "label": "Acceleration",
+                    "correct": false
+                },
+                {
+                    "label": "Momentum",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "200px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "physics",
+        "question": "Which quantity is defined as mass times velocity?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Momentum",
+                    "correct": true
+                },
+                {
+                    "label": "Force",
+                    "correct": false
+                },
+                {
+                    "label": "Energy",
+                    "correct": false
+                },
+                {
+                    "label": "Power",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "coordination",
+        "question": "Which part of the brain is primarily responsible for coordinating voluntary movements?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cerebellum",
+                    "correct": true
+                },
+                {
+                    "label": "Cerebrum",
+                    "correct": false
+                },
+                {
+                    "label": "Medulla",
+                    "correct": false
+                },
+                {
+                    "label": "Thalamus",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "280px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "motion",
+        "question": "What is the term for the shortest distance between an object’s starting and ending point?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Displacement",
+                    "correct": true
+                },
+                {
+                    "label": "Distance",
+                    "correct": false
+                },
+                {
+                    "label": "Velocity",
+                    "correct": false
+                },
+                {
+                    "label": "Acceleration",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "320px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "physics",
+        "question": "What force pulls objects toward the center of the Earth?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Gravity",
+                    "correct": true
+                },
+                {
+                    "label": "Friction",
+                    "correct": false
+                },
+                {
+                    "label": "Magnetism",
+                    "correct": false
+                },
+                {
+                    "label": "Tension",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "360px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "coordination",
+        "question": "What is the ability to use different parts of the body smoothly and efficiently called?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Motor skills",
+                    "correct": true
+                },
+                {
+                    "label": "Reflexes",
+                    "correct": false
+                },
+                {
+                    "label": "Endurance",
+                    "correct": false
+                },
+                {
+                    "label": "Balance",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "400px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "motion",
+        "question": "Which law states that an object in motion stays in motion unless acted upon by an external force?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Newton's First Law",
+                    "correct": true
+                },
+                {
+                    "label": "Newton's Second Law",
+                    "correct": false
+                },
+                {
+                    "label": "Newton's Third Law",
+                    "correct": false
+                },
+                {
+                    "label": "Law of Universal Gravitation",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "440px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "physics",
+        "question": "What type of energy is stored due to an object's position or configuration?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Potential energy",
+                    "correct": true
+                },
+                {
+                    "label": "Kinetic energy",
+                    "correct": false
+                },
+                {
+                    "label": "Thermal energy",
+                    "correct": false
+                },
+                {
+                    "label": "Chemical energy",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "480px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "coordination",
+        "question": "Which system of the body coordinates voluntary movement by transmitting signals from the brain to muscles?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Nervous system",
+                    "correct": true
+                },
+                {
+                    "label": "Respiratory system",
+                    "correct": false
+                },
+                {
+                    "label": "Circulatory system",
+                    "correct": false
+                },
+                {
+                    "label": "Digestive system",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "520px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "motion",
+        "question": "What is the term for velocity with a specified direction?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Velocity",
+                    "correct": true
+                },
+                {
+                    "label": "Speed",
+                    "correct": false
+                },
+                {
+                    "label": "Momentum",
+                    "correct": false
+                },
+                {
+                    "label": "Acceleration",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "560px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "physics",
+        "question": "Which law states that force equals mass times acceleration (F=ma)?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Newton's Second Law",
+                    "correct": true
+                },
+                {
+                    "label": "Newton's First Law",
+                    "correct": false
+                },
+                {
+                    "label": "Newton's Third Law",
+                    "correct": false
+                },
+                {
+                    "label": "Law of Conservation of Energy",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "600px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "coordination",
+        "question": "What is the name of the reflex that helps maintain balance and posture automatically?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vestibular reflex",
+                    "correct": true
+                },
+                {
+                    "label": "Stretch reflex",
+                    "correct": false
+                },
+                {
+                    "label": "Withdrawal reflex",
+                    "correct": false
+                },
+                {
+                    "label": "Crossed extensor reflex",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "640px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "motion",
+        "question": "Hard \"question\": What is the difference between scalar and vector quantities in physics?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Scalars have magnitude only; vectors have magnitude and direction",
+                    "correct": true
+                },
+                {
+                    "label": "Vectors have magnitude only; scalars have magnitude and direction",
+                    "correct": false
+                },
+                {
+                    "label": "Scalars are faster than vectors",
+                    "correct": false
+                },
+                {
+                    "label": "Vectors are larger in size than scalars",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "680px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "physics",
+        "question": "Which physical quantity describes the amount of matter in an object?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mass",
+                    "correct": true
+                },
+                {
+                    "label": "Weight",
+                    "correct": false
+                },
+                {
+                    "label": "Volume",
+                    "correct": false
+                },
+                {
+                    "label": "Density",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "720px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "coordination",
+        "question": "Which sense plays a crucial role in body coordination by providing spatial orientation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vestibular sense",
+                    "correct": true
+                },
+                {
+                    "label": "Visual sense",
+                    "correct": false
+                },
+                {
+                    "label": "Auditory sense",
+                    "correct": false
+                },
+                {
+                    "label": "Tactile sense",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "760px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "motion",
+        "question": "What is the momentum of a 5 kg object moving at 3 m/s?",
+        "answers": {
+            "options": [
+                {
+                    "label": "15 kg·m/s",
+                    "correct": true
+                },
+                {
+                    "label": "8 kg·m/s",
+                    "correct": false
+                },
+                {
+                    "label": "2 kg·m/s",
+                    "correct": false
+                },
+                {
+                    "label": "5 kg·m/s",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "800px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "physics",
+        "question": "Which force opposes the motion of objects sliding past each other?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Friction",
+                    "correct": true
+                },
+                {
+                    "label": "Gravity",
+                    "correct": false
+                },
+                {
+                    "label": "Magnetism",
+                    "correct": false
+                },
+                {
+                    "label": "Tension",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "840px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

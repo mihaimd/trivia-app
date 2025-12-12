@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which famous artist is known for cutting off part of his own ear?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vincent van Gogh",
+                    "correct": true
+                },
+                {
+                    "label": "Pablo Picasso",
+                    "correct": false
+                },
+                {
+                    "label": "Claude Monet",
+                    "correct": false
+                },
+                {
+                    "label": "Salvador Dalí",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "50px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which element is fundamental to drawing and visual composition?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Line",
+                    "correct": true
+                },
+                {
+                    "label": "Color",
+                    "correct": false
+                },
+                {
+                    "label": "Shape",
+                    "correct": false
+                },
+                {
+                    "label": "Texture",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "90px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "The \"Mona Lisa\" is painted using which technique?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Oil on wood",
+                    "correct": true
+                },
+                {
+                    "label": "Tempera on canvas",
+                    "correct": false
+                },
+                {
+                    "label": "Watercolor on paper",
+                    "correct": false
+                },
+                {
+                    "label": "Fresco on wall",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "130px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which movement is Salvador Dalí associated with?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Surrealism",
+                    "correct": true
+                },
+                {
+                    "label": "Cubism",
+                    "correct": false
+                },
+                {
+                    "label": "Impressionism",
+                    "correct": false
+                },
+                {
+                    "label": "Futurism",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "170px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which culture created elaborate sand mandalas as a spiritual practice?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tibetan Buddhist",
+                    "correct": true
+                },
+                {
+                    "label": "Mayan",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Persian",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which material is traditionally used in sculpture?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Marble",
+                    "correct": true
+                },
+                {
+                    "label": "Wool",
+                    "correct": false
+                },
+                {
+                    "label": "Paper",
+                    "correct": false
+                },
+                {
+                    "label": "Silk",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "250px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which instrument is most associated with classical Indian music?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sitar",
+                    "correct": true
+                },
+                {
+                    "label": "Violin",
+                    "correct": false
+                },
+                {
+                    "label": "Piano",
+                    "correct": false
+                },
+                {
+                    "label": "Flute",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "290px",
+        "left": "25px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Who painted \"The Starry Night\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Vincent van Gogh",
+                    "correct": true
+                },
+                {
+                    "label": "Claude Monet",
+                    "correct": false
+                },
+                {
+                    "label": "Edvard Munch",
+                    "correct": false
+                },
+                {
+                    "label": "Paul Cézanne",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "330px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which color is traditionally associated with mourning in Western art?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Black",
+                    "correct": true
+                },
+                {
+                    "label": "White",
+                    "correct": false
+                },
+                {
+                    "label": "Red",
+                    "correct": false
+                },
+                {
+                    "label": "Blue",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "370px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which building is considered an iconic work of modern architecture?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Fallingwater",
+                    "correct": true
+                },
+                {
+                    "label": "Notre-Dame Cathedral",
+                    "correct": false
+                },
+                {
+                    "label": "Colosseum",
+                    "correct": false
+                },
+                {
+                    "label": "Parthenon",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "410px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which dance originated from the Bronx and became globally influential?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Breakdancing",
+                    "correct": true
+                },
+                {
+                    "label": "Samba",
+                    "correct": false
+                },
+                {
+                    "label": "Waltz",
+                    "correct": false
+                },
+                {
+                    "label": "Ballet",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "450px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which medium did Frida Kahlo most often use?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Oil painting",
+                    "correct": true
+                },
+                {
+                    "label": "Photography",
+                    "correct": false
+                },
+                {
+                    "label": "Sculpture",
+                    "correct": false
+                },
+                {
+                    "label": "Watercolor",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "490px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which culture developed calligraphy as a high form of art?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chinese",
+                    "correct": true
+                },
+                {
+                    "label": "Viking",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Aztec",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "530px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "What does the term \"mixed media\" refer to in visual art?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Combining different materials",
+                    "correct": true
+                },
+                {
+                    "label": "Black and white photography",
+                    "correct": false
+                },
+                {
+                    "label": "Only using paint and ink",
+                    "correct": false
+                },
+                {
+                    "label": "Digital art only",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "570px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which philosopher wrote about the concept of \"mimesis\" in art?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Plato",
+                    "correct": true
+                },
+                {
+                    "label": "Aristotle",
+                    "correct": false
+                },
+                {
+                    "label": "Socrates",
+                    "correct": false
+                },
+                {
+                    "label": "Kant",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "610px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which 20th-century art movement emphasized spontaneity and emotion?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Abstract Expressionism",
+                    "correct": true
+                },
+                {
+                    "label": "Realism",
+                    "correct": false
+                },
+                {
+                    "label": "Impressionism",
+                    "correct": false
+                },
+                {
+                    "label": "Baroque",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "650px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Hard \"question\": Which artist created \"Black Square\", a pivotal work in Suprematism?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Kazimir Malevich",
+                    "correct": true
+                },
+                {
+                    "label": "Wassily Kandinsky",
+                    "correct": false
+                },
+                {
+                    "label": "Piet Mondrian",
+                    "correct": false
+                },
+                {
+                    "label": "Mark Rothko",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "690px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which technique uses wax to preserve pigment in textiles?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Batik",
+                    "correct": true
+                },
+                {
+                    "label": "Etching",
+                    "correct": false
+                },
+                {
+                    "label": "Engraving",
+                    "correct": false
+                },
+                {
+                    "label": "Embossing",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "730px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which type of art often involves public space and community interaction?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Installation art",
+                    "correct": true
+                },
+                {
+                    "label": "Still life",
+                    "correct": false
+                },
+                {
+                    "label": "Portraiture",
+                    "correct": false
+                },
+                {
+                    "label": "Miniature painting",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "770px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "art, human expression",
+        "question": "Which classical form of Japanese theatre uses masks and stylized movements?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Noh",
+                    "correct": true
+                },
+                {
+                    "label": "Kabuki",
+                    "correct": false
+                },
+                {
+                    "label": "Butoh",
+                    "correct": false
+                },
+                {
+                    "label": "Gagaku",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "810px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    }
+]

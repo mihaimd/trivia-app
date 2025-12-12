@@ -1,0 +1,706 @@
+[
+    {
+        "question": "Which civilization built the pyramids of Giza?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                },
+                {
+                    "label": "Ancient Egyptians",
+                    "correct": true
+                },
+                {
+                    "label": "Babylonians",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 0,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which civilization built the pyramids of Giza?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                },
+                {
+                    "label": "Ancient Egyptians",
+                    "correct": false
+                },
+                {
+                    "label": "Babylonians",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 1,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which civilization built the pyramids of Giza?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                },
+                {
+                    "label": "Ancient Egyptians",
+                    "correct": true
+                },
+                {
+                    "label": "Babylonians",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 2,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The city of Machu Picchu is associated with which ancient civilization?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Inca",
+                    "correct": true
+                },
+                {
+                    "label": "Maya",
+                    "correct": false
+                },
+                {
+                    "label": "Aztec",
+                    "correct": false
+                },
+                {
+                    "label": "Olmec",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 3,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which writing system was used in ancient Mesopotamia?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hieroglyphics",
+                    "correct": false
+                },
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Cuneiform",
+                    "correct": true
+                },
+                {
+                    "label": "Sanskrit",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 4,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient civilization was located on the island of Crete?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mycenaean",
+                    "correct": false
+                },
+                {
+                    "label": "Minoan",
+                    "correct": true
+                },
+                {
+                    "label": "Phoenician",
+                    "correct": false
+                },
+                {
+                    "label": "Sumerian",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 5,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The Hanging Gardens were said to be part of which ancient city?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Athens",
+                    "correct": false
+                },
+                {
+                    "label": "Babylon",
+                    "correct": true
+                },
+                {
+                    "label": "Carthage",
+                    "correct": false
+                },
+                {
+                    "label": "Nineveh",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 6,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which South American civilization is known for mysterious lines in the desert?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aztec",
+                    "correct": false
+                },
+                {
+                    "label": "Inca",
+                    "correct": false
+                },
+                {
+                    "label": "Nazca",
+                    "correct": true
+                },
+                {
+                    "label": "Maya",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 7,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The Rosetta Stone helped scholars decode which writing system?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cuneiform",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Hieroglyphics",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 8,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient city was destroyed by a volcanic eruption in 79 AD?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pompeii",
+                    "correct": true
+                },
+                {
+                    "label": "Troy",
+                    "correct": false
+                },
+                {
+                    "label": "Carthage",
+                    "correct": false
+                },
+                {
+                    "label": "Persepolis",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 9,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What was the main city of the ancient Phoenician civilization?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tyre",
+                    "correct": false
+                },
+                {
+                    "label": "Thebes",
+                    "correct": false
+                },
+                {
+                    "label": "Carthage",
+                    "correct": true
+                },
+                {
+                    "label": "Ur",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 10,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient civilization was known for human sacrifice and a calendar system?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aztec",
+                    "correct": true
+                },
+                {
+                    "label": "Inca",
+                    "correct": false
+                },
+                {
+                    "label": "Etruscan",
+                    "correct": false
+                },
+                {
+                    "label": "Babylonian",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 11,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which of these is a lost city believed to have sunk into the sea?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Atlantis",
+                    "correct": true
+                },
+                {
+                    "label": "Alexandria",
+                    "correct": false
+                },
+                {
+                    "label": "Antioch",
+                    "correct": false
+                },
+                {
+                    "label": "Abydos",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 12,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "170px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The Mayans primarily lived in which region?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Northern Africa",
+                    "correct": false
+                },
+                {
+                    "label": "Middle East",
+                    "correct": false
+                },
+                {
+                    "label": "Central America",
+                    "correct": true
+                },
+                {
+                    "label": "India",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 13,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "180px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient civilization was known for massive stone heads with flat faces?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Olmec",
+                    "correct": true
+                },
+                {
+                    "label": "Maya",
+                    "correct": false
+                },
+                {
+                    "label": "Inca",
+                    "correct": false
+                },
+                {
+                    "label": "Zapotec",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 14,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "190px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which lost civilization is associated with stone structures at Great Zimbabwe?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Egyptian",
+                    "correct": false
+                },
+                {
+                    "label": "Shona",
+                    "correct": true
+                },
+                {
+                    "label": "Nubian",
+                    "correct": false
+                },
+                {
+                    "label": "Carthaginian",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 15,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The term “ziggurat” refers to what kind of structure?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tomb",
+                    "correct": false
+                },
+                {
+                    "label": "Temple",
+                    "correct": false
+                },
+                {
+                    "label": "Step Pyramid",
+                    "correct": true
+                },
+                {
+                    "label": "Fortress",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 16,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "210px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient people are considered the earliest known civilization?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Egyptian",
+                    "correct": false
+                },
+                {
+                    "label": "Sumerian",
+                    "correct": true
+                },
+                {
+                    "label": "Indus Valley",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 17,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "220px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient city was known as a center of knowledge and had a great library?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Alexandria",
+                    "correct": true
+                },
+                {
+                    "label": "Rome",
+                    "correct": false
+                },
+                {
+                    "label": "Athens",
+                    "correct": false
+                },
+                {
+                    "label": "Sparta",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 18,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "230px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The Indus Valley Civilization flourished in what is now mostly:",
+        "answers": {
+            "options": [
+                {
+                    "label": "Egypt",
+                    "correct": false
+                },
+                {
+                    "label": "China",
+                    "correct": false
+                },
+                {
+                    "label": "Pakistan",
+                    "correct": true
+                },
+                {
+                    "label": "Iraq",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 19,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "240px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The ancient Etruscans lived in what modern-day country?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Greece",
+                    "correct": false
+                },
+                {
+                    "label": "Italy",
+                    "correct": true
+                },
+                {
+                    "label": "Turkey",
+                    "correct": false
+                },
+                {
+                    "label": "Spain",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 20,
+        "category": "lost civilizations",
+        "top": "100px",
+        "left": "250px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The mysterious city of Petra is carved into rock in which modern country?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Jordan",
+                    "correct": true
+                },
+                {
+                    "label": "Iran",
+                    "correct": false
+                },
+                {
+                    "label": "Egypt",
+                    "correct": false
+                },
+                {
+                    "label": "Iraq",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-14",
+        "id": 21,
+        "category": "lost civilizations",
+        "top": "252px",
+        "left": "37px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

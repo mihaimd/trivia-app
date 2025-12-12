@@ -1,0 +1,642 @@
+[
+    {
+        "id": 4001,
+        "question": "What is Yggdrasil in Norse mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A sea serpent",
+                    "correct": false
+                },
+                {
+                    "label": "A tree connecting worlds",
+                    "correct": true
+                },
+                {
+                    "label": "A dragon",
+                    "correct": false
+                },
+                {
+                    "label": "A mountain",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "174px",
+        "left": "86px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 4002,
+        "question": "Which trees were considered sacred by the ancient Druids?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Birch",
+                    "correct": false
+                },
+                {
+                    "label": "Oak",
+                    "correct": true
+                },
+                {
+                    "label": "Pine",
+                    "correct": false
+                },
+                {
+                    "label": "Willow",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "76px",
+        "left": "303px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4003,
+        "question": "What is the Greek dryad associated with?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Waterfalls",
+                    "correct": false
+                },
+                {
+                    "label": "Mountains",
+                    "correct": false
+                },
+                {
+                    "label": "Trees",
+                    "correct": true
+                },
+                {
+                    "label": "Stars",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "292px",
+        "left": "96px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4004,
+        "question": "Which tree is known as the \"Tree of Life\" in many cultures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Fig",
+                    "correct": true
+                },
+                {
+                    "label": "Cedar",
+                    "correct": false
+                },
+                {
+                    "label": "Baobab",
+                    "correct": false
+                },
+                {
+                    "label": "Oak",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "513px",
+        "left": "85px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4005,
+        "question": "Which forest is home to the myth of Robin Hood?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sherwood",
+                    "correct": true
+                },
+                {
+                    "label": "Black Forest",
+                    "correct": false
+                },
+                {
+                    "label": "Epping",
+                    "correct": false
+                },
+                {
+                    "label": "Arden",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "517px",
+        "left": "117px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 4006,
+        "question": "What was the sacred grove in ancient Rome called?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Silva",
+                    "correct": false
+                },
+                {
+                    "label": "Lucus",
+                    "correct": true
+                },
+                {
+                    "label": "Hortus",
+                    "correct": false
+                },
+                {
+                    "label": "Bosco",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "447px",
+        "left": "271px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4007,
+        "question": "Which tree is a national symbol of Lebanon?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cypress",
+                    "correct": false
+                },
+                {
+                    "label": "Palm",
+                    "correct": false
+                },
+                {
+                    "label": "Cedar",
+                    "correct": true
+                },
+                {
+                    "label": "Pine",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "553px",
+        "left": "114px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 4008,
+        "question": "In many cultures, what do whispering trees symbolize?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Danger",
+                    "correct": false
+                },
+                {
+                    "label": "Wisdom",
+                    "correct": true
+                },
+                {
+                    "label": "Laziness",
+                    "correct": false
+                },
+                {
+                    "label": "Confusion",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "140px",
+        "left": "315px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 4009,
+        "question": "The Bodhi tree is significant in which religion?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Christianity",
+                    "correct": false
+                },
+                {
+                    "label": "Islam",
+                    "correct": false
+                },
+                {
+                    "label": "Hinduism",
+                    "correct": false
+                },
+                {
+                    "label": "Buddhism",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "233px",
+        "left": "241px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4010,
+        "question": "What kind of creature is an Ent in Tolkien's mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Elf",
+                    "correct": false
+                },
+                {
+                    "label": "Dragon",
+                    "correct": false
+                },
+                {
+                    "label": "Tree-being",
+                    "correct": true
+                },
+                {
+                    "label": "Dwarf",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "561px",
+        "left": "108px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4011,
+        "question": "Which culture believed spirits lived in trees and forests?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Norse",
+                    "correct": false
+                },
+                {
+                    "label": "Celtic",
+                    "correct": true
+                },
+                {
+                    "label": "Incan",
+                    "correct": false
+                },
+                {
+                    "label": "Persian",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "565px",
+        "left": "233px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4012,
+        "question": "What is a sacred fig tree under which Buddha attained enlightenment?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Asvattha",
+                    "correct": true
+                },
+                {
+                    "label": "Neem",
+                    "correct": false
+                },
+                {
+                    "label": "Banyan",
+                    "correct": false
+                },
+                {
+                    "label": "Sandalwood",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "493px",
+        "left": "263px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 4013,
+        "question": "In mythology, who guarded the golden apples in the Garden of the Hesperides?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sirens",
+                    "correct": false
+                },
+                {
+                    "label": "Cyclopes",
+                    "correct": false
+                },
+                {
+                    "label": "Harpies",
+                    "correct": false
+                },
+                {
+                    "label": "Nymphs",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "345px",
+        "left": "335px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4014,
+        "question": "Which forest is considered haunted in Romania?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sherwood",
+                    "correct": false
+                },
+                {
+                    "label": "Hoia",
+                    "correct": true
+                },
+                {
+                    "label": "Sinca Veche",
+                    "correct": false
+                },
+                {
+                    "label": "Buzaului",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "568px",
+        "left": "101px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4015,
+        "question": "What tree\u2019s leaves were worn as a crown by Roman emperors?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pine",
+                    "correct": false
+                },
+                {
+                    "label": "Olive",
+                    "correct": false
+                },
+                {
+                    "label": "Laurel",
+                    "correct": true
+                },
+                {
+                    "label": "Maple",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "300px",
+        "left": "235px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 4016,
+        "question": "Which ancient culture had sacred groves dedicated to Artemis?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Greek",
+                    "correct": true
+                },
+                {
+                    "label": "Mayan",
+                    "correct": false
+                },
+                {
+                    "label": "Nubian",
+                    "correct": false
+                },
+                {
+                    "label": "Babylonian",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "438px",
+        "left": "178px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4017,
+        "question": "The ancient term \"nemeton\" refers to what?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Burial site",
+                    "correct": false
+                },
+                {
+                    "label": "Sacred grove",
+                    "correct": true
+                },
+                {
+                    "label": "Battlefield",
+                    "correct": false
+                },
+                {
+                    "label": "Meeting hall",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "536px",
+        "left": "119px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 4018,
+        "question": "What is the purpose of a \"totem tree\" in some indigenous cultures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "To mark property",
+                    "correct": false
+                },
+                {
+                    "label": "To scare animals",
+                    "correct": false
+                },
+                {
+                    "label": "To connect to spirits",
+                    "correct": true
+                },
+                {
+                    "label": "To show direction",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "425px",
+        "left": "134px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4019,
+        "question": "Which of the following is considered a sacred tree in Japanese Shintoism?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sakura",
+                    "correct": false
+                },
+                {
+                    "label": "Ginkgo",
+                    "correct": false
+                },
+                {
+                    "label": "Camphor",
+                    "correct": false
+                },
+                {
+                    "label": "Cryptomeria",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "492px",
+        "left": "99px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4020,
+        "question": "What tree is associated with the underworld in many myths?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Elm",
+                    "correct": false
+                },
+                {
+                    "label": "Birch",
+                    "correct": false
+                },
+                {
+                    "label": "Cypress",
+                    "correct": true
+                },
+                {
+                    "label": "Maple",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "229px",
+        "left": "149px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    }
+]

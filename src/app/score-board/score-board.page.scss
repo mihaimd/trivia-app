@@ -1,0 +1,123 @@
+ion-content::part(scroll) {
+  background-image: unset;
+  background-color: #1f3040;
+}
+.score-board-bg {
+  height: 100vh;
+  overflow: hidden;
+}
+
+ion-segment {  
+  background: #1f3040;
+}
+ion-segment-button::part(indicator-background) {
+  background: #000;
+}
+
+ion-segment-button {  
+  ion-label {
+    color: #fff;
+  }
+}
+
+.segment-button-checked {
+  ion-label {
+    color: #00ffc8;
+  }
+}
+.main-score-board {
+    background-color: rgba(0, 0, 0, 0.605);
+}
+.podium {
+    .podium-avatar {
+        margin: 0 auto;
+        width: 80px;
+        height: 80px;
+        border: 3px solid white;
+        border-radius: 50%;
+        background-color: grey;
+        overflow: hidden;
+        .flag{
+            position: absolute;
+            left: 70%;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+        }
+    }
+
+    .podium-description {
+        color: white;
+        padding: 0;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 500;
+        text-align: center;
+        position: relative;
+        top: -15px;
+        .level-position{
+          background: darkseagreen;
+          padding: 5px 8px 2px 8px;
+          border-radius: 50%;
+          border: 3px solid #fff;
+          margin-bottom: 5px;
+        }
+    }
+}
+.score-table {
+  background: #1f3040 !important;
+  ion-item {
+    --inner-padding-end: 2px;
+    ion-badge.count {
+      border-radius: 5px;
+      background: rgb(78 69 74);
+      padding: 8px 16px;
+      color: #fff;
+    }
+    ion-label {
+      text-transform: capitalize;
+      ion-badge {
+        border-radius: 5px;
+        background: rgb(78 69 74);
+        padding: 4px 8px;
+      }
+    }
+  }
+  ion-item::part(native){
+    padding: 5px 0px;
+    background: #1f3040;
+    // --background: #1f3040;
+    .item-inner {
+      padding: 2px;
+    }
+  }
+  ion-avatar{
+    margin: 0px 15px;
+    border: 3px solid #fff;
+    height: 50px;
+    width: 50px;
+    img.flag{
+      position: absolute;
+      top: 35px;
+      left: 0px;
+      height: 25px;
+      width: 25px;
+      border: 3px solid #fff;
+    }
+  }
+}
+ion-footer{
+  .score-table {
+    background: #1f3040 !important;
+    ion-item::part(native) {
+      background-color: #1e1e2f !important;
+    }
+  }
+}
+
+.activeItem::part(native){
+  background: #08cba5 !important;
+}

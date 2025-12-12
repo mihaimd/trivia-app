@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What mythical island is said to have vanished beneath the sea?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Atlantis",
+                    "correct": true
+                },
+                {
+                    "label": "Avalon",
+                    "correct": false
+                },
+                {
+                    "label": "Thule",
+                    "correct": false
+                },
+                {
+                    "label": "Lemuria",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "60px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 2,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In folklore, what is a place where time flows differently often called?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Fairy Ring",
+                    "correct": true
+                },
+                {
+                    "label": "Time Hollow",
+                    "correct": false
+                },
+                {
+                    "label": "Chrono Pool",
+                    "correct": false
+                },
+                {
+                    "label": "Echo Chamber",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What ancient library is believed to have held the knowledge of the world before its destruction?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Library of Alexandria",
+                    "correct": true
+                },
+                {
+                    "label": "House of Wisdom",
+                    "correct": false
+                },
+                {
+                    "label": "Sumerian Archives",
+                    "correct": false
+                },
+                {
+                    "label": "Temple of Delphi",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 4,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which civilization is thought to have used mirrored illusions in its temples?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Maya",
+                    "correct": true
+                },
+                {
+                    "label": "Inca",
+                    "correct": false
+                },
+                {
+                    "label": "Babylonian",
+                    "correct": false
+                },
+                {
+                    "label": "Phoenician",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 5,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which mythical place is believed to be a realm of eternal youth and forgetfulness?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lethe",
+                    "correct": true
+                },
+                {
+                    "label": "Elysium",
+                    "correct": false
+                },
+                {
+                    "label": "Arcadia",
+                    "correct": false
+                },
+                {
+                    "label": "Hyperborea",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "300px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 6,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which plant is often linked to memory and used in rituals of remembrance?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Rosemary",
+                    "correct": true
+                },
+                {
+                    "label": "Thyme",
+                    "correct": false
+                },
+                {
+                    "label": "Mint",
+                    "correct": false
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "360px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 7,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which god in Greek mythology could manipulate memory?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mnemosyne",
+                    "correct": true
+                },
+                {
+                    "label": "Apollo",
+                    "correct": false
+                },
+                {
+                    "label": "Hermes",
+                    "correct": false
+                },
+                {
+                    "label": "Thanatos",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "60px",
+        "left": "170px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 8,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What illusion-related term refers to a city seen in the distance that vanishes on approach?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Fata Morgana",
+                    "correct": true
+                },
+                {
+                    "label": "Echo Mirage",
+                    "correct": false
+                },
+                {
+                    "label": "Spectral Vale",
+                    "correct": false
+                },
+                {
+                    "label": "Shimmermist",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "210px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 9,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which of these is considered a lost city of gold?",
+        "answers": {
+            "options": [
+                {
+                    "label": "El Dorado",
+                    "correct": true
+                },
+                {
+                    "label": "Atlantis",
+                    "correct": false
+                },
+                {
+                    "label": "Petra",
+                    "correct": false
+                },
+                {
+                    "label": "Shambhala",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "250px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 10,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which river in the Greek underworld erases the memories of souls?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lethe",
+                    "correct": true
+                },
+                {
+                    "label": "Styx",
+                    "correct": false
+                },
+                {
+                    "label": "Acheron",
+                    "correct": false
+                },
+                {
+                    "label": "Phlegethon",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "280px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 11,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which mountain is said to hide the mythical city of Shambhala?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Himalayas",
+                    "correct": true
+                },
+                {
+                    "label": "Andes",
+                    "correct": false
+                },
+                {
+                    "label": "Alps",
+                    "correct": false
+                },
+                {
+                    "label": "Carpathians",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "300px",
+        "left": "320px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 12,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What ancient art involves creating illusions through geometry and shape?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Trompe-l'œil",
+                    "correct": true
+                },
+                {
+                    "label": "Fresco",
+                    "correct": false
+                },
+                {
+                    "label": "Etching",
+                    "correct": false
+                },
+                {
+                    "label": "Mosaic",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "360px",
+        "left": "290px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 13,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What magical object stores thoughts and memories in the Harry Potter universe?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pensieve",
+                    "correct": true
+                },
+                {
+                    "label": "Time-Turner",
+                    "correct": false
+                },
+                {
+                    "label": "Remembrall",
+                    "correct": false
+                },
+                {
+                    "label": "Mirror of Erised",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "60px",
+        "left": "350px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 14,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What is the name of the mirror that shows the viewer their deepest desire?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mirror of Erised",
+                    "correct": true
+                },
+                {
+                    "label": "Glass of Wishes",
+                    "correct": false
+                },
+                {
+                    "label": "Window of Want",
+                    "correct": false
+                },
+                {
+                    "label": "Reflection of Truth",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "380px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What mythical creature is known to lure travelers into illusionary mazes?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Will-o’-the-Wisp",
+                    "correct": true
+                },
+                {
+                    "label": "Kelpie",
+                    "correct": false
+                },
+                {
+                    "label": "Hippogriff",
+                    "correct": false
+                },
+                {
+                    "label": "Golem",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "400px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 16,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which lost continent is sometimes associated with psychic memory and crystal power?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lemuria",
+                    "correct": true
+                },
+                {
+                    "label": "Mu",
+                    "correct": false
+                },
+                {
+                    "label": "Thule",
+                    "correct": false
+                },
+                {
+                    "label": "Hyperion",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "420px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 17,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What city is believed by some to appear once every hundred years and vanish again?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Brigadoon",
+                    "correct": true
+                },
+                {
+                    "label": "Erewhon",
+                    "correct": false
+                },
+                {
+                    "label": "Zanarkand",
+                    "correct": false
+                },
+                {
+                    "label": "Illium",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "300px",
+        "left": "460px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 18,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which memory-related deity was mother to the nine muses?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mnemosyne",
+                    "correct": true
+                },
+                {
+                    "label": "Metis",
+                    "correct": false
+                },
+                {
+                    "label": "Gaia",
+                    "correct": false
+                },
+                {
+                    "label": "Rhea",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "360px",
+        "left": "490px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 19,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What ancient ritual attempted to restore lost memories to a person?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Dream Incubation",
+                    "correct": true
+                },
+                {
+                    "label": "Soul Bathing",
+                    "correct": false
+                },
+                {
+                    "label": "Wind Whispering",
+                    "correct": false
+                },
+                {
+                    "label": "Ether Communion",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "420px",
+        "left": "300px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 20,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What ancient artifact was said to store the knowledge of an entire lost civilization?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Emerald Tablet",
+                    "correct": true
+                },
+                {
+                    "label": "Tablet of Destiny",
+                    "correct": false
+                },
+                {
+                    "label": "Stone of Fal",
+                    "correct": false
+                },
+                {
+                    "label": "Chronos Crystal",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "480px",
+        "left": "240px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

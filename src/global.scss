@@ -1,0 +1,711 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+/**
+ * Ionic Dark Mode
+ * -----------------------------------------------------
+ * For more info, please see:
+ * https://ionicframework.com/docs/theming/dark-mode
+ */
+
+/* @import "@ionic/angular/css/palettes/dark.always.css"; */
+/* @import "@ionic/angular/css/palettes/dark.class.css"; */
+@import '@ionic/angular/css/palettes/dark.system.css';
+
+* {
+    background-repeat: no-repeat;
+    background-position: top left;
+    --ion-safe-area-left: 10px;
+    --ion-safe-area-right: 10px;
+}
+
+body {
+    font-size: 16px;
+}
+
+.AS_FS_small { font-size: small !important; }
+.AS_FS_normal { font-size: medium !important; }
+.AS_FS_large { font-size: large !important; }
+
+
+ion-footer {
+    background-color: white;
+    border-top: 3px solid #ccc;
+}
+.d-flex {
+    display: flex;
+}
+
+// ion-content::part(scroll) {
+//     padding-left: var(--ion-safe-area-left);
+//     padding-right: var(--ion-safe-area-right);
+// }
+ion-content::part(scroll) {
+    background-image: url('/assets/img/bg-image.webp');    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // z-index: -1;
+}
+
+//   .fixed-bg {
+//     --background: none; /* Disable Ionic's default background */
+//     background-image: url('/assets/img/bg-image.webp');
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+
+//   }
+
+.button-text {
+    color: white;
+    position: relative;
+    z-index: 3;
+}
+
+.contentV2 .progressBar>* {
+    position: relative;
+}
+
+.progressBar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background-repeat: no-repeat;
+    background-position: top left;
+    box-sizing: border-box;
+
+    .bar {
+        width: 100%;
+        height: 20px;
+        padding: 0 6px;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom, #cba467 5%, #f3e2ae 13%, #efbf7b 32%, #aa8050 48%, #835e35 72%, #ad8a54 93%, #d7b672 100%);
+        border: 1px solid #34220d;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        z-index: 1;
+        align-self: center;
+        justify-self: center;
+        box-sizing: border-box;
+        height: 24px;
+        padding: 3px 6px;
+        border-radius: 10px;
+        width: 280px;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            left: 2px;
+            bottom: 2px;
+            z-index: 2;
+            border-radius: 7px;
+            background-color: #664e40;
+            border: solid 1px #44321d;
+            border-radius: 7px;
+        }
+
+        .decoration {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 3;
+            text-align: center;
+            color: white;
+            padding-top: 1px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                background-image: url('/assets/img/progressBarDecoration.png');
+                width: 10px;
+                height: 18px;
+                left: 1px;
+
+            }
+
+            &::after {
+                right: 1px;
+                transform: scaleX(-1);
+                content: "";
+                position: absolute;
+                background-image: url('/assets/img/progressBarDecoration.png');
+                width: 10px;
+                height: 18px;
+            }
+        }
+
+        .filling {
+            display: inline-block;
+            position: relative;
+            width: 0;
+            transition-duration: 250ms;
+            transition-timing-function: ease-out;
+            box-sizing: border-box;
+            z-index: 2;
+            top: -1px;
+            height: 17px;
+
+            &.primary {
+                display: inline-block;
+                overflow: hidden;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                }
+
+                &.green {
+                    background-image: linear-gradient(to top, #5c831e 0, #5d8f0d 45.26%, #7f9f32 72.08%, #a0ae56 100%);
+                    width: 50%;
+
+                    &::before {
+                        border: 2px solid #6cb708;
+                        border-top-color: #f5f8ef;
+                    }
+                }
+
+                &.blue {
+                    background-image: linear-gradient(to top, #0065a3 0, #007dcb 45.26%, #00a0db 72.08%, #00a7ff 100%);
+                    width: 50%;
+
+                    &::before {
+                        border: 2px solid #b6b6fa;
+                        border-top-color: #f5f8ef;
+                    }
+                }
+            }
+
+            &.secondary {
+                width: 50%;
+                transition-duration: 250ms;
+            }
+        }
+    }
+}
+
+.sidebarBox {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: #333;
+    pointer-events: auto;
+    box-sizing: border-box;
+
+    // margin: 25px;
+    .content {
+        position: relative;
+        z-index: 1;
+        min-height: 78px;
+        padding: 35px 25px 30px;
+
+        &::before {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-style: solid;
+            border-width: 38px 53px 38px 53px;
+            border-image: url('/assets/img/sidebarBox.png') 38 53 38 53 fill stretch;
+        }
+    }
+
+    .toggle {
+        position: relative;
+        z-index: 2;
+        margin: -14px auto 0;
+        background-image: url('/assets/img/toggle.png');
+        width: 100px;
+        height: 30px;
+    }
+}
+
+.card-content-ios {
+    padding: 0;
+}
+
+.dialogContents {
+    height: auto;
+    background-color: #d2bda1;
+    border-radius: 10px;
+    padding: 0 17px 17px;
+    width: 100%;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 19px;
+        right: 0;
+        bottom: auto;
+        left: 0;
+        height: 48px;
+        background-image: url('/assets/img/header.jpg');
+        background-repeat: repeat-x;
+        pointer-events: none;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        border-style: solid;
+        border-width: 68px 51px 11px 51px;
+        border-image: url('/assets/img/frame.png') 68 51 11 51 fill repeat;
+        pointer-events: none;
+    }
+
+    .content-title {
+        height: 67px;
+    }
+
+    .content-content {
+        background-color: #f4efe4;
+        height: auto;
+        padding: 10px
+    }
+
+    .content-button {
+        margin-top: 10px;
+    }
+}
+
+button {
+    &.arrow-right {
+        background-image: url('/assets/img/scrollTo.png');
+        padding-left: 10px;
+        width: 34px;
+        height: 41px;
+        grid-row: 1/3;
+        background-color: transparent;
+    }
+
+    &.arrow-left {
+        background-image: url('/assets/img/scrollFrom.png');
+        padding-left: 10px;
+        width: 34px;
+        height: 41px;
+        grid-row: 1/3;
+        background-color: transparent;
+    }
+
+    &.blue {
+        width: 100%;
+        height: 48px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #cba467 5%, #f3e2ae 13%, #efbf7b 32%, #aa8050 48%, #835e35 72%, #ad8a54 93%, #d7b672 100%);
+        border: 1px solid #34220d;
+        cursor: pointer;
+        border-radius: 2px;
+
+        &::before {
+            border: 1px solid #34353c;
+            border-radius: 2px;
+            box-shadow: inset 0 -4px 0 -2px #0a0a7a, inset 0 4px 0 -2px #b6b6fa, inset 0 0 0 1px #3232b8;
+            background-image: linear-gradient(to bottom, #5353b0, #0c0cab);
+            border-radius: 2px;
+            content: "";
+            z-index: 2;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            bottom: 2px;
+            left: 2px;
+            pointer-events: none;
+        }
+
+        &.large {
+            height: 60px;
+            border-radius: 12px;
+
+            &::before {
+                border-radius: 12px;
+            }
+        }
+    }
+
+    &.green {
+        width: 100%;
+        height: 48px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #cba467 5%, #f3e2ae 13%, #efbf7b 32%, #aa8050 48%, #835e35 72%, #ad8a54 93%, #d7b672 100%);
+        border: 1px solid #34220d;
+        cursor: pointer;
+        border-radius: 2px;
+
+        &::before {
+            border: 1px solid #34353c;
+            border-radius: 2px;
+            box-shadow: inset 0 -4px 0 -2px #344a1d, inset 0 4px 0 -2px #b9d890, inset 0 0 0 1px #679f1b;
+            background-image: linear-gradient(to bottom, #5d8137, #466428);
+            border-radius: 2px;
+            content: "";
+            z-index: 2;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            bottom: 2px;
+            left: 2px;
+            pointer-events: none;
+        }
+    }
+
+    &.red {
+        width: 100%;
+        height: 48px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #cba467 5%, #f3e2ae 13%, #efbf7b 32%, #aa8050 48%, #835e35 72%, #ad8a54 93%, #d7b672 100%);
+        border: 1px solid #34220d;
+        cursor: pointer;
+        border-radius: 2px;
+
+        &::before {
+            border: 1px solid #34353c;
+            border-radius: 2px;
+            box-shadow: inset 0 -4px 0 -2px #c20808, inset 0 4px 0 -2px #fab6b6, inset 0 0 0 1px #d64d4d;
+            background-image: linear-gradient(to bottom, #d13d3d, #f20a0a);
+            border-radius: 2px;
+            content: "";
+            z-index: 2;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            bottom: 2px;
+            left: 2px;
+            pointer-events: none;
+        }
+
+        &.large {
+            height: 60px;
+            border-radius: 12px;
+
+            &::before {
+                border-radius: 12px;
+            }
+        }
+    }
+
+    &.grey {
+        width: 100%;
+        height: 48px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #cba467 5%, #f3e2ae 13%, #efbf7b 32%, #aa8050 48%, #835e35 72%, #ad8a54 93%, #d7b672 100%);
+        border: 1px solid #34220d;
+        cursor: pointer;
+        border-radius: 2px;
+
+        &::before {
+            border: 1px solid #34353c;
+            border-radius: 2px;
+            box-shadow: inset 0 -4px 0 -2px #666262, inset 0 4px 0 -2px #e3dcdc, inset 0 0 0 1px #a19999;
+            background-image: linear-gradient(to bottom, #878080, #595555);
+            border-radius: 2px;
+            content: "";
+            z-index: 2;
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            bottom: 2px;
+            left: 2px;
+            pointer-events: none;
+        }
+    }
+
+    &.gold {
+        width: 100%;
+        height: 48px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #cba467 5%, #f3e2ae 13%, #efbf7b 32%, #aa8050 48%, #835e35 72%, #ad8a54 93%, #d7b672 100%);
+        border: 1px solid #34220d;
+        cursor: pointer;
+        border-radius: 2px;
+
+        &::before {
+            content: "";
+            border: 1px solid #3a1502;
+            box-shadow: inset 0 -4px 0 -2px #9d6513, inset 0 4px 0 -2px #fff0c6, inset 0 0 0 1px #fffabf;
+            background-image: linear-gradient(to bottom, #f1da33, #da9e25);
+            pointer-events: none;
+        }
+    }
+}
+
+.divider {
+    background-image: url('/assets/img/divider.png');
+    width: 220px;
+    height: 10px;
+    width: auto;
+    background-position: center;
+}
+
+
+ion-icon {
+    &.bottom-menu {
+        font-size: 42px;
+    }
+}
+
+.buttons-spacing {
+    display: flex;
+    gap: 20px;
+    /* Space between buttons */
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    &.back-button {
+        background: url('/assets/img/scrollFrom.png') -4px -46px;
+        position: relative;
+        z-index: 2;
+        width: 26px;
+        height: 33px;
+        top: -5px;
+        right: -15px;
+        transition: top 0.5s, right 0.5s;
+    }
+
+    &.none {
+        display: none;
+    }
+}
+
+.choice {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    .bullet {
+        width: 30px;
+        height: 29px;
+        display: inline-block;
+        position: relative;
+        bottom: -4px;
+        background-image: url('/assets/img/select.png');
+        background-position: -5px -3px;
+
+        &.selected {
+            background-image: url('/assets/img/select-selected.png');
+        }
+    }
+
+    .bullet-text {
+        font-size: 1rem;
+        font-weight: 700;
+        max-width: 78%;
+        // text-align: justify;
+    }
+
+    &.completed {
+        .bullet {
+            background-image: url('/assets/img/select-selected.png');
+            filter: grayscale(100%);
+        }
+
+        .bullet-text {
+            color: #ccc;
+        }
+    }
+}
+
+// Update On 06-OCT-2025 START
+.ask-btn-danger {
+    color: red !important;
+}
+.ask-btn-success {
+    color: green !important;
+}
+.alert-message {
+    font-size: 1rem !important;
+}
+
+/* ion-modal.skill-gaining-modal {
+  --height: 80%;
+  --border-radius: 16px;
+  --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+} */
+
+ion-modal.level-up-modal {
+  --height: 35%;
+  --width: 90%;
+  --border-radius: 16px;
+  --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.text-clip1{
+    background: linear-gradient(to bottom, #f43f5e, #ec780c, #f9f904);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700 !important;
+}
+
+.player-profile-name::part(native) {
+    .item-inner{ padding-right: calc(5px) !important; }
+}
+.goldCoinImg{
+    height: 1.5rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px 0px #aa8050;
+}
+.ion-padding-half {
+  padding: 8px;
+}
+.ion-flex-column{
+    flex-direction: column;
+}
+.h-fill{
+    height: -webkit-fill-available;
+}
+.w-fill{
+    width: -webkit-fill-available !important;
+}
+.fs1-3rem{
+    font-size: 1.3rem;
+}
+.bg-dark {
+    background: #1e1e2f !important;
+    --background: #1e1e2f !important;
+    --color: #fff !important;
+}
+.bg-dark-medium {
+    background: #404349a3 !important;
+}
+ion-menu{
+    ion-list,ion-item::part(native){
+        background: #1e1e2f !important;                
+    }
+    ion-item.filter-gray {
+        ion-label,ion-icon {
+            --color: #9c9c9c !important;
+            color: #9c9c9c !important;
+        }
+    }
+    .activeMenu {
+        filter: unset !important;
+        ion-label {
+            --color: #00ffc8 !important;
+        }
+    }
+}
+.text-muted {
+    color: #bbb;
+}
+.text-light {
+    color: #fff !important;
+    --color: #fff !important;
+}
+
+.text-dark {
+    color: #000 !important;
+}
+.text-warning {
+    color: var(--ion-color-warning, #ffc409) !important;
+}
+.f700{ font-weight: 700; }
+.f900{ font-weight: 900; }
+.m-1{ margin: 0.25rem !important; }
+.filter-gray {
+    filter: grayscale(1) !important;
+}
+.empty-list {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+}
+ion-select.country-dropdown {
+  width: 25%;
+}
+.d-block {
+    display: block;
+}
+
+ion-avatar.profile-image {
+    height: 65px;
+    width: 65px;
+    .flag {
+        position: absolute;
+        top: 13%;
+        left: 55%;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+.score-table {
+    ion-item::part(native) {
+        .item-inner {
+            padding-right: 2px;
+        }
+    }
+}
+ion-infinite-scroll {
+    ion-infinite-scroll-content {
+        ion-spinner {
+            color: #02f3c0;
+        }
+    }
+}
+// Update On 06-OCT-2025 END

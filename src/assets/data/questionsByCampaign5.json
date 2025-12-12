@@ -1,0 +1,642 @@
+[
+    {
+        "question": "Which city’s ruins were lost for centuries until uncovered in 1748?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Carthage",
+                    "correct": false
+                },
+                {
+                    "label": "Pompeii",
+                    "correct": true
+                },
+                {
+                    "label": "Troy",
+                    "correct": false
+                },
+                {
+                    "label": "Knossos",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 0,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which group is believed to have hidden the Ark of the Covenant?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Israelites",
+                    "correct": true
+                },
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                },
+                {
+                    "label": "Persians",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 1,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Who discovered the tomb of Tutankhamun?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Heinrich Schliemann",
+                    "correct": false
+                },
+                {
+                    "label": "Champollion",
+                    "correct": false
+                },
+                {
+                    "label": "Ramses",
+                    "correct": false
+                },
+                {
+                    "label": "Howard Carter",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 2,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which secretive group has been rumored to influence world events?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Illuminati",
+                    "correct": true
+                },
+                {
+                    "label": "The Templars",
+                    "correct": false
+                },
+                {
+                    "label": "The Druids",
+                    "correct": false
+                },
+                {
+                    "label": "The Scribes",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 3,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which “hidden” empire ruled parts of Central Asia and used coded writing?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Phoenicians",
+                    "correct": false
+                },
+                {
+                    "label": "Celts ",
+                    "correct": false
+                },
+                {
+                    "label": "Khazars",
+                    "correct": true
+                },
+                {
+                    "label": "Huns",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 4,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which civilization built hidden cliff dwellings in the American Southwest?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Anasazi",
+                    "correct": true
+                },
+                {
+                    "label": "Apache",
+                    "correct": false
+                },
+                {
+                    "label": "Inuit",
+                    "correct": false
+                },
+                {
+                    "label": "Aztec",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 5,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which secret was vital to cracking WWII German codes?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Enigma Machine",
+                    "correct": true
+                },
+                {
+                    "label": "Sputnik",
+                    "correct": false
+                },
+                {
+                    "label": "Manhattan Project",
+                    "correct": false
+                },
+                {
+                    "label": "Bletchley Scroll",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 6,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which island is home to the mysterious Moai statues?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Atlantis",
+                    "correct": false
+                },
+                {
+                    "label": "Easter Island",
+                    "correct": true
+                },
+                {
+                    "label": "Cyprus",
+                    "correct": false
+                },
+                {
+                    "label": "Santorini",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 7,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What lost city is believed to lie beneath the sea, according to Plato?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Atlantis",
+                    "correct": true
+                },
+                {
+                    "label": "Babylon",
+                    "correct": false
+                },
+                {
+                    "label": "Petra",
+                    "correct": false
+                },
+                {
+                    "label": "Alexandria",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 8,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What group used a fish symbol to communicate secretly?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Roman soldiers",
+                    "correct": false
+                },
+                {
+                    "label": "Druids",
+                    "correct": false
+                },
+                {
+                    "label": "Early Christians",
+                    "correct": true
+                },
+                {
+                    "label": "Spartans",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 9,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which Mesoamerican civilization is famous for its cryptic calendar system?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Olmec",
+                    "correct": false
+                },
+                {
+                    "label": "Maya",
+                    "correct": true
+                },
+                {
+                    "label": "Aztec",
+                    "correct": false
+                },
+                {
+                    "label": "Zapotec",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 10,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The Knights Templar were believed to guard which secret?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A cursed sword",
+                    "correct": false
+                },
+                {
+                    "label": "Excalibur",
+                    "correct": false
+                },
+                {
+                    "label": "Book of Shadows",
+                    "correct": false
+                },
+                {
+                    "label": "Holy Grail",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 11,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which U.S. document is rumored to have a hidden map on the back?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bill of Rights",
+                    "correct": false
+                },
+                {
+                    "label": "Constitution",
+                    "correct": false
+                },
+                {
+                    "label": "Declaration of Independence",
+                    "correct": true
+                },
+                {
+                    "label": "Emancipation Proclamation",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 12,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The “Dead Sea Scrolls” were discovered in:",
+        "answers": {
+            "options": [
+                {
+                    "label": "A pyramid",
+                    "correct": false
+                },
+                {
+                    "label": "A cave",
+                    "correct": true
+                },
+                {
+                    "label": "A temple",
+                    "correct": false
+                },
+                {
+                    "label": "A fortress",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 13,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which stone structure aligns perfectly with solstices?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Parthenon",
+                    "correct": false
+                },
+                {
+                    "label": "Stonehenge",
+                    "correct": true
+                },
+                {
+                    "label": "Acropolis",
+                    "correct": false
+                },
+                {
+                    "label": "Moai",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 14,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which “secret language” was used by day laborers during the Great Depression?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Morse Code",
+                    "correct": false
+                },
+                {
+                    "label": "Pig Latin",
+                    "correct": false
+                },
+                {
+                    "label": "Hobo Code",
+                    "correct": true
+                },
+                {
+                    "label": "Navajo Code",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 15,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "The ancient library in Alexandria was located in which country?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Greece",
+                    "correct": false
+                },
+                {
+                    "label": "Persia",
+                    "correct": false
+                },
+                {
+                    "label": "Egypt",
+                    "correct": true
+                },
+                {
+                    "label": "Italy",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 16,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What is the term for secret writing systems?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ciphers",
+                    "correct": true
+                },
+                {
+                    "label": "Crypts",
+                    "correct": false
+                },
+                {
+                    "label": "Stenography",
+                    "correct": false
+                },
+                {
+                    "label": "Manuscripts",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 17,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "Which ancient bronze artifact, discovered in Greece, is believed to be the world\"s first analog computer?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Delphi Compass",
+                    "correct": false
+                },
+                {
+                    "label": "Ptolemy Sphere",
+                    "correct": false
+                },
+                {
+                    "label": "Antikythera Mechanism",
+                    "correct": true
+                },
+                {
+                    "label": "Samos Chronometer",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 18,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "question": "What secret society was founded in 1717 and has long been the subject of conspiracy theories?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Freemasons ",
+                    "correct": true
+                },
+                {
+                    "label": "The Illuminated Ones",
+                    "correct": false
+                },
+                {
+                    "label": "Black Brotherhood",
+                    "correct": false
+                },
+                {
+                    "label": "Order of the Scroll",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "id": 19,
+        "category": "Secrets of History & Hidden Truths",
+        "top": "10px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

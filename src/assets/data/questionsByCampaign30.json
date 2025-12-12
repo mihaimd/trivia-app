@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "question": "What is the primary source of energy for most fire on Earth?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Electricity",
+                    "correct": false
+                },
+                {
+                    "label": "Sunlight",
+                    "correct": false
+                },
+                {
+                    "label": "Oxygen",
+                    "correct": true
+                },
+                {
+                    "label": "Friction",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Fire & Energy",
+        "top": "80px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 2,
+        "question": "Which part of the fire triangle is removed to extinguish a fire?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Fuel",
+                    "correct": true
+                },
+                {
+                    "label": "Ash",
+                    "correct": false
+                },
+                {
+                    "label": "Light",
+                    "correct": false
+                },
+                {
+                    "label": "Heat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Fire & Safety",
+        "top": "120px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "question": "Which process releases energy in the form of heat and light during a fire?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Combustion",
+                    "correct": true
+                },
+                {
+                    "label": "Conduction",
+                    "correct": false
+                },
+                {
+                    "label": "Fusion",
+                    "correct": false
+                },
+                {
+                    "label": "Evaporation",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Energy Conversion",
+        "top": "160px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 4,
+        "question": "Which fuel is most commonly used in campfires?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Charcoal",
+                    "correct": false
+                },
+                {
+                    "label": "Wood",
+                    "correct": true
+                },
+                {
+                    "label": "Gasoline",
+                    "correct": false
+                },
+                {
+                    "label": "Oil",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Fire & Fuel",
+        "top": "200px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 5,
+        "question": "Which color flame is usually the hottest?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Red",
+                    "correct": false
+                },
+                {
+                    "label": "Blue",
+                    "correct": true
+                },
+                {
+                    "label": "Yellow",
+                    "correct": false
+                },
+                {
+                    "label": "Orange",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Heat & Flame",
+        "top": "240px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 6,
+        "question": "Which device converts solar energy directly into electricity?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Transformer",
+                    "correct": false
+                },
+                {
+                    "label": "Solar panel",
+                    "correct": true
+                },
+                {
+                    "label": "Generator",
+                    "correct": false
+                },
+                {
+                    "label": "Thermometer",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Energy & Technology",
+        "top": "280px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 7,
+        "question": "What is the name of the energy stored in food?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Thermal energy",
+                    "correct": false
+                },
+                {
+                    "label": "Chemical energy",
+                    "correct": true
+                },
+                {
+                    "label": "Kinetic energy",
+                    "correct": false
+                },
+                {
+                    "label": "Potential energy",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Chemical Energy",
+        "top": "320px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 8,
+        "question": "What element is most responsible for sustaining combustion?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hydrogen",
+                    "correct": false
+                },
+                {
+                    "label": "Nitrogen",
+                    "correct": false
+                },
+                {
+                    "label": "Oxygen",
+                    "correct": true
+                },
+                {
+                    "label": "Carbon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Fire Chemistry",
+        "top": "360px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 9,
+        "question": "Which famous scientist is known for laws of thermodynamics?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Isaac Newton",
+                    "correct": false
+                },
+                {
+                    "label": "Rudolf Clausius",
+                    "correct": true
+                },
+                {
+                    "label": "Albert Einstein",
+                    "correct": false
+                },
+                {
+                    "label": "Marie Curie",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Energy Science",
+        "top": "400px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 10,
+        "question": "Which form of energy transfer occurs in fire?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Convection",
+                    "correct": false
+                },
+                {
+                    "label": "Radiation",
+                    "correct": false
+                },
+                {
+                    "label": "Conduction",
+                    "correct": false
+                },
+                {
+                    "label": "All of the above",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Energy Transfer",
+        "top": "440px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 11,
+        "question": "Which type of energy is produced by rubbing two objects together?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Thermal energy",
+                    "correct": true
+                },
+                {
+                    "label": "Light energy",
+                    "correct": false
+                },
+                {
+                    "label": "Magnetic energy",
+                    "correct": false
+                },
+                {
+                    "label": "Electric energy",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Fire & Energy",
+        "top": "480px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 12,
+        "question": "Which of the following fuels is considered non-renewable?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Coal",
+                    "correct": true
+                },
+                {
+                    "label": "Solar",
+                    "correct": false
+                },
+                {
+                    "label": "Wind",
+                    "correct": false
+                },
+                {
+                    "label": "Biomass",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Energy Resources",
+        "top": "520px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 13,
+        "question": "Which fire suppression method is commonly used in electrical fires?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Water",
+                    "correct": false
+                },
+                {
+                    "label": "Foam",
+                    "correct": false
+                },
+                {
+                    "label": "Carbon dioxide",
+                    "correct": true
+                },
+                {
+                    "label": "Sand",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Fire Safety",
+        "top": "560px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 14,
+        "question": "What is the measure of heat energy called?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Volt",
+                    "correct": false
+                },
+                {
+                    "label": "Watt",
+                    "correct": false
+                },
+                {
+                    "label": "Calorie",
+                    "correct": true
+                },
+                {
+                    "label": "Ampere",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Thermal Science",
+        "top": "600px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 15,
+        "question": "Which scientist discovered that heat can be generated by friction?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Count Rumford",
+                    "correct": true
+                },
+                {
+                    "label": "Galileo",
+                    "correct": false
+                },
+                {
+                    "label": "Max Planck",
+                    "correct": false
+                },
+                {
+                    "label": "Faraday",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "History of Science",
+        "top": "640px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 16,
+        "question": "What does the term \"flash point\" refer to?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The brightest part of a flame",
+                    "correct": false
+                },
+                {
+                    "label": "The point at which fire burns blue",
+                    "correct": false
+                },
+                {
+                    "label": "The temperature at which a substance ignites",
+                    "correct": true
+                },
+                {
+                    "label": "The moment a fire is extinguished",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Fire Chemistry",
+        "top": "680px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "question": "Which gas is commonly used in welding for its high flame temperature?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Oxygen",
+                    "correct": false
+                },
+                {
+                    "label": "Nitrogen",
+                    "correct": false
+                },
+                {
+                    "label": "Acetylene",
+                    "correct": true
+                },
+                {
+                    "label": "Argon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Industrial Energy",
+        "top": "720px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 18,
+        "question": "What is the scientific term for stored energy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Kinetic energy",
+                    "correct": false
+                },
+                {
+                    "label": "Thermal energy",
+                    "correct": false
+                },
+                {
+                    "label": "Potential energy",
+                    "correct": true
+                },
+                {
+                    "label": "Active energy",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Energy Forms",
+        "top": "760px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 19,
+        "question": "Which is the main energy source in a hydroelectric power plant?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Wind",
+                    "correct": false
+                },
+                {
+                    "label": "Solar",
+                    "correct": false
+                },
+                {
+                    "label": "Water",
+                    "correct": true
+                },
+                {
+                    "label": "Coal",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Renewable Energy",
+        "top": "800px",
+        "left": "75px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 20,
+        "question": "Which law states that energy cannot be created or destroyed?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Newton's First Law",
+                    "correct": false
+                },
+                {
+                    "label": "Law of Conservation of Energy",
+                    "correct": true
+                },
+                {
+                    "label": "Ohm’s Law",
+                    "correct": false
+                },
+                {
+                    "label": "Law of Thermodynamic Pressure",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Energy Physics",
+        "top": "840px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

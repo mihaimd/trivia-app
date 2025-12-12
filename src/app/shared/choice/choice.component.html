@@ -1,0 +1,7 @@
+<div class="content-choice" *ngIf="campaigns!=undefined && gameInfo!=undefined">
+  <div *ngFor="let campaign of campaigns; let i = index;" class="choice" id="{{gameInfo.gameId}}{{ campaign.id }}" [class.completed]="campaign.completed" (click)="selectOption(gameInfo.gameId, campaign.id)">
+    <div class="bullet" [ngClass]="selectedCampaignId == campaign.id ? 'selected' : ''"></div>
+    <div class="bullet-text {{campaign.completed==false ? 'text-dark' : ''}}" id="bullet-text{{gameInfo.gameId}}{{ campaign.id }}">{{ campaign.title }}</div>
+  </div>
+  <span class="back-button" [ngStyle]="arrowStyle"></span>
+</div>

@@ -1,0 +1,26 @@
+ion-avatar{
+    position: relative;
+    img,ion-img { border: 3px solid #fff; }
+    .flag {
+        position: absolute;
+        top: 70px;
+        left: 75%;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    ion-spinner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        background: #00000059;
+        border-radius: 3rem;
+    }
+}
+ion-icon{
+    position: relative;
+    font-size: x-large;
+    left: -45px;
+    top: 20px;
+}

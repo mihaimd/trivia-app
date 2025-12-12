@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar class="bg-dark">
+    <ion-buttons slot="start">      
+      <ion-menu-button class="text-light d-block" autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Campaigns</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item button detail lines="full" *ngFor="let cc of completedCampaigns;let i = index;" (click)="playCampaign(cc)">
+    <ion-label class="single-line-ellipsis">{{ i+1 }}. {{ cc.title }}</ion-label>
+    <ion-label slot="end">
+      <ion-icon size="small" name="star" [class]="dataService.calPercentage(cc.exp, cc.totalPoints).stars>=1 ? 'text-warning' : 'text-dark'"></ion-icon>
+      <ion-icon size="small" name="star" [class]="dataService.calPercentage(cc.exp, cc.totalPoints).stars>=2 ? 'text-warning' : 'text-dark'"></ion-icon>
+      <ion-icon size="small" name="star" [class]="dataService.calPercentage(cc.exp, cc.totalPoints).stars>=3 ? 'text-warning' : 'text-dark'"></ion-icon>
+    </ion-label>
+  </ion-item>  
+  <h1 class="empty-list" *ngIf="showSpinner"> <ion-spinner name="bubbles" color="danger"></ion-spinner> </h1>
+  <h1 class="empty-list text-clip1" *ngIf="!showSpinner && completedCampaigns.length==0">No Campaigns Found Start You Journey</h1>
+</ion-content>

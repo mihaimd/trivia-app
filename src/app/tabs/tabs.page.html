@@ -1,0 +1,34 @@
+<ion-tabs>
+  <ion-tab-bar slot="bottom" class="custom-tab-bar">
+    <ion-tab-button tab="profile" (click)="animateTabClick(2, $event)">
+      <div class="tab-icon-wrapper">
+        <div class="tab-icon">🧙🏻‍♂️</div>
+      </div>
+      <ion-label>Profile</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="score-board" (click)="animateTabClick(3, $event)">
+      <div class="tab-icon-wrapper">
+        <div class="tab-icon">🏆</div>
+      </div>
+      <ion-label>Score</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="home" (click)="animateTabClick(1, $event)">
+      <div class="tab-icon-wrapper">
+        <div class="tab-icon">🏡</div>
+      </div>
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="campaigns" (click)="animateTabClick(4, $event)">
+      <div class="tab-icon-wrapper">
+        <div class="tab-icon">🚸</div>
+      </div>
+      <ion-label>Campaigns</ion-label>
+    </ion-tab-button>
+    <ion-tab-button tab="settings" (click)="animateTabClick(5, $event)">
+      <div class="tab-icon-wrapper">
+        <div class="tab-icon">⚙️</div>
+      </div>
+      <ion-label>Settings</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

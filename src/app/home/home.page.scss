@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .avatar-border {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ion-icon[name="person-circle-outline"] {
+            font-size: 6rem;
+        }
+        ion-icon[name="camera-outline"] {
+            font-size: 1.5rem;
+            position: absolute;
+            top: -5px;
+            left: -10px;
+        }
+        position: relative;
+    }
+    .player-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .player-level {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .flag {
+        position: absolute;
+        top: 72px;
+        right: -2px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        box-shadow: 2px 0px 2px;
+        img {
+            border-radius: 5rem;
+            height: 25px;
+        }
+    }
+}
+.dashedBorder{
+    border: 1px dashed #000;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}

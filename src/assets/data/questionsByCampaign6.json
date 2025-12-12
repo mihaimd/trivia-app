@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "question": "What creature's tears are said to heal wounds in mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Griffin",
+                    "correct": false
+                },
+                {
+                    "label": "Phoenix",
+                    "correct": true
+                },
+                {
+                    "label": "Dragon",
+                    "correct": false
+                },
+                {
+                    "label": "Basilisk",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "100px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 2,
+        "question": "What symbol is often used to represent eternity?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Triangle",
+                    "correct": false
+                },
+                {
+                    "label": "Star",
+                    "correct": false
+                },
+                {
+                    "label": "Ouroboros (snake eating its tail)",
+                    "correct": true
+                },
+                {
+                    "label": "Moon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "120px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3,
+        "question": "In Norse mythology, what is the name of the tree that connects all worlds?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mj\u00f6lnir",
+                    "correct": false
+                },
+                {
+                    "label": "Midgard",
+                    "correct": false
+                },
+                {
+                    "label": "Yggdrasil",
+                    "correct": true
+                },
+                {
+                    "label": "Fenrir",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "140px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 4,
+        "question": "What Greek oracle was known for delivering prophecies at Delphi?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Athena",
+                    "correct": false
+                },
+                {
+                    "label": "Pythia",
+                    "correct": true
+                },
+                {
+                    "label": "Sybil of Cumae",
+                    "correct": false
+                },
+                {
+                    "label": "Cassandra",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "160px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 5,
+        "question": "Which bird is often associated with omens and prophecy in various cultures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Raven",
+                    "correct": true
+                },
+                {
+                    "label": "Sparrow",
+                    "correct": false
+                },
+                {
+                    "label": "Eagle",
+                    "correct": false
+                },
+                {
+                    "label": "Dove",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "180px",
+        "left": "250px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "question": "What symbol represents rebirth in Egyptian mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Scarab",
+                    "correct": true
+                },
+                {
+                    "label": "Jackal",
+                    "correct": false
+                },
+                {
+                    "label": "Pyramid",
+                    "correct": false
+                },
+                {
+                    "label": "Falcon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "200px",
+        "left": "300px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 7,
+        "question": "What is the meaning of the \"Eye of Horus\" in Egyptian lore?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Destruction",
+                    "correct": false
+                },
+                {
+                    "label": "Protection and healing",
+                    "correct": true
+                },
+                {
+                    "label": "Power and conquest",
+                    "correct": false
+                },
+                {
+                    "label": "Luck and fortune",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "220px",
+        "left": "350px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 8,
+        "question": "Which ancient civilization predicted the end of the world in 2012?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aztecs",
+                    "correct": false
+                },
+                {
+                    "label": "Maya",
+                    "correct": true
+                },
+                {
+                    "label": "Inca",
+                    "correct": false
+                },
+                {
+                    "label": "Babylonians",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "240px",
+        "left": "400px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "question": "What legendary sword was said to be pulled from a stone by King Arthur?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Durandal",
+                    "correct": false
+                },
+                {
+                    "label": "Masamune",
+                    "correct": false
+                },
+                {
+                    "label": "Hrunting",
+                    "correct": false
+                },
+                {
+                    "label": "Excalibur",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "260px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 10,
+        "question": "Which creature is a symbol of transformation in many myths?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lion",
+                    "correct": false
+                },
+                {
+                    "label": "Butterfly",
+                    "correct": true
+                },
+                {
+                    "label": "Bear",
+                    "correct": false
+                },
+                {
+                    "label": "Goat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "280px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 11,
+        "question": "Which mythological figure is associated with a labyrinth?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Medusa",
+                    "correct": false
+                },
+                {
+                    "label": "Minotaur",
+                    "correct": true
+                },
+                {
+                    "label": "Chimera",
+                    "correct": false
+                },
+                {
+                    "label": "Cyclops",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "300px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 12,
+        "question": "What does the symbol of the snake represent in many cultures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Duality or transformation",
+                    "correct": true
+                },
+                {
+                    "label": "Strength",
+                    "correct": false
+                },
+                {
+                    "label": "Loyalty",
+                    "correct": false
+                },
+                {
+                    "label": "Fertility only",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "320px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "question": "In Greek myth, who was doomed to always tell the truth but never be believed?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pandora",
+                    "correct": false
+                },
+                {
+                    "label": "Cassandra",
+                    "correct": true
+                },
+                {
+                    "label": "Hera",
+                    "correct": false
+                },
+                {
+                    "label": "Medea",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "340px",
+        "left": "250px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 14,
+        "question": "Which plant is commonly associated with prophecy and visions?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aloe",
+                    "correct": false
+                },
+                {
+                    "label": "Bay Laurel",
+                    "correct": true
+                },
+                {
+                    "label": "Thyme",
+                    "correct": false
+                },
+                {
+                    "label": "Lavender",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "360px",
+        "left": "300px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 15,
+        "question": "The number three is often symbolic of what concept in myths?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Endings",
+                    "correct": false
+                },
+                {
+                    "label": "Balance and completeness",
+                    "correct": true
+                },
+                {
+                    "label": "War",
+                    "correct": false
+                },
+                {
+                    "label": "Youth",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "380px",
+        "left": "350px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 16,
+        "question": "Who guards the gates of the underworld in Greek mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hades",
+                    "correct": false
+                },
+                {
+                    "label": "Cerberus",
+                    "correct": true
+                },
+                {
+                    "label": "Hermes",
+                    "correct": false
+                },
+                {
+                    "label": "Charon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "400px",
+        "left": "400px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "question": "In Celtic symbolism, what is the Triquetra often associated with?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chaos",
+                    "correct": false
+                },
+                {
+                    "label": "Fire",
+                    "correct": false
+                },
+                {
+                    "label": "Life, death, and rebirth",
+                    "correct": true
+                },
+                {
+                    "label": "Darkness",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "420px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 18,
+        "question": "What does a broken sword often symbolize in mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lost power or past betrayal",
+                    "correct": true
+                },
+                {
+                    "label": "Courage",
+                    "correct": false
+                },
+                {
+                    "label": "Victory",
+                    "correct": false
+                },
+                {
+                    "label": "Destiny fulfilled",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "440px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 19,
+        "question": "Which of these is considered a prophetic tool?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chalice",
+                    "correct": false
+                },
+                {
+                    "label": "Crystal ball",
+                    "correct": true
+                },
+                {
+                    "label": "Wand",
+                    "correct": false
+                },
+                {
+                    "label": "Harp",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "460px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 20,
+        "question": "In prophecy legends, what usually follows the appearance of a comet?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Peace",
+                    "correct": false
+                },
+                {
+                    "label": "Great change or disaster",
+                    "correct": true
+                },
+                {
+                    "label": "Fertility",
+                    "correct": false
+                },
+                {
+                    "label": "War victory",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "480px",
+        "left": "200px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    }
+]

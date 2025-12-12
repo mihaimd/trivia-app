@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In mythology, a candle with three wicks might symbolize what?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Past, Present, and Future",
+                    "correct": true
+                },
+                {
+                    "label": "Mind, Body, and Spirit",
+                    "correct": false
+                },
+                {
+                    "label": "Sun, Moon, and Stars",
+                    "correct": false
+                },
+                {
+                    "label": "Faith, Hope, and Charity",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "60px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which ancient civilization used candles as timekeeping devices?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chinese",
+                    "correct": true
+                },
+                {
+                    "label": "Egyptian",
+                    "correct": false
+                },
+                {
+                    "label": "Mayan",
+                    "correct": false
+                },
+                {
+                    "label": "Roman",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "120px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 3,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "The lighting of three candles together in some traditions can be seen as:",
+        "answers": {
+            "options": [
+                {
+                    "label": "An omen",
+                    "correct": true
+                },
+                {
+                    "label": "A wedding blessing",
+                    "correct": false
+                },
+                {
+                    "label": "A healing ritual",
+                    "correct": false
+                },
+                {
+                    "label": "A harvest call",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "180px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 4,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What does the flame in many myths often symbolize?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Life and transformation",
+                    "correct": true
+                },
+                {
+                    "label": "Evil and destruction",
+                    "correct": false
+                },
+                {
+                    "label": "Rain and fertility",
+                    "correct": false
+                },
+                {
+                    "label": "Silence and peace",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "240px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 5,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which festival uses candles to represent miracles?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hanukkah",
+                    "correct": true
+                },
+                {
+                    "label": "Diwali",
+                    "correct": false
+                },
+                {
+                    "label": "Beltane",
+                    "correct": false
+                },
+                {
+                    "label": "Samhain",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "300px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Wiccan tradition, what do triple flames often represent?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Maiden, Mother, Crone",
+                    "correct": true
+                },
+                {
+                    "label": "Body, Soul, Earth",
+                    "correct": false
+                },
+                {
+                    "label": "Sun, Moon, Fire",
+                    "correct": false
+                },
+                {
+                    "label": "Spirit, Smoke, Wind",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "360px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 7,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What ingredient was used in the earliest candles in ancient Rome?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tallow",
+                    "correct": true
+                },
+                {
+                    "label": "Beeswax",
+                    "correct": false
+                },
+                {
+                    "label": "Olive oil",
+                    "correct": false
+                },
+                {
+                    "label": "Lard",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "420px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 8,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which Norse deity is associated with fire and transformation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Loki",
+                    "correct": true
+                },
+                {
+                    "label": "Odin",
+                    "correct": false
+                },
+                {
+                    "label": "Thor",
+                    "correct": false
+                },
+                {
+                    "label": "Freyja",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "480px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Lighting candles for the dead is a practice seen in many cultures. What does it generally represent?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Guiding souls to the afterlife",
+                    "correct": true
+                },
+                {
+                    "label": "Inviting spirits for conversation",
+                    "correct": false
+                },
+                {
+                    "label": "Warding off curses",
+                    "correct": false
+                },
+                {
+                    "label": "A celebration of power",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "540px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 10,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In some legends, three flames were said to burn continuously in what kind of sacred location?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Temple of knowledge",
+                    "correct": true
+                },
+                {
+                    "label": "Wizard's tower",
+                    "correct": false
+                },
+                {
+                    "label": "Stone circle",
+                    "correct": false
+                },
+                {
+                    "label": "Forest shrine",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "600px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 11,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which color candle is often used in rituals for protection?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Black",
+                    "correct": true
+                },
+                {
+                    "label": "Green",
+                    "correct": false
+                },
+                {
+                    "label": "White",
+                    "correct": false
+                },
+                {
+                    "label": "Blue",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "660px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 12,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What symbolic number is commonly associated with prophecy and seen in rituals like triple candle lighting?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Three",
+                    "correct": true
+                },
+                {
+                    "label": "Seven",
+                    "correct": false
+                },
+                {
+                    "label": "Five",
+                    "correct": false
+                },
+                {
+                    "label": "Nine",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "720px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 13,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What does an unlit wick in a triple candle often symbolize in ritual settings?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Unfulfilled potential",
+                    "correct": true
+                },
+                {
+                    "label": "Doomed fate",
+                    "correct": false
+                },
+                {
+                    "label": "Time passed",
+                    "correct": false
+                },
+                {
+                    "label": "Chaos",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "780px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 14,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In dream symbolism, a flickering candle may indicate:",
+        "answers": {
+            "options": [
+                {
+                    "label": "Uncertainty or fading hope",
+                    "correct": true
+                },
+                {
+                    "label": "Rising anger",
+                    "correct": false
+                },
+                {
+                    "label": "Material success",
+                    "correct": false
+                },
+                {
+                    "label": "Stable mind",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "840px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which saint is associated with candlelit processions in Christian tradition?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Saint Lucia",
+                    "correct": true
+                },
+                {
+                    "label": "Saint Paul",
+                    "correct": false
+                },
+                {
+                    "label": "Saint George",
+                    "correct": false
+                },
+                {
+                    "label": "Saint Anthony",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "900px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 16,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "What material is considered most ‘pure’ for ritual candle making?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Beeswax",
+                    "correct": true
+                },
+                {
+                    "label": "Tallow",
+                    "correct": false
+                },
+                {
+                    "label": "Soy",
+                    "correct": false
+                },
+                {
+                    "label": "Palm oil",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "960px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 17,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which Hindu festival involves lighting many candles and oil lamps?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Diwali",
+                    "correct": true
+                },
+                {
+                    "label": "Holi",
+                    "correct": false
+                },
+                {
+                    "label": "Navratri",
+                    "correct": false
+                },
+                {
+                    "label": "Ram Navami",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1020px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 18,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which Norse goddess is associated with fire and transformation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Freya",
+                    "correct": true
+                },
+                {
+                    "label": "Sif",
+                    "correct": false
+                },
+                {
+                    "label": "Idun",
+                    "correct": false
+                },
+                {
+                    "label": "Skadi",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1080px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 19,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "In Roman rituals, a candle was extinguished at the end of ceremonies to signify:",
+        "answers": {
+            "options": [
+                {
+                    "label": "The end of divine presence",
+                    "correct": true
+                },
+                {
+                    "label": "A call for sleep",
+                    "correct": false
+                },
+                {
+                    "label": "Farewell to guests",
+                    "correct": false
+                },
+                {
+                    "label": "Beginning of silence",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1140px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 20,
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "question": "Which rare candle in myth is said to reveal truth, banish shadows, and summon forgotten names when all three flames align?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Flame of Thrice-Seers",
+                    "correct": true
+                },
+                {
+                    "label": "The Candle of Eldritch",
+                    "correct": false
+                },
+                {
+                    "label": "The Lantern of Echoes",
+                    "correct": false
+                },
+                {
+                    "label": "The Light of Lirae",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "1200px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

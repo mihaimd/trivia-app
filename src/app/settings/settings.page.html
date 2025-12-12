@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar class="bg-dark">
+    <ion-buttons slot="start">      
+      <ion-menu-button class="text-light d-block" autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Settings</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" scroll-y="false">
+  <table style="width: 100%;">
+    <tr style="border-bottom: 1px solid #c0c0c0;">
+      <td class="ion-padding" width="15"><ion-icon [name]="appSettings.sound ? 'volume-high-outline' : 'volume-mute-outline'" class="text-dark"></ion-icon></td>
+      <td class="ion-padding text-dark">Sound fx</td>
+      <td class="ion-padding ion-text-right">
+        <label class="toggle-switch">
+          <input type="checkbox" (click)="toggleSound()" [checked]="appSettings.sound">
+          <span class="slider"></span>
+        </label>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid #c0c0c0;">
+      <td class="ion-padding" width="15"><ion-icon [name]="appSettings.notification ? 'notifications-outline' : 'notifications-off-outline'" class="text-dark"></ion-icon></td>
+      <td class="ion-padding text-dark">Notifications</td>
+      <td class="ion-padding ion-text-right">
+        <label class="toggle-switch">
+          <input type="checkbox" (click)="toggleNotifications()" [checked]="appSettings.notification">
+          <span class="slider"></span>
+        </label>
+      </td>
+    </tr>
+    <tr style="border-bottom: 1px solid #c0c0c0;">
+      <td class="ion-padding" width="15"><ion-icon name="text-outline" class="text-dark"></ion-icon></td>
+      <td class="ion-padding text-dark">Font Size</td>
+      <td class="ion-padding ion-text-right">
+        <select [(ngModel)]="appSettings.fontSize" (change)="changeFontSize()" class="text-dark" style="border: unset;">
+          <option value="small">Small</option>
+          <option value="normal">Normal</option>
+          <option value="large">Large</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+</ion-content>
+<ion-footer slot="bottom" *ngIf="currentUser && !authService.isGuest(currentUser)">
+  <ion-button (click)="logout()" fill="outline" expand="block" shape="round" color="danger" class="">Logout</ion-button>
+  <!-- <ion-toolbar slot="bottom"></ion-toolbar> -->
+</ion-footer>

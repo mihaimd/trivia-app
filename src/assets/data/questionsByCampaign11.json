@@ -1,0 +1,322 @@
+[
+    {
+        "id": 6001,
+        "question": "Which fish is known for its vibrant colors and is often found in coral reefs?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Clownfish",
+                    "correct": false
+                },
+                {
+                    "label": "Pufferfish",
+                    "correct": false
+                },
+                {
+                    "label": "Mandarinfish",
+                    "correct": true
+                },
+                {
+                    "label": "Goby",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "210px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6002,
+        "question": "Which exotic fish can inflate itself when threatened?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Anglerfish",
+                    "correct": false
+                },
+                {
+                    "label": "Pufferfish",
+                    "correct": true
+                },
+                {
+                    "label": "Lionfish",
+                    "correct": false
+                },
+                {
+                    "label": "Stonefish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "160px",
+        "left": "95px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6003,
+        "question": "Which fish has venomous spines and a distinctive striped appearance?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Scorpionfish",
+                    "correct": false
+                },
+                {
+                    "label": "Pufferfish",
+                    "correct": false
+                },
+                {
+                    "label": "Lionfish",
+                    "correct": true
+                },
+                {
+                    "label": "Catfish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "330px",
+        "left": "170px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6004,
+        "question": "What is the most expensive edible fish in the world?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bluefin tuna",
+                    "correct": true
+                },
+                {
+                    "label": "Mahi-mahi",
+                    "correct": false
+                },
+                {
+                    "label": "Giant grouper",
+                    "correct": false
+                },
+                {
+                    "label": "Swordfish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "260px",
+        "left": "250px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6005,
+        "question": "Which fish can produce electric shocks up to 600 volts?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Electric ray",
+                    "correct": false
+                },
+                {
+                    "label": "Electric catfish",
+                    "correct": false
+                },
+                {
+                    "label": "Electric eel",
+                    "correct": true
+                },
+                {
+                    "label": "Stargazer",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "300px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6006,
+        "question": "Which tropical fish is known for its parrot-like beak?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Triggerfish",
+                    "correct": false
+                },
+                {
+                    "label": "Angelfish",
+                    "correct": false
+                },
+                {
+                    "label": "Parrotfish",
+                    "correct": true
+                },
+                {
+                    "label": "Butterflyfish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "390px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6007,
+        "question": "Which exotic fish has a long, sword-like upper jaw?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Swordfish",
+                    "correct": true
+                },
+                {
+                    "label": "Barracuda",
+                    "correct": false
+                },
+                {
+                    "label": "Needlefish",
+                    "correct": false
+                },
+                {
+                    "label": "Garfish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "350px",
+        "left": "190px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6008,
+        "question": "Which deep-sea fish is known for its bioluminescent lure?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Anglerfish",
+                    "correct": true
+                },
+                {
+                    "label": "Lanternfish",
+                    "correct": false
+                },
+                {
+                    "label": "Fangtooth",
+                    "correct": false
+                },
+                {
+                    "label": "Viperfish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "420px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6009,
+        "question": "Which rare fish is known for walking on the ocean floor using fins?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Batfish",
+                    "correct": true
+                },
+                {
+                    "label": "Stargazer",
+                    "correct": false
+                },
+                {
+                    "label": "Blobfish",
+                    "correct": false
+                },
+                {
+                    "label": "Frogfish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "270px",
+        "left": "170px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6010,
+        "question": "Which exotic fish is considered sacred in Japanese koi ponds?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Goldfish",
+                    "correct": false
+                },
+                {
+                    "label": "Betta",
+                    "correct": false
+                },
+                {
+                    "label": "Koi",
+                    "correct": true
+                },
+                {
+                    "label": "Tetra",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "230px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

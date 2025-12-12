@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "question": "Which cephalopod is known for its ability to mimic other sea creatures?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mimic octopus",
+                    "correct": true
+                },
+                {
+                    "label": "Humboldt squid",
+                    "correct": false
+                },
+                {
+                    "label": "Blue-ringed octopus",
+                    "correct": false
+                },
+                {
+                    "label": "Chambered nautilus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "22px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 2,
+        "question": "What organ helps octopuses rapidly change color?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Chromatophores",
+                    "correct": true
+                },
+                {
+                    "label": "Nephridia",
+                    "correct": false
+                },
+                {
+                    "label": "Statocysts",
+                    "correct": false
+                },
+                {
+                    "label": "Gills",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "88px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "question": "Which of these is the largest species of octopus?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Giant Pacific octopus",
+                    "correct": true
+                },
+                {
+                    "label": "Common octopus",
+                    "correct": false
+                },
+                {
+                    "label": "Dumbo octopus",
+                    "correct": false
+                },
+                {
+                    "label": "Caribbean reef octopus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "110px",
+        "left": "25px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 4,
+        "question": "How do squids primarily move through water?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Jet propulsion",
+                    "correct": true
+                },
+                {
+                    "label": "Swimming with fins",
+                    "correct": false
+                },
+                {
+                    "label": "Crawling",
+                    "correct": false
+                },
+                {
+                    "label": "Paddling with arms",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "145px",
+        "left": "58px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 5,
+        "question": "What is the main diet of most cephalopods?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Crustaceans and fish",
+                    "correct": true
+                },
+                {
+                    "label": "Seaweed",
+                    "correct": false
+                },
+                {
+                    "label": "Plankton",
+                    "correct": false
+                },
+                {
+                    "label": "Algae",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "190px",
+        "left": "33px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6,
+        "question": "What adaptation helps squids escape predators?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ink cloud",
+                    "correct": true
+                },
+                {
+                    "label": "Camouflage scales",
+                    "correct": false
+                },
+                {
+                    "label": "Bioluminescent eyes",
+                    "correct": false
+                },
+                {
+                    "label": "Toxic tentacles",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "210px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 7,
+        "question": "Which ocean zone do most deep-sea squids inhabit?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Midnight zone",
+                    "correct": true
+                },
+                {
+                    "label": "Sunlight zone",
+                    "correct": false
+                },
+                {
+                    "label": "Twilight zone",
+                    "correct": false
+                },
+                {
+                    "label": "Intertidal zone",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "245px",
+        "left": "18px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 8,
+        "question": "Which cephalopod is famous for its cuttlebone used in pet bird care?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cuttlefish",
+                    "correct": true
+                },
+                {
+                    "label": "Squid",
+                    "correct": false
+                },
+                {
+                    "label": "Octopus",
+                    "correct": false
+                },
+                {
+                    "label": "Nautilus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "280px",
+        "left": "72px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 9,
+        "question": "Which ocean creature has a beak like a parrot?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Octopus",
+                    "correct": true
+                },
+                {
+                    "label": "Stingray",
+                    "correct": false
+                },
+                {
+                    "label": "Seahorse",
+                    "correct": false
+                },
+                {
+                    "label": "Jellyfish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "310px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 10,
+        "question": "What is the name of the famous giant squid caught on camera by scientists?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Architeuthis",
+                    "correct": true
+                },
+                {
+                    "label": "Megateuthis",
+                    "correct": false
+                },
+                {
+                    "label": "Colossopus",
+                    "correct": false
+                },
+                {
+                    "label": "Titanus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "340px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 11,
+        "question": "Which cephalopod has fins that resemble elephant ears?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Dumbo octopus",
+                    "correct": true
+                },
+                {
+                    "label": "Cuttlefish",
+                    "correct": false
+                },
+                {
+                    "label": "Humboldt squid",
+                    "correct": false
+                },
+                {
+                    "label": "Nautilus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "22px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 12,
+        "question": "What is unique about the nautilus compared to other cephalopods?",
+        "answers": {
+            "options": [
+                {
+                    "label": "It has an external shell",
+                    "correct": true
+                },
+                {
+                    "label": "It has no tentacles",
+                    "correct": false
+                },
+                {
+                    "label": "It can photosynthesize",
+                    "correct": false
+                },
+                {
+                    "label": "It has bones",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "55px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 13,
+        "question": "Which cephalopod is considered venomous and potentially deadly to humans?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Blue-ringed octopus",
+                    "correct": true
+                },
+                {
+                    "label": "Giant squid",
+                    "correct": false
+                },
+                {
+                    "label": "Dumbo octopus",
+                    "correct": false
+                },
+                {
+                    "label": "Cuttlefish",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "90px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 14,
+        "question": "What structure allows cuttlefish to regulate buoyancy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cuttlebone",
+                    "correct": true
+                },
+                {
+                    "label": "Ink sac",
+                    "correct": false
+                },
+                {
+                    "label": "Mantle",
+                    "correct": false
+                },
+                {
+                    "label": "Tentacle core",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "125px",
+        "left": "38px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 15,
+        "question": "What is the typical lifespan of an octopus?",
+        "answers": {
+            "options": [
+                {
+                    "label": "1–2 years",
+                    "correct": true
+                },
+                {
+                    "label": "10–12 years",
+                    "correct": false
+                },
+                {
+                    "label": "5–6 years",
+                    "correct": false
+                },
+                {
+                    "label": "15–20 years",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "165px",
+        "left": "42px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 16,
+        "question": "Which body part of a cephalopod contains most of its vital organs?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mantle",
+                    "correct": true
+                },
+                {
+                    "label": "Beak",
+                    "correct": false
+                },
+                {
+                    "label": "Arms",
+                    "correct": false
+                },
+                {
+                    "label": "Siphon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "200px",
+        "left": "64px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "question": "What is the maximum number of hearts in a cephalopod?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Three",
+                    "correct": true
+                },
+                {
+                    "label": "One",
+                    "correct": false
+                },
+                {
+                    "label": "Two",
+                    "correct": false
+                },
+                {
+                    "label": "Four",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "235px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 18,
+        "question": "Which oceanic region is home to the largest variety of cephalopods?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Indo-Pacific",
+                    "correct": true
+                },
+                {
+                    "label": "Arctic",
+                    "correct": false
+                },
+                {
+                    "label": "Atlantic",
+                    "correct": false
+                },
+                {
+                    "label": "Southern Ocean",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "270px",
+        "left": "36px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 19,
+        "question": "Which famous explorer documented giant squid in mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pliny the Elder",
+                    "correct": true
+                },
+                {
+                    "label": "Aristotle",
+                    "correct": false
+                },
+                {
+                    "label": "Marco Polo",
+                    "correct": false
+                },
+                {
+                    "label": "Ptolemy",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "305px",
+        "left": "25px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 20,
+        "question": "Which cephalopod's mating ritual ends in death for the male?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Octopus",
+                    "correct": true
+                },
+                {
+                    "label": "Squid",
+                    "correct": false
+                },
+                {
+                    "label": "Cuttlefish",
+                    "correct": false
+                },
+                {
+                    "label": "Nautilus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cephalopods and Ocean Life",
+        "top": "340px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

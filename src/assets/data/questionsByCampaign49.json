@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "What is the term for the ability to understand and share the feelings of others?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Empathy",
+                    "correct": true
+                },
+                {
+                    "label": "Sympathy",
+                    "correct": false
+                },
+                {
+                    "label": "Compassion",
+                    "correct": false
+                },
+                {
+                    "label": "Pity",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "50px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which hormone is most commonly associated with stress?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cortisol",
+                    "correct": true
+                },
+                {
+                    "label": "Dopamine",
+                    "correct": false
+                },
+                {
+                    "label": "Oxytocin",
+                    "correct": false
+                },
+                {
+                    "label": "Serotonin",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "90px",
+        "left": "25px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "What type of therapy focuses on changing negative thought patterns?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cognitive Behavioral Therapy",
+                    "correct": true
+                },
+                {
+                    "label": "Psychoanalysis",
+                    "correct": false
+                },
+                {
+                    "label": "Gestalt Therapy",
+                    "correct": false
+                },
+                {
+                    "label": "Art Therapy",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "130px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 4,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which term describes the ability to bounce back from adversity?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Resilience",
+                    "correct": true
+                },
+                {
+                    "label": "Tolerance",
+                    "correct": false
+                },
+                {
+                    "label": "Acceptance",
+                    "correct": false
+                },
+                {
+                    "label": "Patience",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "170px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 5,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which part of the brain is responsible for regulating emotions?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Amygdala",
+                    "correct": true
+                },
+                {
+                    "label": "Hippocampus",
+                    "correct": false
+                },
+                {
+                    "label": "Cerebellum",
+                    "correct": false
+                },
+                {
+                    "label": "Occipital lobe",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "210px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which psychological need is at the base of Maslow’s hierarchy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Physiological",
+                    "correct": true
+                },
+                {
+                    "label": "Safety",
+                    "correct": false
+                },
+                {
+                    "label": "Love/Belonging",
+                    "correct": false
+                },
+                {
+                    "label": "Esteem",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "250px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 7,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "What is mindfulness primarily focused on?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Being present in the moment",
+                    "correct": true
+                },
+                {
+                    "label": "Analyzing dreams",
+                    "correct": false
+                },
+                {
+                    "label": "Avoiding emotions",
+                    "correct": false
+                },
+                {
+                    "label": "Planning the future",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "290px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 8,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which of these is a healthy coping mechanism?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Talking to a friend",
+                    "correct": true
+                },
+                {
+                    "label": "Binge eating",
+                    "correct": false
+                },
+                {
+                    "label": "Suppressing emotions",
+                    "correct": false
+                },
+                {
+                    "label": "Avoiding responsibilities",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "330px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 9,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "What is emotional intelligence?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The ability to understand and manage emotions",
+                    "correct": true
+                },
+                {
+                    "label": "Knowing many languages",
+                    "correct": false
+                },
+                {
+                    "label": "IQ score",
+                    "correct": false
+                },
+                {
+                    "label": "Academic performance",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "370px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 10,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "What is the first step in managing anxiety?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Recognizing the symptoms",
+                    "correct": true
+                },
+                {
+                    "label": "Ignoring it",
+                    "correct": false
+                },
+                {
+                    "label": "Taking sleeping pills",
+                    "correct": false
+                },
+                {
+                    "label": "Suppressing emotions",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "410px",
+        "left": "55px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 11,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "What is the psychological term for repressed memories suddenly surfacing?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Recovered memory",
+                    "correct": true
+                },
+                {
+                    "label": "Flashback",
+                    "correct": false
+                },
+                {
+                    "label": "Amnesia",
+                    "correct": false
+                },
+                {
+                    "label": "Déjà vu",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "450px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 12,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which neurotransmitter is often called the \"feel-good\" chemical?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Dopamine",
+                    "correct": true
+                },
+                {
+                    "label": "Adrenaline",
+                    "correct": false
+                },
+                {
+                    "label": "Cortisol",
+                    "correct": false
+                },
+                {
+                    "label": "GABA",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "490px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 13,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "What is the psychological defense mechanism where unwanted thoughts are pushed out of awareness?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Repression",
+                    "correct": true
+                },
+                {
+                    "label": "Projection",
+                    "correct": false
+                },
+                {
+                    "label": "Denial",
+                    "correct": false
+                },
+                {
+                    "label": "Sublimation",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "530px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 14,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which of these is NOT a primary emotion?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Jealousy",
+                    "correct": true
+                },
+                {
+                    "label": "Fear",
+                    "correct": false
+                },
+                {
+                    "label": "Joy",
+                    "correct": false
+                },
+                {
+                    "label": "Sadness",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "570px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 45
+    },
+    {
+        "id": 15,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which famous psychologist developed the concept of the \"id\", \"ego\", and \"superego\"?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sigmund Freud",
+                    "correct": true
+                },
+                {
+                    "label": "Carl Jung",
+                    "correct": false
+                },
+                {
+                    "label": "B.F. Skinner",
+                    "correct": false
+                },
+                {
+                    "label": "Erik Erikson",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "610px",
+        "left": "25px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 16,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "What technique is commonly used in meditation to focus attention?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Breathing",
+                    "correct": true
+                },
+                {
+                    "label": "Chewing",
+                    "correct": false
+                },
+                {
+                    "label": "Singing",
+                    "correct": false
+                },
+                {
+                    "label": "Drawing",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "650px",
+        "left": "45px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 17,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which practice involves journaling to process emotions?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Expressive writing",
+                    "correct": true
+                },
+                {
+                    "label": "Scriptwriting",
+                    "correct": false
+                },
+                {
+                    "label": "Essay writing",
+                    "correct": false
+                },
+                {
+                    "label": "Copywriting",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "690px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 18,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which of these can help improve emotional regulation?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sleep hygiene",
+                    "correct": true
+                },
+                {
+                    "label": "Multitasking",
+                    "correct": false
+                },
+                {
+                    "label": "Caffeine dependence",
+                    "correct": false
+                },
+                {
+                    "label": "Avoidance",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "730px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 19,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Which condition is often managed with exposure therapy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Phobias",
+                    "correct": true
+                },
+                {
+                    "label": "Schizophrenia",
+                    "correct": false
+                },
+                {
+                    "label": "Insomnia",
+                    "correct": false
+                },
+                {
+                    "label": "ADHD",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "770px",
+        "left": "35px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 50
+    },
+    {
+        "id": 20,
+        "date": "2025-07-21",
+        "category": "psychology, emotional balance",
+        "question": "Hard \"question\": What is alexithymia?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Inability to identify or describe emotions",
+                    "correct": true
+                },
+                {
+                    "label": "Fear of crowds",
+                    "correct": false
+                },
+                {
+                    "label": "Extreme mood swings",
+                    "correct": false
+                },
+                {
+                    "label": "Memory loss of trauma",
+                    "correct": false
+                }
+            ]
+        },
+        "top": "810px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

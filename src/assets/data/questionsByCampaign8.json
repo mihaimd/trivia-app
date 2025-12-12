@@ -1,0 +1,642 @@
+[
+    {
+        "id": 3001,
+        "question": "What legendary war is described in Homer\u2019s Iliad?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Trojan War",
+                    "correct": true
+                },
+                {
+                    "label": "The Peloponnesian War",
+                    "correct": false
+                },
+                {
+                    "label": "The Punic War",
+                    "correct": false
+                },
+                {
+                    "label": "The Hundred Years' War",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "347px",
+        "left": "133px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3002,
+        "question": "What ancient weapon was used to launch projectiles in siege warfare?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Ballista",
+                    "correct": true
+                },
+                {
+                    "label": "Scythe",
+                    "correct": false
+                },
+                {
+                    "label": "Gladius",
+                    "correct": false
+                },
+                {
+                    "label": "Pilum",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "273px",
+        "left": "250px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3003,
+        "question": "Who was the god of war in Greek mythology?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Zeus",
+                    "correct": false
+                },
+                {
+                    "label": "Ares",
+                    "correct": true
+                },
+                {
+                    "label": "Apollo",
+                    "correct": false
+                },
+                {
+                    "label": "Poseidon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "328px",
+        "left": "340px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 3004,
+        "question": "Which empire used war elephants in battle?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Roman",
+                    "correct": false
+                },
+                {
+                    "label": "Greek",
+                    "correct": false
+                },
+                {
+                    "label": "Carthaginian",
+                    "correct": true
+                },
+                {
+                    "label": "Persian",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "100px",
+        "left": "174px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3005,
+        "question": "What was the role of a \"hoplite\" in ancient Greece?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Messenger",
+                    "correct": false
+                },
+                {
+                    "label": "Cavalryman",
+                    "correct": false
+                },
+                {
+                    "label": "Infantry soldier",
+                    "correct": true
+                },
+                {
+                    "label": "Merchant",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "279px",
+        "left": "136px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 3006,
+        "question": "Which Norse event was said to be the end of the world and a great battle?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Yggdrasil",
+                    "correct": false
+                },
+                {
+                    "label": "Valhalla",
+                    "correct": false
+                },
+                {
+                    "label": "Ragnar\u00f6k",
+                    "correct": true
+                },
+                {
+                    "label": "Sk\u00e5l",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "199px",
+        "left": "297px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3007,
+        "question": "Which ancient warrior society trained boys from a young age?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Spartans",
+                    "correct": true
+                },
+                {
+                    "label": "Vikings",
+                    "correct": false
+                },
+                {
+                    "label": "Celts",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "132px",
+        "left": "259px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3008,
+        "question": "The Battle of Thermopylae involved how many Spartans?",
+        "answers": {
+            "options": [
+                {
+                    "label": "100",
+                    "correct": false
+                },
+                {
+                    "label": "300",
+                    "correct": true
+                },
+                {
+                    "label": "1000",
+                    "correct": false
+                },
+                {
+                    "label": "5000",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "435px",
+        "left": "178px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3009,
+        "question": "What was the name of the sword wielded by King Arthur?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sting",
+                    "correct": false
+                },
+                {
+                    "label": "Durandal",
+                    "correct": false
+                },
+                {
+                    "label": "Excalibur",
+                    "correct": true
+                },
+                {
+                    "label": "Glamdring",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "298px",
+        "left": "306px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 3010,
+        "question": "Which empire built the largest contiguous land empire in history?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mongol",
+                    "correct": true
+                },
+                {
+                    "label": "Roman",
+                    "correct": false
+                },
+                {
+                    "label": "Ottoman",
+                    "correct": false
+                },
+                {
+                    "label": "British",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "304px",
+        "left": "176px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3011,
+        "question": "Who were samurai loyal to?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Emperor",
+                    "correct": false
+                },
+                {
+                    "label": "Their Shogun",
+                    "correct": false
+                },
+                {
+                    "label": "Their Daimyo",
+                    "correct": true
+                },
+                {
+                    "label": "Their Clan",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "362px",
+        "left": "146px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3012,
+        "question": "What Viking warriors were said to fight in a trance-like fury?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Thanes",
+                    "correct": false
+                },
+                {
+                    "label": "Berserkers",
+                    "correct": true
+                },
+                {
+                    "label": "Skalds",
+                    "correct": false
+                },
+                {
+                    "label": "Chieftains",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "469px",
+        "left": "321px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3013,
+        "question": "Which battle marked the end of Napoleon's reign?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Austerlitz",
+                    "correct": false
+                },
+                {
+                    "label": "Trafalgar",
+                    "correct": false
+                },
+                {
+                    "label": "Waterloo",
+                    "correct": true
+                },
+                {
+                    "label": "Leipzig",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "459px",
+        "left": "63px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3014,
+        "question": "Which weapon was associated with medieval knights?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Longsword",
+                    "correct": true
+                },
+                {
+                    "label": "Katana",
+                    "correct": false
+                },
+                {
+                    "label": "Gladius",
+                    "correct": false
+                },
+                {
+                    "label": "Halberd",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "73px",
+        "left": "75px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 3015,
+        "question": "What does the term \"phalanx\" refer to?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A shield",
+                    "correct": false
+                },
+                {
+                    "label": "A sword technique",
+                    "correct": false
+                },
+                {
+                    "label": "A military formation",
+                    "correct": true
+                },
+                {
+                    "label": "A type of armor",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "554px",
+        "left": "269px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3016,
+        "question": "Which battle strategy involved surrounding and cutting off an enemy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Encirclement",
+                    "correct": true
+                },
+                {
+                    "label": "Feint",
+                    "correct": false
+                },
+                {
+                    "label": "Charge",
+                    "correct": false
+                },
+                {
+                    "label": "Retreat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "519px",
+        "left": "285px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3017,
+        "question": "In Chinese lore, what legendary text teaches the art of war?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The Dao De Jing",
+                    "correct": false
+                },
+                {
+                    "label": "The Book of Five Rings",
+                    "correct": false
+                },
+                {
+                    "label": "The Art of War",
+                    "correct": true
+                },
+                {
+                    "label": "The I Ching",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "218px",
+        "left": "263px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 3018,
+        "question": "What was the purpose of a war horn?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Decoration",
+                    "correct": false
+                },
+                {
+                    "label": "Signal orders",
+                    "correct": true
+                },
+                {
+                    "label": "Summon rain",
+                    "correct": false
+                },
+                {
+                    "label": "Mark territory",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "194px",
+        "left": "271px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 3019,
+        "question": "In myth, who led the Greek forces against Troy?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Odysseus",
+                    "correct": false
+                },
+                {
+                    "label": "Achilles",
+                    "correct": false
+                },
+                {
+                    "label": "Agamemnon",
+                    "correct": true
+                },
+                {
+                    "label": "Paris",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "509px",
+        "left": "330px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3020,
+        "question": "What metal was most commonly used for weapons in the Bronze Age?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Iron",
+                    "correct": false
+                },
+                {
+                    "label": "Bronze",
+                    "correct": true
+                },
+                {
+                    "label": "Steel",
+                    "correct": false
+                },
+                {
+                    "label": "Copper",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-19",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "535px",
+        "left": "234px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    }
+]

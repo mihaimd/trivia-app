@@ -1,0 +1,104 @@
+/* .custom-tab-bar {
+  --background: #1e1e2f;
+  --color: #bdbdbd;
+  --color-selected: #ffd700;
+  border-top: 2px solid #333;
+  padding-bottom: env(safe-area-inset-bottom, 10px);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+ion-tab-button {
+  transition: all 0.3s ease;
+  flex-direction: column;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  color: var(--color);
+  font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+
+  &.tab-selected {
+    color: var(--color-selected);
+    transform: scale(1.1);
+  }
+
+  ion-label {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .tab-icon {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  &:hover {
+    color: #ff9800;
+  }
+} */
+ 
+.custom-tab-bar {
+  --background: #1e1e2f;
+  --color: #bbb;
+  --color-selected: #00ffc8;
+}
+ion-tab-button {
+  .tab-icon {
+    font-size: 24px;
+    z-index: 2;
+    position: relative;
+  }
+}
+/* 
+ion-tab-button {
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+
+  .tab-icon-wrapper {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tab-icon {
+    font-size: 24px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 215, 0, 0.4);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.2);
+    left: 50%;
+    top: 50%;
+    animation: float-circle 0.6s ease-out forwards;
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
+@keyframes float-circle {
+  0% {
+    transform: translate(-50%, -50%) scale(0.2);
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.4);
+    opacity: 0;
+  }
+}
+
+ */

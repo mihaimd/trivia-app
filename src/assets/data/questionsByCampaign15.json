@@ -1,0 +1,322 @@
+[
+    {
+        "id": 6150,
+        "question": "What material is traditionally used to make pottery?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sandstone",
+                    "correct": false
+                },
+                {
+                    "label": "Clay",
+                    "correct": true
+                },
+                {
+                    "label": "Marble",
+                    "correct": false
+                },
+                {
+                    "label": "Granite",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "80px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 6151,
+        "question": "Which ancient civilization is famous for black-figure and red-figure pottery?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": true
+                },
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                },
+                {
+                    "label": "Phoenicians",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "130px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6152,
+        "question": "What is the process of heating pottery in a kiln called?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Glazing",
+                    "correct": false
+                },
+                {
+                    "label": "Firing",
+                    "correct": true
+                },
+                {
+                    "label": "Pressing",
+                    "correct": false
+                },
+                {
+                    "label": "Baking",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "180px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 6153,
+        "question": "Which color is commonly associated with Chinese porcelain?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Red and gold",
+                    "correct": false
+                },
+                {
+                    "label": "Blue and white",
+                    "correct": true
+                },
+                {
+                    "label": "Green and black",
+                    "correct": false
+                },
+                {
+                    "label": "Purple and silver",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "230px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6154,
+        "question": "What does a broken but repaired Japanese pot using gold-filled cracks symbolize?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Perfection",
+                    "correct": false
+                },
+                {
+                    "label": "Wealth",
+                    "correct": false
+                },
+                {
+                    "label": "Strength through imperfection",
+                    "correct": true
+                },
+                {
+                    "label": "Rebirth",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "280px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6155,
+        "question": "Which region is known for terracotta warriors?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Mesopotamia",
+                    "correct": false
+                },
+                {
+                    "label": "India",
+                    "correct": false
+                },
+                {
+                    "label": "China",
+                    "correct": true
+                },
+                {
+                    "label": "Persia",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "320px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6156,
+        "question": "What is slip in the context of pottery?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A glaze",
+                    "correct": false
+                },
+                {
+                    "label": "Liquid clay",
+                    "correct": true
+                },
+                {
+                    "label": "A crack",
+                    "correct": false
+                },
+                {
+                    "label": "Decorative ring",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "360px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 6157,
+        "question": "Which pottery form is used to store oil or wine in ancient Greece?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Krater",
+                    "correct": false
+                },
+                {
+                    "label": "Amphora",
+                    "correct": true
+                },
+                {
+                    "label": "Hydria",
+                    "correct": false
+                },
+                {
+                    "label": "Kylix",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "400px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6158,
+        "question": "Which famous Italian city is known for Majolica ceramic art?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Venice",
+                    "correct": false
+                },
+                {
+                    "label": "Faenza",
+                    "correct": true
+                },
+                {
+                    "label": "Florence",
+                    "correct": false
+                },
+                {
+                    "label": "Rome",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "440px",
+        "left": "70px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6159,
+        "question": "What does the potter’s wheel symbolize in many mythologies?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cycle of life",
+                    "correct": true
+                },
+                {
+                    "label": "War and conflict",
+                    "correct": false
+                },
+                {
+                    "label": "The seasons",
+                    "correct": false
+                },
+                {
+                    "label": "Chaos",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "480px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    }
+]

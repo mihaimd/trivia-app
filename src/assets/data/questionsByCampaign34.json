@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "question": "Which large wild cat is native to the Americas and known for its powerful build?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Jaguar",
+                    "correct": true
+                },
+                {
+                    "label": "Tiger",
+                    "correct": false
+                },
+                {
+                    "label": "Leopard",
+                    "correct": false
+                },
+                {
+                    "label": "Panther",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "200px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 2,
+        "question": "Which bear species is most associated with salmon foraging in rivers?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Grizzly Bear",
+                    "correct": true
+                },
+                {
+                    "label": "Polar Bear",
+                    "correct": false
+                },
+                {
+                    "label": "Panda Bear",
+                    "correct": false
+                },
+                {
+                    "label": "Black Bear",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "610px",
+        "left": "23px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 3,
+        "question": "What animal uses its long snout to forage for ants and termites?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Aardvark",
+                    "correct": true
+                },
+                {
+                    "label": "Warthog",
+                    "correct": false
+                },
+                {
+                    "label": "Sloth",
+                    "correct": false
+                },
+                {
+                    "label": "Meerkat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "570px",
+        "left": "47px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 4,
+        "question": "Which African animal is known for its aggressive behavior and large tusks, often foraging near water?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hippopotamus",
+                    "correct": true
+                },
+                {
+                    "label": "Elephant",
+                    "correct": false
+                },
+                {
+                    "label": "Rhino",
+                    "correct": false
+                },
+                {
+                    "label": "Crocodile",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "340px",
+        "left": "66px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 5,
+        "question": "What small mammal is known for caching nuts and seeds in preparation for winter?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Squirrel",
+                    "correct": true
+                },
+                {
+                    "label": "Mouse",
+                    "correct": false
+                },
+                {
+                    "label": "Hedgehog",
+                    "correct": false
+                },
+                {
+                    "label": "Raccoon",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "430px",
+        "left": "52px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6,
+        "question": "Which bird uses tools like twigs to forage insects from tree bark?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Woodpecker Finch",
+                    "correct": true
+                },
+                {
+                    "label": "Blue Jay",
+                    "correct": false
+                },
+                {
+                    "label": "Robin",
+                    "correct": false
+                },
+                {
+                    "label": "Magpie",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "275px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 7,
+        "question": "Which omnivorous marsupial forages mostly at night and has a keen sense of smell?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Opossum",
+                    "correct": true
+                },
+                {
+                    "label": "Koala",
+                    "correct": false
+                },
+                {
+                    "label": "Tasmanian Devil",
+                    "correct": false
+                },
+                {
+                    "label": "Wallaby",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "120px",
+        "left": "85px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 8,
+        "question": "Which foraging animal is known to wash its food before eating it?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Raccoon",
+                    "correct": true
+                },
+                {
+                    "label": "Otter",
+                    "correct": false
+                },
+                {
+                    "label": "Fox",
+                    "correct": false
+                },
+                {
+                    "label": "Badger",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "375px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 9,
+        "question": "Which animal cracks open hard nuts using a rock as an anvil?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Capuchin Monkey",
+                    "correct": true
+                },
+                {
+                    "label": "Gorilla",
+                    "correct": false
+                },
+                {
+                    "label": "Chimpanzee",
+                    "correct": false
+                },
+                {
+                    "label": "Mandrill",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "210px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 10,
+        "question": "Which Arctic mammal is known for foraging by diving under ice to hunt fish?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Seal",
+                    "correct": true
+                },
+                {
+                    "label": "Polar Bear",
+                    "correct": false
+                },
+                {
+                    "label": "Narwhal",
+                    "correct": false
+                },
+                {
+                    "label": "Walrus",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "490px",
+        "left": "28px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 11,
+        "question": "Which forest-dwelling animal uses its long tongue to extract insects from narrow holes?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pangolin",
+                    "correct": true
+                },
+                {
+                    "label": "Anteater",
+                    "correct": false
+                },
+                {
+                    "label": "Tapir",
+                    "correct": false
+                },
+                {
+                    "label": "Porcupine",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "305px",
+        "left": "65px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 12,
+        "question": "Which large herbivore strips bark from trees to forage during winter?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Moose",
+                    "correct": true
+                },
+                {
+                    "label": "Deer",
+                    "correct": false
+                },
+                {
+                    "label": "Bison",
+                    "correct": false
+                },
+                {
+                    "label": "Yak",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "190px",
+        "left": "48px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 13,
+        "question": "What animal's nose can detect underground fungi such as truffles?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pig",
+                    "correct": true
+                },
+                {
+                    "label": "Goat",
+                    "correct": false
+                },
+                {
+                    "label": "Dog",
+                    "correct": false
+                },
+                {
+                    "label": "Sheep",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "450px",
+        "left": "32px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 14,
+        "question": "Which nocturnal forager is known to eat a wide variety of urban trash?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Raccoon",
+                    "correct": true
+                },
+                {
+                    "label": "Fox",
+                    "correct": false
+                },
+                {
+                    "label": "Coyote",
+                    "correct": false
+                },
+                {
+                    "label": "Weasel",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "385px",
+        "left": "59px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 15,
+        "question": "Which carnivorous marsupial forages by scavenging and is known for its fierce bite?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tasmanian Devil",
+                    "correct": true
+                },
+                {
+                    "label": "Wombat",
+                    "correct": false
+                },
+                {
+                    "label": "Sugar Glider",
+                    "correct": false
+                },
+                {
+                    "label": "Kangaroo Rat",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "110px",
+        "left": "50px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 16,
+        "question": "Which mammal forages underwater using sensitive whiskers to detect prey?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Otter",
+                    "correct": true
+                },
+                {
+                    "label": "Beaver",
+                    "correct": false
+                },
+                {
+                    "label": "Platypus",
+                    "correct": false
+                },
+                {
+                    "label": "Capybara",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "270px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 17,
+        "question": "Which animal can climb trees to forage for eggs and small animals?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Martens",
+                    "correct": true
+                },
+                {
+                    "label": "Hedgehogs",
+                    "correct": false
+                },
+                {
+                    "label": "Rabbits",
+                    "correct": false
+                },
+                {
+                    "label": "Groundhogs",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "460px",
+        "left": "67px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 18,
+        "question": "What wild pig species is famous for rooting up plants while foraging?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Boar",
+                    "correct": true
+                },
+                {
+                    "label": "Tapir",
+                    "correct": false
+                },
+                {
+                    "label": "Okapi",
+                    "correct": false
+                },
+                {
+                    "label": "Ibex",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "350px",
+        "left": "75px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 19,
+        "question": "Which large omnivore can tear apart logs to find grubs and insects?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Brown Bear",
+                    "correct": true
+                },
+                {
+                    "label": "Puma",
+                    "correct": false
+                },
+                {
+                    "label": "Hyena",
+                    "correct": false
+                },
+                {
+                    "label": "Wolf",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "175px",
+        "left": "22px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 20,
+        "question": "Which insectivore is known for its rapid tongue and sticky saliva to catch prey?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tamandua",
+                    "correct": false
+                },
+                {
+                    "label": "Chameleon",
+                    "correct": false
+                },
+                {
+                    "label": "Aardwolf",
+                    "correct": false
+                },
+                {
+                    "label": "Anteater",
+                    "correct": true
+                }
+            ]
+        },
+        "date": "2025-07-21",
+        "category": "Wild Beasts and Foraging Creatures",
+        "top": "500px",
+        "left": "95px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    }
+]

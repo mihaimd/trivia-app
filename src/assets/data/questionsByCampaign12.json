@@ -1,0 +1,322 @@
+[
+    {
+        "id": 6101,
+        "question": "What is the primary material used to make a traditional blacksmith’s anvil?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Bronze",
+                    "correct": false
+                },
+                {
+                    "label": "Cast iron",
+                    "correct": false
+                },
+                {
+                    "label": "Steel",
+                    "correct": true
+                },
+                {
+                    "label": "Aluminum",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "140px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6102,
+        "question": "Which tool is essential for shaping hot metal in blacksmithing?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Hammer",
+                    "correct": true
+                },
+                {
+                    "label": "Chisel",
+                    "correct": false
+                },
+                {
+                    "label": "Wrench",
+                    "correct": false
+                },
+                {
+                    "label": "File",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "200px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6103,
+        "question": "What is the purpose of quenching a blade?",
+        "answers": {
+            "options": [
+                {
+                    "label": "To color the metal",
+                    "correct": false
+                },
+                {
+                    "label": "To harden the steel",
+                    "correct": true
+                },
+                {
+                    "label": "To remove impurities",
+                    "correct": false
+                },
+                {
+                    "label": "To cool it quickly for handling",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "260px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6104,
+        "question": "What do blacksmiths typically use to heat metal?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Furnace",
+                    "correct": true
+                },
+                {
+                    "label": "Torch",
+                    "correct": false
+                },
+                {
+                    "label": "Oven",
+                    "correct": false
+                },
+                {
+                    "label": "Campfire",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "220px",
+        "left": "160px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6105,
+        "question": "Which ancient culture is credited with developing Damascus steel?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Romans",
+                    "correct": false
+                },
+                {
+                    "label": "Greeks",
+                    "correct": false
+                },
+                {
+                    "label": "Persians",
+                    "correct": true
+                },
+                {
+                    "label": "Egyptians",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "300px",
+        "left": "190px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 6106,
+        "question": "Why is carbon important in forging steel?",
+        "answers": {
+            "options": [
+                {
+                    "label": "It makes it shiny",
+                    "correct": false
+                },
+                {
+                    "label": "It helps the steel rust",
+                    "correct": false
+                },
+                {
+                    "label": "It gives steel its hardness",
+                    "correct": true
+                },
+                {
+                    "label": "It melts the metal faster",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "350px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6107,
+        "question": "What is a tang in the context of sword making?",
+        "answers": {
+            "options": [
+                {
+                    "label": "The sword's edge",
+                    "correct": false
+                },
+                {
+                    "label": "The decorative hilt",
+                    "correct": false
+                },
+                {
+                    "label": "The part of the blade inside the handle",
+                    "correct": true
+                },
+                {
+                    "label": "A type of quenching technique",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "260px",
+        "left": "220px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6108,
+        "question": "Which of these is a step in traditional sword forging?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Carving",
+                    "correct": false
+                },
+                {
+                    "label": "Twisting",
+                    "correct": false
+                },
+                {
+                    "label": "Folding",
+                    "correct": true
+                },
+                {
+                    "label": "Lathing",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "170px",
+        "left": "110px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 6109,
+        "question": "Which item is often used by blacksmiths to cool metal quickly?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Olive oil",
+                    "correct": false
+                },
+                {
+                    "label": "Cold air",
+                    "correct": false
+                },
+                {
+                    "label": "Water or oil quench",
+                    "correct": true
+                },
+                {
+                    "label": "Ice",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "320px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 6110,
+        "question": "What is the flat surface called where blacksmiths hammer hot metal?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Anvil",
+                    "correct": true
+                },
+                {
+                    "label": "Bench",
+                    "correct": false
+                },
+                {
+                    "label": "Press",
+                    "correct": false
+                },
+                {
+                    "label": "Forge block",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Myth, Prophecy & Symbols",
+        "top": "280px",
+        "left": "150px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    }
+]

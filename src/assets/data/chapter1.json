@@ -1,0 +1,323 @@
+{
+    "id": 1,
+    "name": "Chatpter 1",
+    "title": "~ The Shattererd Veil ~",
+    "image": "/assets/game/chapter1/village.jpeg",
+    "games" : [
+        {
+            "gameId": 1,
+            "chapterName": "Chatpter 1",
+            "gameTitle": "~ The Shattererd Veil ~",
+            "gameContent": "<p>For as long as anyone can remember, the land of <strong>Eritea</strong> has been protected by the <strong>Veil</strong>, a shimmering barrier that encircles the world, impenetrable and eternal. No one has ever crossed it. No one even knows what lies beyond. The people of Eritea live in peace, believing their land is the only place that exists.</p><p>You are 18 years old, a child of Eritea—or so you have always believed. You grew up in the quiet village of <strong>Lorynth</strong>, raised by loving parents who provided you with a simple, happy life. But on the night of your coming-of-age festival, everything changes.</p>",
+            "campaigns": []
+        },
+        {
+            "gameId": 2,
+            "chapterName": "Chatpter 1",
+            "gameTitle": "~ The Shattererd Veil ~",
+            "gameContent": "<p>Your parents, faces heavy with sorrow, reveal a truth that shatters your world:</p> <i>\"You were not born here. We could not have a child of our own. But one stormy night, we found you on our doorstep—wrapped in fine cloth, placed in a basket as though left by unseen hands.\"</i><p>Questions flood your mind: <strong><i>Who left you there? Why?</i></strong></p><p>Then the visions begin. Fragments of lost memories, voices speaking in languages you've never heard but somehow understand. You begin to see places and people that no one in Eritea remembers. Knowledge that should not exist floods your mind.</p>",
+            "campaigns": [
+                { "id": 1, "chapterId": 1, "gameId": 2, "completed": false, "title": "Lost Civilizations" },
+                { "id": 2, "chapterId": 1, "gameId": 2, "completed": false, "title": "Ancient Languages" },
+                { "id": 3, "chapterId": 1, "gameId": 2, "completed": false, "title": "Forgotten Knowledge" }
+            ]
+        },
+        {
+            "gameId": 3,
+            "chapterName": "Chatpter 1",
+            "gameTitle": "~ The Shattererd Veil ~",
+            "gameContent": "<p>Anger and confusion swirl within you. You leave the village square before the celebration can begin, your feet carrying you home before your thoughts can catch up.</p><p>The sky burns gold behind the hills, but the warmth of the evening feels distant.You burst into the cottage, your voice sharper than you intended.</p><i>“Why didn’t you tell me? Who am I?!”</i><p>Your parents flinch—not from fear, but from pain. They’ve carried this burden for eighteen years.</p>",
+            "campaigns": [
+                { "id": 4, "chapterId": 1, "gameId": 3, "completed": false, "title": "Unlock the Storm Within" },
+                { "id": 5, "chapterId": 1, "gameId": 3, "completed": false, "title": "Search the Hidden Drawer" },
+                { "id": 6, "chapterId": 1, "gameId": 3, "completed": false, "title": "Stare into the Flames" }
+            ]
+        },
+        {
+            "gameId": 4,
+            "chapterName": null,
+            "gameTitle": null,
+            "gameContent": "<i>“We told you the truth we knew,” your mother says softly. “We don’t know where you came from. But... there was something else. Something we never understood. We’ve kept it hidden—until now.”</i><p>Your father disappears into the attic. When he returns, he carries a bundle wrapped in silk the color of midnight. Reverently, he unfolds it to reveal a strange object: A pendant, shaped like an eye with no pupil, etched with symbols that shimmer faintly in the firelight. It pulses once, as if recognizing you.</p><i>“We found this beside you in the basket. We didn’t know what it meant. But we always knew, one day, you’d need it.”</i><p>As you take the pendant, the world seems to pause. A wave of forgotten voices floods your mind—ancient, distant, whispering your name. The pendant is warm. It feels like... home.</p>",
+            "campaigns": [
+                { "id": 7, "chapterId": 1, "gameId": 4, "completed": false, "title": "A city of lost scrolls and stone scholars" },
+                { "id": 8, "chapterId": 1, "gameId": 4, "completed": false, "title": "A burning battlefield echoing with ancient war cries" },
+                { "id": 9, "chapterId": 1, "gameId": 4, "completed": false, "title": "A grove older than the sun, guarded by whispering trees" }
+            ]
+        },
+        {
+            "gameId": 5,
+            "chapterName": null,
+            "gameTitle": "~ 🍎 The Market of Lorynth ~",
+            "gameContent": "<p>The dawn breaks slowly over Eriterra, casting a golden hush upon the rooftops of Lorynth. The sky is pale blue, the kind that promises warmth, but your heart remains a tangle of cold thoughts.</p><p>The pendant lies quiet against your chest, its faint pulse from the night before gone still. You don’t know whether to feel relieved or abandoned.</p><p>Your mother’s voice calls softly through the cottage door.</p><p><i>“Before you vanish into your thoughts again, love, take this coin pouch and fetch some fruit and root for supper. We’ll need them before the market clears.”</i></p><p>You hesitate. After all that happened, going to the market feels… trivial. But the ordinary has a strange gravity. Perhaps it will ground you.</p>",
+            "campaigns": [
+                { "id": 10, "chapterId": 1, "gameId": 5, "completed": false, "title": "Help the fruit vendor organize her baskets" },
+                { "id": 11, "chapterId": 1, "gameId": 5, "completed": false, "title": "Guess the weight of the fish at the fishmonger’s stall" },
+                { "id": 12, "chapterId": 1, "gameId": 5, "completed": false, "title": "Sharpen a practice blade with the blacksmith’s apprentice" },
+                { "id": 13, "chapterId": 1, "gameId": 5, "completed": false, "title": "Choose the right meat cuts for tonight’s stew" },
+                { "id": 14, "chapterId": 1, "gameId": 5, "completed": false, "title": "Swap stories with the honey seller" },
+                { "id": 15, "chapterId": 1, "gameId": 5, "completed": false, "title": "Inspect a rare vase with your potter friend" },
+                { "id": 16, "chapterId": 1, "gameId": 5, "completed": false, "title": "Engagement Action: “Cheer on the acrobat child’s tightrope attempt”" }
+            ]
+        },
+        {
+            "gameId": 6,
+            "chapterName": null,
+            "gameTitle": "~ Mira the Greengrower ~",
+            "gameContent": "<p>You stop by Mira the Greengrower’s cart, as you always have. Her hands are stained from peeling rinds, her smile warm and worn.</p><p><i> - Ah, the boy returns,” she says, tossing a ripe plum into your satchel. “Your parents keeping well?</i></p><p>You nod, distracted by a shimmer—a flicker of memory. A market not of wood and rope, but of metal and mist, where fruits glowed with inner fire and sellers whispered in tongues unknown. A vision? A dream?</p><p>No</p><p>A memory</p>",
+            "campaigns": []
+        },
+        {            
+            "gameId": 7,
+            "chapterName": null,
+            "gameTitle": "~ Mira the Greengrower ~",
+            "gameContent": "<p>As you take the plum, a warmth spreads through your fingers, and the world around you seems to shift. The air thickens with the scent of spices and the sound of distant laughter echoes in your ears.</p><p>“You’ve been having those dreams again, haven’t you?” Mira asks, her eyes narrowing slightly. “The ones of places you’ve never been?”</p><p>You nod, feeling a strange connection to the fruit in your hand. It feels like it holds secrets, like it’s a key to something you can’t quite grasp.</p><p>“Take it,” she says, her voice softening. “It’s a gift. You’ll need it for what’s to come.”</p><p>As you tuck the plum into your satchel, you feel a sense of purpose. The pendant around your neck pulses gently, as if in agreement with Mira’s words.</p><p>“Remember,” she adds, “the world is full of wonders and dangers. Trust your instincts, and don’t be afraid to seek out the truth.”</p><p>With a final nod, you turn to leave, the weight of the plum in your satchel a comforting presence. The market bustles around you, but your mind is already drifting to the mysteries that lie ahead.</p>",
+            "campaigns": [
+                { "id": 17, "chapterId": 1, "gameId": 7, "completed": false, "title": "Sort the enchanted fruits by their glow" },
+                { "id": 18, "chapterId": 1, "gameId": 7, "completed": false, "title": "Follow the market memory trail" },
+                { "id": 19, "chapterId": 1, "gameId": 7, "completed": false, "title": "Unlock the secret of the plum" }
+            ]
+        },
+        {
+            "gameId": 8,
+            "chapterName": null,
+            "gameTitle": "~ The Smith of Coins and Questions ~",
+            "gameContent": "<p>The sun has risen higher now, casting long shadows through the awnings. The market is alive with color and barter: laughter, clinking copper, the neigh of a restless mule tethered near the stables.</p><p>You pass baskets of fire peppers, hanging herbs drying in the sun, and a girl selling feather charms that twitch in your presence.</p><p>But then you see him—<strong>old man seated behind a table of nothing but coins.</strong> </p><p>No produce. No cloth. No wares at all.</p><p>Just coins—dozens of them, each one different. Ancient. Bent. Faintly glowing with the green-blue gleam of old metal.</p><p>You feel the pendant stir.</p><p><i>- “Pick one,” the old man says without looking up. “Only one. But it must be the right one.”</i></p><p>You pause. “The right one for what?”</p><p>He finally looks up, and his eyes are white—not blind, but blank, like stone rubbed smooth by time.</p><p><i>- “For remembering”</i></p>",
+            "campaigns": []
+        },
+        {
+            "gameId": 9,
+            "chapterName": null,
+            "gameTitle": "~  The pendant warms ~",
+            "gameContent": "<p>You reach for a coin—and the world tilts.</p><p>You’re no longer standing in the market.</p><p>You’re falling through time.</p><p>The question is not what you will remember...</p><p>But whether you’re ready to understand it.</p><p>Choose a Coin of Memory</p>",
+            "campaigns": [
+                { "id": 20, "chapterId": 1, "gameId": 9, "completed": false, "title": "A dragon coiled around a tree" },
+                { "id": 21, "chapterId": 1, "gameId": 9, "completed": false, "title": "A candle with three wicks" },
+                { "id": 22, "chapterId": 1, "gameId": 9, "completed": false, "title": "An hourglass spilling upward" }
+            ]
+        },
+        {
+            "gameId": 10,
+            "chapterName": null,
+            "gameTitle": "~ The Eye Behind the Silk ~",
+            "gameContent": "<p>As the coin cools in your palm, the old man simply nods. He doesn’t speak again. He only reaches under the table, pulls out a small square of folded silk, and slides it toward you.</p><p><i>You’ll know when to open it,” he says, his voice like dry leaves. “But not before.</i></p><p>You reach for it—<br/>—and blink.</p><p>He’s gone.</p><p>Only the coins remain, scattered across the empty table like ancient stars spilled from the night.</p><p>You slip the silk bundle into your satchel beside the glowing fruit and move on, your mind spinning.</p>",
+            "campaigns": []
+        },
+        {
+            "gameId": 11,
+            "chapterName": null,
+            "gameTitle": "~ The Eye Behind the Silk ~",
+            "gameContent": "<p>The crowd thickens as midday nears. You hear the clang of hammer on steel from the far edge of the square, where the blacksmith’s forge sends plumes of dark smoke into the sky. The smell of molten iron mixes with cinnamon and sweetwine from nearby stalls.</p><p>You pass a masked juggler tossing stones shaped like moons.</p><p>A woman sells crystal insects in glass jars that hum ancient lullabies.</p><p>You begin to wonder:</p><p>Was the market always like this… or are you simply seeing it now for what it truly is?</p><p>Choose a Coin of Memory</p>",
+            "campaigns": [
+                { "id": 23, "chapterId": 1, "gameId": 11, "completed": false, "title": "Gaze into the mirror held by the masked juggler" },
+                { "id": 24, "chapterId": 1, "gameId": 11, "completed": false, "title": "Match the crystal insects to their ancient melodies" },
+                { "id": 25, "chapterId": 1, "gameId": 11, "completed": false, "title": "Tend the coals of the blacksmith’s forge while he’s away" }
+            ]
+        },
+        {
+            "gameId": 12,
+            "chapterName": null,
+            "gameTitle": "~ 🔨 “Boy! You there!” ~",
+            "gameContent": "<p>Then, another call catches your ear. A voice you recognize.</p><p>It’s Tarn, the village stonemason, arms powdered in chalk and lime, standing beside a massive slab of dark slate. He points to you with a grin—too wide to be friendly.</p><p><i> - “You’ve got sharp eyes. Your mother says you’re good with puzzles and parts. Come here—tell me what shape this was meant to be.”</i></p><p>You approach. Carved faintly into the stone is a complex spiral, surrounding what looks like the shape of a lock… or a gate. A pattern calls to you —not with sound, but with familiarity.</p><p>Tarn lays out three stone fragments, each etched with symbols—none of which you’ve ever seen, and yet… you know exactly what they mean.</p><p>Stone of Remembrance</p>",
+            "campaigns": [
+                { "id": 26, "chapterId": 1, "gameId": 12, "completed": false, "title": "A shard marked with a compass rose" },
+                { "id": 27, "chapterId": 1, "gameId": 12, "completed": false, "title": "A sliver etched with a crescent moon and eye" },
+                { "id": 28, "chapterId": 1, "gameId": 12, "completed": false, "title": "A triangle engraved with overlapping runes" }
+            ]
+        },
+        {
+            "gameId": 13,
+            "chapterName": null,
+            "gameTitle": "~ 🔥 The Forge That Remembers ~",
+            "gameContent": "<p>The crowd thins as you move past the stonemason’s booth. Behind a curtain of thick smoke and the ringing of steel, you find yourself at the edge of the Forge of Jorek, Lorynth’s blacksmith and quiet giant of a man.</p><p>The forge is alive—its breath loud and fiery, casting waves of heat that dance across your skin. Sparks leap and vanish like fireflies meeting their end.</p><p>Jorek stands behind the anvil, hammering iron into shape with a rhythm older than language.</p><p>He doesn’t glance up, but somehow, he knows.</p><p><i>“- You’ve seen things now, haven’t you?”</i></p><p>You hesitate, then nod. The pendant stirs faintly against your chest, pulsing like a second heartbeat.</p><p><i>“Aye,” Jorek mutters, pulling the metal from the flame. “When the Veil begins to thin, some remember. And some are remembered.”</i></p><p>He plunges the iron into a trough of water. Steam howls up.</p><p><i>“What you carry isn't meant to stay unchanged. Memory, like steel, needs shaping.”</i></p><p>He gestures toward a heavy wooden workbench nearby. Upon it sit three raw metal forms—unfinished, waiting. Nearby lies a toolkit of memory-forging instruments, etched with arcane symbols. You’ve never seen anything like them.</p><p>You’ve come from elsewhere, whether you know it or not. The world will soon ask who you are. But first… you must choose what you become.</p><h3>Shape Your Memory</h3><p>Jorek slides the metal blanks toward you.</p><p><i>“ - These are more than shapes. They’re questions. What you forge now will shape the truths you uncover next.”</i></p><p>Choose a form to bind with the pendant:</p>",
+            "campaigns": [
+                { "id": 29, "chapterId": 1, "gameId": 13, "completed": false, "title": "A memory sigil shaped like a shield" },
+                { "id": 30, "chapterId": 1, "gameId": 13, "completed": false, "title": "A memory sigil shaped like a key" },
+                { "id": 31, "chapterId": 1, "gameId": 13, "completed": false, "title": "A memory sigil shaped like a flame" }
+            ]
+        },
+        {
+            "gameId": 14,
+            "chapterName": null,
+            "gameTitle": "~ 🐟 Story Scene: The Scales Beneath the Surface ~",
+            "gameContent": "<p>Leaving the forge behind, the hum of the pendant slowly settles, but your thoughts do not. Everywhere you look, the market feels stranger than before—not because it has changed, but because you have.</p><p>The path winds past the baker’s stall, past jars of glowing amber honey and stacks of golden loaves, until you’re met with a sudden burst of sea-scented air.</p><p>A long table lined with chipped blue tile sits under a tattered sailcloth canopy. Bowls of water glisten in the sun, each holding a different kind of fish—some familiar, others… impossible.</p><p>One has scales like silver leaves.</p><p>Another, fins that pulse with bioluminescence.</p><p>A third blinks at you with two pairs of eyes.</p><p>Behind the stall stands Old Fenna, the fishmonger. You know her only by the sound of her voice at dawn and the way her boots slosh when she walks through town.</p><p>She watches you approach with a crooked smile and says:</p><p><i>“ - Not every mystery lies in the sky, child. Some sleep below the surface, waiting to be remembered.”</i></p><p>She reaches under the table and pulls out a net made of glass-thread. Inside, a shell pulses with a faint glow.</p><p><i>“ - This one’s not for sale,” she says. “But if you can answer the river’s memory… it might open itself to you.”</i></p><p>Old Fenna gestures to three water basins, each containing a curious aquatic creature:</p>",
+            "campaigns": [
+                { "id": 32, "chapterId": 1, "gameId": 14, "completed": false, "title": "🐠 A shimmering riverfish with translucent fins – freshwater knowledge" },
+                { "id": 33, "chapterId": 1, "gameId": 14, "completed": false, "title": "🐙 A blue-shelled cephalopod curling over stones – oceanic mystery" },
+                { "id": 34, "chapterId": 1, "gameId": 14, "completed": false, "title": "🐊 A strange lizardlike creature resting half-submerged – amphibians and aquatic evolution" }
+            ]
+        },
+        {
+            "gameId": 15,
+            "chapterName": null,
+            "gameTitle": "~ 🔪 Story Scene: The Weight of the Blade ~",
+            "gameContent": "<p>You leave Old Fenna’s stall with a mind teeming with currents and coral—visions of creatures both known and long-forgotten still shimmering in the corner of your thoughts. The pendant lies still against your chest, though you feel a deep vibration, like it’s bracing for what’s next.</p><p>The stone path takes a turn toward the outer ring of the market, where bright colors and fragrant spices give way to iron hooks, thick gloves, and the scent of salt and blood.</p><p>The butcher’s stall looms beneath a red awning stained darker by time. There are no displays here—only slabs of oak and steel. Ropes of sausage hang like garlands, and strips of meat glisten beside wrapped bundles marked with chalk symbols.</p><p>Branrik, the butcher, is carving a side of boar when you approach. His arms are thick as tree trunks, his apron soaked in a day's worth of labor.</p><p>He looks up with a nod—not friendly, not unkind. Just real.</p><p><i>“ - You’re late,” he grunts. “Your mother wanted a roast and marrow cuts. You’ll carry them back yourself.”</i></p><p>He wraps the meat in waxed cloth, weighing it expertly. Then his eyes narrow.</p><p><i>“ - You’ve got the look of someone who’s seen through something.” He leans in, lowering his voice. “Dreams don’t feed a family, boy. Steel does. Blood does. But even those… come with a price.”</i></p><p>He lays the bundle down, but keeps his hand on it.</p><p><i>“ - Tell me something. You ever wonder what must be given for a meal like this to exist? The stories told in blood and bone?”</i></p><p>His eyes gleam.</p><p><i>“Want to hear what the beasts remember?”</i></p><p>He pulls out three carved bone tokens from a jar behind the stall. Each one is shaped like a creature’s tooth.</p><p><i>“Pick one. Each bite holds memory, if you’ve the mind to chew it.”</i></p>",
+            "campaigns": [
+                { "id": 35, "chapterId": 1, "gameId": 15, "completed": false, "title": "🐗 Boar’s tusk" },
+                { "id": 36, "chapterId": 1, "gameId": 15, "completed": false, "title": "🐺 Wolf fang" },
+                { "id": 37, "chapterId": 1, "gameId": 15, "completed": false, "title": "🐄 Ox horn shard" }
+            ]
+        },
+        {
+            "gameId": 16,
+            "chapterName": null,
+            "gameTitle": "~ 🍋 The Stand Beneath the Golden Tree ~",
+            "gameContent": "<p>The satchel on your shoulder grows heavier with every step—fruit, meat, herbs, and truths you didn’t ask for. The village around you blurs beneath the weight of new thoughts.</p><p>Just when the heat becomes too much—both from the sun and the furnace of your mind—you spot it.</p><p>Nestled between the herbalist’s stall and a seller of silks, beneath the canopy of a blooming goldenleaf tree, stands a small lemonade stand. The air around it is cool, touched by the scent of mint, citrus, and the faintest whisper of rain.</p><p>A girl about your age stands behind the cart. Her name is Lira, a distant cousin of Mira the greengrower, known more for her clever mind than her conversation. She looks up as you approach, her amber eyes bright in the dappled sunlight.</p><p><i>“ - You look like someone who’s been chasing questions through fire,” she says, offering you a wooden cup filled with pale yellow lemonade and sprigs of silverleaf.”</i></p><p>You take a sip. It’s shockingly cold. Sharply sweet. The kind of drink that makes the world stop spinning for just a moment.</p><p><i>“People say I just sell lemonade,” Lira murmurs, leaning on her elbow. “But I steep it in the water from the deepwell spring—the one that touches the roots of the <strong>Old Grove</strong>.” She lowers her voice. “That water… remembers.”</i></p><p>As you drink, you feel something shift. Not a vision—a clarity. A focus. The sun catches the pendant, and for a flash, you see reflections of yourself in other places. Other lives.</p><p>Lira notices the look in your eyes. <i>“ - The spring never lies. Whatever it's showing you… you were meant to see.”</i></p><p>Lira slides a small tray toward you. On it are three flavored droplets, each glimmering like dew, resting in hollowed lemon peels.</p><p><i>“ - Choose one. Each will stir a memory from far, far away… brought to you by the water beneath the world.”</i></p>",
+            "campaigns": [
+                { "id": 38, "chapterId": 1, "gameId": 16, "completed": false, "title": "🍊 Sunfruit drop" },
+                { "id": 39, "chapterId": 1, "gameId": 16, "completed": false, "title": "🌿 Mintroot drop" },
+                { "id": 40, "chapterId": 1, "gameId": 16, "completed": false, "title": "🫖 Spicebloom drop" }
+            ]
+        },
+        {
+            "gameId": 17,
+            "chapterName": null,
+            "gameTitle": "~ 🎪 Story Scene: The Dance of Air and Flame ~",
+            "gameContent": "<p>The lemonade slides down your throat like liquid sunlight—cool and bright and strangely grounding. You exhale, for what feels like the first time that day.</p><p>You glance to the side, just as a ripple of applause rises from the village square.</p><p>There, framed by the colorful streamers strung between food carts and hanging lanterns, is a circle of space cleared for performance. A few crates mark the edge of the makeshift stage, and standing in the center are two figures: a tall man in a crimson vest, and beside him, a small girl no older than ten.</p><p>The girl grins, hands outstretched, her fingers tipped with silver caps. With a sudden movement, she flips backward onto her hands, balancing perfectly as her father tosses her a pair of flaming rings.</p><p>She catches them mid-air without even looking.</p><p>Lira leans toward you, still sipping her own cup.</p><p><i>“ - That’s Kael and Anya. They’ve performed here since before I was born. Said they were just passing through one day… but never left.”</i></p><p>The father—Kael—bows low. Anya vaults onto his shoulders, balancing on one foot. The fire rings spin around her, leaving trails of gold in the air.</p><p>The crowd claps, enchanted. And you… you feel something stir.</p><p>Not a vision. Not a memory. But a yearning. The way they move—like wind and rhythm, like freedom.</p><p>You blink—and for the briefest moment, Anya’s eyes flash silver, and she’s looking straight at you.</p><p>She winks.</p><p>Then flips down, lands lightly, and the crowd erupts in cheer.</p><p>Kael walks toward the edge of the circle, his daughter now perched on one arm.</p><p><i>“ - We were meant to entertain,” he says with a smile. “But those who really watch… they remember.”</i></p><p>He holds up three small juggling balls. Each glows faintly—blue, green, and gold.</p><p><i>“Pick one. Let’s see if your mind dances like your thoughts do.”</i></p>",
+            "campaigns": [
+                { "id": 41, "chapterId": 1, "gameId": 17, "completed": false, "title": "🔵 Blue Sphere" },
+                { "id": 42, "chapterId": 1, "gameId": 17, "completed": false, "title": "🟢 Green Sphere" },
+                { "id": 43, "chapterId": 1, "gameId": 17, "completed": false, "title": "🟡 Gold Sphere" }
+            ]
+        },
+        {
+            "gameId": 18,
+            "chapterName": null,
+            "gameTitle": "~ 🍬 Story Scene: The Sugar That Whispers ~",
+            "gameContent": "<p>The crowd begins to thin as the sun leans westward, casting golden streaks between the market tents. Your satchel is full, your errands complete—fruit, vegetables, meat, and more than a fair share of unspoken truths.</p><p>But just as you turn to take the path home, a familiar scent catches your attention. <strong>Warm honey. Roasted nuts. Cinnamon. Caramel.</strong></p><p>Your feet stop before your thoughts do.</p><p>A small, curved cart stands alone under a patchwork parasol. Glass jars and polished tins line its surface, filled with sweets in every shape and color—<strong>candied petals, honey cubes, sugar-dusted plums, and twisted licorice like ribbons of night sky.</strong></p><p>Behind the stand, humming softly, is <strong>Gramma Thistle</strong>, a kind-eyed elder in robes the color of violet dusk. She’s lived in Lorynth longer than anyone can remember, though <strong>no one seems to recall how she came to be here.</strong></p><p><i>“Ah,” she says without looking up, “the heart seeks sugar when the soul is tired.”</i></p><p>She taps a wooden tray with her ladle. On it are three small confections, each nestled in a flower-shaped wrapper.</p><p><i>“ - Every sweet has a story,” she says, sliding the tray toward you. “And every story, a flavor of truth.”</i></p><p><i>“You may choose one, but only one. Sweets are stubborn things—they stick to what matters most.”</i></p><p>You eye the three treats laid before you. Each glows faintly, like it remembers something you do not.</p>",
+            "campaigns": [
+                { "id": 44, "chapterId": 1, "gameId": 18, "completed": false, "title": "Blushdrop Candy – soft pink with a floral shimmer" },
+                { "id": 45, "chapterId": 1, "gameId": 18, "completed": false, "title": "Nightfruit Chew – dark and star-speckled" },
+                { "id": 46, "chapterId": 1, "gameId": 18, "completed": false, "title": "Crispfire Caramel – amber with tiny gold flecks" }
+            ]
+        },
+        {
+            "gameId": 19,
+            "chapterName": null,
+            "gameTitle": "~ 🏺 The Clay That Holds the Shape ~",
+            "gameContent": "<p>With sweet warmth lingering on your tongue, you step away from Gramma Thistle’s cart, ready—perhaps—for the first time today, to finally return home.</p><p>The sun dips lower behind the hills, casting long amber shadows across the cobblestone streets. Merchants begin to pack their goods. Children chase each other between the stalls with the last of their festival sweets. The town breathes a little slower now.</p><p>Then you hear it—a deep, rhythmic thud, soft as a heartbeat in wet earth.</p><p>You turn the corner near the edge of the square and find <strong>Tiren</strong>, your friend since childhood, seated at his small pottery wheel beneath a faded canvas tent. His stall is smaller than most, but he keeps it spotless—shelves lined with clay vessels, painted plates, and delicate cups that shimmer with blue glaze.</p><p><i>“- You’re still out here?” you ask.</i></p><p>He grins, his hands already caked in clay.</p><p><i>“ - Market never ends if the work hasn’t.” He pauses, studying your face. “You look… different.”</i></p><p>You smile faintly, tired.</p><p><i>“I am.”</i></p><p>Tiren nods like he understands more than he says, then gestures to a nearby stool.</p><p><i>“Sit. Talk. Let your head settle while your feet rest.”</i></p><p>You do. The wheel spins, and he shapes a lump of clay into something resembling a jar. Steam rises from a nearby kettle. The scent of warm chamomile and earth floats between you.</p><p><i>“My father says clay remembers the hands that shaped it,” Tiren murmurs. “Sometimes I wonder… if we’re made of the same stuff.”</i></p><p><i>He sets the jar aside and reaches into a wooden box, pulling out three tiny ceramic tokens, each no bigger than a coin. He sets them on the bench beside you.</i></p><p><i>“I made these while thinking of you. Back before anything changed.”</i></p><p>You pick one up. It’s warm.</p>",
+            "campaigns": [
+                { "id": 47, "chapterId": 1, "gameId": 19, "completed": false, "title": "🌀 A spiral disc" },
+                { "id": 48, "chapterId": 1, "gameId": 19, "completed": false, "title": "🌿 A leaf-shaped tile" },
+                { "id": 49, "chapterId": 1, "gameId": 19, "completed": false, "title": "🧠 A mask-shaped charm" }
+            ]
+        },
+        {
+            "gameId": 20,
+            "chapterName": null,
+            "gameTitle": "~ 🌿 Story Scene: The Whispering Leaves ~",
+            "gameContent": "<p>Morning light filters softly through the cottage window, catching the edge of the pendant as it hangs from your bedpost. It flickers faintly, like it dreamed alongside you.</p><p>Downstairs, your mother moves quietly. You smell porridge and rosemary, hear the creak of the kettle, the gentle hum of a lullaby she hasn’t sung since you were small.</p><p>You sit down to eat in silence. She watches you with that kind of mother’s look that says everything and asks nothing.</p><p>Then she places a small satchel beside your bowl.</p><p>“We’re low on heartleaf and thistlebud,” she says gently. “Can you go to Healer Aranel before the dew burns off?”</p><p>You nod. A simple task. A familiar one.</p><p>Almost comforting.</p><p>You sling the satchel over your shoulder and step into the cool air. The village is quieter in the morning, like it’s still remembering itself. You walk a narrow path that winds behind the mill, down into a grove of sun-dappled ash trees.</p><p>The healer’s cottage sits nestled beneath a weeping willow, its branches touching the roof like blessings. Vines grow along the stone walls. Tiny bells chime in the windows. You’ve been here many times—but today, everything feels more alive.</p><p>The door creaks open before you knock.</p><p>Inside, Healer Aranel waits—tall, willow-slim, her hair like a silver braid of moonlight. She’s not old, not young. Not quite part of time at all.</p><p>She smiles faintly.</p><p><i>“I thought you'd come,” she says. “Your mother always remembers the right herbs before the winds shift.”</i></p><p>She gestures toward her long worktable, lined with jars, bundles of dried plants, and bowls of pulsing moss.</p><p><i>“But before you take what she needs… perhaps you should take something you need as well.”</i></p><p>She places three bundles of herbs before you, wrapped in silk, each tied with a color-coded thread:</p>",
+            "campaigns": [
+                { "id": 50, "chapterId": 1, "gameId": 20, "completed": false, "title": "💜 Bundle of Heartleaf and Lavender – Remedies and emotions, the healing of sorrow and spirit" },
+                { "id": 51, "chapterId": 1, "gameId": 20, "completed": false, "title": "💚 Bundle of Sage and Thornmint – Protection, purification, and knowledge of plants with edge and wisdom" },
+                { "id": 52, "chapterId": 1, "gameId": 20, "completed": false, "title": "🤍 Bundle of Cloudblossom and White Root – Rare herbs said to enhance memory and dreams" }
+            ]
+        },
+        {
+            "gameId": 21,
+            "chapterName": null,
+            "gameTitle": "~ 🌿 The Whispering Leaves ~",
+            "gameContent": "<p>Morning light filters softly through the cottage window, catching the edge of the pendant as it hangs from your bedpost. It flickers faintly, like it dreamed alongside you.</p><p>Downstairs, your mother moves quietly. You smell porridge and rosemary, hear the creak of the kettle, the gentle hum of a lullaby she hasn’t sung since you were small.</p><p>You sit down to eat in silence. She watches you with that kind of mother’s look that says everything and asks nothing.</p><p>Then she places a small satchel beside your bowl.</p><p>“We’re low on heartleaf and thistlebud,” she says gently. “Can you go to Healer Aranel before the dew burns off?”</p><p>You nod. A simple task. A familiar one.</p><p>Almost comforting.</p><p>You sling the satchel over your shoulder and step into the cool air. The village is quieter in the morning, like it’s still remembering itself. You walk a narrow path that winds behind the mill, down into a grove of sun-dappled ash trees.</p><p>The healer’s cottage sits nestled beneath a weeping willow, its branches touching the roof like blessings. Vines grow along the stone walls. Tiny bells chime in the windows. You’ve been here many times—but today, everything feels more alive.</p><p>The door creaks open before you knock.</p><p>Inside, Healer Aranel waits—tall, willow-slim, her hair like a silver braid of moonlight. She’s not old, not young. Not quite part of time at all.</p><p>She smiles faintly.</p><p><i>“I thought you'd come,” she says. “Your mother always remembers the right herbs before the winds shift.”</i></p><p>She gestures toward her long worktable, lined with jars, bundles of dried plants, and bowls of pulsing moss.</p><p><i>“But before you take what she needs… perhaps you should take something you need as well.”</i></p><p>She places three bundles of herbs before you, wrapped in silk, each tied with a color-coded thread:</p>",
+            "campaigns": [
+                { "id": 53, "chapterId": 1, "gameId": 21, "completed": false, "title": "💜 Bundle of Heartleaf and Lavender" },
+                { "id": 54, "chapterId": 1, "gameId": 21, "completed": false, "title": "💚 Bundle of Sage and Thornmint" },
+                { "id": 55, "chapterId": 1, "gameId": 21, "completed": false, "title": "🤍 Bundle of Cloudblossom and White Root" }
+            ]
+        },
+        {
+            "gameId": 22,
+            "chapterName": null,
+            "gameTitle": "~ 🌾 The Missing Root ~",
+            "gameContent": "<p>You gently lift the bundle your mother requested, wrapping it into the satchel with care. But just as you’re about to thank Healer Aranel and leave, her brow furrows.</p><p>She moves to a shelf in the far corner, lifting the lid of a small clay jar.</p><p><i>“- Hm,” she murmurs. “No scent. That’s not right.”</i></p><p>She looks back at you, her fingers brushing lightly across a set of small parchment labels.</p><p><i>“ - Your father’s ointment,” she says. “He’s been using it for his joints, yes? I made the last batch with cloud nettle root—but the stores are empty. And the new delivery hasn’t come down from the hills.”</i></p><p>She sighs, then smiles—calm, but expectant.</p><p><i>“If you have time, would you fetch it for me? You remember the path—east, toward the stream past the willow break. It only grows in shaded places where the water sings and the trees forget to speak.”</i></p><p>She presses a small wooden blade into your hand—a forager’s knife, etched with runes to guide you.</p><p><i>“Bring back only what calls to you. The root hides if it senses greed.”</i></p><p>You nod and turn to go, the satchel on your back now carrying not just herbs but intent.</p><p><i>“Oh—and one more thing,” she calls after you.<br />“Be careful where the moss glows blue. That means you’re close… but not alone.”</i></p><p>As you step into the outer grove, sunlight dapples the leaves. You come across three natural features, each seemingly humming with unseen presence:</p>",
+            "campaigns": [
+                { "id": 56, "chapterId": 1, "gameId": 22, "completed": false, "title": "🪨 A ring of mossy stones – Roots grow deep in shaded soil between them" },
+                { "id": 57, "chapterId": 1, "gameId": 22, "completed": false, "title": "🌳 A hollow tree filled with blue mushrooms – Strange but fragrant, pulsing faintly in the dark" },
+                { "id": 58, "chapterId": 1, "gameId": 22, "completed": false, "title": "🌾 A fern-covered stream bank – Glints of water and spidery roots trail like veins in the mud" }
+            ]
+        },
+        {
+            "gameId": 23,
+            "chapterName": null,
+            "gameTitle": "~ 🧚 The Hidden Glade and the Fairy's Request ~",
+            "gameContent": "<p>You crouch low beneath the canopy, the light thinning to a gentle green hush as you approach the fern-covered stream bank. The pendant at your neck glows softly, in rhythm with the trickling water.</p><p>You recognize the cloud nettle immediately—<strong>tall, with silver-veined leaves</strong> and a faint purple bloom at the base. You draw the forager’s blade and dig gently at its roots, careful not to sever them.</p><p>But just as your blade touches the soil, <strong>the air changes.</strong></p><p>A soft trill—like the sound of wind through a flute—floats through the grove.</p><p>You rise, slowly.</p><p>Across the stream, perched on the rim of a twisted flower bulb, hovers a creature of light and thread and shimmer. Wings like silk, hair like spun copper, eyes deep as starlit pools.</p><p>A fairy.</p><p><i>“You take what grows,” she says, voice delicate and sure, “but do you know what it cost to  bloom?”</i></p><p>You open your mouth, unsure of what to say.</p><p>She lifts her chin.</p><p>“This grove is sacred to us. We let the root grow here, though its power tempts many. But lately…” she pauses, expression dimming, “...a sickness spreads from the eastern hollow. Something is waking beneath the soil that should not.”</p><p>She flutters closer, hovering just out of reach.</p><p><i>“ - I do not ask you to fight, human. But if you would earn the root truly, help us. Place one of our moonseed wards along the hollow’s edge. It will not drive the dark back—but it may keep it sleeping a little longer.”</i></p><p>She drifts down to a mossy stone and opens a pouch woven from leaf and light. Inside are three glowing seeds.</p><p>The fairy meets your gaze, her expression suddenly softer.</p><p><i>“ - You are not just a boy of Eritea. The land knows it. The Veil stirs. Even here, in silence, the world waits.”</i></p>",
+            "campaigns": [
+                { "id": 59, "chapterId": 1, "gameId": 23, "completed": false, "title": "✨ Silver Moonseed – Wards dreams, tied to memory and unseen thoughts" },
+                { "id": 60, "chapterId": 1, "gameId": 23, "completed": false, "title": "🌕 Golden Moonseed – Protects the land, resonates with ancient roots" },
+                { "id": 61, "chapterId": 1, "gameId": 23, "completed": false, "title": "🌑 Obsidian Moonseed – Holds darkness in balance, calls on strength of will" }
+            ]
+        },
+        {
+            "gameId": 24,
+            "chapterName": null,
+            "gameTitle": "~ 🧚 ~",
+            "gameContent": "<p>The moonseed glows faintly in your palm as you approach the edge of the hollow. The air here feels colder, stiller—like the forest is holding its breath.</p><p>You kneel at the roots of a gnarled tree, its bark slick with dew, and press the seed into a crevice just above the soil. As it touches the earth, a soft pulse ripples outward, like a heartbeat in the ground. The surrounding shadows ease, just slightly.</p><p>The fairy appears again, hovering in silence for a moment. Her wings flutter in slow, deliberate motion.</p><p><i>“You have honored the grove,”</i> she says. <i>“When the time comes, and your path grows dark, I will be there. Not before. Not after. But exactly when you need me.”</i></p><p>She lifts a hand, and a faint silver mark appears just above your wrist—a delicate swirl of leaves and stars.</p><p><i>“This will call me, should the need arise.”</i></p><p>Then, with a final shimmer, she vanishes into the leaves, her presence fading like dew at dawn.</p><p>You gather the cloud nettle root, carefully wrapping it in cloth, and begin the walk back to the healer’s cottage. The grove feels calmer now. Grateful.</p><p>By the time you return, morning has deepened into late day. Healer Aranel waits just outside her door, hanging bundles of dried sage in the sun.</p><p><i>“You were gone longer than expected,”</i> she says, turning to you with a knowing look.</p><p>You explain what happened—the glowing moss, the fairy, the hollow, the moonseed warding. Her expression doesn’t change, but her eyes shimmer with something between recognition and respect.</p><p><i>“So, the old magic stirs even in the quiet corners,”</i> she murmurs. <i>“And you… you are beginning to walk between what is and what was.”</i></p><p>She takes the cloud nettle root from your hands, brushes your wrist gently, and glances at the faint silver marking.</p><p><i>“This is a sign. Not of power—but of promise. You are remembered, even by those who live beyond the Veil of memory.”</i></p><p>She turns and walks inside, beckoning you to follow.</p><p><i>“Come. There’s still more to do before the day ends. And more you need to know… before your path truly begins.”</i></p><p>Inside, Healer Aranel places three herbs before you. Each glows faintly, reacting to the mark on your wrist. She smiles.</p><p><i>“Choose one. Each leaf carries a lesson from the ancient roots of the world.”</i></p>",
+            "campaigns": [
+                { "id": 62, "chapterId": 1, "gameId": 24, "completed": false, "title": "🌿 <strong>Everwhisper Leaf</strong>" },
+                { "id": 63, "chapterId": 1, "gameId": 24, "completed": false, "title": "🌸 <strong>Blightbloom Petal</strong>" },
+                { "id": 64, "chapterId": 1, "gameId": 24, "completed": false, "title": "🌾 <strong>Stargrass Blade</strong>" }
+            ]
+        },
+        {
+            "gameId": 25,
+            "chapterName": null,
+            "gameTitle": "~ 🍯 The Hive’s Request ~",
+            "gameContent": "<p>The sun hangs low in the sky by the time you return home, a quiet orange glow stretching over the rooftops of Lorynth.</p><p>Inside the cottage, your mother hums softly as she stirs a pot of broth. Your father sits by the hearth, rubbing his knees absently—his usual chair wrapped in a woven blanket.</p><p>You approach and hand him the small jar of ointment from Healer Aranel. He takes it with a grunt of thanks, twisting the lid with careful hands.</p><p><i>“Smells strong. She’s good at what she does, that Aranel,”</i> he says. <i>“Should help with the joints before the cold sets in.”</i></p><p>He leans back, letting the warmth of the fire settle into his bones. Then he looks at you and raises an eyebrow.</p><p><i>“Since you’re still full of energy, how about one more errand?”</i> he says with a smirk.<i>“We’re out of honey. The hive in the grove behind the cottage should have plenty this time of year.”</i></p><p>You nod, grabbing a small wooden pot and setting off once again, this time toward the edge of the property where the grass gives way to wildflowers and the sweet hum of bees fills the air.</p><p>The hive is nestled in an old, hollow tree. Golden light spills from the cracks in the bark like liquid sunlight. The air is warm, thick with the scent of clover and pollen.</p><p>You approach slowly, as your father taught you, careful and calm. But just as you reach to collect the honeycomb, a sudden silence falls over the grove.</p><p>Then—**she** appears.</p><p>Not crawling from the hive, but **rising** from it—an elegant figure formed of golden light and glimmering wings, with eyes like drops of amber and a voice that thrums in the bones.</p><p><i>“You would take from the hive,”</i> she says, not unkindly. <i>“But the hive, too, has need.”</i></p><p>You step back, heart pounding. She hovers in the air, regal and strange. The **Queen Bee**.</p><p><i>“A shadow has crept into our foraging grounds,”</i> she continues. <i>“Something spoils the nectar, dulls the song of the flowers. We do not ask for battle—but for aid. Will you help us restore the bloom?”</i></p><p>You nod slowly. You’ve never spoken with a bee—let alone a queen. But something about her presence feels ancient, like it echoes the same strange familiarity as the pendant around your neck.</p><p><i>“Then choose how you will help us,”</i> she says, and extends three glowing drops of honey—each floating before you like golden stars.</p><p>Each honey drop pulses with a different light, representing a different path of help:</p>",
+            "campaigns": [
+                { "id": 65, "chapterId": 1, "gameId": 25, "completed": false, "title": "🍯 <strong>Sun-Drop</strong>" },
+                { "id": 66, "chapterId": 1, "gameId": 25, "completed": false, "title": "🐝 <strong>Moon-Drop</strong>" },
+                { "id": 67, "chapterId": 1, "gameId": 25, "completed": false, "title": "🌼 <strong>Star-Drop</strong>" }
+            ]
+        },
+        {
+            "gameId": 26,
+            "chapterName": null,
+            "gameTitle": "~ 🌊 The Whispering Lake ~",
+            "gameContent": "<p>The morning sun glints silver on the still waters of Lake Viralis, casting long reflections of sky and tree upon the surface. Mist curls low along the shore, and the wind carries the scent of lilies and cool stone.</p><p>Your feet press softly into the muddy banks as you crouch beside the water’s edge. Healer Aranel had mentioned a rare aquatic herb—<strong>skyroot frond</strong>—which blooms only beneath the water’s surface in the morning light.</p><p>You roll up your sleeves and reach into the shimmering water, fingers brushing the reeds. The water is colder than expected, deep and endless, as though the lake itself is watching you.</p><p>A ripple breaks the surface. Then another.</p><p>Suddenly, a song—wordless, haunting—rises from the mist.</p><p>You pull your hand back quickly and rise to your feet as a figure emerges from the lake. Not walking, not swimming—but gliding just beneath the surface.</p><p>She is unlike anything you've ever seen—her skin is pale as pearl, hair flowing like riverweed, and eyes shimmering with shifting blues and greens. A <strong>mermaid</strong>.</p><p>She watches you in silence for a moment, then speaks, her voice like the echo of water in a cave.</p><p><i>“You reach for the frond of the lake… but the lake reaches back.”</i></p><p>You don’t know whether to speak or run, but her gaze holds you steady—not threatening, but solemn.</p><p><i>“Few walk this shore with the mark of memory,”</i> she says, glancing to the faint silver symbol still glowing on your wrist. <i>“And fewer still can hear the songs of the deep.”</i></p><p>She dips beneath the surface and rises again, holding a small cluster of glowing skyroot fronds, their tips dripping silver light.</p><p><i>“I will give these to you. But in return, I ask your aid.”</i></p><p>You step closer, curiosity outweighing fear.</p><p><i>“There are questions hidden in the depths,”</i> she whispers. <i>“Traces of the world before the Veil. I will give you a piece of the song if you answer one of our riddles.”</i></p><p>She lifts her hand, and three bubbles rise from the water—each glowing with a different light, each pulsing with a quiet sound.</p><p>Each bubble holds a question from the old world, tied to knowledge long forgotten. Choose one to answer:</p>",
+            "campaigns": [
+                { "id": 68, "chapterId": 1, "gameId": 26, "completed": false, "title": "🌊 <strong>Blue Bubble</strong>" },
+                { "id": 69, "chapterId": 1, "gameId": 26, "completed": false, "title": "🌿 <strong>Green Bubble</strong>" },
+                { "id": 70, "chapterId": 1, "gameId": 26, "completed": false, "title": "🔱 <strong>Golden Bubble</strong>" }
+            ]
+        },
+        {
+            "gameId": 27,
+            "chapterName": null,
+            "gameTitle": "~ 🧜‍♀️ The Song of the Deep ~",
+            "gameContent": "<p>You reach out toward one of the shimmering bubbles, feeling the water hum around your fingertips. As your hand passes through its glowing surface, a question forms—not in words, but as a memory surfacing from beneath the waves.</p><p>You close your eyes and speak your answer aloud, steady and sure, though you don’t know how you know it.</p><p>For a moment, silence falls across the lake. The mists pause. The air grows heavy.</p><p>Then the bubble bursts into radiant light, and the water begins to shimmer around you like a curtain parting.</p><p>The mermaid rises from the lake again, her eyes wide with something between curiosity and recognition.</p><p><i>“Few among your kind remember such things,”</i> she says softly. <i>“Yet the knowledge sleeps within you. That is no accident.”</i></p><p>She lifts her hands, and the <strong>skyroot fronds</strong> drift toward you, glowing faintly with silver light. You gather them carefully, their scent sharp and sweet like crushed mint and riverstone.</p><p>Then, without another word, she offers you a small, radiant shard—iridescent like a pearl and etched with delicate lines that seem to mirror the pendant’s mysterious symbols.</p><p><i>“This belonged to a song long forgotten,”</i> she says. <i>“A verse broken apart when the Veil was raised. It may find its voice again, through you.”</i></p><p>You tuck the shard into your satchel, its warmth pulsing faintly beside the pendant and the other strange relics you’ve gathered. Your journey is beginning to feel less like chance and more like fate.</p><p>Just as you begin to turn away, the mermaid lifts a finger, her expression turning solemn.</p><p><i>“There is one more gift, should you have the courage.”</i></p><p>She beckons toward a cluster of tangled green weeds floating at the water’s edge, their leaves veined with silver.</p><p><i>“This is <strong>deepgill weed</strong>,”</i> she says. <i>“If chewed, it will grant you breath beneath the water—for a short time. Enough, perhaps, to reach the cave below.”</i></p><p>You blink. <i>“There’s a cave?”</i></p><p>She nods slowly. <i>“It sleeps in the heart of the lake—hidden in the silt, forgotten by most. But something waits there. Something lost. A treasure, yes—but not only gold. A fragment of memory.”</i></p><p>You stare into the dark waters, heart racing with the thrill of discovery.</p><p><i>“When you are ready,”</i> she says, <i>“eat the weed and dive. But beware—the lake remembers not only joy.”</i></p><p>With that, she sinks below the surface once more, her form dissolving into liquid silver. Only the deepgill weed remains, gently swaying with the tide.</p><p>You gather the fronds, the shard, and the strange weed, and step back from the shore—your satchel heavier, your mind spinning with wonder.</p><p>The lake is not finished with you. Not yet.</p>",
+            "campaigns": []
+        },
+        {
+            "gameId": 28,
+            "chapterName": null,
+            "gameTitle": "~ 🐟 Beneath the Glass Veil ~",
+            "gameContent": "<p>You hold the shimmering leaf of <strong>deepgill weed</strong> in your hand, its silver veins pulsing softly like a heartbeat. With a deep breath, you place it on your tongue and chew.</p><p>The taste is sharp—like mint and iron—but as you swallow, a strange warmth spreads through your chest. You inhale once more… and your lungs accept the water like air.</p><p>Stepping into the lake, you slip beneath the surface. The world above fades into rippling light, and a profound stillness surrounds you. Threads of sunlight pierce the depths, painting the lakebed with moving lace.</p><p>As you descend deeper, you pass drifting moss, fallen branches, and stones worn smooth by time. Suddenly, you find yourself surrounded by a <strong>bank of glowing silver fish</strong>, their sleek bodies moving in intricate patterns like ink across a page.</p><p>The fish dart around you, forming shapes and spirals that seem… purposeful. Not random. You reach out your hand, and the nearest fish splits from the group and swims a perfect circle around you.</p><p>Then the bank separates into <strong>three distinct schools</strong>, each forming a symbol in the water—one a swirling spiral, another a flickering star, the third a sharp arrow pointing downward.</p><p>The fish pulse with bioluminescent light, waiting, as if asking you to choose. Each group begins to slowly drift in a different direction—inviting you to follow.</p>",
+            "campaigns": [
+                { "id": 71, "chapterId": 1, "gameId": 28, "completed": false, "title": "🐚 <strong>Follow the Spiral Fish</strong>" },
+                { "id": 72, "chapterId": 1, "gameId": 28, "completed": false, "title": "🌟 <strong>Follow the Star Fish</strong>" },
+                { "id": 73, "chapterId": 1, "gameId": 28, "completed": false, "title": "🎣 <strong>Follow the Arrow Fish</strong>" }
+            ]
+        },
+        {
+            "gameId": 29,
+            "chapterName": null,
+            "gameTitle": "~ ⚡ Story Scene: The Cave That Breathes ~",
+            "gameContent": "<p>You choose your path, and the fish scatter—racing ahead like silver comets. You follow them through swaying curtains of kelp and past sunken stones marked by time and water. The light dims as you descend, but your pendant glows brighter with every stroke.</p><p>The fish vanish into the shadows ahead, and then… you see it.</p><p>The mouth of the cave yawns open like a wound in the lakebed—carved stone overgrown with moss and coral. Strange symbols flicker faintly along its edges, pulsing in time with your heartbeat.</p><p>You drift closer, the pressure of the deep tightening around you. Just beyond the entrance, you spot something gleaming—<strong>a treasure chest</strong>, half-buried in the sand, wrapped in chains of silver and coral.</p><p>But before you can move closer, the water trembles.</p><p>From behind the chest, something slithers into view—long, thick, and pulsing with streaks of bright blue light. A <strong>giant electric eel</strong>, easily twice your size, coils around the treasure with eerie grace. Its eyes glow with unnatural intelligence, and arcs of static flicker along its slick body.</p><p>It doesn’t strike, but it watches you. Waiting.</p><p>You hover there, heart pounding. You know you cannot defeat it with strength. The eel is ancient, powerful, and attuned to the magic of the lake. To reach the treasure, you must be clever—patient—and outthink the guardian.</p><p>The pendant warms against your chest. You realize the eel reacts not to movement, but to energy. Too much force, and it surges with lightning. But there must be a way to move without disturbing its current…</p>",
+            "campaigns": [
+                { "id": 74, "chapterId": 1, "gameId": 29, "completed": false, "title": "🔍 <strong>Observe the eel’s patterns</strong> – Watch for a moment when its energy pulses weaken, and move in sync with its flow." },
+                { "id": 75, "chapterId": 1, "gameId": 29, "completed": false, "title": "🌟🪙 <strong>Toss a shiny object into the water</strong> – Distract it with something from your satchel and retrieve the treasure while it investigates." },
+                { "id": 76, "chapterId": 1, "gameId": 29, "completed": false, "title": "🎼 <strong>Use the melody from the shard</strong> – Play the song of the deep using the shell shard the mermaid gave you." }
+            ]
+        },
+        {
+            "gameId": 30,
+            "chapterName": null,
+            "gameTitle": "~ ⚡ Story Scene: The Cave That Breathes ~",
+            "gameContent": "<p>You choose your path, and the fish scatter—racing ahead like silver comets. You follow them through swaying curtains of kelp and past sunken stones marked by time and water. The light dims as you descend, but your pendant glows brighter with every stroke.</p><p>The fish vanish into the shadows ahead, and then… you see it.</p><p>The mouth of the cave yawns open like a wound in the lakebed—carved stone overgrown with moss and coral. Strange symbols flicker faintly along its edges, pulsing in time with your heartbeat.</p><p>You drift closer, the pressure of the deep tightening around you. Just beyond the entrance, you spot something gleaming—<strong>a treasure chest</strong>, half-buried in the sand, wrapped in chains of silver and coral.</p><p>But before you can move closer, the water trembles.</p><p>From behind the chest, something slithers into view—long, thick, and pulsing with streaks of bright blue light. A <strong>giant electric eel</strong>, easily twice your size, coils around the treasure with eerie grace. Its eyes glow with unnatural intelligence, and arcs of static flicker along its slick body.</p><p>It doesn’t strike, but it watches you. Waiting.</p><p>You hover there, heart pounding. You know you cannot defeat it with strength. The eel is ancient, powerful, and attuned to the magic of the lake. To reach the treasure, you must be clever—patient—and outthink the guardian.</p><p>The pendant warms against your chest. You realize the eel reacts not to movement, but to energy. Too much force, and it surges with lightning. But there must be a way to move without disturbing its current…</p>",
+            "campaigns": [
+                { "id": 77, "chapterId": 1, "gameId": 30, "completed": false, "title": "🔍<strong>Observe the eel’s patterns</strong>" },
+                { "id": 78, "chapterId": 1, "gameId": 30, "completed": false, "title": "🌟<strong>Toss a shiny object into the water</strong>" },
+                { "id": 79, "chapterId": 1, "gameId": 30, "completed": false, "title": "🎼<strong>Use the melody from the shard</strong>" }
+            ]
+        }
+    ]
+    
+}

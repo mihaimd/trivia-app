@@ -1,0 +1,642 @@
+[
+    {
+        "id": 1,
+        "question": "Which device is traditionally used to decode Caesar ciphers?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Enigma machine",
+                    "correct": false
+                },
+                {
+                    "label": "Decoder ring",
+                    "correct": true
+                },
+                {
+                    "label": "Punch card",
+                    "correct": false
+                },
+                {
+                    "label": "Morse switch",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cyphers & Mysteries",
+        "top": "80px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 2,
+        "question": "What type of key is used in symmetric encryption?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Public key",
+                    "correct": false
+                },
+                {
+                    "label": "Master key",
+                    "correct": false
+                },
+                {
+                    "label": "Shared secret key",
+                    "correct": true
+                },
+                {
+                    "label": "Quantum key",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Keys & Encryption",
+        "top": "150px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 3,
+        "question": "Which ancient device was used to encrypt messages using rods and parchment?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Cryptex",
+                    "correct": false
+                },
+                {
+                    "label": "Scytale",
+                    "correct": true
+                },
+                {
+                    "label": "Codex",
+                    "correct": false
+                },
+                {
+                    "label": "Cipher disc",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Historical Ciphers",
+        "top": "210px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 4,
+        "question": "In literature, which famous key opens the door to Wonderland?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Glass key",
+                    "correct": false
+                },
+                {
+                    "label": "Golden key",
+                    "correct": true
+                },
+                {
+                    "label": "Ivory key",
+                    "correct": false
+                },
+                {
+                    "label": "Clockwork key",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Literary Mysteries",
+        "top": "280px",
+        "left": "130px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 5,
+        "question": "What kind of key is used to unlock a musical piece?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Key of C",
+                    "correct": true
+                },
+                {
+                    "label": "Chord lock",
+                    "correct": false
+                },
+                {
+                    "label": "Sound gate",
+                    "correct": false
+                },
+                {
+                    "label": "Melody cipher",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Symbolic Keys",
+        "top": "340px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 10
+    },
+    {
+        "id": 6,
+        "question": "Which of these is NOT a type of classical cipher?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Pigpen cipher",
+                    "correct": false
+                },
+                {
+                    "label": "Vigenère cipher",
+                    "correct": false
+                },
+                {
+                    "label": "Rubik cipher",
+                    "correct": true
+                },
+                {
+                    "label": "Playfair cipher",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cyphers & Mysteries",
+        "top": "400px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 7,
+        "question": "What does the term ‘keyhole archaeology’ refer to?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Tiny excavation tools",
+                    "correct": false
+                },
+                {
+                    "label": "Small test digs to uncover clues",
+                    "correct": true
+                },
+                {
+                    "label": "Unlocking temple doors",
+                    "correct": false
+                },
+                {
+                    "label": "Hidden tomb chambers",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Unlocking Mysteries",
+        "top": "460px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 8,
+        "question": "Which famous unsolved cipher was sent to a newspaper by the Zodiac Killer?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Z408 cipher",
+                    "correct": true
+                },
+                {
+                    "label": "Enigma cipher",
+                    "correct": false
+                },
+                {
+                    "label": "Black Dahlia code",
+                    "correct": false
+                },
+                {
+                    "label": "Sumerian glyphs",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cryptology & Forensics",
+        "top": "520px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 9,
+        "question": "What is a ‘master key’?",
+        "answers": {
+            "options": [
+                {
+                    "label": "A key that opens all locks in a system",
+                    "correct": true
+                },
+                {
+                    "label": "A symbolic representation of a king",
+                    "correct": false
+                },
+                {
+                    "label": "A high-security password",
+                    "correct": false
+                },
+                {
+                    "label": "A blueprint for escape rooms",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Keys & Systems",
+        "top": "580px",
+        "left": "30px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 10,
+        "question": "What is the purpose of a substitution cipher?",
+        "answers": {
+            "options": [
+                {
+                    "label": "To swap entire words for synonyms",
+                    "correct": false
+                },
+                {
+                    "label": "To replace letters with other letters or symbols",
+                    "correct": true
+                },
+                {
+                    "label": "To hide messages in paintings",
+                    "correct": false
+                },
+                {
+                    "label": "To scramble sounds into static",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cyphers & Mysteries",
+        "top": "640px",
+        "left": "90px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 11,
+        "question": "Which famous unsolved code appears on the sculpture Kryptos at CIA headquarters?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Morse fragment",
+                    "correct": false
+                },
+                {
+                    "label": "K4 cipher",
+                    "correct": true
+                },
+                {
+                    "label": "Cipher wheel",
+                    "correct": false
+                },
+                {
+                    "label": "Lambda sequence",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cyphers & Mysteries",
+        "top": "700px",
+        "left": "40px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 35
+    },
+    {
+        "id": 12,
+        "question": "What ancient civilization used the Linear B script, long undeciphered?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Sumerians",
+                    "correct": false
+                },
+                {
+                    "label": "Minoans",
+                    "correct": true
+                },
+                {
+                    "label": "Persians",
+                    "correct": false
+                },
+                {
+                    "label": "Etruscans",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Unlocking Ancient Mysteries",
+        "top": "760px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    },
+    {
+        "id": 13,
+        "question": "What field of study involves cracking codes and creating secure messages?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Numismatics",
+                    "correct": false
+                },
+                {
+                    "label": "Cryptography",
+                    "correct": true
+                },
+                {
+                    "label": "Topology",
+                    "correct": false
+                },
+                {
+                    "label": "Semiotics",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cyphers & Cryptography",
+        "top": "820px",
+        "left": "80px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 14,
+        "question": "Which famous codebreaker helped crack the Enigma machine?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Nikola Tesla",
+                    "correct": false
+                },
+                {
+                    "label": "Alan Turing",
+                    "correct": true
+                },
+                {
+                    "label": "Marie Curie",
+                    "correct": false
+                },
+                {
+                    "label": "Isaac Newton",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Cyphers & WWII",
+        "top": "880px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 25
+    },
+    {
+        "id": 15,
+        "question": "What is a \"cryptic crossword\" known for?",
+        "answers": {
+            "options": [
+                {
+                    "label": "No definitions at all",
+                    "correct": false
+                },
+                {
+                    "label": "Having clues based on riddles and wordplay",
+                    "correct": true
+                },
+                {
+                    "label": "Using only foreign words",
+                    "correct": false
+                },
+                {
+                    "label": "Being written backward",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Word Puzzles & Codes",
+        "top": "940px",
+        "left": "120px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 15
+    },
+    {
+        "id": 16,
+        "question": "What term describes the unlocking of coded historical manuscripts?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Archaeoglyphy",
+                    "correct": false
+                },
+                {
+                    "label": "Paleography",
+                    "correct": true
+                },
+                {
+                    "label": "Decipherism",
+                    "correct": false
+                },
+                {
+                    "label": "Manuscriptology",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Unlocking Ancient Mysteries",
+        "top": "1000px",
+        "left": "140px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 17,
+        "question": "What is a \"cipher wheel\" used for?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Finding treasure",
+                    "correct": false
+                },
+                {
+                    "label": "Navigating the stars",
+                    "correct": false
+                },
+                {
+                    "label": "Encrypting messages by rotation",
+                    "correct": true
+                },
+                {
+                    "label": "Measuring wind direction",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Mechanical Cyphers",
+        "top": "1060px",
+        "left": "100px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 20
+    },
+    {
+        "id": 18,
+        "question": "Which ancient codex is still undeciphered and full of strange illustrations?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Voynich Manuscript",
+                    "correct": true
+                },
+                {
+                    "label": "Rosetta Codex",
+                    "correct": false
+                },
+                {
+                    "label": "Alexandrian Scroll",
+                    "correct": false
+                },
+                {
+                    "label": "Sanskrit Leaves",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Unsolved Codes",
+        "top": "1120px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 100
+    },
+    {
+        "id": 19,
+        "question": "Which modern technology relies heavily on encryption keys?",
+        "answers": {
+            "options": [
+                {
+                    "label": "GPS",
+                    "correct": false
+                },
+                {
+                    "label": "Cloud storage",
+                    "correct": true
+                },
+                {
+                    "label": "Bluetooth pairing",
+                    "correct": false
+                },
+                {
+                    "label": "3D printing",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Keys & Digital Security",
+        "top": "1180px",
+        "left": "20px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 30
+    },
+    {
+        "id": 20,
+        "question": "Which element of a lock aligns the pins to allow a key to turn?",
+        "answers": {
+            "options": [
+                {
+                    "label": "Lever plate",
+                    "correct": false
+                },
+                {
+                    "label": "Warding edge",
+                    "correct": false
+                },
+                {
+                    "label": "Shear line",
+                    "correct": true
+                },
+                {
+                    "label": "Keyway groove",
+                    "correct": false
+                }
+            ]
+        },
+        "date": "2025-06-30",
+        "category": "Lock Mechanisms",
+        "top": "1240px",
+        "left": "60px",
+        "level": 0,
+        "answtype": "single",
+        "format": "text",
+        "pts": 40
+    }
+]
