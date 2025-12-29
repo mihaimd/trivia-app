@@ -38,3 +38,8 @@
     pointer-events: none;
   }
 }
+button {
+    .button-text {
+        padding: 0 20px;
+    }
+}

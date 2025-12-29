@@ -151,7 +151,7 @@ export class GamePage implements OnInit {
     const arrowTop = offsetTop + offsetHeight / 2 - 14;
     this.arrowStyle = {
       top: `${arrowTop}px`,
-      left: '93%',
+      left: '91%',
       display: 'block'
     };
   }
