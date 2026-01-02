@@ -174,7 +174,7 @@ export class QDetailPage implements OnInit, OnDestroy {
       if (this.isRiverQuestion) {
         if (this.currentUser) { this.currentUser.timeBonus = this.currentUser.timeBonus + left; }
       } else {
-        this.dataService.timeBonus.update((current: number) => current + (left * 0.2));
+        this.dataService.timeBonus.update((current: number) => current + (Math.ceil(left * 0.2)));
       }
     }
   }

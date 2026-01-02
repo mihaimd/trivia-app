@@ -178,7 +178,7 @@ export class ProfilePage implements OnInit {
     this.spinner = 'Google';
     await this.askUserToLocationPermission();
     console.log("TRY_TO_GOOGLE_LOGIN_2");
-    if (this.country && this.country_code) {
+    // if (this.country && this.country_code) {
       console.log("TRY_TO_GOOGLE_LOGIN_3");
       if (Capacitor.isNativePlatform()) {
         console.log("TRY_TO_GOOGLE_LOGIN_4");
@@ -196,11 +196,11 @@ export class ProfilePage implements OnInit {
         this.handleSignInWithGoogleWeb();
       }
       console.log("TRY_TO_GOOGLE_LOGIN_6");
-    } else {
+    // } else {
       console.log("TRY_TO_GOOGLE_LOGIN_7");
       // Handle the case where country or country_code is not available
-      this.spinner = null;
-    }
+    //   this.spinner = null;
+    // }
   }
   async signInWithFacebook() {
     this.spinner = 'Facebook';

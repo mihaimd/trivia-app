@@ -9,8 +9,7 @@
       </ion-button>
       <ion-button>
         <span class="text-light d-flex ion-flex-column ion-justify-content-between">
-          <span>{{ journeyProgressData?.exp }}</span>
-          <small>TOTAL EXP</small>
+          <span>{{ journeyProgressData?.exp + currentUser.timeBonus }}</span>
         </span>&nbsp;<img src="../../assets/img/xp1.png" class="goldCoinImg" style="transform: scale(1.1);">
       </ion-button>
     </ion-buttons>
@@ -64,7 +63,7 @@
         <div class="row wrapper" *ngIf="currentUser && currentUser.isJourneyStarted">
           <div class="progressBar">
             <div class="bar" *ngIf="journeyProgressData!=undefined">
-              <div class="decoration">{{ journeyProgressData.exp }}<b>/</b>{{journeyProgressData.nextLevelExp}}</div>
+              <div class="decoration">{{ journeyProgressData.exp + currentUser.timeBonus }}<b>/</b>{{journeyProgressData.nextLevelExp}}</div>
               <div class="filling primary green" [ngStyle]="{ 'width': xProgressWidth() }" *ngIf="journeyProgressData.exp>0"></div>
               <div class="filling secondary green" *ngIf="journeyProgressData.exp==0"></div>
             </div>

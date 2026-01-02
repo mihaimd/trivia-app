@@ -209,6 +209,7 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
 
   async ngAfterViewInit(): Promise<void> {    
     if (this.starScreen) {
+      this.backToStory();
       interval(60) // every 200ms
         .pipe(take(this.dataService.campaignScore() + 1)) // emit 21 numbers (0 to 20)
         .subscribe((val) => (this.currentExperience = val));
@@ -249,9 +250,21 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
       });
     }
   }
-  
+
+  backToStory2() {
+    if (this.currentUser && this.dataService.reachingLevel(this.currentUser.exp) >= AppConstants.SKILL_UNLOCK_LEVEL) {
+      this.openSkillModal().then((res) => {
+        this.router.navigate([`tabs/home/game`, this.chapterId, this.gameId], { replaceUrl: true });
+      }).catch((reason: any) => {
+        this.router.navigate([`tabs/home/game`, this.chapterId, this.gameId], { replaceUrl: true });
+      });
+    } else {
+      this.router.navigate([`tabs/home/game`, this.chapterId, this.gameId], { replaceUrl: true });
+    }
+  }
+
   async backToStory() {
-    const exp = this.dataService.campaignScore();
+    const exp = this.dataService.campaignScore() + this.dataService.timeBonus();
     this.dataService.getChapterByIdFromJsonFile(this.chapterId).subscribe({
       next: async (response: any) => {
         if (response) {
@@ -278,15 +291,19 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
                   time: new Date().getTime(),
                 };
                 this.dataService.updateAppPlayerDataToLocal(AppConstants.LK_COMPLETED_CAMPAIGNS, updateCompletedCampaigns);
+                const updatedLocalCampaigns: CompletedCampaigns[] = this.dataService.getAppPlayerDataFromLocal().completedCampaigns;
+                const updatedLocalCampaignIds: number[] = this.dataService.getAppPlayerDataFromLocal().completedCampaignsIds;
                 if (this.currentUser) {
                   this.currentUser.exp = this.currentUser.exp + updateCompletedCampaigns.exp;
                   this.currentUser.level = this.dataService.reachingLevel(this.currentUser.exp);
                   this.currentUser.lastActive = this.firebaseService.getFbTimestamp();
                   this.currentUser.timeBonus = this.currentUser.timeBonus + updateCompletedCampaigns.timeBonus;
                   this.currentUser.isJourneyStarted = true;
+                  this.currentUser.completedCampaigns = updatedLocalCampaigns;
+                  this.currentUser.completedCampaignIds = updatedLocalCampaignIds;
                   this.authService.saveUserProfileInLocal(this.currentUser);
                   if (!this.authService.isGuest(this.currentUser)) {
-                    await this.firebaseService.updateUser(this.currentUser.uid, this.currentUser).then(()=>this.isClickedContinue=false).catch((err:any)=>{ console.error('ERR_IN_UPDATE_USER::',err); this.isClickedContinue=false; });
+                    await this.firebaseService.updateUser(this.currentUser.uid, this.currentUser).then(() => this.isClickedContinue = false).catch((err: any) => { console.error('ERR_IN_UPDATE_USER::', err); this.isClickedContinue = false; });
                     await this.firebaseService.updateCompletedCampaignsByUid(this.currentUser.uid, updateCompletedCampaigns);
                   }
                   this.initWritableSignal();
@@ -306,15 +323,6 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
     this.dataService.currentGameInfo.set(undefined);
     if (this.isGameCompleted) {
       this.gameId += 1;
-    }
-    if (this.currentUser && this.dataService.reachingLevel(this.currentUser.exp) >= AppConstants.SKILL_UNLOCK_LEVEL) {
-      this.openSkillModal().then((res)=>{
-        this.router.navigate([`tabs/home/game`, this.chapterId, this.gameId], { replaceUrl: true });
-      }).catch((reason:any)=>{
-        this.router.navigate([`tabs/home/game`, this.chapterId, this.gameId], { replaceUrl: true });
-      });
-    } else {
-      this.router.navigate([`tabs/home/game`, this.chapterId, this.gameId], { replaceUrl: true });
     }
   }
 

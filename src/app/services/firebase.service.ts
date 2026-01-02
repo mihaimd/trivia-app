@@ -60,6 +60,8 @@ export interface UserData {
   mySeasons?: MySeasons[];
   totalGoldCoins: number;
   isJourneyStarted: boolean;
+  completedCampaigns?: CompletedCampaigns[];
+  completedCampaignIds?: number[];
 }
 
 @Injectable({
