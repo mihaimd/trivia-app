@@ -304,7 +304,7 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
                   this.authService.saveUserProfileInLocal(this.currentUser);
                   if (!this.authService.isGuest(this.currentUser)) {
                     await this.firebaseService.updateUser(this.currentUser.uid, this.currentUser).then(() => this.isClickedContinue = false).catch((err: any) => { console.error('ERR_IN_UPDATE_USER::', err); this.isClickedContinue = false; });
-                    await this.firebaseService.updateCompletedCampaignsByUid(this.currentUser.uid, updateCompletedCampaigns);
+                    // await this.firebaseService.updateCompletedCampaignsByUid(this.currentUser.uid, updateCompletedCampaigns);
                   }
                   this.initWritableSignal();
                 }

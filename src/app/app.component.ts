@@ -185,11 +185,11 @@ export class AppComponent {
 
   async syncTriviaAppPlayerCompletedCampaigns() {
     this.firebaseService.getCompletedCampaignsByCurrentUser().subscribe({
-      next: (completedCampaigns) => {
-        if (completedCampaigns && this.CAN_SYNC) {
+      next: (userData) => {
+        if (userData[0]?.completedCampaigns && this.CAN_SYNC) {
           var completedCampaignsIds: number[] = [];
-          completedCampaigns.forEach((cc) => { completedCampaignsIds.push(cc.id); });
-          this.dataService.saveAppPlayerDataInLocal({ completedCampaigns, completedCampaignsIds });
+          userData[0]?.completedCampaigns.forEach((cc) => { completedCampaignsIds.push(cc.id); });
+          this.dataService.saveAppPlayerDataInLocal({completedCampaigns: userData[0]?.completedCampaigns, completedCampaignsIds });
         }
       }
     });

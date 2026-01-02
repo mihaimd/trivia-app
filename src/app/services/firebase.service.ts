@@ -245,15 +245,14 @@ export class FirebaseService {
     }
     return [] as unknown as Observable<CompletedCampaigns[]>;
   } */
-  getCompletedCampaignsByCurrentUser(): Observable<CompletedCampaigns[]> {
+  getCompletedCampaignsByCurrentUser(): Observable<UserData[]> {
     const user = this.authService.getUserProfileFromLocal();
     if (user && !this.authService.isGuest(user)) {
       const q = query(
-        this.completedCampaignsColRef(),
-        where('uid', '==', user.uid),
-        orderBy('time', 'desc')
+        this.usersColRef(),
+        where('uid', '==', user.uid)
       );
-      return collectionData(q) as Observable<CompletedCampaigns[]>;
+      return collectionData(q) as Observable<UserData[]>;
     }
     return of([]); // Return an observable of an empty array
   }
@@ -427,7 +426,7 @@ export class FirebaseService {
     );
 
     return getDocs(q).then((querySnapshot: QuerySnapshot<DocumentData>) => {
-      if (querySnapshot.empty) return undefined;      
+      if (querySnapshot.empty) return undefined;
       const doc = querySnapshot.docs[0];
       return { id: doc.id, ...doc.data() } as Seasons;
     });

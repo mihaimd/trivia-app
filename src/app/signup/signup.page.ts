@@ -295,12 +295,12 @@ export class SignupPage implements OnInit {
   syncCC(): Promise<boolean> {
     return new Promise((resolve, reject) => {
       const SUB_CC = this.firebaseService.getCompletedCampaignsByCurrentUser().subscribe({
-        next: (completedCampaigns) => {
+        next: (userData) => {
           SUB_CC.unsubscribe();
-          if (completedCampaigns) {
+          if (userData[0]?.completedCampaigns) {
             var completedCampaignsIds: number[] = [];
-            completedCampaigns.forEach((cc) => { completedCampaignsIds.push(cc.id); });
-            this.dataService.saveAppPlayerDataInLocal({ completedCampaigns, completedCampaignsIds });
+            userData[0]?.completedCampaigns.forEach((cc) => { completedCampaignsIds.push(cc.id); });
+            this.dataService.saveAppPlayerDataInLocal({ completedCampaigns: userData[0]?.completedCampaigns, completedCampaignsIds });
             resolve(true);
           } else {
             resolve(true);
