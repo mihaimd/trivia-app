@@ -48,6 +48,7 @@ import { FirebaseService, UserData } from 'src/app/services/firebase.service';
 import { AuthService } from 'src/app/services/auth.service';
 import { AdLoadInfo, AdMob, AdOptions, InterstitialAdPluginEvents } from '@capacitor-community/admob';
 import { environment } from 'src/environments/environment';
+import { ProgressBarComponent } from 'src/app/shared/progress-bar/progress-bar.component';
 
 
 @Component({
@@ -67,6 +68,7 @@ import { environment } from 'src/environments/environment';
     FormsModule,
     DragDropModule,
     GlowDirective,
+    ProgressBarComponent,
   ],
 })
 export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {

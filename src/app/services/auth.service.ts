@@ -92,7 +92,8 @@ export class AuthService {
       skill: '',
       adsRemoved: false,
       totalGoldCoins: 0,
-      isJourneyStarted: false
+      isJourneyStarted: false,
+      lives: 0
     };
     this.saveUserProfileInLocal(userData);
     return userData;

@@ -1,0 +1,10 @@
+  <div class="row wrapper">
+    <div class="progressBar">
+      <div class="bar" [ngClass]="{ 'shake': isShaking}">
+        <div class="decoration" [innerHTML]="lifeProgressPercentage"></div>
+        <div class="filling primary gradient" [ngClass]="{ 'critical': dataService.currentLifeProgress() <= 20 }"></div>
+        <div class="filling secondary gradient"></div>
+        <div class="health-mask" [ngStyle]="{ 'width': lifeProgress }"></div>
+      </div>
+    </div>
+  </div>

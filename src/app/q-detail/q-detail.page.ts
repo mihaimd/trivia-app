@@ -212,6 +212,16 @@ export class QDetailPage implements OnInit, OnDestroy {
       if (correctAnswerOptionElement != null) {
         correctAnswerOptionElement.classList.add('green');
       }
+
+      if(pts) {
+        setTimeout(() => {
+          this.dataService.currentLifeProgress.update((current: number) => current - pts);
+        }, 2000);
+        
+        if(this.dataService.currentLifeProgress() === 0) {
+          this.dataService.noOfLives.update((v: number) => v - 1);
+        }
+      }
     }
     this.timeLeft(this.totalTime - this.initTime);
     setTimeout(async () => {

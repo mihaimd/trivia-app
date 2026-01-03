@@ -18,6 +18,8 @@ import config from 'capacitor.config';
 export class DataService {
   public currentChapter: WritableSignal<Chapter> = signal({ id: 0, campaigns: [] });
   public currentGameInfo: WritableSignal<GamesInterface | undefined> = signal(undefined);
+  public currentLifeProgress: WritableSignal<number> = signal(100);
+  public noOfLives: WritableSignal<number> = signal(0);
   // public currentCampaignQuestions: WritableSignal<QuestionInterface[]> = signal([]);
   public campaignScore: WritableSignal<number> = signal(0);
   public correctNumber: WritableSignal<number> = signal(0);

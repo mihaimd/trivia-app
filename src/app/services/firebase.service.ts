@@ -62,6 +62,7 @@ export interface UserData {
   isJourneyStarted: boolean;
   completedCampaigns?: CompletedCampaigns[];
   completedCampaignIds?: number[];
+  lives: number;
 }
 
 @Injectable({

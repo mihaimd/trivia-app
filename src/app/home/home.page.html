@@ -1,11 +1,16 @@
 <ion-header>
   <ion-toolbar class="bg-dark">
-    <ion-buttons slot="start">      
+    <ion-buttons slot="start">
       <ion-menu-button class="text-light d-block" autoHide="false"></ion-menu-button>
     </ion-buttons>
     <ion-buttons slot="end">
       <ion-button (click)="goToGoldCoin()">
-        <span class="text-light">{{ currentUser && currentUser.totalGoldCoins ? currentUser.totalGoldCoins : 0 }}</span>&nbsp;<img src="../../assets/img/goldCoin.png" class="goldCoinImg">
+        <span class="text-light">{{ currentUser && currentUser.lives ? currentUser.lives : 0 }}</span>&nbsp;<img
+          src="../../assets/img/heart.png" class="goldCoinImg lives">
+      </ion-button>
+      <ion-button (click)="goToGoldCoin()">
+        <span class="text-light">{{ currentUser && currentUser.totalGoldCoins ? currentUser.totalGoldCoins : 0
+          }}</span>&nbsp;<img src="../../assets/img/goldCoin.png" class="goldCoinImg">
       </ion-button>
       <ion-button>
         <span class="text-light d-flex ion-flex-column ion-justify-content-between">
@@ -16,6 +21,7 @@
   </ion-toolbar>
 </ion-header>
 <ion-content class="fixed-bg" scroll-y="false">
+  <app-progress-bar></app-progress-bar>
   <div class="h-fill d-flex ion-flex-column ion-justify-content-between">
     <div class="row-profile-wrapper">
       <div class="ion-text-right" style="padding-top: 10px;">
@@ -28,10 +34,11 @@
         </div>
       </div>
       <div class="row wrapper" style="margin-top: 8px;">
-        <div class="player-name text-dark" *ngIf="currentUser">{{ currentUser.displayName }}<!-- Mihai Micsa --></div>        
+        <div class="player-name text-dark" *ngIf="currentUser">{{ currentUser.displayName }}<!-- Mihai Micsa --></div>
       </div>
       <div class="row wrapper" *ngIf="currentUser">
-        <div class="player-level text-dark"><strong>Level {{ journeyProgressData?.level }}</strong> <!-- Geologist --></div>
+        <div class="player-level text-dark"><strong>Level {{ journeyProgressData?.level }}</strong> <!-- Geologist -->
+        </div>
       </div>
     </div>
     <div class="row-btn-wrapper" *ngIf="currentUser">
@@ -43,7 +50,8 @@
           <div class="progressBar">
             <div class="bar">
               <div class="decoration">{{ challengeProgress }}/480</div>
-              <div class="filling primary green" [ngStyle]="{ 'width': yProgressWidth() }" *ngIf="challengeProgress>0"></div>
+              <div class="filling primary green" [ngStyle]="{ 'width': yProgressWidth() }" *ngIf="challengeProgress>0">
+              </div>
               <div class="filling secondary green" *ngIf="challengeProgress>0"></div>
             </div>
           </div>
@@ -52,19 +60,22 @@
           <button class="large blue" type="button" (click)="goToHowTo()">
             <div class="button-text fs1-3rem">Trivia 480 Questions Challenge</div>
           </button>
-          <ion-badge color="light" *ngIf="nextSeason!=undefined">Next Season Starts {{ nextSeason.startDate.toDate() | date:'medium' }}</ion-badge>
+          <ion-badge color="light" *ngIf="nextSeason!=undefined">Next Season Starts {{ nextSeason.startDate.toDate() |
+            date:'medium' }}</ion-badge>
         </div>
       </div>
 
       <div class="row" [class.dashedBorder]="currentUser && currentUser.isJourneyStarted">
-        <div class="row wrapper ion-margin-top" style="margin: 5px 0px;" *ngIf="currentUser && currentUser.isJourneyStarted">
+        <div class="row wrapper ion-margin-top" style="margin: 5px 0px;"
+          *ngIf="currentUser && currentUser.isJourneyStarted">
           <div class="player-level text-dark"><b>Level Progress ...</b></div>
         </div>
         <div class="row wrapper" *ngIf="currentUser && currentUser.isJourneyStarted">
           <div class="progressBar">
             <div class="bar" *ngIf="journeyProgressData!=undefined">
               <div class="decoration">{{ journeyProgressData.exp }}<b>/</b>{{journeyProgressData.nextLevelExp}}</div>
-              <div class="filling primary green" [ngStyle]="{ 'width': xProgressWidth() }" *ngIf="journeyProgressData.exp>0"></div>
+              <div class="filling primary green" [ngStyle]="{ 'width': xProgressWidth() }"
+                *ngIf="journeyProgressData.exp>0"></div>
               <div class="filling secondary green" *ngIf="journeyProgressData.exp==0"></div>
             </div>
           </div>

@@ -299,7 +299,8 @@ export class ProfilePage implements OnInit {
       lastActive: this.firebaseService.getFbTimestamp(),
       isChallengeStart: false,
       totalGoldCoins: 0,
-      isJourneyStarted: false
+      isJourneyStarted: false,
+      lives: 0
     };
     return userData;
   }

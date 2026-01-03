@@ -21,6 +21,7 @@ import { AppPlayerData, ChapterInterface, CompletedRivers, GamesInterface, Seaso
 import { AppConstants } from '../shared/constants/app-constants';
 import { AvatarComponent } from '../shared/avatar/avatar.component';
 import { Geolocation } from '@capacitor/geolocation';
+import { ProgressBarComponent } from '../shared/progress-bar/progress-bar.component';
 
 @Component({
   selector: 'app-home',
@@ -58,7 +59,8 @@ import { Geolocation } from '@capacitor/geolocation';
     IonAvatar,
     AvatarComponent,
     IonBadge,
-    IonModal
+    IonModal,
+    ProgressBarComponent
   ],
 })
 export class HomePage {
