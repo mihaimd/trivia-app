@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnDestroy, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import {
@@ -56,8 +56,9 @@ import { Timestamp } from 'firebase/firestore';
 import { AppConstants } from '../shared/constants/app-constants';
 import { delay, Observable, of } from 'rxjs';
 import { AuthService } from '../services/auth.service';
-import { AdLoadInfo, AdMob, AdOptions, InterstitialAdPluginEvents } from '@capacitor-community/admob';
 import { environment } from 'src/environments/environment';
+import { AdLoadInfo, AdMob, AdOptions, InterstitialAdPluginEvents } from '@capacitor-community/admob';
+import { PluginListenerHandle } from '@capacitor/core';
 
 @Component({
   selector: 'app-question-river',
@@ -90,7 +91,7 @@ import { environment } from 'src/environments/environment';
     IonModal
   ],
 })
-export class QuestionRiverPage implements OnInit {
+export class QuestionRiverPage implements OnInit, OnDestroy {
   public showRefSpinner: boolean = false;
   public showSpinner: boolean = true;
   public showEmptyList: boolean = false;
@@ -106,6 +107,12 @@ export class QuestionRiverPage implements OnInit {
   public currentSeason: Seasons | undefined;
   public myCurrentSeason: MySeasons | undefined;
   public isAdRunning: boolean = false;
+  public interstitialReady = false;
+
+  loadedListener!: PluginListenerHandle;
+  dismissedListener!: PluginListenerHandle;
+  failedListener!: PluginListenerHandle;
+
   constructor(private alertController: AlertController) {
     addIcons({
       home,
@@ -123,10 +130,31 @@ export class QuestionRiverPage implements OnInit {
     this.currentUser = this.authService.getUserProfileFromLocal();
   }
 
-  ngOnInit() { }
+  async ngOnInit() {
+    this.loadedListener = await AdMob.addListener(
+      InterstitialAdPluginEvents.Loaded,
+      () => {
+        this.interstitialReady = true;
+      }
+    );
+
+    this.dismissedListener = await AdMob.addListener(
+      InterstitialAdPluginEvents.Dismissed,
+      () => {
+        this.isAdRunning = false;
+        this.preloadInterstitial();
+      }
+    );
+
+    this.failedListener = await AdMob.addListener(
+      InterstitialAdPluginEvents.FailedToLoad,
+      () => {
+        this.interstitialReady = false;
+      }
+    );
+  }
 
   ionViewWillEnter() {
-    this.showAd();
     this.completedRiverFromLocal = this.dataService.getCompletedRiverQuestionsFromLocal();
     this.firebaseService.getActiveSeason().subscribe((season) => {
       if (season) {
@@ -167,6 +195,16 @@ export class QuestionRiverPage implements OnInit {
       }
     });
   }
+  ionViewDidEnter() {
+    this.preloadInterstitial();
+  }
+
+  async preloadInterstitial() {
+    const options: AdOptions = {
+      adId: environment.admob.androidInterstitialAdUnitId
+    };
+    await AdMob.prepareInterstitial(options);
+  }
 
   isStartSeason(): boolean {
     if (this.currentSeason) {
@@ -193,9 +231,10 @@ export class QuestionRiverPage implements OnInit {
   }
   selectedQuestion: QuestionInterface | undefined;
   questionDetail(question: QuestionInterface) {
-    this.selectedQuestion = question;
+    this.showAd();
+    this.selectedQuestion = question;    
     if (this.isAdRunning == false) {
-      if (question.status!='CORRECT' && question.status!='TRY_AGAIN') {
+      if (question.status != 'CORRECT' && question.status != 'TRY_AGAIN') {
         this.router.navigate(['tabs/home/q-detail/', 0, 0, 0, question.id, true, true]);
       } else {
         if (this.currentUser) {
@@ -203,7 +242,7 @@ export class QuestionRiverPage implements OnInit {
           if (totalGoldCoins >= AppConstants.TRY_AGAIN_LIMIT_FOR_CHALLENGE) {
             this.currentUser.totalGoldCoins = this.currentUser.totalGoldCoins - AppConstants.TRY_AGAIN_LIMIT_FOR_CHALLENGE;
             this.authService.saveUserProfileInLocal(this.currentUser);
-            if(!this.authService.isGuest(this.currentUser)) {
+            if (!this.authService.isGuest(this.currentUser)) {
               this.firebaseService.updateUser(this.currentUser.uid, { totalGoldCoins: this.currentUser.totalGoldCoins });
             }
             this.router.navigate(['tabs/home/q-detail/', 0, 0, 0, this.selectedQuestion.id, true, true]);
@@ -226,11 +265,11 @@ export class QuestionRiverPage implements OnInit {
 
     // 1️⃣ Already answered check
     const CRQ = this.completedRiverFromLocal ? this.completedRiverFromLocal.questions : [];
-    const alreadyAnswered = CRQ.find((rq)=> rq.questionId === question.id);
-    if(alreadyAnswered) {
-      if(alreadyAnswered.correct) { return 'CORRECT'; } else { return 'TRY_AGAIN'; }
+    const alreadyAnswered = CRQ.find((rq) => rq.questionId === question.id);
+    if (alreadyAnswered) {
+      if (alreadyAnswered.correct) { return 'CORRECT'; } else { return 'TRY_AGAIN'; }
     }
-    
+
     /* const alreadyAnswered = this.completedRiverFromLocal?.questions?.some(
       (item) => item.questionId === question.id
     );
@@ -343,22 +382,20 @@ export class QuestionRiverPage implements OnInit {
   } */
 
   async showAd() {
-    await AdMob.initialize();
+    if (!this.interstitialReady || this.isAdRunning) return;
+
     if (this.dataService.canShowAds(AppConstants.CHALLENGE)) {
       this.isAdRunning = true;
-      await this.interstitial();
+      this.interstitialReady = false;
+
+      await AdMob.showInterstitial();
     }
   }
 
-  async interstitial(): Promise<void> {
-    AdMob.addListener(InterstitialAdPluginEvents.Loaded, (info: AdLoadInfo) => { });
-
-    const options: AdOptions = {
-      adId: environment.admob.androidInterstitialAdUnitId,
-      isTesting: true
-    };
-    await AdMob.prepareInterstitial(options);
-    await AdMob.showInterstitial();
-    this.isAdRunning = false;
+  ngOnDestroy() {
+    this.loadedListener?.remove();
+    this.dismissedListener?.remove();
+    this.failedListener?.remove();
   }
+
 }

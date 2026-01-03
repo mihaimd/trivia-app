@@ -381,7 +381,6 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
   }
 
   async showAd() {
-    await AdMob.initialize();
     if (this.dataService.canShowAds(AppConstants.SOLO)) {
       await this.interstitial();
     }
@@ -391,8 +390,7 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
     AdMob.addListener(InterstitialAdPluginEvents.Loaded, (info: AdLoadInfo) => { });
 
     const options: AdOptions = {
-      adId: environment.admob.androidInterstitialAdUnitId,
-      isTesting: true
+      adId: environment.admob.androidInterstitialAdUnitId
     };
     await AdMob.prepareInterstitial(options);
     await AdMob.showInterstitial();

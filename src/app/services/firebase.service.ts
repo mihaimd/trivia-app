@@ -367,6 +367,7 @@ export class FirebaseService {
         `${AppConstants.FB_REF_COMPLETED_RIVERS}/${user.uid}`
       );
       return docData(docRef) as Observable<CompletedRivers | undefined>;
+
     }
     return of(undefined);
   }
@@ -425,7 +426,7 @@ export class FirebaseService {
     );
 
     return getDocs(q).then((querySnapshot: QuerySnapshot<DocumentData>) => {
-      if (querySnapshot.empty) return undefined;      
+      if (querySnapshot.empty) return undefined;
       const doc = querySnapshot.docs[0];
       return { id: doc.id, ...doc.data() } as Seasons;
     });

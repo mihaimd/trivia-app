@@ -14,9 +14,10 @@ import { SoundService } from './services/sound.service';
 import { GoogleAuth } from '@codetrix-studio/capacitor-google-auth';
 import { environment } from 'src/environments/environment';
 import { ProductService } from './services/product.service';
-// import { AdMob } from '@capacitor-community/admob';
 // import { Geolocation } from '@capacitor/geolocation';
 import "cordova-plugin-purchase";
+import { AdMob } from '@capacitor-community/admob';
+
 declare var CdvPurchase: any;
 @Component({
   selector: 'app-root',
@@ -62,14 +63,6 @@ export class AppComponent {
       }
     });
     this.dataService.initLocalStorage();
-    /* this.platform.ready().then(async () => {
-      if (this.platform.is('ios')) {
-      } else if (this.platform.is('android')) {
-      } else if (this.platform.is('desktop')) {
-      }
-    }); */
-    // subscribe to platform events
-    // this.platform.pause.subscribe(() => { console.log('App is paused'); });
     this.initGoogleAuth();
   }
 
@@ -92,6 +85,8 @@ export class AppComponent {
         }
       }
     });
+    await AdMob.initialize();
+
   }
 
   async ngAfterViewInit() {
@@ -101,7 +96,7 @@ export class AppComponent {
         warn: (message: string | unknown) => console.warn(message),
         log: (message: string | unknown) => console.log(message)
       };
-      CdvPurchase.store.verbosity = CdvPurchase.LogLevel.DEBUG;
+      CdvPurchase.store.verbosity = CdvPurchase.LogLevel.ERROR;
       CdvPurchase.store.register([{
         id: AppConstants.PRODUCT_ID_SMALL,
         type: CdvPurchase.ProductType.CONSUMABLE,
@@ -145,7 +140,7 @@ export class AppComponent {
               console.warn("No transaction found in receipt");
               return;
             }
-  
+
             // Extract productId
             const productId = tx.products?.[0]?.id;
             console.log("__Purchased product:", productId);
@@ -167,8 +162,6 @@ export class AppComponent {
         }
       }, {
         platform: CdvPurchase.Platform.GOOGLE_PLAY
-      }, {
-        platform: CdvPurchase.Platform.TEST
       }]);
 
       CdvPurchase.store.update();
