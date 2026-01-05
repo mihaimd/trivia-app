@@ -1,4 +1,4 @@
-import { Component, OnInit, inject, effect } from '@angular/core';
+import { Component, OnInit, inject, effect, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DataService } from 'src/app/services/data.service';
 
@@ -10,6 +10,10 @@ import { DataService } from 'src/app/services/data.service';
   imports: [CommonModule],
 })
 export class ProgressBarComponent implements OnInit {
+  @Input() barClass: string = 'gradient';
+  @Input() barText: string = 'Health';
+  @Input() barWidth: string = '280px';
+  @Input() barJustify: string = 'center';
   public dataService: DataService = inject(DataService);
   public lifeProgressValue: number = 0;
   public isShaking: boolean = false;
@@ -30,11 +34,23 @@ export class ProgressBarComponent implements OnInit {
   ngOnInit() { }
 
   get lifeProgress() {
-    return `calc(98% - ${this.dataService.currentLifeProgress()}%)`;
+    return `calc(100% - ${this.dataService.currentLifeProgress()}%)`;
   }
 
   get lifeProgressPercentage() {
-    return 'Life ' + Math.ceil((this.dataService.currentLifeProgress() * 100) / 100) + '%';
+    return this.barText + ' ' + Math.ceil((this.dataService.currentLifeProgress() * 100) / 100) + '%';
+  }
+
+  get powerProgress() {
+    return `${this.dataService.currentPowerProgress()}`;
+  }
+
+    get powerProgressWidth() {
+    return `calc(100% - ${this.dataService.currentPowerProgress()}%)`;
+  }
+
+  get powerProgressPercentage() {
+    return `${this.barText} ${this.dataService.currentPowerProgress()}%`;
   }
 
 }

@@ -93,7 +93,7 @@ export class AuthService {
       adsRemoved: false,
       totalGoldCoins: 0,
       isJourneyStarted: false,
-      lives: 0
+      lives: 3
     };
     this.saveUserProfileInLocal(userData);
     return userData;

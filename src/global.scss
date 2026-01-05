@@ -241,6 +241,17 @@ ion-content::part(scroll) {
                         color: #000;
                     }
                 }
+
+                &.power-gradient {
+                    background-image: linear-gradient(90deg, blue 0%, aqua 50%, #9932cc 60%);
+                    width: 100%;
+
+                    &::before {
+                        border: 2px solid #b6b6fa;
+                        border-top-color: #f5f8ef;
+                        color: #000;
+                    }
+                }
             }
 
             &.secondary {

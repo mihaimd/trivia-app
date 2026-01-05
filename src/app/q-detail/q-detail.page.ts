@@ -202,6 +202,12 @@ export class QDetailPage implements OnInit, OnDestroy {
       this.dataService.correctNumber.update((v: number) => v + 1);
       if (pts) {
         this.dataService.campaignScore.update((v: number) => v + pts);
+        setTimeout(() => {
+        this.dataService.currentPowerProgress.update((current: number) => {
+          let newProgress = current + pts!;
+          return newProgress;
+        });
+        }, 2000);
       }
     } else {
       this.sound.play('wrong');

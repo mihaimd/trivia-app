@@ -1,15 +1,23 @@
 <ion-content [fullscreen]="true" class="center" scroll-y="false">
-    <app-progress-bar></app-progress-bar>
-
-  <div class="choose-question-wrapper">    
+  <div class="health-bar-wrapper row">
+    <div class="col">
+      <app-progress-bar [barWidth]="'200px'" [barJustify]="'left'"></app-progress-bar>
+    </div>
+    <div class="col">
+      <app-progress-bar [barClass]="'power-gradient'" [barText]="'Power'" [barWidth]="'200px'" [barJustify]="'right'"></app-progress-bar>
+    </div>
+  </div>
+  <div class="choose-question-wrapper">
     <div class="section1">
       <div class="score" *ngIf="starScreen">
         <div class="text">Experince: {{currentExperience}}</div>
         <div class="text">TimeBonus: {{ currentTimeBonus}}</div>
         <div class="text">Total Score: {{currentTotal}}</div>
       </div>
-      <div class="ethereal-bubble-wrapper"  *ngIf="!starScreen">
-        <div *ngFor="let question of questions" [id]="question.id" class="ethereal-bubble" (cdkDragMoved)="onDragMoved($event, question.pts)" (cdkDragEnded)="onDragEnded($event, question)" #draggable cdkDrag>
+      <div class="ethereal-bubble-wrapper" *ngIf="!starScreen">
+        <div *ngFor="let question of questions" [id]="question.id" class="ethereal-bubble"
+          (cdkDragMoved)="onDragMoved($event, question.pts)" (cdkDragEnded)="onDragEnded($event, question)" #draggable
+          cdkDrag>
           <span class="icon">💡</span>
           <span class="points text-dark"><strong>{{question.pts}}</strong></span>
         </div>
@@ -30,7 +38,8 @@
       </div>
     </div>
     <div class="section3">
-      <button *ngIf="starScreen" [class.blue]="true" class="campaign-btn" type="button" (click)="backToStory2()" [disabled]="isClickedContinue">
+      <button *ngIf="starScreen" [class.blue]="true" class="campaign-btn" type="button" (click)="backToStory2()"
+        [disabled]="isClickedContinue">
         <div class="button-text fs1-3rem">Continue</div>
       </button>
       <button *ngIf="!starScreen" class="campaign-btn red" type="button" (click)="exitCampaign()">
@@ -38,5 +47,5 @@
       </button>
     </div>
   </div>
-  
+
 </ion-content>

@@ -43,8 +43,13 @@
         }
     }
 }
-.dashedBorder{
+.dashedBorder {
     border: 1px dashed #000;
     border-radius: 15px;
     margin-bottom: 10px;
+}
+
+.health-bar-wrapper {
+    margin-top: 15px;
+    margin-left: 15px;
 }

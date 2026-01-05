@@ -21,7 +21,6 @@
   </ion-toolbar>
 </ion-header>
 <ion-content class="fixed-bg" scroll-y="false">
-  <app-progress-bar></app-progress-bar>
   <div class="h-fill d-flex ion-flex-column ion-justify-content-between">
     <div class="row-profile-wrapper">
       <div class="ion-text-right" style="padding-top: 10px;">
@@ -39,6 +38,12 @@
       <div class="row wrapper" *ngIf="currentUser">
         <div class="player-level text-dark"><strong>Level {{ journeyProgressData?.level }}</strong> <!-- Geologist -->
         </div>
+      </div>
+      <div class="health-bar-wrapper">
+        <app-progress-bar></app-progress-bar>
+      </div>
+      <div class="health-bar-wrapper">
+        <app-progress-bar [barClass]="'power-gradient'" [barText]="'Power'"></app-progress-bar>
       </div>
     </div>
     <div class="row-btn-wrapper" *ngIf="currentUser">
