@@ -51,7 +51,7 @@ import { User, UserCredential } from 'firebase/auth';
 import { FirebaseService, UserData } from '../services/firebase.service';
 import { DataService } from '../services/data.service';
 import { AppConstants } from '../shared/constants/app-constants';
-import { Flag } from '../interfaces/chapter-interface';
+import { AppPlayerData, CompletedRivers, Flag } from '../interfaces/chapter-interface';
 import { AvatarComponent } from '../shared/avatar/avatar.component';
 import { CountryDropdownComponent } from '../shared/country-dropdown/country-dropdown.component';
 import { Keyboard } from '@capacitor/keyboard';
@@ -105,7 +105,8 @@ export class ProfilePage implements OnInit {
   public currentUser: UserData | undefined;
   public avatarsList: string[] = [];
   public flags: Flag[] = [];
-
+  public CRQ: CompletedRivers;
+  public CCQ: AppPlayerData;
   constructor(
     public authService: AuthService,
     private firebaseService: FirebaseService,
@@ -124,11 +125,15 @@ export class ProfilePage implements OnInit {
       this.currentUser.level = this.dataService.getLevel(this.currentUser.exp || 0).level;
     }
     this.avatarsList = this.dataService.getAvatars();
+    this.CRQ = this.dataService.getCompletedRiverQuestionsFromLocal();
+    this.CCQ = this.dataService.getAppPlayerDataFromLocal();
   }
 
   ngOnInit() { }
   ionViewWillEnter() {
     this.currentUser = this.authService.getUserProfileFromLocal();
+    this.CRQ = this.dataService.getCompletedRiverQuestionsFromLocal();
+    this.CCQ = this.dataService.getAppPlayerDataFromLocal();
   }
   editUserName() {
     if (this.editMode) {
@@ -174,32 +179,25 @@ export class ProfilePage implements OnInit {
   }
 
   async signInWithGoogle() {
-    console.log("TRY_TO_GOOGLE_LOGIN_1");
+    this.authService.isUserLogout.next(true);
     this.spinner = 'Google';
     await this.askUserToLocationPermission();
-    console.log("TRY_TO_GOOGLE_LOGIN_2");
     // if (this.country && this.country_code) {
-      console.log("TRY_TO_GOOGLE_LOGIN_3");
       if (Capacitor.isNativePlatform()) {
-        console.log("TRY_TO_GOOGLE_LOGIN_4");
         const result = await this.authService.signInWithCredentialNative();
-        console.log("RESPONSE_FROM_GOOGLE_LOGIN_IN_ANDROID",result);
         const { user } = result;
         if (user) {
-          const userData: UserData = this.makeDataForUsersCollection(result);
-          this.createUser(userData);
+          this.makeDataForUsersCollection(result);
         } else {
           this.spinner = null;
         }
       } else {
-        console.log("TRY_TO_GOOGLE_LOGIN_5");
         this.handleSignInWithGoogleWeb();
       }
-      console.log("TRY_TO_GOOGLE_LOGIN_6");
     // } else {
-      console.log("TRY_TO_GOOGLE_LOGIN_7");
       // Handle the case where country or country_code is not available
     //   this.spinner = null;
+      this.authService.isUserLogout.next(false);
     // }
   }
   async signInWithFacebook() {
@@ -211,8 +209,7 @@ export class ProfilePage implements OnInit {
         .then((result) => {
           const { user } = result;
           if (user) {
-            const userData: UserData = this.makeDataForUsersCollection(result);
-            this.createUser(userData);
+            this.makeDataForUsersCollection(result);
           }
         })
         .catch((reason: any) => {
@@ -279,49 +276,46 @@ export class ProfilePage implements OnInit {
     });
     await alert.present();
   }
-  makeDataForUsersCollection(result: UserCredential): UserData {
-    const { providerId, user } = result;
-    var userData: UserData = {
-      displayName: user.displayName,
-      email: user.email,
-      emailVerified: user.emailVerified,
-      phoneNumber: user.phoneNumber,
-      uid: user.uid,
-      providerId: providerId,
-      photoURL: user.photoURL || AppConstants.DEFAULT_AVATAR,
-      exp: 0,
-      level: 0,
-      timeBonus: 0,
-      country: this.country,
-      country_code: this.country_code,
-      skill: '',
-      adsRemoved: false,
-      lastActive: this.firebaseService.getFbTimestamp(),
-      isChallengeStart: false,
-      totalGoldCoins: 0,
-      isJourneyStarted: false,
-      lives: 0
-    };
-    return userData;
+  makeDataForUsersCollection(result: UserCredential) {
+    if (this.currentUser) {
+      const { providerId, user } = result;
+      this.currentUser.uid = user.uid;
+      this.currentUser.providerId = providerId;
+      this.createUser(this.currentUser);
+    }
   }
   async createUser(userData: UserData) {
-    userData.country = this.country || userData.country;
-    userData.country_code = this.country_code || userData.country_code;
     const USER_SUB = this.firebaseService.getUser(userData.uid).subscribe({
-      next: (userDataFromFirebase) => {
+      next: async (userDataFromFirebase) => {
         USER_SUB.unsubscribe();
-        this.dataService.initLocalStorage();
         if (userDataFromFirebase) {
           this.authService.saveUserProfileInLocal(userDataFromFirebase);
-          this.goToHome(userDataFromFirebase);
+          this.authService.isUserLogout.next(false);
+          this.goToHome(userDataFromFirebase, true);
         } else {
-          this.firebaseService.createUser(userData).then(() => {
-            if(userDataFromFirebase) {
-              this.goToHome(userDataFromFirebase);
+          await this.firebaseService.createUser(userData).then(async ()=>{
+            if (this.CRQ.questionIds.length > 0) {
+              await this.firebaseService.setCompletedRiversByUid(userData.uid, this.CRQ);
             }
-          }).catch((reason: any) => console.error('ERROR_IN_CREATING_USER::', reason));
+            if(this.CCQ.completedCampaigns.length>0) {
+              this.CCQ.completedCampaigns.forEach(async (value, index) => {
+                this.firebaseService.updateCompletedCampaignsByUid(userData.uid, value).then(()=>{
+                  if(index == this.CCQ.completedCampaigns.length-1) {
+                    this.authService.saveUserProfileInLocal(userData);
+                    this.authService.isUserLogout.next(false);
+                    this.goToHome(userData, false);
+                  }
+                });
+              });
+            } else {
+              this.authService.saveUserProfileInLocal(userData);
+              this.authService.isUserLogout.next(false);
+              this.goToHome(userData, false);
+            }
+          });
         }
       }, error: (err: any) => {
+        this.authService.isUserLogout.next(false);
         console.error('ERROR_FROM_FB_GET_USER_COL', err);
       }
     });
@@ -332,8 +326,7 @@ export class ProfilePage implements OnInit {
       .then((result) => {
         const { user } = result;
         if (user) {
-          const userData: UserData = this.makeDataForUsersCollection(result);
-          this.createUser(userData);
+          this.makeDataForUsersCollection(result);
         } else {
           this.spinner = null;
         }
@@ -344,16 +337,15 @@ export class ProfilePage implements OnInit {
       });
   }
 
-  async goToHome(userData: UserData) {
+  async goToHome(userData: UserData, canSync: boolean) {
     try {
-      if(!this.authService.isGuest(userData)) {
+      if (canSync && !this.authService.isGuest(userData)) {
         const [ccDone, crDone] = await Promise.all([
           this.syncCC(),
           this.syncCRQ()
         ]);
         console.log("Sync completed:", ccDone, crDone);
       }
-
 
       this.menuCtrl.enable(true);
       this.spinner = null;

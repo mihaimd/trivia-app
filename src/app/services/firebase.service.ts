@@ -369,6 +369,7 @@ export class FirebaseService {
         `${AppConstants.FB_REF_COMPLETED_RIVERS}/${user.uid}`
       );
       return docData(docRef) as Observable<CompletedRivers | undefined>;
+
     }
     return of(undefined);
   }
