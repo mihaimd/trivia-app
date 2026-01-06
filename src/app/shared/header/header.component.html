@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar class="bg-dark">
+    <ion-buttons slot="start" *ngIf="menuButton">
+      <ion-menu-button class="text-light d-block" autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="goToGoldCoin()">
+        <span class="text-light">{{ currentUser && currentUser.lives ? currentUser.lives : 0 }}</span>&nbsp;<img
+          src="../../assets/img/heart.png" class="goldCoinImg lives">
+      </ion-button>
+      <ion-button (click)="goToGoldCoin()">
+        <span class="text-light">{{ currentUser && currentUser.totalGoldCoins ? currentUser.totalGoldCoins : 0
+          }}</span>&nbsp;<img src="../../assets/img/goldCoin.png" class="goldCoinImg">
+      </ion-button>
+      <ion-button>
+        <span class="text-light d-flex ion-flex-column ion-justify-content-between">
+          <span>{{ currentUser?.exp }}</span>
+        </span>&nbsp;<img src="../../assets/img/xp1.png" class="goldCoinImg" style="transform: scale(1.1);">
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>

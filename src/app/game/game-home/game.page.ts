@@ -35,6 +35,7 @@ import {
   GamesInterface,
 } from 'src/app/interfaces/chapter-interface';
 import { ChoiceComponent } from 'src/app/shared/choice/choice.component';
+import { HeaderComponent } from 'src/app/shared/header/header.component';
 
 @Component({
   selector: 'app-game',
@@ -66,6 +67,7 @@ import { ChoiceComponent } from 'src/app/shared/choice/choice.component';
     IonTabButton,
     IonLabel,
     ChoiceComponent,
+    HeaderComponent
   ],
 })
 export class GamePage implements OnInit {

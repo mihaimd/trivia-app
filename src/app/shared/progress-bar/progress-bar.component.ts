@@ -21,7 +21,6 @@ export class ProgressBarComponent implements OnInit {
 
   constructor() {
     effect((): void => {
-      this.dataService.currentLifeProgress();
       if (this.prevHp > this.dataService.currentLifeProgress()) {
         this.isShaking = true;
         setTimeout(() => {
@@ -45,7 +44,7 @@ export class ProgressBarComponent implements OnInit {
     return `${this.dataService.currentPowerProgress()}`;
   }
 
-    get powerProgressWidth() {
+  get powerProgressWidth() {
     return `calc(100% - ${this.dataService.currentPowerProgress()}%)`;
   }
 

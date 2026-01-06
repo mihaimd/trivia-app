@@ -35,6 +35,7 @@ import {
 } from '@angular/cdk/drag-drop';
 import { interval, take, delay } from 'rxjs';
 import { SkillsComponent } from 'src/app/shared/skills/skills.component';
+import { ModalComponent } from 'src/app/shared/modal/modal.component';
 import {
   AppPlayerData,
   ChapterInterface,
@@ -49,6 +50,7 @@ import { AuthService } from 'src/app/services/auth.service';
 import { AdLoadInfo, AdMob, AdOptions, InterstitialAdPluginEvents } from '@capacitor-community/admob';
 import { environment } from 'src/environments/environment';
 import { ProgressBarComponent } from 'src/app/shared/progress-bar/progress-bar.component';
+import { HeaderComponent } from 'src/app/shared/header/header.component';
 
 
 @Component({
@@ -69,6 +71,7 @@ import { ProgressBarComponent } from 'src/app/shared/progress-bar/progress-bar.c
     DragDropModule,
     GlowDirective,
     ProgressBarComponent,
+    HeaderComponent
   ],
 })
 export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
@@ -113,7 +116,21 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
       this.dataService.campaignScore();
     });
     this.appPlayerData = this.dataService.getAppPlayerDataFromLocal();
-    this.currentUser = this.authService.getUserProfileFromLocal();    
+    this.currentUser = this.authService.getUserProfileFromLocal();
+    setTimeout(async () => {
+      if (this.dataService.currentLifeProgress() <= 0) {
+        this.currentUser!.lives -= 1;
+        this.authService.saveUserProfileInLocal(this.currentUser!);
+        if (!this.authService.isGuest(this.currentUser!)) {
+          await this.firebaseService.updateUser(this.currentUser!.uid, this.currentUser!).then(() => this.isClickedContinue = false).catch((err: any) => { console.error('ERR_IN_UPDATE_USER::', err); this.isClickedContinue = false; });
+        }
+        if (this.currentUser!.lives > 0) {
+          this.dataService.currentLifeProgress.set(100);
+        } else {
+          this.openModal();
+        }
+      }
+    }, 1000);
   }
 
   ngOnInit() {
@@ -135,7 +152,7 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
     const isOverlap = this.checkOverlap(
       event.source.element.nativeElement,
       this.target.nativeElement
-    );    
+    );
     isOverlap
       ? this.target.nativeElement.classList.add('shake')
       : this.target.nativeElement.classList.remove('shake');
@@ -209,7 +226,7 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
     }, 1000);
   }
 
-  async ngAfterViewInit(): Promise<void> {    
+  async ngAfterViewInit(): Promise<void> {
     if (this.starScreen) {
       this.backToStory();
       interval(60) // every 200ms
@@ -352,6 +369,18 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
       }
     }
     return null;
+  }
+
+  async openModal(): Promise<any> {
+    const modal = await this.modalCtrl.create({
+      component: ModalComponent,
+      cssClass: '',
+    });
+    modal.present();
+    const { data } = await modal.onWillDismiss();
+    if (data.path) {
+      this.router.navigate([data.path], { replaceUrl: true });
+    }
   }
 
   async exitCampaign() {

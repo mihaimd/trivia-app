@@ -1,0 +1,26 @@
+<app-header [menuButton]="false"></app-header>
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>User profile</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="close()">Close</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <div class="content-wrapper">
+    <div class="sidebarBox">
+      <div class="content">
+        <div class="ion-margin"><strong>DEFEAT!</strong></div>
+        <button class="red">
+          <div class="button-text fs1-3rem" (click)="save()">Resurrect hero</div>
+        </button>
+        <div>or</div>
+        <button class="red">
+          <div class="button-text fs1-3rem" (click)="save('tabs/home')">Wait for life regeneration</div>
+        </button>
+      </div>
+      </div>
+    </div>
+</ion-content>

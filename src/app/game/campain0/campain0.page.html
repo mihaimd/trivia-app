@@ -1,7 +1,8 @@
+<app-header></app-header>
 <ion-content [fullscreen]="true" class="center" scroll-y="false">
   <div class="health-bar-wrapper row">
     <div class="col">
-      <app-progress-bar [barWidth]="'200px'" [barJustify]="'left'"></app-progress-bar>
+      <app-progress-bar [barWidth]="'200px'" [barJustify]="'left'" (click)="openModal()"></app-progress-bar>
     </div>
     <div class="col">
       <app-progress-bar [barClass]="'power-gradient'" [barText]="'Power'" [barWidth]="'200px'" [barJustify]="'right'"></app-progress-bar>
@@ -47,5 +48,4 @@
       </button>
     </div>
   </div>
-
 </ion-content>
