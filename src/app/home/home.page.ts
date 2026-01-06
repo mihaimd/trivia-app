@@ -22,6 +22,7 @@ import { AppConstants } from '../shared/constants/app-constants';
 import { AvatarComponent } from '../shared/avatar/avatar.component';
 import { Geolocation } from '@capacitor/geolocation';
 import { ProgressBarComponent } from '../shared/progress-bar/progress-bar.component';
+import { HeaderComponent } from '../shared/header/header.component';
 
 @Component({
   selector: 'app-home',
@@ -60,7 +61,8 @@ import { ProgressBarComponent } from '../shared/progress-bar/progress-bar.compon
     AvatarComponent,
     IonBadge,
     IonModal,
-    ProgressBarComponent
+    ProgressBarComponent,
+    HeaderComponent
   ],
 })
 export class HomePage {

@@ -10,7 +10,7 @@ export const routes: Routes = [
   },
   {
     path: 'signup',
-    loadComponent: () => import('./signup/signup.page').then( m => m.SignupPage)
+    loadComponent: () => import('./signup/signup.page').then(m => m.SignupPage)
   },
   {
     path: 'tabs',
@@ -31,7 +31,7 @@ export const routes: Routes = [
       },
       {
         path: 'campaigns',
-        loadComponent: () => import('./campaigns/campaigns.page').then( m => m.CampaignsPage)
+        loadComponent: () => import('./campaigns/campaigns.page').then(m => m.CampaignsPage)
       },
       {
         path: 'settings',
@@ -63,7 +63,11 @@ export const routes: Routes = [
       },
       {
         path: 'home/gold-coins',
-        loadComponent: () => import('./gold-coins/gold-coins.page').then( m => m.GoldCoinsPage)
+        loadComponent: () => import('./gold-coins/gold-coins.page').then(m => m.GoldCoinsPage)
+      },
+      {
+        path: 'lives',
+        loadComponent: () => import('./lives/lives.component').then(m => m.LivesComponent)
       },
       {
         path: '',
