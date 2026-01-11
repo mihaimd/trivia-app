@@ -10,4 +10,5 @@
         <div class="health-mask" *ngIf="barClass === 'power-gradient'" [ngStyle]="{ 'width': powerProgressWidth }"></div>
       </div>
     </div>
+    <div>{{ hours() }} : {{ minutes() }} : {{ seconds() }} : time {{ dataService.time() }}</div>
   </div>

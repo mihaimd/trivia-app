@@ -10,6 +10,7 @@ import { AuthService } from './auth.service';
 import { ModalController } from '@ionic/angular/standalone';
 import { CountryDropdownComponent } from '../shared/country-dropdown/country-dropdown.component';
 import config from 'capacitor.config';
+import { Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -21,10 +22,18 @@ export class DataService {
   public currentLifeProgress: WritableSignal<number> = signal(100);
   public currentPowerProgress: WritableSignal<number> = signal(0);
   public noOfLives: WritableSignal<number> = signal(0);
+  public time: WritableSignal<number> = signal(1);
+  public counterEnded: WritableSignal<boolean> = signal(false);
   // public currentCampaignQuestions: WritableSignal<QuestionInterface[]> = signal([]);
   public campaignScore: WritableSignal<number> = signal(0);
   public correctNumber: WritableSignal<number> = signal(0);
   public timeBonus: WritableSignal<number> = signal(0);
+  private counterStartedSource = new Subject<void>();
+  private counterEndedSource = new Subject<void>();
+  public counterStarted$ = this.counterStartedSource.asObservable();
+  public counterEnded$ = this.counterEndedSource.asObservable();
+  private timerTickSource = new Subject<number>();
+  public timerTick$ = this.timerTickSource.asObservable();
   public gameLevels = [
     { level: 0, haveExp: 500 },
     { level: 1, haveExp: 1200 },
@@ -353,10 +362,10 @@ export class DataService {
 
     // Merge questions without duplicate questionId
     const allQuestions = [...localQuestions];
-    questions.forEach((q,qi) => {
+    questions.forEach((q, qi) => {
       const have = allQuestions.some(x => x.questionId === q.questionId);
-      const haveIndex = allQuestions.findIndex((x)=>x.questionId === q.questionId);
-      if (haveIndex>0) {
+      const haveIndex = allQuestions.findIndex((x) => x.questionId === q.questionId);
+      if (haveIndex > 0) {
         allQuestions[haveIndex] = q;
       } else {
         allQuestions.push(q);
@@ -453,6 +462,37 @@ export class DataService {
       default:
         return 0;
     }
+  }
+
+  startCountdown(seconds: number) {
+    const end = Date.now() + seconds * 1000;
+    localStorage.setItem('endTime', String(end));
+    this.counterStartedSource.next();
+    this.runTimer();
+  }
+
+  runTimer() {
+    let lastEmittedSecond = -1; // Track the last second we emitted
+    const tick = () => {
+      const end = Number(localStorage.getItem('endTime'));
+      const remaining = Math.max(0, Math.floor((end - Date.now()) / 1000));
+
+      this.time.set(remaining);
+
+      if (remaining !== lastEmittedSecond) {
+      this.timerTickSource.next(remaining);
+      lastEmittedSecond = remaining;
+    }
+
+      if (remaining > 0) {
+        requestAnimationFrame(tick); // battery-friendly & OS-safe
+      } else {
+        localStorage.removeItem('endTime');
+        this.counterEndedSource.next();
+      }
+    };
+
+    tick();
   }
 
 }

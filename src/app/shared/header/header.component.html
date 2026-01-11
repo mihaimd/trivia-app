@@ -5,7 +5,7 @@
     </ion-buttons>
     <ion-buttons slot="end">
       <ion-button (click)="goToLives()">
-        <span class="text-light">{{ currentUser && currentUser.lives ? currentUser.lives : 0 }}</span>&nbsp;<img
+        <span class="text-light">{{ currentHealth }} %</span>&nbsp;<img
           src="../../assets/img/heart.png" class="goldCoinImg lives">
       </ion-button>
       <ion-button (click)="goToGoldCoin()">
