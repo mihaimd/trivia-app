@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DataService } from 'src/app/services/data.service';
 import { AuthService } from 'src/app/services/auth.service';
 import { toObservable } from '@angular/core/rxjs-interop';
-import { filter, take } from 'rxjs/operators';
+import { filter, take, debounceTime } from 'rxjs/operators';
 
 @Component({
   selector: 'app-progress-bar',
@@ -25,79 +25,86 @@ export class ProgressBarComponent implements OnInit {
   public hours: Signal<number> = computed(() => Math.floor(this.dataService.time() / 3600));
   public minutes: Signal<number> = computed(() => Math.floor((this.dataService.time() % 3600) / 60));
   public seconds: Signal<number> = computed(() => this.dataService.time() % 60);
-  private counterRunning: boolean = false;
+  private totalSeconds: number = 0;
+  private missingPoints: number = 0;
 
   constructor() {
     effect((): void => {
-      console.log('Health changed from', this.prevHp, 'to', this.dataService.currentLifeProgress());
-      if (this.prevHp > this.dataService.currentLifeProgress() && !this.counterRunning) {
+      if (this.prevHp > this.dataService.currentLifeProgress() && !this.dataService.lifeCounterRunning()) {
         this.isShaking = true;
         setTimeout(() => {
           this.isShaking = false;
         }, 300);
       }
+
+      if(this.dataService.currentLifeProgress() < 100 && !this.dataService.lifeCounterRunning()) {
+        this.missingPoints = 100 - this.dataService.currentLifeProgress();
+        this.totalSeconds = this.missingPoints * 2 * 60;
+      }
+
+    //     this.totalSeconds = this.missingPoints * 2 * 60;
     });
 
-    toObservable(this.dataService.currentLifeProgress)
-      .pipe(
-        // 2. Only let the signal through when it hits <= 0
-        filter(progress => progress <= 0),
-        // 3. Optional: Only start the timer ONCE 
-        // (removes the subscription after it fires once)
-        take(1)
-      )
-      .subscribe(() => {
-        console.log('Progress reached 0 - Starting Timer');
-        this.dataService.startCountdown(200)
-      });
+    // toObservable(this.dataService.currentLifeProgress)
+    //   .pipe(
+    //     filter(progress => progress <= 99),
+    //     debounceTime(30000),
+    //     take(1)
+    //   )
+    //   .subscribe((progress) => {
+    //     console.log('cucu');
+    //     const time = new Date().getTime() / 1000;
+    //     localStorage.setItem('lastHpZeroTime', time.toString());
+    //     this.missingPoints = 100 - progress;
+
+    //     this.totalSeconds = this.missingPoints * 2 * 60;
+
+    //     this.dataService.startCountdown(this.totalSeconds);
+    //   });
   }
+
+  
 
   ngOnInit() {
     console.log('ngOninit!');
     this.dataService.counterStarted$.pipe(
-        // 2. Only let the signal through when it hits <= 0
-        // 3. Optional: Only start the timer ONCE 
-        // (removes the subscription after it fires once)
-        take(1)
-      ).subscribe(() => {
+      // 2. Only let the signal through when it hits <= 0
+      // 3. Optional: Only start the timer ONCE 
+      // (removes the subscription after it fires once)
+      take(1)
+    ).subscribe(() => {
       console.log('Timer has started!');
-      this.counterRunning = true;
+      this.dataService.lifeCounterRunning.set(true);
       // Trigger animations, play sounds, or disable buttons here
     });
 
     this.dataService.timerTick$.subscribe((tick) => {
-      console.log('Timer tick:', tick);
-      const TOTAL_SECONDS = 200;
-      const elapsed = TOTAL_SECONDS - tick;
-      const progress = (elapsed / TOTAL_SECONDS) * 100;
-      setTimeout(() => {
-        this.dataService.currentLifeProgress.set(Math.max(0, Math.min(100, progress)));
-      }, 1000);
+      if (this.missingPoints > 0) {
+        const elapsed = this.totalSeconds - tick;
+
+        // Calculate progress: Start Point + (Percent of time passed * amount to recover)
+        const startPoint = 100 - this.missingPoints;
+        const progressGained = (elapsed / this.totalSeconds) * this.missingPoints;
+        const finalValue = startPoint + progressGained;
+
+        this.dataService.currentLifeProgress.set(Math.min(100, finalValue));
+      }
 
     });
 
-        this.dataService.counterEnded$.pipe(
-        // 2. Only let the signal through when it hits <= 0
-        // 3. Optional: Only start the timer ONCE 
-        // (removes the subscription after it fires once)
-        take(1)
-      ).subscribe(() => {
+    this.dataService.counterEnded$.pipe(
+      // 2. Only let the signal through when it hits <= 0
+      // 3. Optional: Only start the timer ONCE 
+      // (removes the subscription after it fires once)
+      take(1)
+    ).subscribe(() => {
+      debugger;
       console.log('Timer has ended!');
-      this.counterRunning = false;
+      this.dataService.lifeCounterRunning.set(false);
       // this.dataService.currentLifeProgress.set(100);
       // Trigger animations, play sounds, or disable buttons here
     });
   }
-
-  queueRegenStart() {
-    queueMicrotask(() => {
-      this.dataService.startCountdown(20)
-    });
-  }
-
-  shouldStartRegen = computed(() =>
-    this.dataService.currentLifeProgress() <= 0
-  );
 
   get lifeProgress() {
     return `calc(100% - ${this.dataService.currentLifeProgress()}%)`;

@@ -1,5 +1,5 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Injectable, Signal, signal, WritableSignal } from '@angular/core';
+import { Injectable, Signal, signal, WritableSignal, effect } from '@angular/core';
 import { BehaviorSubject, map, Observable, of } from 'rxjs';
 import { AppPlayerData, AppSettingInterface, CampaignInterface, Chapter, CompletedCampaigns, CompletedRivers, CompletedRiversQuestions, CurrentCampaignPercentage, Flag, GameLevels, GamesInterface, PercentageWithStars, QuestionInterface } from '../interfaces/chapter-interface';
 import { Message } from '../interfaces/chapter-interface';
@@ -34,6 +34,9 @@ export class DataService {
   public counterEnded$ = this.counterEndedSource.asObservable();
   private timerTickSource = new Subject<number>();
   public timerTick$ = this.timerTickSource.asObservable();
+  public lifeCounterRunning: WritableSignal<boolean> = signal(false);
+  private rafId: number = 0;
+  private debounceTimeout: any;
   public gameLevels = [
     { level: 0, haveExp: 500 },
     { level: 1, haveExp: 1200 },
@@ -53,7 +56,28 @@ export class DataService {
     private http: HttpClient,
     private authService: AuthService,
     private modalCtrl: ModalController
-  ) { }
+  ) {
+    effect(() => {
+      const progress = this.currentLifeProgress();
+
+      // If health is lost, start/reset the 30s 'silence' timer
+      if (progress <= 99 && !this.lifeCounterRunning()) {
+        this.restartDebounceTimer(progress);
+      }
+    });
+
+  }
+
+  private restartDebounceTimer(progress: number) {
+    // Clear any existing 30s timer (this IS the debounce)
+    if (this.debounceTimeout) clearTimeout(this.debounceTimeout);
+
+    this.debounceTimeout = setTimeout(() => {
+      console.log('30s passed. Starting recovery.');
+      const missing = 100 - progress;
+      this.startCountdown(missing * 2 * 60);
+    }, 10000);
+  }
 
   public initLocalStorage() {
     this.updateAppPlayerDataToLocal(AppConstants.LK_COMPLETED_CAMPAIGNS, undefined);
@@ -480,19 +504,26 @@ export class DataService {
       this.time.set(remaining);
 
       if (remaining !== lastEmittedSecond) {
-      this.timerTickSource.next(remaining);
-      lastEmittedSecond = remaining;
-    }
+        this.timerTickSource.next(remaining);
+        lastEmittedSecond = remaining;
+      }
 
       if (remaining > 0) {
-        requestAnimationFrame(tick); // battery-friendly & OS-safe
+        this.rafId = requestAnimationFrame(tick); // battery-friendly & OS-safe
       } else {
-        localStorage.removeItem('endTime');
-        this.counterEndedSource.next();
+        this.stopCounter(); // Auto-stop when done
       }
     };
 
     tick();
+  }
+
+  stopCounter() {
+    cancelAnimationFrame(this.rafId);
+    localStorage.removeItem('endTime');
+    this.time.set(0);
+    this.counterEndedSource.next();
+    this.lifeCounterRunning.set(false);
   }
 
 }

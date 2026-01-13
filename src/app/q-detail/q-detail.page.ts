@@ -103,6 +103,10 @@ export class QDetailPage implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
+    if(this.dataService.lifeCounterRunning()) {
+      this.dataService.stopCounter();
+    }
+    
     const XPARAMS = this.route.snapshot.params;
     // Accessing required params
     this.chapterId = parseInt(XPARAMS['chapterId'] || `${this.chapterId}`);

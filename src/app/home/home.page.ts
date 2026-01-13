@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
+import { Component, inject,  } from '@angular/core';
 import {
   RefresherCustomEvent, IonHeader, IonToolbar, IonTitle, IonContent, IonRefresher, IonRefresherContent, IonList, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent, IonFooter, IonButton, IonIcon, IonFab, IonFabButton, IonFabList, IonButtons, IonTabBar, IonTabButton, IonLabel,
   IonImg,
@@ -8,7 +8,8 @@ import {
   IonBadge,
   IonAvatar,
   IonModal,
-  AlertController
+  AlertController,
+  ModalController
 } from '@ionic/angular/standalone';
 import { Router } from '@angular/router';
 
@@ -23,6 +24,7 @@ import { AvatarComponent } from '../shared/avatar/avatar.component';
 import { Geolocation } from '@capacitor/geolocation';
 import { ProgressBarComponent } from '../shared/progress-bar/progress-bar.component';
 import { HeaderComponent } from '../shared/header/header.component';
+import { ModalComponent } from '../shared/modal/modal.component';
 
 @Component({
   selector: 'app-home',
@@ -72,6 +74,7 @@ export class HomePage {
   public authService = inject(AuthService);
   private firebaseService = inject(FirebaseService);
   private router = inject(Router)
+  private modalCtrl = inject(ModalController);
   public currentUser: UserData | undefined;
   // public journeyProgress: number = 0;
   public challengeProgress: number = 0;
@@ -234,8 +237,26 @@ export class HomePage {
     /* if(this.appPlayerData) {
       this.appPlayerData.completedCampaignsIds.includes();
     } */
+   if(!this.dataService.lifeCounterRunning()) {
     this.router.navigate(['tabs/home/game', this.chapterId, this.gameId]);
+   } else {
+    this.openModal();
+   }
+    
   }
+
+  async openModal(): Promise<any> {
+    const modal = await this.modalCtrl.create({
+      component: ModalComponent,
+      cssClass: '',
+    });
+    modal.present();
+    const { data } = await modal.onWillDismiss();
+    if (data.path) {
+      this.router.navigate([data.path], { replaceUrl: true });
+    }
+  }
+
   goToGoldCoin() {
     this.router.navigate(['tabs/home/gold-coins']);
   }

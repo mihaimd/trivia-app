@@ -53,6 +53,24 @@
   animation: pulse .6s infinite alternate;
 }
 
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.counter {
+    background-color: #000;
+    opacity: 0.5;
+    width: fit-content;
+    padding: 4px 8px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
 @keyframes pulse {
   from { filter: brightness(1); }
   to   { filter: brightness(1.6); }

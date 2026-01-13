@@ -1,25 +1,22 @@
 <ion-header [translucent]="true">
   <ion-toolbar class="bg-dark">
-    <ion-title>Shop Hero Lives</ion-title>
+    <ion-title>Potions Shop</ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col size="6" *ngFor="let product of productBundles">
+      <ion-col size="12" *ngFor="let product of productBundles">
         <div class="sidebarBox">
           <div class="content">
             <div class="ion-text-center">
               <h4 class="ion-no-margin f900">{{ product.name }}</h4>
-              <ion-chip color="tertiary">
-                <ion-label class="f900">{{ product.coins }}</ion-label>
-                <ion-avatar>
-                  <img alt="coins" src="../../assets/img/heart.png" class="goldCoinImg" />
-                </ion-avatar>
-              </ion-chip>
+              <img alt="coins" src="../../assets/img/{{ product.image }}" class="health-potion-image" />
+              <div class="description">{{ product.description }}</div>
               <button class="blue" type="button" (click)="buy(product)">
                 <div class="button-text fs1-3rem d-flex ion-align-items-center">
-                  <span>Get for {{ product.coins }} </span>&nbsp;&nbsp;<img src="../../assets/img/goldCoin.png" class="goldCoinImg">
+                  <span>Get for {{ product.coins }} </span>&nbsp;&nbsp;<img src="../../assets/img/goldCoin.png"
+                    class="goldCoinImg">
                 </div>
               </button>
             </div>
