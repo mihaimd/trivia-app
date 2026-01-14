@@ -10,5 +10,5 @@
         <div class="health-mask" *ngIf="barClass === 'power-gradient'" [ngStyle]="{ 'width': powerProgressWidth }"></div>
       </div>
     </div>
-    <div class="counter" *ngIf="barClass === 'gradient' && dataService.lifeCounterRunning()">Resurrection in: {{ hours() }}h : {{ minutes() }}m : {{ seconds() }}s</div>
+    <div class="counter" *ngIf="barClass === 'gradient' && dataService.lifeCounterRunning()">100% in: {{ hours() }}h : {{ minutes() }}m : {{ seconds() }}s</div>
   </div>

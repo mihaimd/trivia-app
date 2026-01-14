@@ -237,7 +237,7 @@ export class HomePage {
     /* if(this.appPlayerData) {
       this.appPlayerData.completedCampaignsIds.includes();
     } */
-   if(!this.dataService.lifeCounterRunning()) {
+   if(this.dataService.currentLifeProgress() >= 20) {
     this.router.navigate(['tabs/home/game', this.chapterId, this.gameId]);
    } else {
     this.openModal();

@@ -71,7 +71,7 @@ export class ProgressBarComponent implements OnInit {
       // 2. Only let the signal through when it hits <= 0
       // 3. Optional: Only start the timer ONCE 
       // (removes the subscription after it fires once)
-      take(1)
+      // take(1)
     ).subscribe(() => {
       console.log('Timer has started!');
       this.dataService.lifeCounterRunning.set(true);

@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable, Signal, signal, WritableSignal, effect } from '@angular/core';
-import { BehaviorSubject, map, Observable, of } from 'rxjs';
+import { BehaviorSubject, map, Observable, ReplaySubject } from 'rxjs';
 import { AppPlayerData, AppSettingInterface, CampaignInterface, Chapter, CompletedCampaigns, CompletedRivers, CompletedRiversQuestions, CurrentCampaignPercentage, Flag, GameLevels, GamesInterface, PercentageWithStars, QuestionInterface } from '../interfaces/chapter-interface';
 import { Message } from '../interfaces/chapter-interface';
 import { AppConstants } from '../shared/constants/app-constants';
@@ -19,7 +19,9 @@ import { Subject } from 'rxjs';
 export class DataService {
   public currentChapter: WritableSignal<Chapter> = signal({ id: 0, campaigns: [] });
   public currentGameInfo: WritableSignal<GamesInterface | undefined> = signal(undefined);
-  public currentLifeProgress: WritableSignal<number> = signal(100);
+  public currentLifeProgress: WritableSignal<number> = signal<number>(
+    Math.ceil(Number(localStorage.getItem('savedLifeProgress'))) || 100
+  );
   public currentPowerProgress: WritableSignal<number> = signal(0);
   public noOfLives: WritableSignal<number> = signal(0);
   public time: WritableSignal<number> = signal(1);
@@ -28,7 +30,7 @@ export class DataService {
   public campaignScore: WritableSignal<number> = signal(0);
   public correctNumber: WritableSignal<number> = signal(0);
   public timeBonus: WritableSignal<number> = signal(0);
-  private counterStartedSource = new Subject<void>();
+  private counterStartedSource = new ReplaySubject<void>(1);
   private counterEndedSource = new Subject<void>();
   public counterStarted$ = this.counterStartedSource.asObservable();
   public counterEnded$ = this.counterEndedSource.asObservable();
@@ -59,6 +61,7 @@ export class DataService {
   ) {
     effect(() => {
       const progress = this.currentLifeProgress();
+      localStorage.setItem('savedLifeProgress', progress.toString());
 
       // If health is lost, start/reset the 30s 'silence' timer
       if (progress <= 99 && !this.lifeCounterRunning()) {
@@ -66,7 +69,24 @@ export class DataService {
       }
     });
 
+    this.revalidateTimer();
+
   }
+
+  revalidateTimer() {
+  const savedEnd = localStorage.getItem('endTime');
+  if (savedEnd) {
+    const remaining = Math.max(0, Math.floor((Number(savedEnd) - Date.now()) / 1000));
+    
+    if (remaining > 0) {
+      this.counterStartedSource.next();
+      this.time.set(remaining);
+      this.runTimer(); // Resume the visual loop
+    } else {
+      localStorage.removeItem('endTime');
+    }
+  }
+}
 
   private restartDebounceTimer(progress: number) {
     // Clear any existing 30s timer (this IS the debounce)
