@@ -40,6 +40,7 @@ import { FirebaseService, UserData } from '../services/firebase.service';
 import { AuthService } from '../services/auth.service';
 import { SoundService } from '../services/sound.service';
 import { AppConstants } from '../shared/constants/app-constants';
+import { User } from 'firebase/auth';
 
 @Component({
   selector: 'app-q-detail',
@@ -83,7 +84,7 @@ export class QDetailPage implements OnInit, OnDestroy {
   currentUser: UserData | undefined;
   appSettings: AppSettingInterface;
 
-  private intervalId: any|undefined;
+  private intervalId: any | undefined;
   public initTime: number = 0;
   public totalTime: number = 20;
   constructor(
@@ -103,10 +104,15 @@ export class QDetailPage implements OnInit, OnDestroy {
   }
 
   async ngOnInit() {
-    if(this.dataService.lifeCounterRunning()) {
+    if (this.dataService.lifeCounterRunning()) {
       this.dataService.stopCounter();
     }
-    
+
+    if(this.currentUser && this.currentUser.infiniteHealthUntil && this.currentUser.infiniteHealthUntil < new Date().getTime()) {
+      this.currentUser.infiniteHealthUntil = 0;
+      this.authService.saveUserProfileInLocal(this.currentUser);
+    }
+
     const XPARAMS = this.route.snapshot.params;
     // Accessing required params
     this.chapterId = parseInt(XPARAMS['chapterId'] || `${this.chapterId}`);
@@ -138,7 +144,7 @@ export class QDetailPage implements OnInit, OnDestroy {
       }
       localStorage.setItem(AppConstants.LK_TIMER_IS_PLAYING, '1');
       this.intervalId = setInterval(() => {
-        if(localStorage.getItem(AppConstants.LK_TIMER_IS_PLAYING)==null) {
+        if (localStorage.getItem(AppConstants.LK_TIMER_IS_PLAYING) == null) {
           clearInterval(this.intervalId);
           this.sound.stop('timer');
         } else {
@@ -160,13 +166,13 @@ export class QDetailPage implements OnInit, OnDestroy {
       // this.location.back();
       if (this.isRiverQuestion) {
         this.saveRiverQuestionState('', 0, 0);
-        this.router.navigate(['tabs/home/question-river'], {replaceUrl: true});
+        this.router.navigate(['tabs/home/question-river'], { replaceUrl: true });
       } else {
         const visitedQuestions = JSON.parse(
           localStorage.getItem(AppConstants.LK_VISIT_CAMPAIGN_QUESTIONS) || '[]'
         );
-        this.lastQuestion = (await this.dataService.getQuestionsByCampaignIdFromJsonFile(this.campaignId)).filter((q) => !visitedQuestions.includes(q.id)).length == 0;        
-        this.router.navigate(['tabs/home/campain0',this.chapterId,this.gameId,this.campaignId,`${this.lastQuestion}`],{ replaceUrl: true });
+        this.lastQuestion = (await this.dataService.getQuestionsByCampaignIdFromJsonFile(this.campaignId)).filter((q) => !visitedQuestions.includes(q.id)).length == 0;
+        this.router.navigate(['tabs/home/campain0', this.chapterId, this.gameId, this.campaignId, `${this.lastQuestion}`], { replaceUrl: true });
       }
     }
   }
@@ -200,17 +206,17 @@ export class QDetailPage implements OnInit, OnDestroy {
     const correctAnswerIndex = answersOptions.findIndex(
       (v: any) => v.correct == true
     );
-    if (option.correct) {      
+    if (option.correct) {
       this.sound.play('correct');
       clickedElement.classList.add('green');
       this.dataService.correctNumber.update((v: number) => v + 1);
       if (pts) {
         this.dataService.campaignScore.update((v: number) => v + pts);
         setTimeout(() => {
-        this.dataService.currentPowerProgress.update((current: number) => {
-          let newProgress = current + pts!;
-          return newProgress;
-        });
+          this.dataService.currentPowerProgress.update((current: number) => {
+            let newProgress = current + pts!;
+            return newProgress;
+          });
         }, 2000);
       }
     } else {
@@ -223,13 +229,11 @@ export class QDetailPage implements OnInit, OnDestroy {
         correctAnswerOptionElement.classList.add('green');
       }
 
-      if(pts) {
-        setTimeout(() => {
-          this.dataService.currentLifeProgress.update((current: number) => current - pts);
-        }, 2000);
-        
-        if(this.dataService.currentLifeProgress() === 0) {
-          this.dataService.noOfLives.update((v: number) => v - 1);
+      if (pts) {
+        if (this.currentUser && !this.currentUser.infiniteHealthUntil) {
+          setTimeout(() => {
+            this.dataService.currentLifeProgress.update((current: number) => current - pts);
+          }, 2000); // do nothing
         }
       }
     }
@@ -265,8 +269,8 @@ export class QDetailPage implements OnInit, OnDestroy {
     }, 1300);
   }
 
-  saveRiverQuestionState(answer: string, pts: number|undefined, timeLeft: number = 0) {
-    if(this.currentUser) {
+  saveRiverQuestionState(answer: string, pts: number | undefined, timeLeft: number = 0) {
+    if (this.currentUser) {
       const completedRiversQuestions: CompletedRiversQuestions = {
         questionId: this.questionId,
         answer: answer,
@@ -279,14 +283,14 @@ export class QDetailPage implements OnInit, OnDestroy {
         [this.questionId],
         [completedRiversQuestions]
       );
-      if(this.isCorrect) {
+      if (this.isCorrect) {
         this.currentUser.exp = this.currentUser.exp + completedRiversQuestions.pts;
       }
       this.authService.saveUserProfileInLocal(this.currentUser);
       if (!this.authService.isGuest(this.currentUser)) {
         const completedRivers = this.dataService.getCompletedRiverQuestionsFromLocal();
         const uid = this.currentUser.uid;
-        this.firebaseService.updateUser(uid, this.currentUser).then(() => {}).catch((reason: any) => {console.error('FAILD_TO_UPDATE_USERS_INFO::', reason);});
+        this.firebaseService.updateUser(uid, this.currentUser).then(() => { }).catch((reason: any) => { console.error('FAILD_TO_UPDATE_USERS_INFO::', reason); });
         this.firebaseService.setCompletedRiversByUid(uid, completedRivers).catch((reason: any) => { console.error('FAILD_TO_UPDATE_COMPLETED_RIVERS::', reason); });
       }
       this.router.navigate(['tabs/home/question-river'], {

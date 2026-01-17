@@ -31,6 +31,7 @@ export class LivesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
   get currentUser(): UserData | undefined {
@@ -38,21 +39,37 @@ export class LivesComponent implements OnInit {
   }
 
 
-  async buy(product: any) {
+  buy(product: any) {
     if (this.currentUser && this.currentUser.totalGoldCoins >= product.coins) {
-      this.currentUser.totalGoldCoins -= product.coins;
-      this.authService.saveUserProfileInLocal(this.currentUser);
-      if (!this.authService.isGuest(this.currentUser)) {
-        await this.firebaseService.updateUser(this.currentUser.uid, this.currentUser).then(() => true).catch((err: any) => { console.error('ERR_IN_UPDATE_USER::', err); return false; });
+      const user = this.currentUser;
+      user.totalGoldCoins -= product.coins;
+      if(product.name === 'Holy health potion') {
+        user.infiniteHealthUntil = new Date().getTime() + (24 * 60 * 60 * 1000); // 24 hours from now
       }
-      this.dataService.time.set(0);
-      this.dataService.counterEnded$.pipe(
-        take(1)
-      ).subscribe(() => {
-        this.dataService.lifeCounterRunning.set(false);
-        this.dataService.currentLifeProgress.update((v) => v + 100);
-        this.showAlertForLogin('Success', `You have successfully purchased one ${product.name}!`);
-      });
+      this.authService.saveUserProfileInLocal(user);
+      if (!this.authService.isGuest(this.currentUser)) {
+        this.firebaseService.updateUser(this.currentUser.uid, user)
+          .then(() => {
+            console.log('update coins')
+            if(product.name === 'Health potion') {
+              this.dataService.currentLifeProgress.update((v) => v + 100);
+            }
+            this.showAlertForLogin('Success', `You have successfully purchased one ${product.name}!`);
+          }
+          ).catch((err: any) => {
+            console.error('ERR_IN_UPDATE_USER::', err);
+            this.showAlertForLogin('Error', 'Could not update your profile. Please try again.');
+            return;
+          });
+      }
+      if (this.dataService.lifeCounterRunning()) {
+        this.dataService.stopCounter();
+        this.dataService.counterEnded$.pipe(
+          take(1)
+        ).subscribe(() => {
+          this.dataService.lifeCounterRunning.set(false);
+        });
+      }
     } else {
       this.showAlertForLogin('Insufficient Coins', 'You do not have enough gold coins to make this purchase. Please acquire more coins and try again.');
     }

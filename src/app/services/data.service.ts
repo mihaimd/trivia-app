@@ -94,8 +94,16 @@ export class DataService {
 
     this.debounceTimeout = setTimeout(() => {
       console.log('30s passed. Starting recovery.');
-      const missing = 100 - progress;
-      this.startCountdown(missing * 2 * 60);
+      const liveProgress = this.currentLifeProgress(); 
+    
+    if (liveProgress <= 99) {
+      console.log('Starting recovery from LIVE value:', liveProgress);
+      
+      const missing = 100 - liveProgress;
+      const seconds = missing * 2 * 60;
+      
+      this.startCountdown(seconds);
+    }
     }, 10000);
   }
 

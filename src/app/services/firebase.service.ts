@@ -63,6 +63,7 @@ export interface UserData {
   completedCampaigns?: CompletedCampaigns[];
   completedCampaignIds?: number[];
   lives: number;
+  infiniteHealthUntil?: number;
 }
 
 @Injectable({

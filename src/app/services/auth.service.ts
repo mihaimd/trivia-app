@@ -106,6 +106,7 @@ export class AuthService {
   }
 
   saveUserProfileInLocal(userData: UserData): UserData {
+    debugger;
     localStorage.setItem(AppConstants.LK_APP_PLAYER_PROFILE, JSON.stringify(userData));
     this.guestUserSubject.next(userData);
     return userData;
