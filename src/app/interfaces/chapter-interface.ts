@@ -40,6 +40,8 @@ export interface QuestionInterface {
   answerIs?: string;
   timeBonus?: number;
   status?: string;
+  tryAgainAd?: boolean;
+  tryAgainGold?: boolean;
 }
 
 export interface AnswerInterface {
@@ -129,6 +131,8 @@ export interface CompletedRiversQuestions {
   datetime: number;
   correct: boolean;
   timeBonus: number;
+  tryAgainAd: boolean;
+  tryAgainGold: boolean;
 }
 
 export interface Seasons {

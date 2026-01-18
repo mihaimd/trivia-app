@@ -230,24 +230,55 @@ export class QuestionRiverPage implements OnInit, OnDestroy {
     // }, 3000);
   }
   selectedQuestion: QuestionInterface | undefined;
-  questionDetail(question: QuestionInterface) {
+  async questionDetail(question: QuestionInterface, tryAgainType: string) {
     this.showAd();
-    this.selectedQuestion = question;    
+    this.selectedQuestion = question;
     if (this.isAdRunning == false) {
+      debugger;
       if (question.status != 'CORRECT' && question.status != 'TRY_AGAIN') {
         this.router.navigate(['tabs/home/q-detail/', 0, 0, 0, question.id, true, true]);
       } else {
-        if (this.currentUser) {
-          const totalGoldCoins = this.currentUser.totalGoldCoins || 0;
-          if (totalGoldCoins >= AppConstants.TRY_AGAIN_LIMIT_FOR_CHALLENGE) {
-            this.currentUser.totalGoldCoins = this.currentUser.totalGoldCoins - AppConstants.TRY_AGAIN_LIMIT_FOR_CHALLENGE;
-            this.authService.saveUserProfileInLocal(this.currentUser);
-            if (!this.authService.isGuest(this.currentUser)) {
-              this.firebaseService.updateUser(this.currentUser.uid, { totalGoldCoins: this.currentUser.totalGoldCoins });
+        if (tryAgainType == 'WATCH_AD') {
+          // 1. Add a one-time listener for the ad being closed
+          const adDismissedListener = await AdMob.addListener(
+            InterstitialAdPluginEvents.Dismissed,
+            () => {
+              console.log('Ad closed, navigating now...');
+              if (this.selectedQuestion?.id) {
+                localStorage.setItem('tryAgainType', 'ad');
+                this.router.navigate(['tabs/home/q-detail/', 0, 0, 0, this.selectedQuestion.id, true, true]);
+              }
+
+              // 2. Clean up the listener after it fires
+              adDismissedListener.remove();
             }
-            this.router.navigate(['tabs/home/q-detail/', 0, 0, 0, this.selectedQuestion.id, true, true]);
-          } else {
-            this.router.navigate(['tabs/home/gold-coins']);
+          );
+
+          // 3. Show the ad
+          try {
+            await AdMob.showInterstitial();
+          } catch (e) {
+            // If the ad fails to show, route immediately so the user isn't stuck
+            console.error('Ad failed to show', e);
+            if (this.selectedQuestion?.id) {
+              this.router.navigate(['tabs/home/q-detail/', 0, 0, 0, this.selectedQuestion.id, true, true]);
+            }
+            adDismissedListener.remove();
+          }
+        } else {
+          if (this.currentUser) {
+            const totalGoldCoins = this.currentUser.totalGoldCoins || 0;
+            if (totalGoldCoins >= AppConstants.TRY_AGAIN_LIMIT_FOR_CHALLENGE) {
+              localStorage.setItem('tryAgainType', 'gold');
+              this.currentUser.totalGoldCoins = this.currentUser.totalGoldCoins - AppConstants.TRY_AGAIN_LIMIT_FOR_CHALLENGE;
+              this.authService.saveUserProfileInLocal(this.currentUser);
+              if (!this.authService.isGuest(this.currentUser)) {
+                this.firebaseService.updateUser(this.currentUser.uid, { totalGoldCoins: this.currentUser.totalGoldCoins });
+              }
+              this.router.navigate(['tabs/home/q-detail/', 0, 0, 0, this.selectedQuestion.id, true, true]);
+            } else {
+              this.router.navigate(['tabs/home/gold-coins']);
+            }
           }
         }
       }
@@ -321,6 +352,8 @@ export class QuestionRiverPage implements OnInit, OnDestroy {
         question.answerIs = CRQ.answer;
         question.answerdTime = CRQ.datetime;
         question.timeBonus = CRQ.timeBonus;
+        question.tryAgainAd = CRQ.tryAgainAd;
+        question.tryAgainGold = CRQ.tryAgainGold;
       }
     }
     question.status = this.checkUserCanPlay(question);

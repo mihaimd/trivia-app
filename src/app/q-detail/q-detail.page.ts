@@ -137,6 +137,15 @@ export class QDetailPage implements OnInit, OnDestroy {
     }
   }
 
+  checkTryAgainType(): string | null {
+    if(localStorage.getItem('tryAgainType')) {
+      const type = localStorage.getItem('tryAgainType');
+      return type;
+    } else {
+      return 'none';
+    }
+  }
+
   runAnimation() {
     if (this.currentUser) {
       if (this.currentUser.skill == AppConstants.SKILL1) {
@@ -278,7 +287,10 @@ export class QDetailPage implements OnInit, OnDestroy {
         datetime: new Date().getTime(),
         correct: this.isCorrect,
         timeBonus: this.isCorrect ? timeLeft : 0,
+        tryAgainAd: this.checkTryAgainType() == 'ad' ? true : false,
+        tryAgainGold: this.checkTryAgainType() == 'gold' ? true : false,
       };
+      localStorage.removeItem('tryAgainType');
       this.dataService.updateCompletedRiverQuestionsIdsInLocal(
         [this.questionId],
         [completedRiversQuestions]

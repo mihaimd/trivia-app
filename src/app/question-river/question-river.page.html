@@ -10,11 +10,12 @@
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
   <div class="river-wrapper">
-    <h4 class="empty-list text-clip1 ion-no-margin" *ngIf="showEmptyList && currentSeason!=undefined">The Season Started Soon On {{ currentSeason.startDate.toDate() | date:'medium' }}</h4>
+    <h4 class="empty-list text-clip1 ion-no-margin" *ngIf="showEmptyList && currentSeason!=undefined">The Season Started
+      Soon On {{ currentSeason.startDate.toDate() | date:'medium' }}</h4>
     <div class="empty-list ion-text-center" *ngIf="showSpinner">
       <ion-spinner color="danger"></ion-spinner>
     </div>
-    <div class="ion-text-center" *ngIf="showRefSpinner">      
+    <div class="ion-text-center" *ngIf="showRefSpinner">
       <ion-spinner *ngIf="showRefSpinner" color="danger"></ion-spinner>
     </div>
     <ng-container *ngIf="dailyQuestions.length">
@@ -22,22 +23,33 @@
         <div class="content">
           <ng-container *ngIf="question.isAnswerdByUser">
             <div class="user-was-answerd" [class.fdrRevers]="!question.answerWasCorrect">
-              <span class="time-bonus-badge" *ngIf="question.timeBonus && question.timeBonus>0">&nbsp;⏱ +{{ question.timeBonus }}s</span>
+              <span class="time-bonus-badge" *ngIf="question.timeBonus && question.timeBonus>0">&nbsp;⏱ +{{
+                question.timeBonus }}s</span>
               <ion-icon *ngIf="question.answerWasCorrect" color="success" name="checkmark-circle"></ion-icon>
               <ion-icon *ngIf="!question.answerWasCorrect" color="danger" name="close-circle"></ion-icon>
             </div>
           </ng-container>
-          <div class="dateAndTimeEtc">            
-            <span>{{ question.date.toMillis() | date }}</span>            
-          </div>          
-          <button 
-            [disabled]="question.answerWasCorrect"
-            [class.grey]="question.answerWasCorrect"
-            [class.blue]="question.status=='ACTIVE' || question.status=='TRY_AGAIN'"
-            type="button" 
-            (click)="questionDetail(question)">
+          <div class="dateAndTimeEtc">
+            <span>{{ question.date.toMillis() | date }}</span>
+          </div>
+          <button *ngIf="question.status!='TRY_AGAIN'" [disabled]="question.answerWasCorrect" [class.grey]="question.answerWasCorrect"
+            [class.blue]="question.status=='ACTIVE' || question.status=='TRY_AGAIN'" type="button"
+            (click)="questionDetail(question, 'none')">
             <div *ngIf="question.status!='TRY_AGAIN'" class="button-text fs1-3rem">Answer</div>
-            <div *ngIf="question.status=='TRY_AGAIN'" class="button-text fs1-3rem d-flex ion-align-items-center"><span>Try Again For 5 </span>&nbsp;&nbsp;<img src="../../assets/img/goldCoin.png" class="goldCoinImg"></div>
+          </button>
+          <button *ngIf="question.status=='TRY_AGAIN' && !question.answerWasCorrect && !question.tryAgainGold" [disabled]="question.answerWasCorrect || question.tryAgainGold" [class.grey]="question.answerWasCorrect || question.tryAgainGold"
+            [class.blue]="question.status=='TRY_AGAIN'" type="button"
+            (click)="questionDetail(question, 'tryAgainGold')">
+            <div class="button-text fs1-3rem d-flex ion-align-items-center">
+              <span>Try Again For 5 </span>&nbsp;&nbsp;<img src="../../assets/img/goldCoin.png" class="goldCoinImg">
+            </div>
+          </button>
+          <button *ngIf="question.status=='TRY_AGAIN' && !question.answerWasCorrect && !question.tryAgainAd" [disabled]="question.answerWasCorrect || question.tryAgainAd" [class.grey]="question.answerWasCorrect || question.tryAgainAd"
+            [class.blue]="question.status=='TRY_AGAIN'" type="button"
+            (click)="questionDetail(question, 'tryAgainAd')">
+            <div *ngIf="question.status=='TRY_AGAIN'" class="button-text fs1-3rem d-flex ion-align-items-center">
+              <span>Watch ad and try again!</span>
+            </div>
           </button>
         </div>
         <!-- <div class="toggle"></div> -->
