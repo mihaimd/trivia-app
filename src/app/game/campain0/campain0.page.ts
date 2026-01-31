@@ -71,7 +71,8 @@ import { HeaderComponent } from 'src/app/shared/header/header.component';
     DragDropModule,
     GlowDirective,
     ProgressBarComponent,
-    HeaderComponent
+    HeaderComponent,
+    IonGrid
   ],
 })
 export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
@@ -400,6 +401,50 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
     await alert.present();
   }
 
+  async strike(type: string) {
+    const alertButtons = [
+      {
+        text: 'CANCEL',
+        role: 'cancel',
+        cssClass: 'ask-btn-success',
+      },
+      {
+        text: 'CONFIRM',
+        role: 'confirm',
+        cssClass: 'ask-btn-danger',
+        handler: () => {
+          this.dataService.campaignScore.update((n) => n + (type === 'normal' ? AppConstants.NORMAL_HIT : type === 'special' ? AppConstants.SPECIAL_HIT : AppConstants.CRITICAL_HIT));
+          this.dataService.currentPowerProgress.set(0);
+          if(this.currentUser) {
+            this.currentUser.exp = this.currentUser!.exp + (type === 'normal' ? AppConstants.NORMAL_HIT : type === 'special' ? AppConstants.SPECIAL_HIT : AppConstants.CRITICAL_HIT);
+            if (this.authService.isGuest(this.currentUser)) {
+              this.authService.saveUserProfileInLocal(this.currentUser);
+            } else {
+              this.authService.saveUserProfileInLocal(this.currentUser);
+              this.firebaseService.updateUser(this.currentUser.uid, { exp: this.currentUser.exp });
+            }
+          }
+
+          const currentLifeProgress = this.dataService.currentLifeProgress();
+          if (currentLifeProgress < 100) {
+            if(this.dataService.currentLifeProgress() + 50 > 100) {
+              this.dataService.currentLifeProgress.set(100);
+            } else {
+              this.dataService.currentLifeProgress.update((n) => n + 50);
+            }
+          }
+        },
+      },
+    ];
+    const alert = await this.alertController.create({
+      header: type === 'normal' ? 'Normal strike 🚸' : type === 'special' ? 'Special strike 🚸' : 'Critical strike 🚸',
+      message: type === 'normal' ? '+ 50 XP!' : type === 'special' ? '+ 150 XP!' : '+ 250 XP!',
+      buttons: alertButtons,
+      mode: 'ios',
+    });
+    await alert.present();
+  }
+
   async showLevelUpDailog(): Promise<any> {
     const modal = await this.modalCtrl.create({
       component: LevelupComponent,
@@ -424,6 +469,17 @@ export class Campain0Page implements OnInit, AfterViewInit, OnDestroy {
     };
     await AdMob.prepareInterstitial(options);
     await AdMob.showInterstitial();
+  }
+
+  prBarTapped(event: string) {
+    console.log('progress bar tapped event:', event);
+    if (event === 'power' && this.dataService.currentPowerProgress() >= 40 && this.dataService.currentPowerProgress() < 60) {
+      this.strike('normal');
+    } else if (this.dataService.currentPowerProgress() >= 60 && this.dataService.currentPowerProgress() < 80) {
+      this.strike('special');
+    } else if (this.dataService.currentPowerProgress() >= 80) {
+      this.strike('critical');
+    }
   }
 
   ngOnDestroy(): void { }

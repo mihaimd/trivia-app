@@ -1,4 +1,4 @@
-  <div class="wrapper">
+  <div class="wrapper" (click)="progressBarTapped()" [ngStyle]="{ 'align-items': barJustify }">
     <div class="progressBar">
       <div class="bar" [ngClass]="{ 'shake': isShaking}" [ngStyle]="{ 'width': barWidth, 'justify-self': barJustify }">
         <div class="decoration" *ngIf="barClass === 'gradient'" [innerHTML]="lifeProgressPercentage"></div>

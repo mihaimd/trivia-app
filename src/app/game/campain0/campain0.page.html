@@ -1,13 +1,16 @@
 <app-header></app-header>
 <ion-content [fullscreen]="true" class="center" scroll-y="false">
-  <div class="health-bar-wrapper row">
-    <div class="col">
-      <app-progress-bar [barWidth]="'200px'" [barJustify]="'left'" (click)="openModal()"></app-progress-bar>
-    </div>
-    <!-- <div class="col">
-      <app-progress-bar [barClass]="'power-gradient'" [barText]="'Power'" [barWidth]="'200px'" [barJustify]="'right'"></app-progress-bar>
-    </div> -->
-  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-text-left">
+        <app-progress-bar [barWidth]="''" [barJustify]="'flex-start'" (click)="openModal()"></app-progress-bar>
+      </ion-col>
+      <ion-col class="ion-text-right">
+        <app-progress-bar (progressBarClicked)="prBarTapped($event)" [barClass]="'power-gradient'" [barText]="'Power'" [barWidth]="''"
+          [barJustify]="'flex-end'"></app-progress-bar>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
   <div class="choose-question-wrapper">
     <div class="section1">
       <div class="score" *ngIf="starScreen">

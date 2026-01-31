@@ -58,7 +58,9 @@ export class AppConstants {
     public static readonly FB_REF_COMPLETED_CAMPAIGNS: string = 'completedCampaigns';
     public static readonly FB_REF_QUESTION_RIVERS: string = 'questionRivers';
     public static readonly FB_REF_COMPLETED_RIVERS: string = 'completedRivers';
-    
+    public static readonly NORMAL_HIT: number = 50;
+    public static readonly SPECIAL_HIT: number = 150;
+    public static readonly CRITICAL_HIT: number = 250;
     
     
     

@@ -229,6 +229,12 @@ export class QDetailPage implements OnInit, OnDestroy {
         }, 2000);
       }
     } else {
+      if (this.dataService.currentPowerProgress() > 0) {
+        setTimeout(() => {
+          this.dataService.currentPowerProgress.set(0);
+        }, 2000);
+      }
+      
       this.sound.play('wrong');
       clickedElement.classList.add('red');
       const correctAnswerOptionElement = document.getElementById(
@@ -286,9 +292,9 @@ export class QDetailPage implements OnInit, OnDestroy {
         pts: pts || 0,
         datetime: new Date().getTime(),
         correct: this.isCorrect,
-        timeBonus: this.isCorrect ? timeLeft : 0,
-        tryAgainAd: this.checkTryAgainType() == 'ad' ? true : false,
-        tryAgainGold: this.checkTryAgainType() == 'gold' ? true : false,
+        timeBonus: this.isCorrect && this.checkTryAgainType() === 'none' ? timeLeft : 0,
+        tryAgainAd: this.checkTryAgainType() === 'ad' ? true : false,
+        tryAgainGold: this.checkTryAgainType() === 'gold' ? true : false,
       };
       localStorage.removeItem('tryAgainType');
       this.dataService.updateCompletedRiverQuestionsIdsInLocal(

@@ -1,4 +1,4 @@
-import { Component, OnInit, inject, effect, Input, Signal, computed } from '@angular/core';
+import { Component, OnInit, inject, effect, Input, Signal, computed, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DataService } from 'src/app/services/data.service';
 import { AuthService } from 'src/app/services/auth.service';
@@ -17,6 +17,7 @@ export class ProgressBarComponent implements OnInit {
   @Input() barText: string = 'Health';
   @Input() barWidth: string = '280px';
   @Input() barJustify: string = 'center';
+  @Output() progressBarClicked = new EventEmitter<string>();
   private authService: AuthService = inject(AuthService);
   public dataService: DataService = inject(DataService);
   public lifeProgressValue: number = 0;
@@ -124,6 +125,12 @@ export class ProgressBarComponent implements OnInit {
 
   get powerProgressPercentage() {
     return `${this.barText} ${this.dataService.currentPowerProgress()}%`;
+  }
+
+  progressBarTapped() {
+    if(this.barText==='Power') {
+      this.progressBarClicked.emit('power');
+    }
   }
 
 }
