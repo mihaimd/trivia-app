@@ -39,14 +39,14 @@
           </button>
           <button *ngIf="question.status=='TRY_AGAIN' && !question.answerWasCorrect && !question.tryAgainGold" [disabled]="question.answerWasCorrect || question.tryAgainGold" [class.grey]="question.answerWasCorrect || question.tryAgainGold"
             [class.blue]="question.status=='TRY_AGAIN'" type="button"
-            (click)="questionDetail(question, 'tryAgainGold')">
+            (click)="questionDetail(question, 'USE_GOLD')">
             <div class="button-text fs1-3rem d-flex ion-align-items-center">
               <span>Try Again For 5 </span>&nbsp;&nbsp;<img src="../../assets/img/goldCoin.png" class="goldCoinImg">
             </div>
           </button>
           <button *ngIf="question.status=='TRY_AGAIN' && !question.answerWasCorrect && !question.tryAgainAd" [disabled]="question.answerWasCorrect || question.tryAgainAd" [class.grey]="question.answerWasCorrect || question.tryAgainAd"
             [class.blue]="question.status=='TRY_AGAIN'" type="button"
-            (click)="questionDetail(question, 'tryAgainAd')">
+            (click)="questionDetail(question, 'WATCH_AD')">
             <div *ngIf="question.status=='TRY_AGAIN'" class="button-text fs1-3rem d-flex ion-align-items-center">
               <span>Watch ad and try again!</span>
             </div>

@@ -108,7 +108,7 @@ export class QDetailPage implements OnInit, OnDestroy {
       this.dataService.stopCounter();
     }
 
-    if(this.currentUser && this.currentUser.infiniteHealthUntil && this.currentUser.infiniteHealthUntil < new Date().getTime()) {
+    if (this.currentUser && this.currentUser.infiniteHealthUntil && this.currentUser.infiniteHealthUntil < new Date().getTime()) {
       this.currentUser.infiniteHealthUntil = 0;
       this.authService.saveUserProfileInLocal(this.currentUser);
     }
@@ -138,7 +138,7 @@ export class QDetailPage implements OnInit, OnDestroy {
   }
 
   checkTryAgainType(): string | null {
-    if(localStorage.getItem('tryAgainType')) {
+    if (localStorage.getItem('tryAgainType')) {
       const type = localStorage.getItem('tryAgainType');
       return type;
     } else {
@@ -234,14 +234,16 @@ export class QDetailPage implements OnInit, OnDestroy {
           this.dataService.currentPowerProgress.set(0);
         }, 2000);
       }
-      
+
       this.sound.play('wrong');
       clickedElement.classList.add('red');
-      const correctAnswerOptionElement = document.getElementById(
-        `optionx${correctAnswerIndex}`
-      );
-      if (correctAnswerOptionElement != null) {
-        correctAnswerOptionElement.classList.add('green');
+      if (!this.isRiverQuestion) {
+        const correctAnswerOptionElement = document.getElementById(
+          `optionx${correctAnswerIndex}`
+        );
+        if (correctAnswerOptionElement != null) {
+          correctAnswerOptionElement.classList.add('green');
+        }
       }
 
       if (pts) {
